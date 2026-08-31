@@ -76,7 +76,7 @@
     },
     "contact": {
       "heading": "One portal. One process. One named operator.",
-      "body": "Six weeks, fixed fee. I work inside your team, build it on your real workflow, and train your people to run and extend it. It runs under your brand and you keep it.",
+      "body": "Six weeks, fixed fee. Built on your real workflow, on your real portal. Your team runs it and extends it after I hand over. It runs under your brand and you keep it.",
       "email": "vipin@gabrieloperator.com"
     },
     "logisticsPortal": {
@@ -330,8 +330,8 @@
           },
           {
             "number": "04",
-            "title": "Who this is for",
-            "body": "Customs brokers and freight forwarders from around ten to a hundred and fifty people, and in-house trade compliance teams, where the declarations are real, the volumes are rising, and hiring another declarant is not happening this year."
+            "title": "WHO THIS IS FOR",
+            "body": "Customs brokers and freight forwarders, 10 to 150 people. In-house trade compliance teams. The declarations are real. The volumes are rising. Hiring another declarant is not happening this year. ICS2 Release 3 has been mandatory across all Member States since September 2025, and the last derogations expired in June 2026. NCTS Phase 6 landed alongside it. The filing load that arrived with them is not going back down, and no one is coming to take it away."
           }
         ]
       },
@@ -469,28 +469,28 @@
         ]
       },
       "pilot": {
-        "eyebrow": "How a pilot works",
+        "eyebrow": "HOW A PILOT WORKS",
         "heading": "One portal. One process.",
         "accentHeading": "One named operator.",
-        "body": "Six weeks, fixed fee. I work inside your team, build it on your real workflow, and train your people to run and extend it. It runs under your brand and you keep it. The first call is thirty minutes and I will show you a rehearsal against a real portal, not slides.",
+        "body": "One portal. One process. One named operator on your side who owns the outcome. Six weeks, fixed fee. Built on your real workflow, on your real portal. Your team runs it and extends it after I hand over. It runs under your brand and you keep it. The first call is thirty minutes and I will show you a rehearsal against a real portal, not slides.",
         "ctaLabel": "Scope one pilot",
         "email": "vipin@gabrieloperator.com",
         "emailSubject": "Scope an Emil pilot",
         "steps": [
           {
             "number": "01",
-            "title": "Six weeks, fixed fee",
-            "body": "One portal and one process, with a named operator on your side who owns the outcome."
+            "title": "One named operator",
+            "body": "One portal. One process. One named operator on your side who owns the outcome."
           },
           {
             "number": "02",
-            "title": "Built inside your team",
-            "body": "I build it on your real workflow and train your people to run and extend it."
+            "title": "Six weeks, fixed fee",
+            "body": "Built on your real workflow, on your real portal."
           },
           {
             "number": "03",
-            "title": "A real-portal rehearsal",
-            "body": "The first call is thirty minutes and I will show you a rehearsal against a real portal, not slides."
+            "title": "Your team keeps it",
+            "body": "Your team runs it and extends it after I hand over. It runs under your brand and you keep it. The first call is thirty minutes and I will show you a rehearsal against a real portal, not slides."
           }
         ]
       },

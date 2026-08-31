@@ -57,10 +57,17 @@
     "heroChat": {
       "statusLabel": "Online",
       "inputPlaceholder": "Ask Emil about a portal run…",
-      "suggestedPrompts": ["Rehearse a filing", "Check a booking", "Explain controls"]
+      "suggestedPrompts": [
+        "Rehearse a filing",
+        "Check a booking",
+        "Explain controls"
+      ]
     },
     "demoConversation": [
-      { "role": "assistant", "text": "Give me an approved shipment record and I will rehearse the portal work before anything is submitted." }
+      {
+        "role": "assistant",
+        "text": "Give me an approved shipment record and I will rehearse the portal work before anything is submitted."
+      }
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v3.png",
     "seoImage": {
@@ -85,10 +92,10 @@
         "ctaLabel": "Scope a pilot"
       },
       "hero": {
-        "eyebrow": "The AI operator for logistics' last digital mile",
+        "eyebrow": "Human-controlled portal execution",
         "heading": "Your logistics stack stops at the portal.",
         "accentHeading": "Emil keeps going.",
-        "body": "Emil carries approved shipment data from your TMS into customs and carrier portals with no API—rehearsing every run, pausing for human approval, and returning a complete record.",
+        "body": "Emil carries approved shipment data into customs and carrier portals with no API—rehearsing every run, pausing for human approval, and returning a complete record.",
         "primaryCtaLabel": "Run a portal simulation",
         "secondaryCtaLabel": "Scope one pilot",
         "proofItems": [
@@ -97,13 +104,18 @@
           { "number": "03", "label": "Fully recorded" }
         ],
         "characterImage": "/landing-pages/emil/emil-fullbody-v3.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
         "characterAlt": "Emil, a logistics portal operator",
         "chat": {
-          "roleLabel": "Emil · Portal operator",
+          "roleLabel": "Logistics portal operator",
           "statusLabel": "Online",
-          "openingMessage": "Give me an approved shipment record and I will rehearse the portal work before anything is submitted.",
-          "inputPlaceholder": "Ask Emil about a portal run…",
-          "suggestions": ["Rehearse a filing", "Check a booking", "Explain controls"]
+          "openingMessage": "Hi, I’m Emil. Give me an approved shipment record and I’ll rehearse the portal work before anything is submitted.",
+          "inputPlaceholder": "Ask Emil about portal work…",
+          "suggestions": [
+            "Rehearse a filing",
+            "Check a booking",
+            "Explain controls"
+          ]
         },
         "rehearsal": {
           "enabled": true,
@@ -111,6 +123,10 @@
           "sandboxLabel": "Simulation sandbox",
           "restartLabel": "Restart",
           "demoNote": "Illustrative simulation · No real portal, credentials, or customer data",
+          "sectionEyebrow": "Try it now",
+          "sectionHeading": "See Emil",
+          "sectionAccentHeading": "at the portal edge.",
+          "sectionBody": "Switch workflows, inspect the mapped fields, review three simulated exceptions, and choose whether the sample run should proceed or escalate.",
           "workflowTabs": [
             { "id": "customs", "label": "Customs filing" },
             { "id": "carrier", "label": "Carrier booking" }
@@ -118,40 +134,128 @@
           "samples": [
             {
               "id": "customs",
-              "runReference": "EM-2048 · CUSTOMS",
-              "title": "Customs filing rehearsal",
-              "lane": "NL → GB",
-              "source": "TMS shipment SHP-2048",
+              "runReference": "EM-4471-CUS",
+              "title": "Import declaration · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
               "destination": "National single window",
-              "mapped": "41 / 44",
-              "exceptions": [
-                { "title": "Commodity wording", "detail": "Source description is broader than the portal field." },
-                { "title": "Preference evidence", "detail": "Proof of origin needs operator confirmation." },
-                { "title": "Supplementary units", "detail": "Portal expects a unit not present in the source." }
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Shipment reference",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Commodity description",
+                  "value": "Precision assemblies…",
+                  "state": "review"
+                },
+                {
+                  "label": "Importer reference",
+                  "value": "2 source records",
+                  "state": "review"
+                },
+                {
+                  "label": "Gross mass",
+                  "value": "18,420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Supporting document",
+                  "value": "Invoice pending",
+                  "state": "review"
+                }
               ],
-              "receipt": "Rehearsal receipt EM-2048-R1"
+              "exceptions": [
+                {
+                  "title": "Commodity description",
+                  "detail": "Source text exceeds portal limit"
+                },
+                {
+                  "title": "Importer reference",
+                  "detail": "Two approved records found"
+                },
+                {
+                  "title": "Supporting document",
+                  "detail": "Commercial invoice needs confirmation"
+                }
+              ],
+              "receipt": "Declaration package recorded"
             },
             {
               "id": "carrier",
-              "runReference": "EM-8812 · BOOKING",
-              "title": "Carrier booking rehearsal",
-              "lane": "RTM → SIN",
-              "source": "TMS booking BKG-8812",
-              "destination": "Ocean carrier portal",
-              "mapped": "29 / 32",
-              "exceptions": [
-                { "title": "Sailing option", "detail": "Two valid departures require a commercial choice." },
-                { "title": "Equipment type", "detail": "The requested container needs confirmation." },
-                { "title": "Cut-off time", "detail": "Portal time differs from the source plan." }
+              "runReference": "EM-5824-SEA",
+              "title": "Ocean booking · FCL",
+              "lane": "Antwerp → Singapore",
+              "source": "Approved TMS booking",
+              "destination": "Third-party carrier portal",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Booking reference",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Sailing option",
+                  "value": "2 services match",
+                  "state": "review"
+                },
+                {
+                  "label": "Equipment",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Equipment release",
+                  "value": "Depot pending",
+                  "state": "review"
+                },
+                {
+                  "label": "Cargo cut-off",
+                  "value": "Schedule differs",
+                  "state": "review"
+                }
               ],
-              "receipt": "Booking rehearsal receipt EM-8812-R1"
+              "exceptions": [
+                {
+                  "title": "Sailing option",
+                  "detail": "Two services meet requested arrival"
+                },
+                {
+                  "title": "Equipment release",
+                  "detail": "Depot confirmation is pending"
+                },
+                {
+                  "title": "Cargo cut-off",
+                  "detail": "Portal differs from source schedule"
+                }
+              ],
+              "receipt": "Booking confirmation recorded"
             }
           ],
           "intakeSteps": [
-            { "title": "Source read", "detail": "Approved record", "state": "done" },
-            { "title": "Twin built", "detail": "Fields mapped", "state": "done" },
-            { "title": "3 exceptions", "detail": "Needs judgment", "state": "warning" },
-            { "title": "Approval", "detail": "Human checkpoint", "state": "pending" }
+            {
+              "title": "Source read",
+              "detail": "Approved record",
+              "state": "done"
+            },
+            {
+              "title": "Twin built",
+              "detail": "Fields mapped",
+              "state": "done"
+            },
+            {
+              "title": "3 exceptions",
+              "detail": "Needs judgment",
+              "state": "warning"
+            },
+            {
+              "title": "Approval",
+              "detail": "Human checkpoint",
+              "state": "pending"
+            }
           ],
           "reviewHeading": "Three fields need judgment.",
           "reviewBody": "Emil will not guess or touch a live portal.",
@@ -160,7 +264,11 @@
           "escalateLabel": "Escalate safely",
           "approvedKicker": "Simulated completion",
           "approvedBody": "The approved twin was executed in the sandbox and every action was attached to the run record.",
-          "approvedChecks": ["Approved twin", "Portal response", "Audit record"],
+          "approvedChecks": [
+            "Approved twin",
+            "Portal response",
+            "Audit record"
+          ],
           "escalatedKicker": "Escalation recorded",
           "escalatedTitle": "Nothing reached the live portal.",
           "escalatedBody": "Emil preserved the mapped fields, evidence, and open decisions for an operator to resolve.",
@@ -168,13 +276,20 @@
           "loginNotice": "Sign in to rehearse a private customs filing with Emil. No live portal submission occurs in this version."
         }
       },
-      "ticker": ["Customs filing", "Carrier booking", "Portal twin", "Human approval", "Exception review", "Audit receipt"],
+      "ticker": [
+        "Customs filing",
+        "Carrier booking",
+        "Portal twin",
+        "Human approval",
+        "Exception review",
+        "Audit receipt"
+      ],
       "edge": {
         "number": "01 / The edge",
-        "kicker": "The last digital mile",
-        "heading": "Your core systems are connected.",
-        "accentHeading": "The work still isn't.",
-        "body": "TMS, WMS, EDI, and internal AI can prepare the answer. When the next step lives behind a third-party portal, Emil operates that controlled final stretch.",
+        "kicker": "Features",
+        "heading": "The last digital mile",
+        "accentHeading": "is still manual.",
+        "body": "TMS, WMS, EDI, and internal AI prepare the answer. Emil operates the controlled final stretch when the next step lives behind an external portal.",
         "governedLabel": "Your governed stack",
         "governedSystems": ["TMS", "WMS", "EDI", "Internal AI"],
         "boundaryLabel": "API boundary",
@@ -186,21 +301,45 @@
           { "label": "Carrier portal", "badge": "NO API" }
         ],
         "comparison": [
-          { "label": "Before Emil", "title": "The portal becomes someone's swivel chair.", "body": "Manual copying, fragmented screenshots, hidden exceptions, and no consistent rehearsal before submission." },
-          { "label": "With Emil", "title": "The portal becomes a controlled operating surface.", "body": "Approved data, mapped into a faithful twin, exceptions made visible, and irreversible action held for a person." }
+          {
+            "label": "Before Emil",
+            "title": "The portal becomes someone's swivel chair.",
+            "body": "Manual copying, fragmented screenshots, hidden exceptions, and no consistent rehearsal before submission."
+          },
+          {
+            "label": "With Emil",
+            "title": "The portal becomes a controlled operating surface.",
+            "body": "Approved data, mapped into a faithful twin, exceptions made visible, and irreversible action held for a person."
+          }
         ],
         "capabilities": [
-          { "number": "01", "title": "Live portal twin", "body": "See the mapped state before anything reaches production." },
-          { "number": "02", "title": "Visible exceptions", "body": "Ambiguity and mismatch are surfaced for judgment." },
-          { "number": "03", "title": "Human checkpoints", "body": "Irreversible action waits for accountable approval." },
-          { "number": "04", "title": "Complete run record", "body": "Inputs, decisions, responses, and artifacts stay together." }
+          {
+            "number": "01",
+            "title": "Live portal twin",
+            "body": "See every mapped field and intended action before the production page is touched."
+          },
+          {
+            "number": "02",
+            "title": "Visible exceptions",
+            "body": "Conflicts, missing evidence, and changed pages become decisions—not silent guesses."
+          },
+          {
+            "number": "03",
+            "title": "Human checkpoints",
+            "body": "Irreversible action waits for an accountable operator to approve or escalate."
+          },
+          {
+            "number": "04",
+            "title": "Complete run record",
+            "body": "Inputs, approvals, portal responses, and artifacts return together as one receipt."
+          }
         ]
       },
       "platform": {
         "eyebrow": "Not another AI platform",
         "heading": "Keep your systems of record.",
         "accentHeading": "Add an operator beyond the API.",
-        "body": "Emil complements the enterprise AI, integration, and logistics platforms you already trust. They decide and prepare. Emil turns that approved intent into controlled browser work where conventional connectivity ends.",
+        "body": "Enterprise AI and logistics systems decide and prepare. Emil turns that approved intent into controlled browser work where conventional connectivity ends.",
         "portalLabel": "PORTAL TWIN · SAFE MODE",
         "fields": [
           { "label": "Shipment reference", "status": "verified" },
@@ -209,24 +348,61 @@
         ],
         "checkpointLabel": "Human checkpoint",
         "points": [
-          { "title": "Works from approved inputs", "body": "Never invents operational data." },
-          { "title": "Shows its work before action", "body": "A portal twin exposes every mapped field." },
-          { "title": "Stops at consequential moments", "body": "People approve or escalate." },
-          { "title": "Returns the evidence", "body": "Responses, decisions, and artifacts travel back together." }
+          {
+            "title": "Approved inputs only",
+            "body": "No invented operational data."
+          },
+          {
+            "title": "Visible work before action",
+            "body": "Every mapped field in a safe twin."
+          },
+          {
+            "title": "Consequential moments stop",
+            "body": "People approve or escalate."
+          },
+          {
+            "title": "Evidence comes back",
+            "body": "Responses, decisions, and artifacts together."
+          }
         ]
       },
       "process": {
         "number": "02 / The control loop",
-        "eyebrow": "Every run rehearsed",
-        "heading": "Act only after the whole path is visible.",
-        "body": "Emil separates preparation from execution. A complete dry run makes the mapping, portal state, exceptions, and intended outcome inspectable before anything irreversible can happen.",
+        "eyebrow": "How it works",
+        "heading": "Every run rehearsed.",
+        "accentHeading": "Every action controlled.",
+        "body": "Emil separates preparation from execution so the whole path is inspectable before anything consequential can happen.",
         "steps": [
-          { "number": "01", "title": "Scope", "body": "Lock the portal, process, permissions, and success condition." },
-          { "number": "02", "title": "Read", "body": "Take only the approved shipment or booking record." },
-          { "number": "03", "title": "Twin", "body": "Build the portal state without touching production." },
-          { "number": "04", "title": "Resolve", "body": "Surface ambiguity, mismatch, and missing evidence." },
-          { "number": "05", "title": "Approve", "body": "Give the accountable operator a clear checkpoint." },
-          { "number": "06", "title": "Execute & record", "body": "Perform the approved simulation and return a full receipt." }
+          {
+            "number": "01",
+            "title": "Scope",
+            "body": "Lock one portal, one process, the permissions, and the success condition."
+          },
+          {
+            "number": "02",
+            "title": "Rehearse",
+            "body": "Build a faithful portal twin and map only approved source data."
+          },
+          {
+            "number": "03",
+            "title": "Resolve",
+            "body": "Expose ambiguity, changed pages, and missing evidence instead of guessing."
+          },
+          {
+            "number": "04",
+            "title": "Approve",
+            "body": "Pause at the exact consequential moment for an accountable human."
+          },
+          {
+            "number": "05",
+            "title": "Execute",
+            "body": "Perform only the approved browser steps—nothing outside scope."
+          },
+          {
+            "number": "06",
+            "title": "Record",
+            "body": "Return the portal response, decisions, and artifacts as one receipt."
+          }
         ],
         "failClosedTitle": "The control is structural, not cosmetic.",
         "failClosedBody": "If the page changes, evidence conflicts, or the approved scope is exceeded, Emil stops.",
@@ -234,49 +410,88 @@
       },
       "workflows": {
         "number": "03 / The work",
-        "kicker": "Start where the friction is highest",
-        "heading": "Two narrow wedges.",
-        "accentHeading": "One reusable operator.",
-        "body": "Begin with a repetitive portal process that has clear source data, human ownership, and a measurable outcome.",
+        "kicker": "Portal work",
+        "heading": "Start narrow.",
+        "accentHeading": "Keep going from there.",
+        "body": "Customs and carrier booking are the first wedges. The same controlled operating model extends to other portal-bound work.",
         "primary": [
           {
             "number": "01",
             "type": "Primary workflow",
             "id": "customs",
             "title": "Customs filing",
-            "body": "Carry an approved shipment record into a national single window, expose filing exceptions, pause for review, and return the rehearsal receipt.",
-            "points": ["Shipment record intake", "National single-window twin", "Exception and document review", "Approval and receipt capture"],
-            "ctaLabel": "Simulate customs filing"
+            "body": "Shipment record → national single-window twin → exception review → human approval → receipt.",
+            "points": [
+              "Shipment record intake",
+              "National single-window twin",
+              "Exception and document review",
+              "Approval and receipt capture"
+            ],
+            "ctaLabel": "Simulate the filing"
           },
           {
             "number": "02",
-            "type": "Illustrative workflow",
+            "type": "Primary workflow",
             "id": "carrier",
-            "title": "Third-party carrier booking",
-            "body": "Translate an approved TMS booking into a carrier portal, verify sailings and constraints, request approval, and return a confirmation.",
-            "points": ["Approved booking intake", "Carrier portal twin", "Sailing and option verification", "Approval and confirmation capture"],
-            "ctaLabel": "Simulate carrier booking"
+            "title": "Carrier booking",
+            "body": "TMS booking → carrier portal twin → sailing verification → human approval → confirmation.",
+            "points": [
+              "Approved booking intake",
+              "Carrier portal twin",
+              "Sailing and option verification",
+              "Approval and confirmation capture"
+            ],
+            "ctaLabel": "Simulate the booking"
           }
         ],
         "moreLabel": "More work Emil can handle",
         "more": [
-          { "number": "01", "title": "Track-and-trace reconciliation", "body": "Compare portal events with internal milestones and route exceptions." },
-          { "number": "02", "title": "EDI gap filling", "body": "Complete portal-only steps when a message path is missing." },
-          { "number": "03", "title": "RFQ portals", "body": "Carry approved lane requests into tender and quote surfaces." },
-          { "number": "04", "title": "Proof-of-delivery retrieval", "body": "Find, verify, and return delivery evidence into the right record." }
+          {
+            "number": "01",
+            "title": "Track-and-trace reconciliation",
+            "body": "Compare portal events with internal milestones and route exceptions."
+          },
+          {
+            "number": "02",
+            "title": "EDI gap filling",
+            "body": "Complete portal-only steps when a message path is missing or incomplete."
+          },
+          {
+            "number": "03",
+            "title": "RFQ portals",
+            "body": "Carry approved lane requests into structured tender and quote surfaces."
+          },
+          {
+            "number": "04",
+            "title": "Proof-of-delivery retrieval",
+            "body": "Find, verify, and return delivery evidence into the right record."
+          }
         ]
       },
       "pilot": {
-        "eyebrow": "A four-to-eight-week field test",
-        "heading": "Pilot one narrow process.",
-        "body": "One portal. One country or site. One KPI. Enough control to prove the operating model without turning the pilot into a platform program.",
+        "eyebrow": "Four-to-eight-week field test",
+        "heading": "One portal. One site.",
+        "accentHeading": "One KPI.",
+        "body": "Enough control to prove the operating model without turning a narrow pilot into another platform program.",
         "ctaLabel": "Scope one pilot",
         "email": "vipin@gabrieloperator.com",
         "emailSubject": "Scope an Emil pilot",
         "steps": [
-          { "number": "01", "title": "Baseline the manual path", "body": "Volume, handling time, exception rate, and evidence quality." },
-          { "number": "02", "title": "Rehearse with real rules", "body": "In a safe twin using representative, non-production data." },
-          { "number": "03", "title": "Prove one KPI", "body": "Cycle time, touch time, error rate, or record completeness." }
+          {
+            "number": "01",
+            "title": "Baseline the manual path",
+            "body": "Volume, handling time, exception rate, and evidence quality."
+          },
+          {
+            "number": "02",
+            "title": "Rehearse with real rules",
+            "body": "In a safe twin using representative, non-production data."
+          },
+          {
+            "number": "03",
+            "title": "Prove one KPI",
+            "body": "Cycle time, touch time, error rate, or record completeness."
+          }
         ]
       },
       "footer": {

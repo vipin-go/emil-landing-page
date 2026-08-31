@@ -69,7 +69,7 @@
         "text": "Give me an approved shipment record and I will rehearse the portal work before anything is submitted."
       }
     ],
-    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v3.png",
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
       "src": "/landing-pages/emil/og.png",
       "alt": "Emil — The Logistics Portal Twin"
@@ -103,7 +103,7 @@
           { "number": "02", "label": "Human approved" },
           { "number": "03", "label": "Fully recorded" }
         ],
-        "characterImage": "/landing-pages/emil/emil-fullbody-v3.png",
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
         "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
         "characterAlt": "Emil, a logistics portal operator",
         "chat": {

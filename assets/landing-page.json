@@ -4,9 +4,9 @@
   "runtimeDataPolicy": "definitions_only",
   "landingPage": {
     "headline": "Your logistics stack stops at the portal. Emil keeps going.",
-    "subheadline": "Emil carries approved shipment data from your TMS into customs and carrier portals with no API—rehearsing every run, pausing for human approval, and returning a complete record.",
+    "subheadline": "Your TMS holds the shipment. Then someone opens Portbase, or DMS, or NCTS, or a carrier eBooking screen, and keys it in again by hand. There is no API waiting on the other side, and there never will be for most of them. Emil carries approved shipment data from your TMS into those portals. It rehearses the entire run first against a copy of your real environment, shows your declarant exactly what it is about to enter, and does nothing until they approve it.",
     "ctaLabel": "Run a portal simulation",
-    "description": "Emil is a governed logistics portal twin for rehearsing customs filings and carrier work before any consequential action.",
+    "description": "Emil handles customs and carrier portal operations by rehearsing approved shipment entry against a copy of the real environment before a declarant approves anything.",
     "design": {
       "variant": "logistics-portal",
       "defaultThemeMode": "dark",
@@ -75,14 +75,14 @@
       "alt": "Emil — The Logistics Portal Twin"
     },
     "contact": {
-      "heading": "Pilot one narrow logistics process.",
-      "body": "One portal, one accountable operator, and one measurable outcome.",
+      "heading": "One portal. One process. One named operator.",
+      "body": "Six weeks, fixed fee. I work inside your team, build it on your real workflow, and train your people to run and extend it. It runs under your brand and you keep it.",
       "email": "vipin@gabrieloperator.com"
     },
     "logisticsPortal": {
       "header": {
         "brandLabel": "EMIL",
-        "brandSuffix": "by Gabriel",
+        "brandSuffix": "Customs and carrier portal operations",
         "logoImage": "/landing-pages/emil/icon.svg",
         "navItems": [
           { "label": "Features", "target": "edge" },
@@ -92,10 +92,10 @@
         "ctaLabel": "Scope a pilot"
       },
       "hero": {
-        "eyebrow": "Human-controlled portal execution",
+        "eyebrow": "Customs and carrier portal operations",
         "heading": "Your logistics stack stops at the portal.",
         "accentHeading": "Emil keeps going.",
-        "body": "Emil carries approved shipment data into customs and carrier portals with no API—rehearsing every run, pausing for human approval, and returning a complete record.",
+        "body": "Your TMS holds the shipment. Then someone opens Portbase, or DMS, or NCTS, or a carrier eBooking screen, and keys it in again by hand. There is no API waiting on the other side, and there never will be for most of them. Emil carries approved shipment data from your TMS into those portals. It rehearses the entire run first against a copy of your real environment, shows your declarant exactly what it is about to enter, and does nothing until they approve it.",
         "primaryCtaLabel": "Run a portal simulation",
         "secondaryCtaLabel": "Scope one pilot",
         "proofItems": [
@@ -107,7 +107,7 @@
         "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
         "characterAlt": "Emil, a logistics portal operator",
         "chat": {
-          "roleLabel": "Logistics portal operator",
+          "roleLabel": "Customs and carrier portal operations",
           "statusLabel": "Online",
           "openingMessage": "Hi, I’m Emil. Give me an approved shipment record and I’ll rehearse the portal work before anything is submitted.",
           "inputPlaceholder": "Ask Emil about portal work…",
@@ -286,10 +286,10 @@
       ],
       "edge": {
         "number": "01 / The edge",
-        "kicker": "Features",
-        "heading": "The last digital mile",
-        "accentHeading": "is still manual.",
-        "body": "TMS, WMS, EDI, and internal AI prepare the answer. Emil operates the controlled final stretch when the next step lives behind an external portal.",
+        "kicker": "Your name stays on the entry",
+        "heading": "Emil prepares the entry.",
+        "accentHeading": "Your declarant files it.",
+        "body": "Emil does not file. Your licensed declarant does. Emil prepares the entry, checks it against the source documents, flags what would be rejected, and waits. The declarant of record does not change, and nothing is submitted on Emil's authority.",
         "governedLabel": "Your governed stack",
         "governedSystems": ["TMS", "WMS", "EDI", "Internal AI"],
         "boundaryLabel": "API boundary",
@@ -315,31 +315,31 @@
         "capabilities": [
           {
             "number": "01",
-            "title": "Live portal twin",
-            "body": "See every mapped field and intended action before the production page is touched."
+            "title": "Your name stays on the entry",
+            "body": "Emil does not file. Your licensed declarant does. Emil prepares the entry, checks it against the source documents, flags what would be rejected, and waits. The declarant of record does not change, and nothing is submitted on Emil's authority."
           },
           {
             "number": "02",
-            "title": "Visible exceptions",
-            "body": "Conflicts, missing evidence, and changed pages become decisions—not silent guesses."
+            "title": "Every run leaves a record",
+            "body": "What was read, what was proposed, who approved it, what was submitted, timestamped. When an audit asks how an entry was arrived at, the answer already exists."
           },
           {
             "number": "03",
-            "title": "Human checkpoints",
-            "body": "Irreversible action waits for an accountable operator to approve or escalate."
+            "title": "What it works with",
+            "body": "Portbase and Cargonaut, DMS and AGS, NCTS Phase 5, ATLAS, CDS, carrier eBooking portals, INTTRA. If your team logs into it, Emil can work it, because Emil works the screen the way a person does."
           },
           {
             "number": "04",
-            "title": "Complete run record",
-            "body": "Inputs, approvals, portal responses, and artifacts return together as one receipt."
+            "title": "Who this is for",
+            "body": "Customs brokers and freight forwarders from around ten to a hundred and fifty people, and in-house trade compliance teams, where the declarations are real, the volumes are rising, and hiring another declarant is not happening this year."
           }
         ]
       },
       "platform": {
-        "eyebrow": "Not another AI platform",
-        "heading": "Keep your systems of record.",
-        "accentHeading": "Add an operator beyond the API.",
-        "body": "Enterprise AI and logistics systems decide and prepare. Emil turns that approved intent into controlled browser work where conventional connectivity ends.",
+        "eyebrow": "Every run leaves a record",
+        "heading": "The audit answer",
+        "accentHeading": "already exists.",
+        "body": "What was read, what was proposed, who approved it, what was submitted, timestamped. When an audit asks how an entry was arrived at, the answer already exists.",
         "portalLabel": "PORTAL TWIN · SAFE MODE",
         "fields": [
           { "label": "Shipment reference", "status": "verified" },
@@ -349,29 +349,29 @@
         "checkpointLabel": "Human checkpoint",
         "points": [
           {
-            "title": "Approved inputs only",
-            "body": "No invented operational data."
+            "title": "Source documents checked",
+            "body": "Emil prepares the entry from approved shipment data."
           },
           {
-            "title": "Visible work before action",
-            "body": "Every mapped field in a safe twin."
+            "title": "Rejections flagged",
+            "body": "Your declarant sees what would be rejected before anything is submitted."
           },
           {
-            "title": "Consequential moments stop",
-            "body": "People approve or escalate."
+            "title": "Declarant approval required",
+            "body": "The declarant of record remains in control."
           },
           {
-            "title": "Evidence comes back",
-            "body": "Responses, decisions, and artifacts together."
+            "title": "Nothing on Emil's authority",
+            "body": "Every proposed and approved action is timestamped."
           }
         ]
       },
       "process": {
         "number": "02 / The control loop",
-        "eyebrow": "How it works",
+        "eyebrow": "Every run leaves a record",
         "heading": "Every run rehearsed.",
-        "accentHeading": "Every action controlled.",
-        "body": "Emil separates preparation from execution so the whole path is inspectable before anything consequential can happen.",
+        "accentHeading": "Every decision recorded.",
+        "body": "What was read, what was proposed, who approved it, what was submitted, timestamped. When an audit asks how an entry was arrived at, the answer already exists.",
         "steps": [
           {
             "number": "01",
@@ -410,10 +410,10 @@
       },
       "workflows": {
         "number": "03 / The work",
-        "kicker": "Portal work",
-        "heading": "Start narrow.",
-        "accentHeading": "Keep going from there.",
-        "body": "Customs and carrier booking are the first wedges. The same controlled operating model extends to other portal-bound work.",
+        "kicker": "What it works with",
+        "heading": "If your team logs into it,",
+        "accentHeading": "Emil can work it.",
+        "body": "Portbase and Cargonaut, DMS and AGS, NCTS Phase 5, ATLAS, CDS, carrier eBooking portals, INTTRA. Emil works the screen the way a person does.",
         "primary": [
           {
             "number": "01",
@@ -448,56 +448,56 @@
         "more": [
           {
             "number": "01",
-            "title": "Track-and-trace reconciliation",
-            "body": "Compare portal events with internal milestones and route exceptions."
+            "title": "Portbase and Cargonaut",
+            "body": "Customs and cargo-community portal operations prepared from approved shipment data."
           },
           {
             "number": "02",
-            "title": "EDI gap filling",
-            "body": "Complete portal-only steps when a message path is missing or incomplete."
+            "title": "DMS, AGS and NCTS Phase 5",
+            "body": "Declarations rehearsed, checked, and held for the licensed declarant."
           },
           {
             "number": "03",
-            "title": "RFQ portals",
-            "body": "Carry approved lane requests into structured tender and quote surfaces."
+            "title": "ATLAS and CDS",
+            "body": "Portal work performed through the screen where no usable API exists."
           },
           {
             "number": "04",
-            "title": "Proof-of-delivery retrieval",
-            "body": "Find, verify, and return delivery evidence into the right record."
+            "title": "Carrier eBooking and INTTRA",
+            "body": "Approved booking data carried into carrier portals with a complete run record."
           }
         ]
       },
       "pilot": {
-        "eyebrow": "Four-to-eight-week field test",
-        "heading": "One portal. One site.",
-        "accentHeading": "One KPI.",
-        "body": "Enough control to prove the operating model without turning a narrow pilot into another platform program.",
+        "eyebrow": "How a pilot works",
+        "heading": "One portal. One process.",
+        "accentHeading": "One named operator.",
+        "body": "Six weeks, fixed fee. I work inside your team, build it on your real workflow, and train your people to run and extend it. It runs under your brand and you keep it. The first call is thirty minutes and I will show you a rehearsal against a real portal, not slides.",
         "ctaLabel": "Scope one pilot",
         "email": "vipin@gabrieloperator.com",
         "emailSubject": "Scope an Emil pilot",
         "steps": [
           {
             "number": "01",
-            "title": "Baseline the manual path",
-            "body": "Volume, handling time, exception rate, and evidence quality."
+            "title": "Six weeks, fixed fee",
+            "body": "One portal and one process, with a named operator on your side who owns the outcome."
           },
           {
             "number": "02",
-            "title": "Rehearse with real rules",
-            "body": "In a safe twin using representative, non-production data."
+            "title": "Built inside your team",
+            "body": "I build it on your real workflow and train your people to run and extend it."
           },
           {
             "number": "03",
-            "title": "Prove one KPI",
-            "body": "Cycle time, touch time, error rate, or record completeness."
+            "title": "A real-portal rehearsal",
+            "body": "The first call is thirty minutes and I will show you a rehearsal against a real portal, not slides."
           }
         ]
       },
       "footer": {
         "brandLabel": "EMIL",
-        "brandSuffix": "by Gabriel",
-        "tagline": "Think in simulation. Act with precision.",
+        "brandSuffix": "Customs and carrier portal operations",
+        "tagline": "Your logistics stack stops at the portal. Emil keeps going.",
         "copyright": "© 2026 Emil"
       }
     }

@@ -92,10 +92,10 @@
         "ctaLabel": "Scope a pilot"
       },
       "hero": {
-        "eyebrow": "Customs and carrier portal operations",
+        "eyebrow": "Human-controlled portal execution",
         "heading": "Your logistics stack stops at the portal.",
         "accentHeading": "Emil keeps going.",
-        "body": "Your TMS holds the shipment. Then someone opens Portbase, or DMS, or NCTS, or a carrier eBooking screen, and keys it in again by hand. There is no API waiting on the other side, and there never will be for most of them. Emil carries approved shipment data from your TMS into those portals. It rehearses the entire run first against a copy of your real environment, shows your declarant exactly what it is about to enter, and does nothing until they approve it.",
+        "body": "Emil carries approved shipment data into customs and carrier portals with no API. It rehearses every run, pauses for human approval, and returns a complete record.",
         "primaryCtaLabel": "Run a portal simulation",
         "secondaryCtaLabel": "Scope one pilot",
         "proofItems": [

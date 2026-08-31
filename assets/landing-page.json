@@ -46,7 +46,7 @@
     },
     "header": {
       "brandMark": "image",
-      "logoImageUrl": "/landing-pages/emil/icon.svg",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
       "navItems": [
         { "label": "Features", "target": "about" },
         { "label": "How it works", "target": "how-it-works" },

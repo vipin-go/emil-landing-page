@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Обхват",
             "body": "Заключете един портал, един процес, разрешенията и условието за успех."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Репетирам",
             "body": "Създайте верен портал Twin и картографирайте само одобрени изходни данни."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Решителност",
             "body": "Разкрийте неяснотата, променените страници и липсващите доказателства, вместо да гадаете."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Одобрявам",
             "body": "Направете пауза в точния последващ момент за отговорен човек."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Изпълнявам",
             "body": "Изпълнете само одобрените стъпки на браузъра – нищо извън обхвата."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Протокол",
             "body": "Върнете отговора на портала, решенията и артефактите като една разписка."
           }

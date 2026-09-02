@@ -437,31 +437,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Scope",
             "body": "Lock one portal, one process, the permissions, and the success condition."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Rehearse",
             "body": "Build a faithful portal twin and map only approved source data."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Resolve",
             "body": "Expose ambiguity, changed pages, and missing evidence instead of guessing."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Approve",
             "body": "Pause at the exact consequential moment for an accountable human."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Execute",
             "body": "Perform only the approved browser steps—nothing outside scope."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Record",
             "body": "Return the portal response, decisions, and artifacts as one receipt."
           }

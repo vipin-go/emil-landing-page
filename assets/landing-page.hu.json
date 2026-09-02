@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Terület",
             "body": "Zároljon egy portált, egy folyamatot, az engedélyeket és a sikeres feltételt."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Próbál",
             "body": "Hűséges portál iker létrehozása, és csak jóváhagyott forrásadatok térképezése."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Elhatározás",
             "body": "Tegye fel a kétértelműséget, a megváltozott oldalakat és a hiányzó bizonyítékokat a találgatás helyett."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Jóváhagy",
             "body": "Szünet a pontos következmény pillanatában egy elszámoltatható ember számára."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Végrehajt",
             "body": "Csak a jóváhagyott böngésző lépéseket hajtsa végre – semmin kívüli a hatókörön."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Rekord",
             "body": "Egy nyugtaként küldje vissza a portál válaszát, döntéseit és műtermékeit."
           }

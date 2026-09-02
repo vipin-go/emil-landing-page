@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "范围",
             "body": "锁定一门门户、一项流程、权限和成功条件。"
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "排练",
             "body": "建立一个忠实的门户双胞胎，并仅映射批准的源数据。"
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "解决",
             "body": "暴露歧义、更改页面和缺少证据而不是猜测。"
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "批准",
             "body": "对于一个负责任的人来说，在确切的结果时刻停下来。"
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "执行",
             "body": "仅执行经批准的浏览器步骤——不在范围之外。"
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "记录",
             "body": "将门户响应、决策和工件作为一张收据返回。"
           }

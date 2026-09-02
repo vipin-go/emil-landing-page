@@ -238,6 +238,10 @@ function validateLogisticsPortal(landingPage) {
   });
   get('hero.rehearsal.intakeSteps').forEach((item, index) => { if (!['done', 'warning', 'pending'].includes(item?.state)) fail(`landingPage.logisticsPortal.hero.rehearsal.intakeSteps[${index}].state is unsupported`); });
   get('platform.fields').forEach((item, index) => { if (!['verified', 'review'].includes(item?.status)) fail(`landingPage.logisticsPortal.platform.fields[${index}].status is unsupported`); });
+  get('process.steps').forEach((item, index) => {
+    if (!isDirectImageSource(item?.image)) fail(`landingPage.logisticsPortal.process.steps[${index}].image must be a direct HTTPS or bundled application image URL`);
+    if (typeof item?.alt !== 'string' || !item.alt.trim()) fail(`landingPage.logisticsPortal.process.steps[${index}].alt is required`);
+  });
   if (!EMAIL.test(get('pilot.email'))) fail('landingPage.logisticsPortal.pilot.email must be valid');
   const forbidden = new Set(['component', 'componentName', 'javascript', 'script', 'css', 'tailwind', 'route', 'query', 'html']);
   const inspect = (value, path) => {

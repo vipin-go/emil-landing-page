@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "תְחוּם",
             "body": "נעל פורטל אחד, תהליך אחד, ההרשאות ותנאי ההצלחה."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "חזרות",
             "body": "בנה פורטל נאמן תאום ומפה רק נתוני מקור מאושרים."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "לִפְתוֹר",
             "body": "לחשוף עמימות, לשנות דפים ולהחמיץ ראיות במקום לנחש."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "לְאַשֵׁר",
             "body": "השהה ברגע התוצאה המדויק עבור אדם אחראי."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "לְבַצֵעַ",
             "body": "בצע רק את שלבי הדפדפן המאושרים - שום דבר מחוץ להיקף."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "רְשׁוּמָה",
             "body": "החזר את תגובת הפורטל, ההחלטות והחפצים כקבלה אחת."
           }

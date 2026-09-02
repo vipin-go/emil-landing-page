@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Djelokrug",
             "body": "Zaključajte jedan portal, jedan proces, dopuštenja i uvjet uspjeha."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Vježbati",
             "body": "Izgradite vjerni portal Twin i mapirajte samo odobrene izvorne podatke."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Odlučnost",
             "body": "Razotkrijte dvosmislenost, promijenjene stranice i nedostajuće dokaze umjesto nagađanja."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Odobriti",
             "body": "Zastanite u točnom posljedičnom trenutku za odgovornog čovjeka."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Izvršiti",
             "body": "Izvodite samo odobrene korake preglednika - ništa izvan opsega."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Snimiti",
             "body": "Vratite odgovor, odluke i artefakte portala kao jedan račun."
           }

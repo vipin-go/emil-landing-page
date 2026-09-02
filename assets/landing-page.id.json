@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Cakupan",
             "body": "Kunci satu portal, satu proses, izin, dan kondisi keberhasilan."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Berlatih",
             "body": "Bangun data sumber kembar Portal Twin dan peta yang hanya disetujui."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Menyelesaikan",
             "body": "Mengekspos ambiguitas, mengubah halaman, dan bukti yang hilang alih-alih menebak."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Menyetujui",
             "body": "Jeda pada saat konsekuensi yang tepat untuk manusia yang bertanggung jawab."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Menjalankan",
             "body": "Lakukan hanya langkah-langkah browser yang disetujui—tidak ada yang di luar cakupan."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Merekam",
             "body": "Kembalikan respons portal, keputusan, dan artefak sebagai satu tanda terima."
           }

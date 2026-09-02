@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Laajuus",
             "body": "Lukitse yksi portaali, yksi prosessi, käyttöoikeudet ja onnistumisehto."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Harjoitella",
             "body": "Rakenna uskollinen portaalikaksos ja kartta vain hyväksytyt lähdetiedot."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Ratkaista",
             "body": "Paljasta epäselvyyttä, muuttuneet sivut ja puuttuvat todisteet arvaamisen sijaan."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Hyväksyä",
             "body": "Pysäytä vastuullisen ihmisen täsmälleen seuraushetkellä."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Suorittaa",
             "body": "Suorita vain hyväksytyt selaimen vaiheet – ei mitään laajuuden ulkopuolella."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Äänittää",
             "body": "Palauta portaalin vastaus, päätökset ja artefaktit yhtenä kuittina."
           }

@@ -99,6 +99,7 @@
         "reviewExceptionsPerSample": 3,
         "capabilityCards": 4,
         "processSteps": 6,
+        "processStepMedia": ["image", "alt"],
         "primaryWorkflows": 2,
         "secondaryWorkflows": 4,
         "pilotSteps": 3,

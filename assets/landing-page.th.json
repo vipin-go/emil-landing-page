@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "ขอบเขต",
             "body": "ล็อกหนึ่งพอร์ทัล หนึ่งกระบวนการ การอนุญาต และเงื่อนไขความสำเร็จ"
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "ซ้อม",
             "body": "สร้างพอร์ทัลคู่ที่ซื่อสัตย์และแมปข้อมูลต้นทางที่ได้รับอนุมัติเท่านั้น"
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "ตัดสินใจ",
             "body": "เปิดเผยความกำกวม หน้าเปลี่ยน และหลักฐานที่ขาดหายไปแทนที่จะคาดเดา"
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "อนุมัติ",
             "body": "หยุดชั่วคราวในช่วงเวลาที่เป็นผลสืบเนื่องสำหรับมนุษย์ที่รับผิดชอบ"
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "ปฏิบัติ",
             "body": "ดำเนินการตามขั้นตอนของเบราว์เซอร์ที่ได้รับอนุมัติเท่านั้น—ไม่มีอะไรนอกขอบเขต"
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "บันทึก",
             "body": "ส่งคืนการตอบสนองของพอร์ทัล การตัดสินใจ และสิ่งประดิษฐ์เป็นใบเสร็จเดียว"
           }

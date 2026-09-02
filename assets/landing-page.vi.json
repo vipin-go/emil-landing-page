@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Phạm vi",
             "body": "Khóa một cổng thông tin, một quy trình, quyền và điều kiện thành công."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Diễn tập",
             "body": "Xây dựng một cổng thông tin trung thành song sinh và chỉ dữ liệu nguồn được phê duyệt."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Giải quyết",
             "body": "phơi bày sự mơ hồ, thay đổi trang và thiếu bằng chứng thay vì đoán."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "chấp thuận",
             "body": "Tạm dừng vào thời điểm hậu quả chính xác đối với một con người có trách nhiệm."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Thi hành",
             "body": "Chỉ thực hiện các bước trình duyệt đã được phê duyệt — không có gì bên ngoài phạm vi."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Ghi",
             "body": "Trả lại phản hồi cổng thông tin, quyết định và hiện vật dưới dạng một biên lai."
           }

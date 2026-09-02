@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Rozsah",
             "body": "Zamkněte jeden portál, jeden proces, oprávnění a podmínku úspěchu."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Zkoušet",
             "body": "Vytvořte věrné portálové dvojče a mapujte pouze schválená zdrojová data."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Odhodlání",
             "body": "Odhalte nejednoznačnost, změněné stránky a chybějící důkazy místo hádání."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Schvalovat",
             "body": "Pauza v přesném následném okamžiku pro zodpovědného člověka."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Vykonat",
             "body": "Provádějte pouze schválené kroky prohlížeče – nic mimo rozsah."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Záznam",
             "body": "Vraťte odpověď portálu, rozhodnutí a artefakty jako jednu účtenku."
           }

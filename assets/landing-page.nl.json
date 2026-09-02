@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Omvang",
             "body": "Vergrendel één portal, één proces, de machtigingen en de succesvoorwaarde."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Repeteren",
             "body": "Bouw een trouwe portal twin en breng alleen goedgekeurde brongegevens in kaart."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Oplossen",
             "body": "Leg dubbelzinnigheid bloot, veranderde pagina's en ontbreekt bewijs in plaats van te raden."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Goedkeuren",
             "body": "pauzeer op het exacte daaruit voortvloeiende moment voor een verantwoordelijke mens."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Uitvoeren",
             "body": "Voer alleen de goedgekeurde browserstappen uit - niets buiten het bereik."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Record",
             "body": "Retourneer de portalreactie, beslissingen en artefacten als één ontvangst."
           }

@@ -438,31 +438,43 @@
         "steps": [
           {
             "number": "01",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
+            "alt": "Operator defining a governed logistics portal workflow",
             "title": "Zakres",
             "body": "Zablokuj jeden portal, jeden proces, uprawnienia i warunek sukcesu."
           },
           {
             "number": "02",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
+            "alt": "Operator rehearsing a portal run in a digital twin",
             "title": "Odbywać próby",
             "body": "Zbuduj wierny portal Twin i mapuj tylko zatwierdzone dane źródłowe."
           },
           {
             "number": "03",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
+            "alt": "Operator reviewing flagged shipment exceptions",
             "title": "Rozwiązać",
             "body": "Ujawnij niejednoznaczność, zmienione strony i brakujące dowody zamiast zgadywania."
           },
           {
             "number": "04",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
+            "alt": "Declarants reviewing and approving a proposed portal entry",
             "title": "Zatwierdzać",
             "body": "Zatrzymaj się w dokładnym konsekwentnym momencie dla odpowiedzialnego człowieka."
           },
           {
             "number": "05",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
+            "alt": "Operator monitoring an approved portal execution",
             "title": "Wykonać",
             "body": "Wykonaj tylko zatwierdzone kroki przeglądarki — nic poza zakresem."
           },
           {
             "number": "06",
+            "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
+            "alt": "Audit reviewer inspecting a completed logistics run record",
             "title": "Rekord",
             "body": "Zwróć odpowiedź portalu, decyzje i artefakty jako jeden pokwitowanie."
           }

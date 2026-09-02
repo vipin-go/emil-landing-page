@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "ca",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "La vostra pila de logística s'atura al portal. L'Emil continua.",
+    "subheadline": "El vostre TMS conté l'enviament. Després algú obre Portbase, o DMS, o NCTS, o una pantalla de eBooking del transportista, i les torna a introduir manualment. No hi ha cap API esperant a l'altra banda, i mai n'hi haurà per a la majoria d'ells. L'Emil porta les dades d'enviament aprovades des del vostre TMS a aquests portals. Primer assaja tota l'execució contra una còpia del vostre entorn real, mostra al vostre declarant exactament el que està a punt d'introduir, i no fa res fins que l'aproven.",
+    "ctaLabel": "Executeu una simulació del portal",
+    "description": "L'Emil gestiona les operacions del portal duaner i del transportista assajant l'entrada d'enviament aprovada contra una còpia de l'entorn real abans que el declarant aprovi res.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Funcionalitats",
+          "target": "about"
+        },
+        {
+          "label": "Com funciona",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Contacte",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Definiu l'abast del pilot"
+    },
+    "heroChat": {
+      "statusLabel": "En línia",
+      "inputPlaceholder": "Pregunteu a l'Emil sobre una execució del portal...",
+      "suggestedPrompts": [
+        "Rehearseu una presentació",
+        "Verifiqueu una reserva",
+        "Expliqueu els controls"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Doneu-me un registre d'enviament aprovat i assajaré la feina del portal abans que s'enviï res."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil en una oficina d'operacions logístiques amb una simulació de presentació duanera"
+    },
+    "contact": {
+      "heading": "Un portal. Un procés. Un operador designat.",
+      "body": "Sis setmanes, tarifa fixa. Construït sobre el vostre flux de treball real, al vostre portal real. El vostre equip l'executa i l'estén després que us el lliuri. S'executa sota la vostra marca i el conserveu.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "EMIL",
+        "brandSuffix": "Operacions del portal duaner i del transportista",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Funcionalitats",
+            "target": "edge"
+          },
+          {
+            "label": "Com funciona",
+            "target": "control"
+          },
+          {
+            "label": "Proveu una demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Definiu l'abast del pilot"
+      },
+      "hero": {
+        "eyebrow": "Execució del portal controlat per humans",
+        "heading": "La vostra pila de logística s'atura al portal.",
+        "accentHeading": "L'Emil continua.",
+        "body": "L'Emil porta dades d'enviament aprovades als portals duaners i de transportistes sense API. Assaja cada execució, fa una pausa per a l'aprovació humana i retorna un registre complet.",
+        "primaryCtaLabel": "Executeu una simulació del portal",
+        "secondaryCtaLabel": "Definiu un abast de pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "Rehearsat primer"
+          },
+          {
+            "number": "02",
+            "label": "Aprovat per humans"
+          },
+          {
+            "number": "03",
+            "label": "Completament registrat"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, un operador de portal de logística",
+        "chat": {
+          "roleLabel": "Operacions del portal duaner i del transportista",
+          "statusLabel": "En línia",
+          "openingMessage": "Hola, sóc l'Emil. Doneu-me un registre d'enviament aprovat i assajaré la feina del portal abans que s'enviï res.",
+          "inputPlaceholder": "Pregunteu a l'Emil sobre la feina del portal...",
+          "suggestions": [
+            "Rehearseu una presentació",
+            "Verifiqueu una reserva",
+            "Expliqueu els controls"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Sandbox de simulació",
+          "restartLabel": "Reinicia",
+          "demoNote": "Simulació il·lustrativa · Cap portal real, credencials o dades del client",
+          "sectionEyebrow": "Proveu-ho ara",
+          "sectionHeading": "Vegeu l'Emil",
+          "sectionAccentHeading": "A la vora del portal.",
+          "sectionBody": "Canvieu fluxos de treball, inspeccioneu els camps assignats, reviseu tres exceptions simulades i trieu si l'execució de mostra ha de continuar o escalar.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Presentació duanera"
+            },
+            {
+              "id": "carrier",
+              "label": "Reserva del transportista"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Declaració d'importació · NL",
+              "lane": "Rotterdam → Mont-real",
+              "source": "Approved TMS shipment",
+              "destination": "Finestra única nacional",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Referència d'enviament",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Descripció de la mercaderia",
+                  "value": "Conjunts de precisió...",
+                  "state": "review"
+                },
+                {
+                  "label": "Referència de l'importador",
+                  "value": "2 registres font",
+                  "state": "review"
+                },
+                {
+                  "label": "Massa bruta",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Document de suport",
+                  "value": "Factura pendent",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Descripció de la mercaderia",
+                  "detail": "El text font supera el límit del portal"
+                },
+                {
+                  "title": "Referència de l'importador",
+                  "detail": "S'han trobat dos registres aprovats"
+                },
+                {
+                  "title": "Document de suport",
+                  "detail": "La factura comercial necessita confirmació"
+                }
+              ],
+              "receipt": "Paquet de declaració registrat"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Reserva oceànica · FCL",
+              "lane": "Anvers → Singapur",
+              "source": "Approved TMS booking",
+              "destination": "Portal de transportista de tercers",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Referència de reserva",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Opció de navegació",
+                  "value": "2 serveis coincideixen",
+                  "state": "review"
+                },
+                {
+                  "label": "Equipament",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Alliberament d'equipament",
+                  "value": "Dipòsit pendent",
+                  "state": "review"
+                },
+                {
+                  "label": "Tall de càrrega",
+                  "value": "L'horari difereix",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Opció de navegació",
+                  "detail": "Dos serveis compleixen l'arribada sol·licitada"
+                },
+                {
+                  "title": "Alliberament d'equipament",
+                  "detail": "Confirmació del dipòsit pendent"
+                },
+                {
+                  "title": "Tall de càrrega",
+                  "detail": "El portal difereix de l'horari font"
+                }
+              ],
+              "receipt": "Confirmació de reserva registrada"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Text font llegit",
+              "detail": "Registre aprovat",
+              "state": "done"
+            },
+            {
+              "title": "Bessó construït",
+              "detail": "Camps assignats",
+              "state": "done"
+            },
+            {
+              "title": "3 execpcions",
+              "detail": "Cal judici",
+              "state": "warning"
+            },
+            {
+              "title": "Aprovació",
+              "detail": "Punt de control humà",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Tres camps necessiten judici.",
+          "reviewBody": "L'Emil no endevina ni toca un portal en directe.",
+          "reviewLabel": "Reviseu el bessó del portal",
+          "approveLabel": "Aproveu l'execució de mostra",
+          "escalateLabel": "Escaleu de manera segura",
+          "approvedKicker": "Completament simulat",
+          "approvedBody": "El bessó aprovat es va executar a l'entorn sandbox i cada acció es va adjuntar al registre d'execució.",
+          "approvedChecks": [
+            "Bessó aprovat",
+            "Resposta del portal",
+            "Registre d'auditoria"
+          ],
+          "escalatedKicker": "Escalada enregistrada",
+          "escalatedTitle": "Res no ha arribat al portal en directe.",
+          "escalatedBody": "L'Emil ha conservat els camps assignats, les evidències i les decisions obertes perquè un operador les resolgui.",
+          "continueLabel": "Continueu amb un enviament real",
+          "loginNotice": "Inicieu sessió per assajar una presentació duanera privada amb l'Emil. En aquesta versió no es produeix cap enviament al portal en directe."
+        }
+      },
+      "ticker": [
+        "Presentació duanera",
+        "Reserva del transportista",
+        "Bessó del portal",
+        "Aprovació humana",
+        "Revisió d'excepcions",
+        "Rebut d'auditoria"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "El vostre nom es queda a l'entrada",
+        "heading": "L'Emil prepara l'entrada.",
+        "accentHeading": "El vostre declarant el presenta.",
+        "body": "L'Emil no presenta. El vostre declarant autoritzat sí. L'Emil prepara l'entrada, la verifica respecte als documents font, marca el que seria rebutjat i espera. El declarant del registre no canvia i res no s'envia sota l'autoritat de l'Emil.",
+        "governedLabel": "La vostra pila governada",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "EDI",
+          "IA interna"
+        ],
+        "boundaryLabel": "Límit de l'API",
+        "operatorTitle": "L'Emil treballa aquí",
+        "operatorBody": "Observa · Assaja · Approva · Executa",
+        "externalLabel": "Sistemes externs",
+        "portals": [
+          {
+            "label": "Portal duaner",
+            "badge": "SENSE API"
+          },
+          {
+            "label": "Portal del transportista",
+            "badge": "SENSE API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Abans de l'Emil",
+            "title": "El portal es converteix en la cadira giratòria d'algú.",
+            "body": "Còpia manual, captures de pantalla fragmentades, exceptions ocultes i cap assaig consistent abans de l'enviament."
+          },
+          {
+            "label": "Amb l'Emil",
+            "title": "El portal es converteix en una superfície operativa controlada.",
+            "body": "Dades aprovades, assignades a un bessó fidel, execpcions visibles i acció irreversible retinguda per a una persona."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "El vostre nom es queda a l'entrada",
+            "body": "L'Emil no presenta. El vostre declarant autoritzat sí. L'Emil prepara l'entrada, la verifica respecte als documents font, marca el que seria rebutjat i espera. El declarant del registre no canvia i res no s'envia sota l'autoritat de l'Emil."
+          },
+          {
+            "number": "02",
+            "title": "Cada execució deixa un registre",
+            "body": "Què es va llegir, què es va proposar, qui ho va aprovar, què es va enviar, amb marca de temps. Quan una auditoria pregunta com es va arribar a una entrada, la resposta ja existeix."
+          },
+          {
+            "number": "03",
+            "title": "Amb què funciona",
+            "body": "Portbase i Cargonaut, DMS i AGS, NCTS Phase 5, ATLAS, CDS, portals d'eBooking de transportistes, INTTRA. Si el vostre equip hi inicia sessió, l'Emil pot treballar-hi, perquè l'Emil treballa la pantalla de la manera que ho fa una persona."
+          },
+          {
+            "number": "04",
+            "title": "A QUI VA ADREÇAT",
+            "body": "Corredors duaners i transitàries, de 10 a 150 persones. Equips interns de compliment comercial. Les declaracions són reals. Els volums augmenten. Contractar un altre declarant no passa aquest any. ICS2 Release 3 és obligatori a tots els estats membres des del setembre de 2025, i les últimes derogacions van caducar al juny de 2026. NCTS Phase 6 va arribar juntament amb ell. La càrrega de presentació que va arribar amb ells no tornarà a baixa, i ningú ve a endur-se-la."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Cada execució deixa un registre",
+        "heading": "Resposta d'auditoria",
+        "accentHeading": "ja existeix.",
+        "body": "Què es va llegir, què es va proposar, qui ho va aprovar, què es va enviar, amb marca de temps. Quan una auditoria pregunta com es va arribar a una entrada, la resposta ja existeix.",
+        "portalLabel": "BESSÓ DEL PORTAL · MODE SEGUR",
+        "fields": [
+          {
+            "label": "Referència d'enviament",
+            "status": "verified"
+          },
+          {
+            "label": "Detalls de la mercaderia",
+            "status": "review"
+          },
+          {
+            "label": "Document de suport",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Punt de control humà",
+        "points": [
+          {
+            "title": "Documents font verificats",
+            "body": "L'Emil prepara l'entrada a partir de les dades d'enviament aprovades."
+          },
+          {
+            "title": "Rebutjos marcats",
+            "body": "El vostre declarant veu el que seria rebutjat abans d'enviar res."
+          },
+          {
+            "title": "Cal l'aprovació del declarant",
+            "body": "El declarant del registre es manté en control."
+          },
+          {
+            "title": "Res sota l'autoritat de l'Emil",
+            "body": "Cada acció proposada i aprovada té marca de temps."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Cada execució deixa un registre",
+        "heading": "Cada execució assajada.",
+        "accentHeading": "Cada decisió registrada.",
+        "body": "Què es va llegir, què es va proposar, qui ho va aprovar, què es va enviar, amb marca de temps. Quan una auditoria pregunta com es va arribar a una entrada, la resposta ja existeix.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Abast",
+            "body": "Bloquegeu un portal, un procés, els permisos i la condició d'èxit."
+          },
+          {
+            "number": "02",
+            "title": "Assajeu",
+            "body": "Construïu un bessó fidel del portal i assigneu només dades font aprovades."
+          },
+          {
+            "number": "03",
+            "title": "Resoleu",
+            "body": "Exposeu la ambigüitat, les pàgines canviades i les evidències que falten en comptes d'endevinar."
+          },
+          {
+            "number": "04",
+            "title": "Aprova",
+            "body": "Pausa en el moment exactament decisiu per a un humà responsable."
+          },
+          {
+            "number": "05",
+            "title": "Executa",
+            "body": "Realitza només els passos del navegador aprovats—res fora de l'abast."
+          },
+          {
+            "number": "06",
+            "title": "Registra",
+            "body": "Retorna la resposta del portal, les decisions i els artefactes com un justificant."
+          }
+        ],
+        "failClosedTitle": "El control és estructural, no cosmètic.",
+        "failClosedBody": "Si la pàgina canvia, les evidències entren en conflicte o s'excedeix l'abast aprovat, l'Emil s'atura.",
+        "failClosedLabel": "Tancament per error"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Amb què funciona",
+        "heading": "Si el vostre equip hi inicia sessió,",
+        "accentHeading": "L'Emil pot treballar-hi.",
+        "body": "Portbase i Cargonaut, DMS i AGS, NCTS Phase 5, ATLAS, CDS, portals de reserves electròniques de transportistes, INTTRA. L'Emil treballa la pantalla com ho fa una persona.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Presentació duanera",
+            "body": "Registre d'enviament → bessó de finestra única nacional → revisió d'excepcions → aprovació humana → justificant.",
+            "points": [
+              "Aportació del registre d'enviament",
+              "Bessó de finestra única nacional",
+              "Revisió d'excepcions i documents",
+              "Aprovació i captura del justificant"
+            ],
+            "ctaLabel": "Simula la presentació"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Reserva del transportista",
+            "body": "Reserva TMS → bessó del portal del transportista → verificació del viatge → aprovació humana → confirmació.",
+            "points": [
+              "Aportació de la reserva aprovada",
+              "Bessó del portal del transportista",
+              "Verificació del viatge i opcions",
+              "Aprovació i captura de confirmació"
+            ],
+            "ctaLabel": "Simula la reserva"
+          }
+        ],
+        "moreLabel": "Més feines que l'Emil pot gestionar",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase i Cargonaut",
+            "body": "Operacions del portal duaner i de la comunitat de càrrega preparades a partir de dades d'enviament aprovades."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS i NCTS Phase 5",
+            "body": "Les declaracions assajades, verificades i mantingudes per al declarant autoritzat."
+          },
+          {
+            "number": "03",
+            "title": "ATLAS i CDS",
+            "body": "El treball del portal es realitza a través de la pantalla on no existeix cap API utilitzable."
+          },
+          {
+            "number": "04",
+            "title": "Reserves electròniques de transportistes i INTTRA",
+            "body": "Les dades de reserva aprovades es traslladen als portals del transportista amb un registre complet d'execució."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Com funciona un pilot",
+        "heading": "Un portal. Un procés.",
+        "accentHeading": "Un operador designat.",
+        "body": "Un portal. Un procés. Un operador designat al vostre costat que és propietari del resultat. Sis setmanes, tarifa fixa. Construït sobre el vostre flux de treball real, al vostre portal real. El vostre equip l'executa i l'amplia després que us el lliuri. Funciona sota la vostra marca i el conserveu. La primera trucada és de trenta minuts i us mostraré un assaig contra un portal real, no diapositives.",
+        "ctaLabel": "Definiu un abast de pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Definiu un pilot d'Emil",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Un operador designat",
+            "body": "Un portal. Un procés. Un operador designat al vostre costat que és propietari del resultat."
+          },
+          {
+            "number": "02",
+            "title": "Sis setmanes, tarifa fixa",
+            "body": "Construït sobre el vostre flux de treball real, al vostre portal real."
+          },
+          {
+            "number": "03",
+            "title": "El vostre equip el conserva",
+            "body": "El vostre equip l'executa i l'amplia després que us el lliuri. Funciona sota la vostra marca i el conserveu. La primera trucada és de trenta minuts i us mostraré un assaig contra un portal real, no diapositives."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "EMIL",
+        "brandSuffix": "Operacions del portal duaner i del transportista",
+        "tagline": "La vostra pila de logística s'atura al portal. L'Emil continua.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "et",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Teie logistikaastek puhkab portaalis. Emil jätkab.",
+    "subheadline": "Teie TMS hoiab saadetist. Siis keegi avab Portbase'i, DMS-i, NCTS-i või vedaja eBookingu ekraani ja sisestab kõik käsitsi uuesti. Seal ei ole API-d, mis ootab teisel pool, ja neile pole seda kunagi tulemas. Emil kannab teie TMS-st kinnitatud saadetise andmed neisse portaalidesse. Ta proovib kogu käigu kõigepealt teie tegeliku keskkonna koopial, näitab teie deklarandile täpselt, mida ta sisestada kavatseb, ja ei tee midagi enne, kuni ta selle kinnitab.",
+    "ctaLabel": "Käivitage portaali simulatsioon",
+    "description": "Emil haldab tolli ja vedaja portaali toiminguid, harjutades kinnitatud saadetise sisestamist reaalse keskkonna koopia vastu enne, kui deklarant midagi kinnitab.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Funktsioonid",
+          "target": "about"
+        },
+        {
+          "label": "Kuidas see toimib",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Kontakt",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Määratle piloodi ulatus"
+    },
+    "heroChat": {
+      "statusLabel": "Võrgus",
+      "inputPlaceholder": "Küsi Emililt portaali käivitamisest...",
+      "suggestedPrompts": [
+        "Harjuta esitamist",
+        "Kontrolli broneeringut",
+        "Selgitage kontrolle"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Andke mulle kinnitatud saadetise kirje ja ma harjutan portaali tööd enne midagi esitamast."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil logistikaoperatsioonide kontoris koos tollideklaratsiooni simulatsiooniga"
+    },
+    "contact": {
+      "heading": "Üks portaal. Üks protsess. Üks nimega operaator.",
+      "body": "Kuus nädalat, fikseeritud tasu. Ehitatud teie tegeliku töövoo peale, teie tegelikul portaalil. Teie meeskond seda käitab ja laiendab pärast üleandmist. See töötab teie kaubamärgi all ja teie seda hooldate.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "EMIL",
+        "brandSuffix": "Toll ja vedaja portaali toimingud",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Funktsioonid",
+            "target": "edge"
+          },
+          {
+            "label": "Kuidas see toimib",
+            "target": "control"
+          },
+          {
+            "label": "Proovige demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Määratle piloodi ulatus"
+      },
+      "hero": {
+        "eyebrow": "Inimese kontrolli all olev portaali käivitamine",
+        "heading": "Teie logistikaastek puhkab portaalis.",
+        "accentHeading": "Emil jätkab.",
+        "body": "Emil kannab kinnitatud saadetise andmed tolli ja vedaja portaalidesse ilma API-ta. Ta harjutab igat käiku, teeb pausi inimese kinnituseks ja tagastab täieliku kirje.",
+        "primaryCtaLabel": "Käivitage portaali simulatsioon",
+        "secondaryCtaLabel": "Määratle üks piloodi ulatus",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "Kõigepealt harjutatud"
+          },
+          {
+            "number": "02",
+            "label": "Inimese kinnitatud"
+          },
+          {
+            "number": "03",
+            "label": "Täielikult dokumenteeritud"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, logistika portaali operaator",
+        "chat": {
+          "roleLabel": "Toll ja vedaja portaali toimingud",
+          "statusLabel": "Võrgus",
+          "openingMessage": "Tere, ma olen Emil. Andke mulle kinnitatud saadetise kirje ja ma harjutan portaali tööd enne midagi esitamast.",
+          "inputPlaceholder": "Küsi Emililt portaali tööst...",
+          "suggestions": [
+            "Harjuta esitamist",
+            "Kontrolli broneeringut",
+            "Selgitage kontrolle"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Simulatsiooni liivakast",
+          "restartLabel": "Taaskäivita",
+          "demoNote": "Illustreeriv simulatsioon · Ühtegi päris portaali, volitusi ega kliendiandmeid",
+          "sectionEyebrow": "Proovi kohe",
+          "sectionHeading": "Vaadake Emili",
+          "sectionAccentHeading": "Portaali serval.",
+          "sectionBody": "Vahetage töövooge, kontrollige vastendatud välju, vaadake läbi kolm simuleeritud erandit ja otsustage, kas proovikäivitus peaks jätkuma või eskaleeruma.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Tollideklaratsioon"
+            },
+            {
+              "id": "carrier",
+              "label": "Vedaja broneering"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Sisseveo deklaratsioon · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "Riiklik ühtne aken",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Saadetise viide",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Kauba kirjeldus",
+                  "value": "Täpsed komplektid...",
+                  "state": "review"
+                },
+                {
+                  "label": "Impordija viide",
+                  "value": "2 allikakirjet",
+                  "state": "review"
+                },
+                {
+                  "label": "Brutomass",
+                  "value": "18 420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Toetav dokument",
+                  "value": "Arve ootel",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Kauba kirjeldus",
+                  "detail": "Lähtetekst ületab portaali piirangut"
+                },
+                {
+                  "title": "Impordija viide",
+                  "detail": "Leiti kaks kinnitatud kirjet"
+                },
+                {
+                  "title": "Toetav dokument",
+                  "detail": "Kommertsarve vajab kinnitust"
+                }
+              ],
+              "receipt": "Deklaratsioonipakett registreeritud"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Ookeani broneering · FCL",
+              "lane": "Antwerpen → Singapur",
+              "source": "Approved TMS booking",
+              "destination": "Kolmanda osapoole vedaja portaal",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Broneeringu viide",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Sõidukord",
+                  "value": "2 teenust sobivad",
+                  "state": "review"
+                },
+                {
+                  "label": "Seadmed",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Seadmete vabastamine",
+                  "value": "Depoo ootel",
+                  "state": "review"
+                },
+                {
+                  "label": "Lasti tähtaeg",
+                  "value": "Grafik erineb",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Sõidukord",
+                  "detail": "Kaks teenust vastavad soovitud saabumisele"
+                },
+                {
+                  "title": "Seadmete vabastamine",
+                  "detail": "Depoo kinnitust ootab"
+                },
+                {
+                  "title": "Lasti tähtaeg",
+                  "detail": "Portaal erineb allika graafikust"
+                }
+              ],
+              "receipt": "Broneeringu kinnitus registreeritud"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Lähtetekst loetud",
+              "detail": "Kinnitatud kirje",
+              "state": "done"
+            },
+            {
+              "title": "Kaksik loodud",
+              "detail": "Väljad vastendatud",
+              "state": "done"
+            },
+            {
+              "title": "3 erandit",
+              "detail": "Vajab hinnangut",
+              "state": "warning"
+            },
+            {
+              "title": "Kinnitamine",
+              "detail": "Inimese kontrollpunkt",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Kolm välja vajavad hinnangut.",
+          "reviewBody": "Emil ei arva ega puuduta elus portaali.",
+          "reviewLabel": "Vaadake portaali kaksikut",
+          "approveLabel": "Kinnitage proovikäivitus",
+          "escalateLabel": "Eskaleeruge ohutult",
+          "approvedKicker": "Simuleeritult lõpetatud",
+          "approvedBody": "Kinnitatud kaksik käivitati liivakastikeskkonnas ja igale toimingule lisati käivituskirje.",
+          "approvedChecks": [
+            "Kinnitatud kaksik",
+            "Portaali vastus",
+            "Auditikirje"
+          ],
+          "escalatedKicker": "Eskalatsioon dokumenteeritud",
+          "escalatedTitle": "Midagi ei jõudnud elus portaali.",
+          "escalatedBody": "Emil säilitas vastendatud väljad, tõendid ja avatud otsused operaatori lahendamiseks.",
+          "continueLabel": "Jätkake päris saadetisega",
+          "loginNotice": "Logige sisse, et harjutada privaatset tollideklaratsiooni Emiliga. Selles versioonis ei toimu elus portaali esitamist."
+        }
+      },
+      "ticker": [
+        "Tollideklaratsioon",
+        "Vedaja broneering",
+        "Portaali kaksik",
+        "Inimese kinnitus",
+        "Erandite ülevaatus",
+        "Auditi kviitung"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Teie nimi jääb kirjele",
+        "heading": "Emil valmistab ette kirje.",
+        "accentHeading": "Teie deklarant esitab selle.",
+        "body": "Emil ei esita. Teie litsenseeritud deklarant esitab. Emil valmistab ette kirje, kontrollib seda lähtedokumentide vastu, märgib ära, mis oleks tagasi lükatud, ja ootab. Kirje deklarant ei muutu ja midagi ei esitata Emil'i volitusel.",
+        "governedLabel": "Teie hallatav virn",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "EDI",
+          "Sisemine AI"
+        ],
+        "boundaryLabel": "API piir",
+        "operatorTitle": "Emil töötab siin",
+        "operatorBody": "Vaata · Harjuta · Kinnita · Käivita",
+        "externalLabel": "Välised süsteemid",
+        "portals": [
+          {
+            "label": "Tollipordaal",
+            "badge": "ILMA API-ta"
+          },
+          {
+            "label": "Vedaja portaal",
+            "badge": "ILMA API-ta"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Enne Emili",
+            "title": "Portaal muutub kellegi pöördetooliks.",
+            "body": "Käsitsi kopeerimine, killustatud ekraanipildid, peidetud erandid ja järjepidev harjutamine enne esitamist puudub."
+          },
+          {
+            "label": "Emiliga",
+            "title": "Portaal muutub kontrollitavaks operatsioonipinnaks.",
+            "body": "Kinnitatud andmed, vastendatud ustavasse kaksikusse, erandid nähtavaks tehtud ja pöördumatu toiming inimesele jäetud."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Teie nimi jääb kirjele",
+            "body": "Emil ei esita. Teie litsenseeritud deklarant esitab. Emil valmistab ette kirje, kontrollib seda lähtedokumentide vastu, märgib ära, mis oleks tagasi lükatud, ja ootab. Kirje deklarant ei muutu ja midagi ei esitata Emil'i volitusel."
+          },
+          {
+            "number": "02",
+            "title": "Iga käik jätab kirje",
+            "body": "Mida loeti, mida pakuti, kes kinnitas, mis esitati, ajatempliga. Kui audit küsib, kuidas kirjele jõuti, vastus juba eksisteerib."
+          },
+          {
+            "number": "03",
+            "title": "Millega töötab",
+            "body": "Portbase ja Cargonaut, DMS ja AGS, NCTS Phase 5, ATLAS, CDS, vedaja eBookingu portaalid, INTTRA. Kui teie meeskond sinna sisse logib, saab Emil sellega töötada, sest Emil töötab ekraaniga samal viisil nagu inimene."
+          },
+          {
+            "number": "04",
+            "title": "KES SEE ON",
+            "body": "Tollivahendajad ja ekspediitorid, 10 kuni 150 inimest. Sisemised kaubanduse vastavuse meeskonnad. Deklaratsioonid on päris. Mahud kasvavad. Veel ühe deklarandi palkamine ei toimu sel aastal. ICS2 Release 3 on kohustuslik kõigis liikmesriikides alates septembrist 2025. aastal ja viimased erandid aegusid juunis 2026. NCTS Phase 6 saabus koos sellega. Esitamiskoormus, mis nendega kaasa tuli, ei kao alla ja keegi ei tule seda ära võtma."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Iga käik jätab kirje",
+        "heading": "Auditi vastus",
+        "accentHeading": "juba eksisteerib.",
+        "body": "Mida loeti, mida pakuti, kes kinnitas, mis esitati, ajatempliga. Kui audit küsib, kuidas kirjele jõuti, vastus juba eksisteerib.",
+        "portalLabel": "PORTAALI KAKSIK · TURVALINE REŽIIM",
+        "fields": [
+          {
+            "label": "Saadetise viide",
+            "status": "verified"
+          },
+          {
+            "label": "Kauba üksikasjad",
+            "status": "review"
+          },
+          {
+            "label": "Toetav dokument",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Inimese kontrollpunkt",
+        "points": [
+          {
+            "title": "Lähtedokumendid kontrollitud",
+            "body": "Emil valmistab ette kirje kinnitatud saadetise andmetest."
+          },
+          {
+            "title": "Tagasilükatud märgistatud",
+            "body": "Teie deklarant näeb, mis oleks enne esitamist tagasi lükatud."
+          },
+          {
+            "title": "Deklarandi kinnitus vajalik",
+            "body": "Kirje deklarant jääb kontrolli."
+          },
+          {
+            "title": "Midagi Emil'i volitusel",
+            "body": "Iga pakutud ja kinnitatud toiming on ajatempliga."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Iga käik jätab kirje",
+        "heading": "Iga käik harjutatud.",
+        "accentHeading": "Iga otsus dokumenteeritud.",
+        "body": "Mida loeti, mida pakuti, kes kinnitas, mis esitati, ajatempliga. Kui audit küsib, kuidas kirjele jõuti, vastus juba eksisteerib.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Ulatus",
+            "body": "Lukustage üks portaal, üks protsess, load õigused ja edukuse tingimus."
+          },
+          {
+            "number": "02",
+            "title": "Harjuta",
+            "body": "Ehitage ustav portaali kaksik ja vastendage ainult kinnitatud lähteandmeid."
+          },
+          {
+            "number": "03",
+            "title": "Lahendage",
+            "body": "Tunnistage kaheldavust, muutunud lehekülgi ja puuduvaid tõendeid arvamise asemel."
+          },
+          {
+            "number": "04",
+            "title": "Kinnita",
+            "body": "Peatu täpselt otsustaval hetkel vastutava inimese jaoks."
+          },
+          {
+            "number": "05",
+            "title": "Käivita",
+            "body": "Tee ainult kinnitatud brauseri sammud—midagi ulatuse väljapoolt."
+          },
+          {
+            "number": "06",
+            "title": "Salvesta",
+            "body": "Tagasta portaali vastus, otsused ja artefaktid ühe kviitungina."
+          }
+        ],
+        "failClosedTitle": "Kontroll on struktuurne, mitte kosmeetiline.",
+        "failClosedBody": "Kui leht muutub, tõendid on vastuolus või kinnitatud ulatust ületatakse, Emil peatub.",
+        "failClosedLabel": "Tõrge-suletud"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Millega töötab",
+        "heading": "Kui teie meeskond sinna sisse logib,",
+        "accentHeading": "Emil saab seda töödelda.",
+        "body": "Portbase ja Cargonaut, DMS ja AGS, NCTS Phase 5, ATLAS, CDS, vedaja e-broneeringu portaalid, INTTRA. Emil töötab ekraanil samamoodi nagu inimene.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Tollideklaratsioon",
+            "body": "Saadetise kirje → riiklik ühtse akna kaksik → erandi ülevaatus → inimese kinnitus → kviitung.",
+            "points": [
+              "Saadetise kirje vastuvõtt",
+              "Riikliku ühtse akna kaksik",
+              "Erandite ja dokumentide ülevaatus",
+              "Kinnitus ja kviitungi salvestamine"
+            ],
+            "ctaLabel": "Simuleeri deklareerimist"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Vedaja broneering",
+            "body": "TMS broneering → vedaja portaali kaksik → sõidu kinnitus → inimese kinnitus → kinnitus.",
+            "points": [
+              "Kinnitatud broneeringu vastuvõtt",
+              "Vedaja portaali kaksik",
+              "Sõidu ja valikute kinnitus",
+              "Kinnitus ja kinnituse salvestamine"
+            ],
+            "ctaLabel": "Simuleeri broneeringut"
+          }
+        ],
+        "moreLabel": "Rohkem töid, mida Emil saab teha",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase ja Cargonaut",
+            "body": "Tollija ja kaubanduskohtu portaalitoimingud, mis on valmistatud kinnitatud saadetise andmetest."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS ja NCTS Phase 5",
+            "body": "Deklaratsioonid on harjutatud, kontrollitud ja litsenseeritud deklarandi jaoks salvestatud."
+          },
+          {
+            "number": "03",
+            "title": "ATLAS ja CDS",
+            "body": "Portaalitöö tehakse läbi ekraani, kus kasutatavat API-d ei eksisteeri."
+          },
+          {
+            "number": "04",
+            "title": "Vedaja e-broneering ja INTTRA",
+            "body": "Kinnitatud broneeringu andmed kantakse vedaja portaalidesse koos täieliku käivituskirjega."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Kuidas piloot töötab",
+        "heading": "Üks portaal. Üks protsess.",
+        "accentHeading": "Üks nimega operaator.",
+        "body": "Üks portaal. Üks protsess. Üks nimega operaator teie poolel, kes vastutab tulemuse eest. Kuus nädalat, fikseeritud tasu. Ehitatud teie tegeliku töövoo peal, teie tegelikul portaalil. Teie meeskond käitab seda ja laiendab pärast üleandmist. See töötab teie kaubamärgi all ja teie seda omate. Esimene kõne kestab kolmkümmend minutit ja ma näitan teile proovi tegeliku portaali vastu, mitte slaide.",
+        "ctaLabel": "Määratle üks piloodi ulatus",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Määra Emil piloot ulatus",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Üks nimega operaator",
+            "body": "Üks portaal. Üks protsess. Üks nimega operaator teie poolel, kes vastutab tulemuse eest."
+          },
+          {
+            "number": "02",
+            "title": "Kuus nädalat, fikseeritud tasu",
+            "body": "Ehitatud teie tegeliku töövoo peal, teie tegelikul portaalil."
+          },
+          {
+            "number": "03",
+            "title": "Teie meeskond seda omab",
+            "body": "Teie meeskond käitab seda ja laiendab pärast üleandmist. See töötab teie kaubamärgi all ja teie seda omate. Esimene kõne kestab kolmkümmend minutit ja ma näitan teile proovi tegeliku portaali vastu, mitte slaide."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "EMIL",
+        "brandSuffix": "Toll ja vedaja portaali toimingud",
+        "tagline": "Teie logistikaastek puhkab portaalis. Emil jätkab.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

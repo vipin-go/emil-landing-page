@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "ロジスティクス スタックはポータルで停止します。 エミールは続けます。",
+    "subheadline": "あなたの TMS が出荷を保持します。 次に、誰かが PortBase、DMS、NCT、または Carrier eBooking 画面を開き、手で再度キー入力します。 反対側には API が待機しておらず、ほとんどの API にはありません。 Emil は、承認された出荷データを TMS からこれらのポータルに転送します。 実際の環境のコピーに対して最初に実行全体をリハーサルし、宣言者に何を入力しようとしているのかを正確に表示し、承認するまで何もしません。",
+    "ctaLabel": "ポータル シミュレーションを実行します",
+    "description": "EMIL は、申告者が何かを承認する前に、実際の環境のコピーに対して承認された出荷エントリをリハーサルすることにより、税関および運送業者のポータル操作を処理します。",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "顔形",
+          "target": "about"
+        },
+        {
+          "label": "使い方",
+          "target": "how-it-works"
+        },
+        {
+          "label": "接触",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "スコープ パイロット"
+    },
+    "heroChat": {
+      "statusLabel": "オンライン",
+      "inputPlaceholder": "ポータル ランについてエミールに尋ねる…",
+      "suggestedPrompts": [
+        "ファイリングをリハーサルします",
+        "予約を確認してください",
+        "コントロールについて説明します"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "承認された出荷記録を教えてください。何かが提出される前に、ポータルの作業をリハーサルします。"
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "税関ファイリング シミュレーションのあるロジスティクス オペレーション オフィスの EMIL"
+    },
+    "contact": {
+      "heading": "1 つのポータル。 1 つのプロセス。 1 つの名前付きオペレーター。",
+      "body": "6 週間、固定料金。 実際のポータルで、実際のワークフローに基づいて構築されます。 私が引き渡した後、あなたのチームがそれを実行し、拡張します。 それはあなたのブランドの下で実行され、あなたはそれを保持します。",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "エミール",
+        "brandSuffix": "税関および運送業者のポータル操作",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "顔形",
+            "target": "edge"
+          },
+          {
+            "label": "使い方",
+            "target": "control"
+          },
+          {
+            "label": "デモを試してみてください",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "スコープ パイロット"
+      },
+      "hero": {
+        "eyebrow": "人間が管理するポータルの実行",
+        "heading": "ロジスティクス スタックはポータルで停止します。",
+        "accentHeading": "エミールは続けます。",
+        "body": "Emil は、承認された出荷データを API なしで税関および運送業者のポータルに運びます。 実行ごとにリハーサルを行い、承認のために一時停止し、完全なレコードを返します。",
+        "primaryCtaLabel": "ポータル シミュレーションを実行します",
+        "secondaryCtaLabel": "スコープ 1 パイロット",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "最初にリハーサル"
+          },
+          {
+            "number": "02",
+            "label": "人間承認"
+          },
+          {
+            "number": "03",
+            "label": "完全に記録されています"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "ロジスティクス ポータル オペレーターの Emil",
+        "chat": {
+          "roleLabel": "税関および運送業者のポータル操作",
+          "statusLabel": "オンライン",
+          "openingMessage": "こんにちは、エミールです。 承認された出荷記録を教えてください。何かが提出される前に、ポータルの作業をリハーサルします。",
+          "inputPlaceholder": "ポータルの仕事についてエミールに尋ねる…",
+          "suggestions": [
+            "ファイリングをリハーサルします",
+            "予約を確認してください",
+            "コントロールについて説明します"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "シミュレーション サンドボックス",
+          "restartLabel": "再起動します",
+          "demoNote": "実例となるシミュレーション ・実際のポータル、資格情報、または顧客データはありません",
+          "sectionEyebrow": "今すぐ試してみてください",
+          "sectionHeading": "エミールを参照してください",
+          "sectionAccentHeading": "ポータルエッジで。",
+          "sectionBody": "ワークフローを切り替え、マッピングされたフィールドを調べ、シミュレートされた 3 つの例外を確認し、サンプルの実行を続行するかエスカレーションするかを選択します。",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "税関申告"
+            },
+            {
+              "id": "carrier",
+              "label": "キャリアの予約"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "インポート宣言 · nl",
+              "lane": "ロッテルダム → モントリオール",
+              "source": "Approved TMS shipment",
+              "destination": "ナショナル シングル ウィンドウ",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "出荷参照",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "商品説明",
+                  "value": "精密アセンブリ…",
+                  "state": "review"
+                },
+                {
+                  "label": "輸入業者の参照",
+                  "value": "2 ソース レコード",
+                  "state": "review"
+                },
+                {
+                  "label": "総質量",
+                  "value": "18,420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "サポート ドキュメント",
+                  "value": "請求書保留中",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "商品説明",
+                  "detail": "ソース テキストがポータルの制限を超えています"
+                },
+                {
+                  "title": "輸入業者の参照",
+                  "detail": "2 つの承認されたレコードが見つかりました"
+                },
+                {
+                  "title": "サポート ドキュメント",
+                  "detail": "コマーシャル インボイスが必要です"
+                }
+              ],
+              "receipt": "宣言パッケージが記録されています"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-海",
+              "title": "オーシャン予約 · FCL",
+              "lane": "アントワープ → シンガポール",
+              "source": "Approved TMS booking",
+              "destination": "サードパーティのキャリア ポータル",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "予約番号",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "セーリングオプション",
+                  "value": "2 サービスが一致します",
+                  "state": "review"
+                },
+                {
+                  "label": "装置",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "機器のリリース",
+                  "value": "デポ保留中",
+                  "state": "review"
+                },
+                {
+                  "label": "貨物のカットオフ",
+                  "value": "スケジュールが異なります",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "セーリングオプション",
+                  "detail": "2 つのサービスは、要求された到着に対応します"
+                },
+                {
+                  "title": "機器のリリース",
+                  "detail": "デポの確認は保留中です"
+                },
+                {
+                  "title": "貨物のカットオフ",
+                  "detail": "ポータルはソース スケジュールとは異なります"
+                }
+              ],
+              "receipt": "予約確認記録"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "ソース読み取り",
+              "detail": "承認された記録",
+              "state": "done"
+            },
+            {
+              "title": "ツインビルド",
+              "detail": "マッピングされたフィールド",
+              "state": "done"
+            },
+            {
+              "title": "3 つの例外",
+              "detail": "判断が必要です",
+              "state": "warning"
+            },
+            {
+              "title": "承認",
+              "detail": "人間の検問所",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "3 つのフィールドには判断が必要です。",
+          "reviewBody": "Emil は、ライブ ポータルを推測したり触れたりしません。",
+          "reviewLabel": "ポータル ツインを確認します",
+          "approveLabel": "サンプル実行を承認します",
+          "escalateLabel": "安全にエスカレートします",
+          "approvedKicker": "シミュレートされた完了",
+          "approvedBody": "承認されたツインはサンドボックスで実行され、すべてのアクションが実行レコードに添付されました。",
+          "approvedChecks": [
+            "承認されたツイン",
+            "ポータルの応答",
+            "監査記録"
+          ],
+          "escalatedKicker": "エスカレーションが記録されています",
+          "escalatedTitle": "ライブ ポータルには何も届きませんでした。",
+          "escalatedBody": "Emil は、マッピングされたフィールド、証拠、およびオペレーターが解決するためのオープンな決定を保存しました。",
+          "continueLabel": "実際の出荷を続けます",
+          "loginNotice": "サインインして、Emil を使った私的な税関の申請書をリハーサルします。 このバージョンでは、ライブ ポータルの提出はありません。"
+        }
+      },
+      "ticker": [
+        "税関申告",
+        "キャリアの予約",
+        "ポータルツイン",
+        "人間の承認",
+        "例外レビュー",
+        "受付監査"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "あなたの名前はエントリーに残ります",
+        "heading": "エミールがエントリーを準備します。",
+        "accentHeading": "あなたの宣言者はそれをファイルします。",
+        "body": "エミールはファイルしません。 あなたの認可された宣言者はそうです。 Emil はエントリを準備し、ソース ドキュメントと照合してチェックし、拒否するフラグを立てて待機します。 記録の宣言者は変更されず、Emil の権限には何も提出されません。",
+        "governedLabel": "あなたの管理スタック",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "エディ",
+          "内部AI"
+        ],
+        "boundaryLabel": "API 境界",
+        "operatorTitle": "エミールはここで働いています",
+        "operatorBody": "観察 ・リハーサル ・承認 ・ 実行",
+        "externalLabel": "外部システム",
+        "portals": [
+          {
+            "label": "税関ポータル",
+            "badge": "API はありません"
+          },
+          {
+            "label": "キャリアポータル",
+            "badge": "API はありません"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "エミールの前",
+            "title": "ポータルは誰かの回転椅子になります。",
+            "body": "手動コピー、断片化されたスクリーンショット、非表示の例外、および提出前の一貫したリハーサルはありません。"
+          },
+          {
+            "label": "エミールと",
+            "title": "ポータルは制御された操作面になります。",
+            "body": "承認されたデータ、忠実な双子にマッピングされ、例外が表示され、人に対しては取り消し不能な措置が取られます。"
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "あなたの名前はエントリーに残ります",
+            "body": "エミールはファイルしません。 あなたの認可された宣言者はそうです。 Emil はエントリを準備し、ソース ドキュメントと照合してチェックし、拒否するフラグを立てて待機します。 記録の宣言者は変更されず、Emil の権限には何も提出されません。"
+          },
+          {
+            "number": "02",
+            "title": "すべての実行には記録が残されます",
+            "body": "何が読まれ、何が提案され、誰が承認したか、何を提出したか、タイムスタンプが付けられました。 エントリーがどのように到達したかを監査が尋ねると、その答えはすでに存在します。"
+          },
+          {
+            "number": "03",
+            "title": "それは何で機能しますか",
+            "body": "PortBase と Cargonaut、DMS と AG、NCT フェーズ 5、ATLAS、CDS、Carrier eBooking Portals、Inttra。 チームにログインすると、Emil が画面と同じように画面を操作するため、Emil がそれを実行できます。"
+          },
+          {
+            "number": "04",
+            "title": "これは誰のためですか",
+            "body": "通関業者と貨物運送業者、10 人から 150 人。 社内貿易コンプライアンス チーム。 宣言は本物です。 ボリュームが増えています。 今年は別の宣言者の採用は行われていません。 ICS2 リリース 3 は 2025 年 9 月以降、すべての加盟国で義務付けられており、最後の軽蔑は 2026 年 6 月に期限切れになりました。 彼らと一緒に到着したファイリング ロードは元に戻りませんし、誰もそれを取りに来ません。"
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "すべての実行には記録が残されます",
+        "heading": "監査の答え",
+        "accentHeading": "すでに存在します。",
+        "body": "何が読まれ、何が提案され、誰が承認したか、何を提出したか、タイムスタンプが付けられました。 エントリーがどのように到達したかを監査が尋ねると、その答えはすでに存在します。",
+        "portalLabel": "ポータル ツイン · セーフ モード",
+        "fields": [
+          {
+            "label": "出荷参照",
+            "status": "verified"
+          },
+          {
+            "label": "商品の詳細",
+            "status": "review"
+          },
+          {
+            "label": "サポート ドキュメント",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "人間の検問所",
+        "points": [
+          {
+            "title": "ソース ドキュメントがチェックされました",
+            "body": "EMIL は、承認された出荷データからエントリーを準備します。"
+          },
+          {
+            "title": "拒否のフラグが付けられました",
+            "body": "宣言者は、何かが提出される前に拒否されることを確認します。"
+          },
+          {
+            "title": "宣言者の承認が必要です",
+            "body": "記録の宣言者は引き続き管理されます。"
+          },
+          {
+            "title": "エミールの権威については何もありません",
+            "body": "提案され承認されたすべてのアクションにタイムスタンプが付けられます。"
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "すべての実行には記録が残されます",
+        "heading": "すべての実行はリハーサルされています。",
+        "accentHeading": "すべての決定が記録されました。",
+        "body": "何が読まれ、何が提案され、誰が承認したか、何を提出したか、タイムスタンプが付けられました。 エントリーがどのように到達したかを監査が尋ねると、その答えはすでに存在します。",
+        "steps": [
+          {
+            "number": "01",
+            "title": "範囲",
+            "body": "1 つのポータル、1 つのプロセス、権限、および成功条件をロックします。"
+          },
+          {
+            "number": "02",
+            "title": "リハーサル",
+            "body": "忠実なポータル ツインを構築し、承認されたソース データのみをマップします。"
+          },
+          {
+            "number": "03",
+            "title": "決意",
+            "body": "あいまいさを明らかにし、ページを変更し、推測する代わりに証拠を見逃す。"
+          },
+          {
+            "number": "04",
+            "title": "我意を得る",
+            "body": "説明責任のある人間にとって、まさに結果的な瞬間に一時停止します。"
+          },
+          {
+            "number": "05",
+            "title": "死刑する",
+            "body": "承認されたブラウザーの手順のみを実行します。スコープの範囲外ではありません。"
+          },
+          {
+            "number": "06",
+            "title": "記録",
+            "body": "ポータルの応答、決定、およびアーティファクトを 1 つの領収書として返します。"
+          }
+        ],
+        "failClosedTitle": "コントロールは構造的なものであり、化粧品ではありません。",
+        "failClosedBody": "ページの変更、証拠の矛盾、または承認されたスコープを超えると、Emil は停止します。",
+        "failClosedLabel": "フェイルクローズ"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "それは何で機能しますか",
+        "heading": "チームがログインした場合、",
+        "accentHeading": "エミールはそれを実行できます。",
+        "body": "PortBase と Cargonaut、DMS と AG、NCT フェーズ 5、ATLAS、CDS、Carrier eBooking Portals、Inttra。 エミールは、人と同じように画面を操作します。",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "税関申告",
+            "body": "出荷記録 → ナショナル シングル ウィンドウ ツイン → 例外審査 → 人間承認 → 受領。",
+            "points": [
+              "出荷記録の摂取量",
+              "ナショナル シングル ウィンドウ ツイン",
+              "例外とドキュメントのレビュー",
+              "承認と領収書のキャプチャ"
+            ],
+            "ctaLabel": "ファイリングをシミュレートします"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "キャリアの予約",
+            "body": "TMS 予約 → キャリア ポータル ツイン → 航海確認 → 人間承認 → 確認。",
+            "points": [
+              "承認された予約摂取量",
+              "キャリア ポータル ツイン",
+              "セーリングとオプションの検証",
+              "承認と確認のキャプチャ"
+            ],
+            "ctaLabel": "予約をシミュレートします"
+          }
+        ],
+        "moreLabel": "より多くの emil が処理できます",
+        "more": [
+          {
+            "number": "01",
+            "title": "ポートベースとカーゴナウト",
+            "body": "承認された出荷データから作成された税関および貨物コミュニティ ポータルの操作。"
+          },
+          {
+            "number": "02",
+            "title": "DMS、AGS、および NCT フェーズ 5",
+            "body": "宣言は、認可された宣言者のリハーサル、チェック、および保持されます。"
+          },
+          {
+            "number": "03",
+            "title": "アトラスと CD",
+            "body": "使用可能な API が存在しない画面を介して実行されるポータルの作業。"
+          },
+          {
+            "number": "04",
+            "title": "キャリアの電子予約とイントラ",
+            "body": "承認済みの予約データは、完全な実行記録でキャリア ポータルに運ばれます。"
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "パイロットの仕組み",
+        "heading": "1 つのポータル。 1 つのプロセス。",
+        "accentHeading": "1 つの名前付きオペレーター。",
+        "body": "1 つのポータル。 1 つのプロセス。 結果を所有するあなたの側の名前付きオペレーターの 1 人。 6 週間、固定料金。 実際のポータルで、実際のワークフローに基づいて構築されます。 私が引き渡した後、あなたのチームがそれを実行し、拡張します。 それはあなたのブランドの下で実行され、あなたはそれを保持します。 最初の電話は 30 分です。スライドではなく、実際のポータルに対するリハーサルをお見せします。",
+        "ctaLabel": "スコープ 1 パイロット",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "スコープ emil パイロット",
+        "steps": [
+          {
+            "number": "01",
+            "title": "1 つの名前付き演算子",
+            "body": "1 つのポータル。 1 つのプロセス。 結果を所有するあなたの側の名前付きオペレーターの 1 人。"
+          },
+          {
+            "number": "02",
+            "title": "6 週間、固定料金",
+            "body": "実際のポータルで、実際のワークフローに基づいて構築されます。"
+          },
+          {
+            "number": "03",
+            "title": "あなたのチームはそれを守ります",
+            "body": "私が引き渡した後、あなたのチームがそれを実行し、拡張します。 それはあなたのブランドの下で実行され、あなたはそれを保持します。 最初の電話は 30 分です。スライドではなく、実際のポータルに対するリハーサルをお見せします。"
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "エミール",
+        "brandSuffix": "税関および運送業者のポータル操作",
+        "tagline": "ロジスティクス スタックはポータルで停止します。 エミールは続けます。",
+        "copyright": "© 2026 エミル"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

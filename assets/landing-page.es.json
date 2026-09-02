@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "es",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Su pila de logística se detiene en el portal. Emil sigue adelante.",
+    "subheadline": "Su TMS tiene el envío. Luego, alguien abre Portbase, DMS, NCT, o una pantalla de ebooking de Carrier, y la vuelve a ingresar a mano. No hay API esperando en el otro lado, y nunca habrá para la mayoría de ellos. EMIL lleva datos de envío aprobados de su TMS a esos portales. Ensaya la ejecución completa primero contra una copia de su entorno real, muestra su declarante exactamente de lo que está a punto de entrar y no hace nada hasta que lo aprueben.",
+    "ctaLabel": "Run a portal simulation",
+    "description": "EMIL maneja las operaciones de aduanas y del portal de transportistas al ensayar la entrada de envío aprobada contra una copia del entorno real antes de que un declarante apruebe cualquier cosa.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "rajes",
+          "target": "about"
+        },
+        {
+          "label": "Cómo funciona?",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Contacto",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Alcance un piloto"
+    },
+    "heroChat": {
+      "statusLabel": "en línea",
+      "inputPlaceholder": "Pregúntele a Emil sobre una ejecución de portal...",
+      "suggestedPrompts": [
+        "ensayar una presentación",
+        "Consultar una reserva",
+        "Explicar controles"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Dame un registro de envío aprobado y ensayaré el trabajo del portal antes de que se envíe nada."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "EMIL en una oficina de operaciones de logística con simulación de presentación de aduanas"
+    },
+    "contact": {
+      "heading": "Un portal. Un proceso. un operador con nombre.",
+      "body": "Seis semanas, tarifa fija. Construido sobre su flujo de trabajo real, en su portal real. Su equipo lo ejecuta y lo extiende después de que entrego. Funciona bajo tu marca y te lo mantienes.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "eras",
+        "brandSuffix": "Operaciones de aduanas y portales de operadores",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "rajes",
+            "target": "edge"
+          },
+          {
+            "label": "Cómo funciona?",
+            "target": "control"
+          },
+          {
+            "label": "Prueba una demostración",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Alcance un piloto"
+      },
+      "hero": {
+        "eyebrow": "Ejecución de portal controlado por humanos",
+        "heading": "Su pila de logística se detiene en el portal.",
+        "accentHeading": "Emil sigue adelante.",
+        "body": "EMIL lleva los datos de envío aprobados a los portales de aduanas y transportistas sin API. Ensaya cada carrera, hace una pausa para la aprobación humana y devuelve un registro completo.",
+        "primaryCtaLabel": "Run a portal simulation",
+        "secondaryCtaLabel": "Alcance uno piloto",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "ensayado primero"
+          },
+          {
+            "number": "02",
+            "label": "Aprobado por humanos"
+          },
+          {
+            "number": "03",
+            "label": "Totalmente grabado"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "EMIL, operador de portal logístico",
+        "chat": {
+          "roleLabel": "Operaciones de aduanas y portales de operadores",
+          "statusLabel": "en línea",
+          "openingMessage": "Hola soy Emilio. Dame un registro de envío aprobado y ensayaré el trabajo del portal antes de que se envíe nada.",
+          "inputPlaceholder": "Pregunta a Emil sobre el trabajo del portal...",
+          "suggestions": [
+            "ensayar una presentación",
+            "Consultar una reserva",
+            "Explicar controles"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Sandbox de simulación",
+          "restartLabel": "Reiniciar",
+          "demoNote": "Simulación ilustrativa · No hay portal real, credenciales o datos de clientes",
+          "sectionEyebrow": "Inténtalo ahora",
+          "sectionHeading": "Ver Emilio",
+          "sectionAccentHeading": "en el borde del portal.",
+          "sectionBody": "Cambie los flujos de trabajo, inspeccione los campos asignados, revise tres excepciones simuladas y elija si la ejecución de muestra debe continuar o escalar.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "presentación de aduanas"
+            },
+            {
+              "id": "carrier",
+              "label": "reserva de operador"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CU",
+              "title": "Declaración de importación · NL",
+              "lane": "Róterdam → Montreal",
+              "source": "Approved TMS shipment",
+              "destination": "Ventana Única Nacional",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Referencia de envío",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Descripción del producto",
+                  "value": "Ensambles de precisión…",
+                  "state": "review"
+                },
+                {
+                  "label": "Referencia del importador",
+                  "value": "2 registros de fuentes",
+                  "state": "review"
+                },
+                {
+                  "label": "masa bruta",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Documento de apoyo",
+                  "value": "Factura pendiente",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Descripción del producto",
+                  "detail": "El texto de origen excede el límite del portal"
+                },
+                {
+                  "title": "Referencia del importador",
+                  "detail": "Dos registros aprobados encontrados"
+                },
+                {
+                  "title": "Documento de apoyo",
+                  "detail": "Factura comercial necesita confirmación"
+                }
+              ],
+              "receipt": "Paquete de declaración registrado"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-Mar",
+              "title": "Reserva marítima · FCL",
+              "lane": "Amberes → Singapur",
+              "source": "Approved TMS booking",
+              "destination": "Portal de operadores de terceros",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Referencia de reserva",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "opción de navegación",
+                  "value": "2 partidos de servicios",
+                  "state": "review"
+                },
+                {
+                  "label": "Equipo",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Liberación de equipo",
+                  "value": "Depósito pendiente",
+                  "state": "review"
+                },
+                {
+                  "label": "escota de carga",
+                  "value": "El horario difiere",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "opción de navegación",
+                  "detail": "Dos servicios cumplen solicitada Llegada"
+                },
+                {
+                  "title": "Liberación de equipo",
+                  "detail": "La confirmación del depósito está pendiente"
+                },
+                {
+                  "title": "escota de carga",
+                  "detail": "El portal difiere del programa de origen"
+                }
+              ],
+              "receipt": "Confirmación de reserva registrada"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Lectura fuente",
+              "detail": "Registro aprobado",
+              "state": "done"
+            },
+            {
+              "title": "construido gemelo",
+              "detail": "Campos asignados",
+              "state": "done"
+            },
+            {
+              "title": "3 excepciones",
+              "detail": "Necesita juicio",
+              "state": "warning"
+            },
+            {
+              "title": "Aprobación",
+              "detail": "Punto de control humano",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Tres campos necesitan juicio.",
+          "reviewBody": "Emil no adivinará ni tocará un portal en vivo.",
+          "reviewLabel": "Revise el portal gemelo",
+          "approveLabel": "Aprobar ejecución de muestra",
+          "escalateLabel": "escalar con seguridad",
+          "approvedKicker": "Finalización simulada",
+          "approvedBody": "El gemelo aprobado se ejecutó en el sandbox y todas las acciones se adjuntaron al registro de ejecución.",
+          "approvedChecks": [
+            "gemelo aprobado",
+            "Respuesta del Portal",
+            "Registro de auditoría"
+          ],
+          "escalatedKicker": "Escalada registrada",
+          "escalatedTitle": "Nada llegó al portal en vivo.",
+          "escalatedBody": "EMIL conservó los campos mapeados, la evidencia y las decisiones abiertas para que un operador las resuelva.",
+          "continueLabel": "Continuar con un envío real",
+          "loginNotice": "Inicia sesión para ensayar una presentación de aduanas privadas con Emil. No se produce ningún envío de portal en vivo en esta versión."
+        }
+      },
+      "ticker": [
+        "presentación de aduanas",
+        "reserva de operador",
+        "Portal gemelo",
+        "aprobación humana",
+        "Revisión de excepción",
+        "Recibo de auditoría"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Su nombre permanece en la entrada",
+        "heading": "Emil prepara la entrada.",
+        "accentHeading": "Su declarante lo archiva.",
+        "body": "Emil no presenta. Su declarante con licencia lo hace. Emil prepara la entrada, la compara con los documentos de origen, marca lo que sería rechazado y espera. El declarante de registro no cambia, y nada se presenta a la autoridad de EMIL.",
+        "governedLabel": "Tu pila gobernada",
+        "governedSystems": [
+          "TMS",
+          "WM",
+          "EDI",
+          "IA interna"
+        ],
+        "boundaryLabel": "Límite de API",
+        "operatorTitle": "Emil trabaja aquí",
+        "operatorBody": "observar · ensayar · aprobar · ejecutar",
+        "externalLabel": "sistemas externos",
+        "portals": [
+          {
+            "label": "portal aduanero",
+            "badge": "Sin API"
+          },
+          {
+            "label": "Portal del operador",
+            "badge": "Sin API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "antes de emilio",
+            "title": "El portal se convierte en la silla giratoria de alguien.",
+            "body": "Copias manuales, capturas de pantalla fragmentadas, excepciones ocultas y ningún ensayo consistente antes de enviarlo."
+          },
+          {
+            "label": "con emil",
+            "title": "El portal se convierte en una superficie de operación controlada.",
+            "body": "datos aprobados, mapeados en un gemelo fiel, excepciones hechas visibles e irreversibles acciones realizadas para una persona."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Su nombre permanece en la entrada",
+            "body": "Emil no presenta. Su declarante con licencia lo hace. Emil prepara la entrada, la compara con los documentos de origen, marca lo que sería rechazado y espera. El declarante de registro no cambia, y nada se presenta a la autoridad de EMIL."
+          },
+          {
+            "number": "02",
+            "title": "Cada carrera deja un registro",
+            "body": "Lo que se leyó, lo que se propuso, quién lo aprobó, lo que se sometió, marca de tiempo. Cuando una auditoría pregunta cómo se llegó a una entrada, la respuesta ya existe."
+          },
+          {
+            "number": "03",
+            "title": "con qué funciona",
+            "body": "Portbase y CargoNaut, DMS y AGS, NCTS Fase 5, ATLAS, CDS, Portales de eBooking de Carrier, Inttra. Si su equipo inicia sesión en él, Emil puede trabajarlo, porque Emil trabaja en la pantalla como lo hace una persona."
+          },
+          {
+            "number": "04",
+            "title": "para quien es esto",
+            "body": "Agentes de aduanas y transitarios, de 10 a 150 personas. Equipos internos de cumplimiento comercial. Las declaraciones son reales. Los volúmenes están subiendo. Contratar a otro declarante no está sucediendo este año. La versión 3 de ICS2 ha sido obligatoria en todos los Estados miembros desde septiembre de 2025, y las últimas expiraciones expiraron en junio de 2026. La fase 6 de los NCT aterrizó junto a él. La carga de archivo que llegó con ellos no está volviendo a bajar, y nadie viene a quitársela."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Cada carrera deja un registro",
+        "heading": "La respuesta de auditoría",
+        "accentHeading": "ya existe.",
+        "body": "Lo que se leyó, lo que se propuso, quién lo aprobó, lo que se sometió, marca de tiempo. Cuando una auditoría pregunta cómo se llegó a una entrada, la respuesta ya existe.",
+        "portalLabel": "Portal Twin · Modo seguro",
+        "fields": [
+          {
+            "label": "Referencia de envío",
+            "status": "verified"
+          },
+          {
+            "label": "Detalles de la mercancía",
+            "status": "review"
+          },
+          {
+            "label": "Documento de apoyo",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Punto de control humano",
+        "points": [
+          {
+            "title": "Documentos fuente marcados",
+            "body": "EMIL prepara la entrada a partir de los datos de envío aprobados."
+          },
+          {
+            "title": "Rechazos marcados",
+            "body": "Su declarante ve lo que sería rechazado antes de enviar algo."
+          },
+          {
+            "title": "Se requiere aprobación del declarante",
+            "body": "El declarante de registro sigue bajo control."
+          },
+          {
+            "title": "Nada sobre la autoridad de Emil",
+            "body": "Cada acción propuesta y aprobada está marcada con el tiempo."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Cada carrera deja un registro",
+        "heading": "Cada carrera ensayada.",
+        "accentHeading": "cada decisión registrada.",
+        "body": "Lo que se leyó, lo que se propuso, quién lo aprobó, lo que se sometió, marca de tiempo. Cuando una auditoría pregunta cómo se llegó a una entrada, la respuesta ya existe.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Alcance",
+            "body": "Bloquee un portal, un proceso, los permisos y la condición de éxito."
+          },
+          {
+            "number": "02",
+            "title": "Ensayar",
+            "body": "Cree un gemelo de portal fiel y mapee solo los datos de origen aprobados."
+          },
+          {
+            "number": "03",
+            "title": "Resolver",
+            "body": "Exponga la ambigüedad, las páginas cambiadas y la evidencia faltante en lugar de adivinar."
+          },
+          {
+            "number": "04",
+            "title": "Aprobar",
+            "body": "Haga una pausa en el momento consecuente exacto de un humano responsable."
+          },
+          {
+            "number": "05",
+            "title": "Ejecutar",
+            "body": "Realice solo los pasos del navegador aprobados, nada fuera del alcance."
+          },
+          {
+            "number": "06",
+            "title": "Grabar",
+            "body": "Devuelva la respuesta, las decisiones y los artefactos del portal como un recibo."
+          }
+        ],
+        "failClosedTitle": "El control es estructural, no cosmético.",
+        "failClosedBody": "Si la página cambia, la evidencia entra en conflicto o se excede el alcance aprobado, EMIL se detiene.",
+        "failClosedLabel": "Error cerrado"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "con qué funciona",
+        "heading": "Si su equipo inicia sesión en él,",
+        "accentHeading": "Emil puede trabajarlo.",
+        "body": "Portbase y CargoNaut, DMS y AGS, NCTS Fase 5, ATLAS, CDS, Portales de eBooking de Carrier, Inttra. Emil trabaja la pantalla como lo hace una persona.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "presentación de aduanas",
+            "body": "Registro de envío → Nacional de ventana única gemelo → Revisión de excepciones → Aprobación humana → Recibo.",
+            "points": [
+              "Admisión del registro de envío",
+              "gemelo nacional de una sola ventana",
+              "Revisión de excepciones y documentos",
+              "Aprobación y captura de recibo"
+            ],
+            "ctaLabel": "simular la presentación"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "reserva de operador",
+            "body": "TMS Booking → Portal de transporte Twin → Verificación de vela → Aprobación humana → Confirmación.",
+            "points": [
+              "Ingesta de reserva aprobada",
+              "Portal de transporte gemelo",
+              "Verificación de navegación y opciones",
+              "Captura de aprobación y confirmación"
+            ],
+            "ctaLabel": "simular la reserva"
+          }
+        ],
+        "moreLabel": "Más trabajo que Emil puede manejar",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase y CargoNaut",
+            "body": "Aduanas y operaciones del portal de carga-comunidad preparadas a partir de datos de envío aprobados."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS y NCT Fase 5",
+            "body": "Declaraciones ensayadas, verificadas y retenidas para el declarante autorizado."
+          },
+          {
+            "number": "03",
+            "title": "Atlas y CD",
+            "body": "Trabajo de portal realizado a través de la pantalla donde no existe una API utilizable."
+          },
+          {
+            "number": "04",
+            "title": "Ebooking portador e INTTRA",
+            "body": "Datos de reserva aprobados llevados a portales de operadores con un registro de ejecución completo."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Cómo funciona un piloto",
+        "heading": "Un portal. Un proceso.",
+        "accentHeading": "un operador con nombre.",
+        "body": "Un portal. Un proceso. Un operador nombrado de su lado que es dueño del resultado. Seis semanas, tarifa fija. Construido sobre su flujo de trabajo real, en su portal real. Su equipo lo ejecuta y lo extiende después de que entrego. Funciona bajo tu marca y te lo mantienes. La primera llamada es de treinta minutos y te mostraré un ensayo contra un portal real, no diapositivas.",
+        "ctaLabel": "Alcance uno piloto",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Alcance un piloto EMIL",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Un operador con nombre",
+            "body": "Un portal. Un proceso. Un operador nombrado de su lado que es dueño del resultado."
+          },
+          {
+            "number": "02",
+            "title": "Seis semanas, tarifa fija",
+            "body": "Construido sobre su flujo de trabajo real, en su portal real."
+          },
+          {
+            "number": "03",
+            "title": "Tu equipo lo mantiene",
+            "body": "Su equipo lo ejecuta y lo extiende después de que entrego. Funciona bajo tu marca y te lo mantienes. La primera llamada es de treinta minutos y te mostraré un ensayo contra un portal real, no diapositivas."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "eras",
+        "brandSuffix": "Operaciones de aduanas y portales de operadores",
+        "tagline": "Su pila de logística se detiene en el portal. Emil sigue adelante.",
+        "copyright": "© 2026 Emilio"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

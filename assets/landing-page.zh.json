@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "zh",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "您的物流堆栈在门户上停止。 埃米尔继续前进。",
+    "subheadline": "您的 TMS 持有货物。 然后有人打开 Portbase、DMS、NCTS 或运营商电子预订屏幕，并再次手动输入。 另一边没有 API 等待，而且大多数人永远不会有 API。 Emil 将您的 TMS 中批准的装运数据传输到这些门户中。 它首先对您真实环境的副本进行整个运行排练，向您的声明人显示它将要进入的确切内容，并且在他们批准之前什么都不做。",
+    "ctaLabel": "运行门户模拟",
+    "description": "在声明人批准任何内容之前，Emil 针对真实环境的副本排练批准的装运条目来处理海关和承运人门户运营。",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "面貌",
+          "target": "about"
+        },
+        {
+          "label": "这个怎么运作",
+          "target": "how-it-works"
+        },
+        {
+          "label": "联系",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "范围飞行员"
+    },
+    "heroChat": {
+      "statusLabel": "线上",
+      "inputPlaceholder": "向 Emil 询问有关门户运行的信息……",
+      "suggestedPrompts": [
+        "排练归档",
+        "检查预订",
+        "解释控制"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "给我一份批准的装运记录，我将在提交任何内容之前排练门户工作。"
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "埃米尔在物流运营办公室进行海关申报模拟"
+    },
+    "contact": {
+      "heading": "一门门户。 一道工序。 一位命名的运营商。",
+      "body": "六周，固定费用。 建立在您的真实工作流程上，在您的真实门户上。 你的团队运行它并在我交出后扩展它。 它在您的品牌下运行，您保留它。",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "埃米尔",
+        "brandSuffix": "海关和承运人门户运营",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "面貌",
+            "target": "edge"
+          },
+          {
+            "label": "这个怎么运作",
+            "target": "control"
+          },
+          {
+            "label": "尝试演示",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "范围飞行员"
+      },
+      "hero": {
+        "eyebrow": "人工控制的门户执行",
+        "heading": "您的物流堆栈在门户上停止。",
+        "accentHeading": "埃米尔继续前进。",
+        "body": "Emil 将经批准的货件数据运送到海关和承运人门户中，没有 API。 它排练每次跑步，暂停以供人类批准，并返回完整的记录。",
+        "primaryCtaLabel": "运行门户模拟",
+        "secondaryCtaLabel": "范围一试点",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "先排练"
+          },
+          {
+            "number": "02",
+            "label": "人类批准"
+          },
+          {
+            "number": "03",
+            "label": "完全记录"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil，一家物流门户运营商",
+        "chat": {
+          "roleLabel": "海关和承运人门户运营",
+          "statusLabel": "线上",
+          "openingMessage": "嗨，我是埃米尔。 给我一份批准的装运记录，我会在提交任何内容之前排练门户工作。",
+          "inputPlaceholder": "向埃米尔询问门户工作……",
+          "suggestions": [
+            "排练归档",
+            "检查预订",
+            "解释控制"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "模拟沙盒",
+          "restartLabel": "重新开始",
+          "demoNote": "说明性模拟 · 没有真实的门户、凭据或客户数据",
+          "sectionEyebrow": "现在就试试",
+          "sectionHeading": "见埃米尔",
+          "sectionAccentHeading": "在门户边缘。",
+          "sectionBody": "切换工作流、检查映射的字段、查看三个模拟异常，并选择示例运行是应该继续还是升级。",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "海关备案"
+            },
+            {
+              "id": "carrier",
+              "label": "承运人预订"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-Cus",
+              "title": "进口申报 · NL",
+              "lane": "鹿特丹 → 蒙特利尔",
+              "source": "Approved TMS shipment",
+              "destination": "国家单窗口",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "装运参考",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "商品描述",
+                  "value": "精密组件…",
+                  "state": "review"
+                },
+                {
+                  "label": "进口商参考",
+                  "value": "2 源记录",
+                  "state": "review"
+                },
+                {
+                  "label": "总质量",
+                  "value": "18,420 公斤",
+                  "state": "verified"
+                },
+                {
+                  "label": "支持文件",
+                  "value": "发票待定",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "商品描述",
+                  "detail": "源文本超出门户限制"
+                },
+                {
+                  "title": "进口商参考",
+                  "detail": "找到两份批准的记录"
+                },
+                {
+                  "title": "支持文件",
+                  "detail": "商业发票需要确认"
+                }
+              ],
+              "receipt": "记录包记录"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-海",
+              "title": "海洋预订 · FCL",
+              "lane": "安特卫普 → 新加坡",
+              "source": "Approved TMS booking",
+              "destination": "第三方运营商门户",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "预订参考",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "航行选项",
+                  "value": "2 服务匹配",
+                  "state": "review"
+                },
+                {
+                  "label": "设备",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "设备发布",
+                  "value": "仓库待定",
+                  "state": "review"
+                },
+                {
+                  "label": "货物截止",
+                  "value": "时间表不同",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "航行选项",
+                  "detail": "两项服务满足要求的到达"
+                },
+                {
+                  "title": "设备发布",
+                  "detail": "仓库确认待定"
+                },
+                {
+                  "title": "货物截止",
+                  "detail": "门户与源计划不同"
+                }
+              ],
+              "receipt": "记录确认"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "源阅读",
+              "detail": "批准的记录",
+              "state": "done"
+            },
+            {
+              "title": "双建",
+              "detail": "映射的字段",
+              "state": "done"
+            },
+            {
+              "title": "3 例外",
+              "detail": "需要判断",
+              "state": "warning"
+            },
+            {
+              "title": "赞同",
+              "detail": "人体检查点",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "三个领域需要判断。",
+          "reviewBody": "Emil 不会猜测或触摸实时门户。",
+          "reviewLabel": "查看门户双胞胎",
+          "approveLabel": "批准示例运行",
+          "escalateLabel": "安全升级",
+          "approvedKicker": "模拟完成",
+          "approvedBody": "批准的双胞胎在沙箱中执行，每个动作都附加到运行记录中。",
+          "approvedChecks": [
+            "批准的双胞胎",
+            "门户响应",
+            "审计记录"
+          ],
+          "escalatedKicker": "记录升级",
+          "escalatedTitle": "没有到达实时门户。",
+          "escalatedBody": "Emil 保留了映射的字段、证据和开放决策，供运营商解决。",
+          "continueLabel": "继续实际装运",
+          "loginNotice": "登录以与埃米尔一起排练私人海关申报。 此版本中不会出现实时门户提交。"
+        }
+      },
+      "ticker": [
+        "海关备案",
+        "承运人预订",
+        "门户双胞胎",
+        "人类认可",
+        "例外审查",
+        "审计收据"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "你的名字留在条目上",
+        "heading": "Emil 准备条目。",
+        "accentHeading": "您的声明文件将其归档。",
+        "body": "埃米尔没有归档。 您的许可声明人可以。 Emil 准备条目，根据源文档进行检查，标记将被拒绝的内容，然后等待。 记录的声明人没有改变，并且没有任何提交给 Emil 的权限。",
+        "governedLabel": "您的管理堆栈",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "埃迪",
+          "内部人工智能"
+        ],
+        "boundaryLabel": "API边界",
+        "operatorTitle": "埃米尔在这里工作",
+        "operatorBody": "观察·排练·批准·执行",
+        "externalLabel": "外部系统",
+        "portals": [
+          {
+            "label": "海关门户",
+            "badge": "没有API"
+          },
+          {
+            "label": "运营商门户",
+            "badge": "没有API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "在埃米尔之前",
+            "title": "门户变成了某人的旋转椅。",
+            "body": "手动复制、碎片化的屏幕截图、隐藏的异常以及提交前没有一致的排练。"
+          },
+          {
+            "label": "与埃米尔",
+            "title": "门户成为受控操作表面。",
+            "body": "批准的数据，映射到忠实的双胞胎，为一个人提供可见的异常和不可逆转的行动。"
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "你的名字留在条目上",
+            "body": "埃米尔没有归档。 您的许可声明人可以。 Emil 准备条目，根据源文档进行检查，标记将被拒绝的内容，然后等待。 记录的声明人没有改变，并且没有任何提交给 Emil 的权限。"
+          },
+          {
+            "number": "02",
+            "title": "每次跑步都会留下记录",
+            "body": "读了什么，提出了什么，谁批准了它，提交了什么，时间戳。 当审计询问条目是如何得出时，答案已经存在。"
+          },
+          {
+            "number": "03",
+            "title": "它与什么一起工作",
+            "body": "Portbase 和 Cargonaut、DMS 和 AGS、NCTS 第 5 阶段、地图集、CDS、承运人电子预订门户、INTTRA。 如果您的团队登录，Emil 可以使用它，因为 Emil 可以像一个人一样在屏幕上工作。"
+          },
+          {
+            "number": "04",
+            "title": "这是给谁的",
+            "body": "报关行和货运代理，10至150人。 内部贸易合规团队。 声明是真实的。 成交量正在上升。 今年没有雇用另一个声明人。 自 2025 年 9 月以来，所有成员国的 ICS2 版本 3 一直是强制性的，最后一次减损将于 2026 年 6 月到期。NCTS 第 6 阶段与它并肩登陆。 与他们一起到达的归档负荷不会退回，没有人会来拿走它。"
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "每次跑步都会留下记录",
+        "heading": "审计答案",
+        "accentHeading": "已经存在。",
+        "body": "读了什么，提出了什么，谁批准了它，提交了什么，时间戳。 当审计询问条目是如何得出时，答案已经存在。",
+        "portalLabel": "门户双胞胎 · 安全模式",
+        "fields": [
+          {
+            "label": "装运参考",
+            "status": "verified"
+          },
+          {
+            "label": "商品详情",
+            "status": "review"
+          },
+          {
+            "label": "支持文件",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "人体检查点",
+        "points": [
+          {
+            "title": "检查源文档",
+            "body": "EMIL 根据批准的装运数据准备条目。"
+          },
+          {
+            "title": "拒绝标记",
+            "body": "您的声明人会在提交任何内容之前查看会被拒绝的内容。"
+          },
+          {
+            "title": "需要声明批准",
+            "body": "记录声明仍在控制之中。"
+          },
+          {
+            "title": "埃米尔的权威没有任何内容",
+            "body": "每个提议和批准的操作都经过时间戳。"
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "每次跑步都会留下记录",
+        "heading": "每次跑步都排练。",
+        "accentHeading": "记录的每一个决定。",
+        "body": "读了什么，提出了什么，谁批准了它，提交了什么，时间戳。 当审计询问条目是如何得出时，答案已经存在。",
+        "steps": [
+          {
+            "number": "01",
+            "title": "范围",
+            "body": "锁定一门门户、一项流程、权限和成功条件。"
+          },
+          {
+            "number": "02",
+            "title": "排练",
+            "body": "建立一个忠实的门户双胞胎，并仅映射批准的源数据。"
+          },
+          {
+            "number": "03",
+            "title": "解决",
+            "body": "暴露歧义、更改页面和缺少证据而不是猜测。"
+          },
+          {
+            "number": "04",
+            "title": "批准",
+            "body": "对于一个负责任的人来说，在确切的结果时刻停下来。"
+          },
+          {
+            "number": "05",
+            "title": "执行",
+            "body": "仅执行经批准的浏览器步骤——不在范围之外。"
+          },
+          {
+            "number": "06",
+            "title": "记录",
+            "body": "将门户响应、决策和工件作为一张收据返回。"
+          }
+        ],
+        "failClosedTitle": "控制是结构性的，而不是外观上的。",
+        "failClosedBody": "如果页面更改、证据冲突或超出批准范围，EMIL 将停止。",
+        "failClosedLabel": "失败关闭"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "它与什么一起工作",
+        "heading": "如果您的团队登录，",
+        "accentHeading": "埃米尔可以工作。",
+        "body": "Portbase 和 Cargonaut、DMS 和 AGS、NCTS 第 5 阶段、地图集、CDS、承运人电子预订门户、INTTRA。 埃米尔像一个人一样在屏幕上工作。",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "海关备案",
+            "body": "出货记录 → 国家单窗口双 → 例外审查 → 人工批准 → 收据。",
+            "points": [
+              "装运记录摄入量",
+              "国家单窗双窗",
+              "例外和文件审查",
+              "批准和收据捕获"
+            ],
+            "ctaLabel": "模拟归档"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "承运人预订",
+            "body": "TMS Booking → Carrier Portal Twin → 航行验证 → 人工批准 → 确认。",
+            "points": [
+              "批准的预订量",
+              "运营商门户双胞胎",
+              "航行和选项验证",
+              "批准和确认捕获"
+            ],
+            "ctaLabel": "模拟预订"
+          }
+        ],
+        "moreLabel": "埃米尔可以处理的更多工作",
+        "more": [
+          {
+            "number": "01",
+            "title": "港口基地和货运公司",
+            "body": "根据批准的装运数据准备的海关和货运社区门户运营。"
+          },
+          {
+            "number": "02",
+            "title": "DMS、AGS 和 NCTS 阶段 5",
+            "body": "为许可申报人排练、检查和持有的声明。"
+          },
+          {
+            "number": "03",
+            "title": "地图集和 CD",
+            "body": "门户工作通过不存在可用 API 的屏幕执行。"
+          },
+          {
+            "number": "04",
+            "title": "运营商电子预订和 INTTRA",
+            "body": "经批准的预订数据传送到运营商门户中并具有完整的运行记录。"
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "飞行员的工作原理",
+        "heading": "一门门户。 一道工序。",
+        "accentHeading": "一位命名的运营商。",
+        "body": "一门门户。 一道工序。 一位在您身边拥有结果的指定运营商。 六周，固定费用。 建立在您的真实工作流程上，在您的真实门户上。 你的团队运行它并在我交出后扩展它。 它在您的品牌下运行，您保留它。 第一个电话是三十分钟，我将向您展示针对真正门户的排练，而不是幻灯片。",
+        "ctaLabel": "范围一试点",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "范围 Emil 飞行员",
+        "steps": [
+          {
+            "number": "01",
+            "title": "一位命名的运算符",
+            "body": "一门门户。 一道工序。 一位在您身边拥有结果的指定运营商。"
+          },
+          {
+            "number": "02",
+            "title": "六周，固定费用",
+            "body": "建立在您的真实工作流程上，在您的真实门户上。"
+          },
+          {
+            "number": "03",
+            "title": "你的团队保留它",
+            "body": "你的团队运行它并在我交出后扩展它。 它在您的品牌下运行，您保留它。 第一个电话是三十分钟，我将向您展示针对真正门户的排练，而不是幻灯片。"
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "埃米尔",
+        "brandSuffix": "海关和承运人门户运营",
+        "tagline": "您的物流堆栈在门户上停止。 埃米尔继续前进。",
+        "copyright": "© 2026 埃米尔"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

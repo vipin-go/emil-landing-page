@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "fi",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Logistiikkapino pysähtyy portaaliin. Emil jatkaa.",
+    "subheadline": "TMS pitää lähetyksen. Sitten joku avaa Portbasen tai DMS:n tai NCT:n tai operaattorin e-varausnäytön ja näppäilee sen uudelleen käsin. Toisella puolella ei ole odotettavissa API:ta, eikä useimmille niistä tule koskaan olemaan. EMIL kuljettaa hyväksyttyjä lähetystietoja TMS:stäsi näihin portaaleihin. Se harjoittelee koko juoksun ensin kopiota todellisesta ympäristöstäsi, näyttää ilmoittajallesi tarkalleen, mitä se on tulossa, eikä tee mitään ennen kuin he hyväksyvät sen.",
+    "ctaLabel": "Suorita portaalisimulaatio",
+    "description": "Emil hoitaa tulli- ja rahdinkuljettajan portaalin toiminnot harjoittelemalla hyväksyttyä lähetysmerkintää todellisesta ympäristöstä ennen kuin ilmoittaja hyväksyy mitään.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Piirteet",
+          "target": "about"
+        },
+        {
+          "label": "Kuinka se toimii",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Yhteyshenkilö",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Tutustu pilottiin"
+    },
+    "heroChat": {
+      "statusLabel": "Suora",
+      "inputPlaceholder": "Kysy Emililtä portaalijuoksusta…",
+      "suggestedPrompts": [
+        "harjoitella",
+        "Tarkista varaus",
+        "Selitä kontrollit"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Anna minulle hyväksytty lähetyspöytäkirja, niin harjoittelen portaalityötä ennen kuin mitään lähetetään."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil logistiikkatoimintojen toimistossa tulliarkistosimulaatiolla"
+    },
+    "contact": {
+      "heading": "yksi portaali. yksi prosessi. yksi nimeltä Operaattori.",
+      "body": "Kuusi viikkoa, kiinteä maksu. Rakennettu todelliseen työnkulkuun, todellisessa portaalissasi. Joukkueesi suorittaa sen ja jatkaa sitä, kun luovutan. Se toimii brändisi alla ja pidät sen.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "emil",
+        "brandSuffix": "Tulli- ja operaattoriportaalin toiminnot",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Piirteet",
+            "target": "edge"
+          },
+          {
+            "label": "Kuinka se toimii",
+            "target": "control"
+          },
+          {
+            "label": "Kokeile demoa",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Tutustu pilottiin"
+      },
+      "hero": {
+        "eyebrow": "Ihmisten ohjaama portaalin toteutus",
+        "heading": "Logistiikkapino pysähtyy portaaliin.",
+        "accentHeading": "Emil jatkaa.",
+        "body": "EMIL kuljettaa hyväksyttyjä lähetystietoja tulli- ja operaattoriportaaleihin ilman API:ta. Se harjoittelee jokaista juoksua, pysähtyy ihmisen hyväksynnän saamiseksi ja palauttaa täydellisen ennätyksen.",
+        "primaryCtaLabel": "Suorita portaalisimulaatio",
+        "secondaryCtaLabel": "Scope One Pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "harjoitteli ensin"
+          },
+          {
+            "number": "02",
+            "label": "ihmishyväksytty"
+          },
+          {
+            "number": "03",
+            "label": "täysin tallennettu"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, logistiikkaportaalin operaattori",
+        "chat": {
+          "roleLabel": "Tulli- ja operaattoriportaalin toiminnot",
+          "statusLabel": "Suora",
+          "openingMessage": "Hei, olen Emil. Anna minulle hyväksytty lähetyspöytäkirja, niin harjoittelen portaalin töitä ennen kuin mitään lähetetään.",
+          "inputPlaceholder": "Kysy Emililtä portaalityöstä…",
+          "suggestions": [
+            "harjoitella",
+            "Tarkista varaus",
+            "Selitä kontrollit"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "simulaatiohiekkalaatikko",
+          "restartLabel": "Uudelleenkäynnistää",
+          "demoNote": "Havainnollistava simulaatio · Ei todellista portaalia, valtuustietoja tai asiakastietoja",
+          "sectionEyebrow": "Kokeile nyt",
+          "sectionHeading": "Katso Emil",
+          "sectionAccentHeading": "Portaalin reunassa.",
+          "sectionBody": "Vaihda työnkulkuja, tarkasta kartoitetut kentät, tarkista kolme simuloitua poikkeusta ja valitse, tuleeko näyteajon jatkua vai kasvaa.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "tullikirjallisuus"
+            },
+            {
+              "id": "carrier",
+              "label": "Kuljettajan varaus"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-cus",
+              "title": "Tuo ilmoitus · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "Kansallinen yksi ikkuna",
+              "mapped": "42/45",
+              "fields": [
+                {
+                  "label": "lähetysviite",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "hyödykkeen kuvaus",
+                  "value": "Tarkkuuskokoonpanot…",
+                  "state": "review"
+                },
+                {
+                  "label": "maahantuoja",
+                  "value": "2 Lähdetietueet",
+                  "state": "review"
+                },
+                {
+                  "label": "jauheliha",
+                  "value": "18 420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "tukiasiakirja",
+                  "value": "lasku vireillä",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "hyödykkeen kuvaus",
+                  "detail": "Lähdeteksti ylittää portaalin rajan"
+                },
+                {
+                  "title": "maahantuoja",
+                  "detail": "Kaksi hyväksyttyä tietuetta löytyi"
+                },
+                {
+                  "title": "tukiasiakirja",
+                  "detail": "Kaupallinen lasku vaatii vahvistuksen"
+                }
+              ],
+              "receipt": "ilmoituspaketti tallennettu"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-meri",
+              "title": "Ocean Booking · FCL",
+              "lane": "Antwerpen → Singapore",
+              "source": "Approved TMS booking",
+              "destination": "kolmannen osapuolen operaattoriportaali",
+              "mapped": "36/39",
+              "fields": [
+                {
+                  "label": "Varausviite",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "purjehdusvaihtoehto",
+                  "value": "2 Palveluiden yhteensopivuus",
+                  "state": "review"
+                },
+                {
+                  "label": "Laitteet",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "laite vapautus",
+                  "value": "varikko vireillä",
+                  "state": "review"
+                },
+                {
+                  "label": "lastin keskeytys",
+                  "value": "Aikataulu vaihtelee",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "purjehdusvaihtoehto",
+                  "detail": "Kaksi palvelua täyttää pyydetyn saapumisen"
+                },
+                {
+                  "title": "laite vapautus",
+                  "detail": "Varaston vahvistus on vireillä"
+                },
+                {
+                  "title": "lastin keskeytys",
+                  "detail": "Portaali eroaa lähdeaikataulusta"
+                }
+              ],
+              "receipt": "Varausvahvistus tallennettu"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "lähde luettu",
+              "detail": "selvitys",
+              "state": "done"
+            },
+            {
+              "title": "kaksoisrakenteinen",
+              "detail": "Kentät kartoitettu",
+              "state": "done"
+            },
+            {
+              "title": "3 Poikkeusta",
+              "detail": "vaatii tuomiota",
+              "state": "warning"
+            },
+            {
+              "title": "Hyväksyminen",
+              "detail": "Ihmisen tarkastuspiste",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Kolme kenttää tarvitsee tuomiota.",
+          "reviewBody": "Emil ei arvaa tai koske live-portaaliin.",
+          "reviewLabel": "Tarkista Portal Twin",
+          "approveLabel": "Hyväksy näyteajo",
+          "escalateLabel": "kärjistyä turvallisesti",
+          "approvedKicker": "simuloitu valmistuminen",
+          "approvedBody": "Hyväksytty kaksos suoritettiin hiekkalaatikossa ja jokainen toiminto liitettiin juoksutietueeseen.",
+          "approvedChecks": [
+            "hyväksytty kaksos",
+            "portaalin vastaus",
+            "tarkastuspöytäkirja"
+          ],
+          "escalatedKicker": "eskalaatio tallennettu",
+          "escalatedTitle": "Live-portaaliin mikään ei päässyt.",
+          "escalatedBody": "Emil säilytti kartoitetut kentät, todisteet ja avoimet päätökset operaattorin ratkaistavaksi.",
+          "continueLabel": "Jatka oikealla lähetyksellä",
+          "loginNotice": "Kirjaudu sisään harjoitellaksesi yksityistä tullihakemusta Emilillä. Tässä versiossa ei tapahdu live-portaalin lähetystä."
+        }
+      },
+      "ticker": [
+        "tullikirjallisuus",
+        "Kuljettajan varaus",
+        "kaksois-",
+        "ihmishyväksyntä",
+        "poikkeuskatsaus",
+        "tarkastuskuitti"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Nimesi pysyy merkinnässä",
+        "heading": "Emil valmistelee merkinnän.",
+        "accentHeading": "Ilmoittajasi arkistoi sen.",
+        "body": "emil ei arkistoi. Lisensoitu ilmoittajasi tekee niin. Emil valmistelee merkinnän, tarkistaa sen lähdeasiakirjoista, ilmoittaa hylätyistä ja odottaa. Ilmoittaja ei muutu, eikä Emilin luvalla toimiteta mitään.",
+        "governedLabel": "Hallittu pinosi",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "toimi",
+          "Sisäinen AI"
+        ],
+        "boundaryLabel": "API-raja",
+        "operatorTitle": "Emil toimii täällä",
+        "operatorBody": "Tarkkaile · Harjoittele · Hyväksy · Suorita",
+        "externalLabel": "ulkoiset järjestelmät",
+        "portals": [
+          {
+            "label": "tulliportaali",
+            "badge": "Ei API:ta"
+          },
+          {
+            "label": "kuljetusportaali",
+            "badge": "Ei API:ta"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Ennen Emiliä",
+            "title": "Portaalista tulee jonkun kääntyvä tuoli.",
+            "body": "Manuaalinen kopiointi, pirstoutuneita kuvakaappauksia, piilotettuja poikkeuksia ja ei johdonmukaista harjoitusta ennen lähettämistä."
+          },
+          {
+            "label": "Emilin kanssa",
+            "title": "Portaalista tulee ohjattu käyttöpinta.",
+            "body": "Hyväksytyt tiedot, jotka on kartoitettu uskolliseksi kaksoseksi, poikkeukset näkyvät ja peruuttamaton toiminta henkilölle."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Nimesi pysyy merkinnässä",
+            "body": "emil ei arkistoi. Lisensoitu ilmoittajasi tekee niin. Emil valmistelee merkinnän, tarkistaa sen lähdeasiakirjoista, ilmoittaa hylätyistä ja odottaa. Ilmoittaja ei muutu, eikä Emilin luvalla toimiteta mitään."
+          },
+          {
+            "number": "02",
+            "title": "Jokainen juoksu jättää ennätyksen",
+            "body": "Mitä luettiin, mitä ehdotettiin, kuka sen hyväksyi, mitä lähetettiin, aikaleima. Kun tarkastuksessa kysytään, miten merkintä päädyttiin, vastaus on jo olemassa."
+          },
+          {
+            "number": "03",
+            "title": "minkä kanssa se toimii",
+            "body": "Portbase ja Cargonaut, DMS ja AGS, NCTS Phase 5, Atlas, CDS, Carrier ebooking portaalit, inttra. Jos tiimisi kirjautuu siihen, EMIL voi työstää sen, koska EMIL toimii näytöllä samalla tavalla kuin henkilö."
+          },
+          {
+            "number": "04",
+            "title": "kenelle tämä on",
+            "body": "Tullivälittäjät ja huolitsijat, 10-150 henkilöä. talon sisäiset kaupan noudattamistiimit. Ilmoitukset ovat todellisia. volyymit kasvavat. Toisen ilmoittajan palkkaaminen ei tapahdu tänä vuonna. ICS2 Release 3 on ollut pakollinen kaikissa jäsenvaltioissa syyskuusta 2025 lähtien, ja viimeiset poikkeukset päättyivät kesäkuussa 2026. NCTS Phase 6 laskeutui sen rinnalle. Niiden mukana saapunut arkistokuorma ei mene takaisin alas, eikä kukaan ole tulossa ottamaan sitä pois."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Jokainen juoksu jättää ennätyksen",
+        "heading": "tarkastuksen vastaus",
+        "accentHeading": "on jo olemassa.",
+        "body": "Mitä luettiin, mitä ehdotettiin, kuka sen hyväksyi, mitä lähetettiin, aikaleima. Kun tarkastuksessa kysytään, miten merkintä päädyttiin, vastaus on jo olemassa.",
+        "portalLabel": "Portal Twin · Vikasietotila",
+        "fields": [
+          {
+            "label": "lähetysviite",
+            "status": "verified"
+          },
+          {
+            "label": "hyödykkeen tiedot",
+            "status": "review"
+          },
+          {
+            "label": "tukiasiakirja",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Ihmisen tarkastuspiste",
+        "points": [
+          {
+            "title": "Lähdeasiakirjat tarkistettu",
+            "body": "EMIL valmistelee merkinnän hyväksytyistä lähetystiedoista."
+          },
+          {
+            "title": "Hylkääminen merkitty",
+            "body": "Ilmoittajasi näkee, mikä hylätään ennen kuin mitään lähetetään."
+          },
+          {
+            "title": "Vaaditaan ilmoittajan hyväksyntä",
+            "body": "Ilmoittaja pysyy hallinnassa."
+          },
+          {
+            "title": "Ei mitään Emilin auktoriteetilla",
+            "body": "Jokainen ehdotettu ja hyväksytty toimenpide on aikaleimattu."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Jokainen juoksu jättää ennätyksen",
+        "heading": "Jokainen juoksu harjoitteli.",
+        "accentHeading": "jokainen päätös kirjattu.",
+        "body": "Mitä luettiin, mitä ehdotettiin, kuka sen hyväksyi, mitä lähetettiin, aikaleima. Kun tarkastuksessa kysytään, miten merkintä päädyttiin, vastaus on jo olemassa.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Laajuus",
+            "body": "Lukitse yksi portaali, yksi prosessi, käyttöoikeudet ja onnistumisehto."
+          },
+          {
+            "number": "02",
+            "title": "Harjoitella",
+            "body": "Rakenna uskollinen portaalikaksos ja kartta vain hyväksytyt lähdetiedot."
+          },
+          {
+            "number": "03",
+            "title": "Ratkaista",
+            "body": "Paljasta epäselvyyttä, muuttuneet sivut ja puuttuvat todisteet arvaamisen sijaan."
+          },
+          {
+            "number": "04",
+            "title": "Hyväksyä",
+            "body": "Pysäytä vastuullisen ihmisen täsmälleen seuraushetkellä."
+          },
+          {
+            "number": "05",
+            "title": "Suorittaa",
+            "body": "Suorita vain hyväksytyt selaimen vaiheet – ei mitään laajuuden ulkopuolella."
+          },
+          {
+            "number": "06",
+            "title": "Äänittää",
+            "body": "Palauta portaalin vastaus, päätökset ja artefaktit yhtenä kuittina."
+          }
+        ],
+        "failClosedTitle": "Ohjaus on rakenteellista, ei kosmeettista.",
+        "failClosedBody": "Jos sivu vaihtuu, todisteet ovat ristiriidassa tai hyväksytty laajuus ylittyy, EMIL pysähtyy.",
+        "failClosedLabel": "epäonnistua suljettuna"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "minkä kanssa se toimii",
+        "heading": "Jos tiimisi kirjautuu siihen,",
+        "accentHeading": "Emil osaa tehdä sen.",
+        "body": "Portbase ja Cargonaut, DMS ja AGS, NCTS Phase 5, Atlas, CDS, Carrier ebooking portaalit, inttra. Emil toimii näytön samalla tavalla kuin ihminen.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "tullikirjallisuus",
+            "body": "Lähetystietue → National Single-Window Twin → Poikkeuskatsaus → Ihmisen hyväksyntä → Kuitti.",
+            "points": [
+              "Lähetystietueen saanti",
+              "Kansallinen yksiikkunainen kaksos",
+              "poikkeus ja asiakirjan tarkistus",
+              "Approval and receipt capture"
+            ],
+            "ctaLabel": "simuloida arkistointia"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Kuljettajan varaus",
+            "body": "TMS-varaus → Carrier Portal Twin → Purjehdustarkastus → Ihmisen hyväksyntä → Vahvistus.",
+            "points": [
+              "Hyväksytty varauksenotto",
+              "Kuljetusportaalikaksos",
+              "Purjehduksen ja optioiden todentaminen",
+              "Hyväksyntä ja vahvistus"
+            ],
+            "ctaLabel": "simuloida varausta"
+          }
+        ],
+        "moreLabel": "Lisää töitä emili pystyy käsittelemään",
+        "more": [
+          {
+            "number": "01",
+            "title": "rannerengas ja cargonaut",
+            "body": "Tulli- ja rahtiyhteisöportaalin toiminnot, jotka on valmistettu hyväksytyistä lähetystiedoista."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS ja NCTS Vaihe 5",
+            "body": "Ilmoitukset harjoiteltiin, tarkastettiin ja säilytettiin lisensoidulle ilmoittajalle."
+          },
+          {
+            "number": "03",
+            "title": "Atlas ja CD-levyt",
+            "body": "Portaalityö suoritetaan näytön kautta, jossa ei ole käyttökelpoista API:ta."
+          },
+          {
+            "number": "04",
+            "title": "Operaattorin ebooking ja inttra",
+            "body": "Hyväksytyt varaustiedot kuljetetaan operaattoriportaaleihin täydellisellä ajotietueella."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Kuinka lentäjä toimii",
+        "heading": "yksi portaali. yksi prosessi.",
+        "accentHeading": "yksi nimeltä Operaattori.",
+        "body": "yksi portaali. yksi prosessi. Yksi nimeltä Operaattori, joka omistaa tuloksen. Kuusi viikkoa, kiinteä maksu. Rakennettu todelliseen työnkulkuun, todellisessa portaalissasi. Joukkueesi suorittaa sen ja jatkaa sitä, kun luovutan. Se toimii brändisi alla ja pidät sen. Ensimmäinen puhelu on kolmekymmentä minuuttia, ja näytän sinulle harjoituksen oikeaa portaalia vastaan, en dioja.",
+        "ctaLabel": "Scope One Pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "laajentaa EMIL-lentäjää",
+        "steps": [
+          {
+            "number": "01",
+            "title": "yksi nimeltä operaattori",
+            "body": "yksi portaali. yksi prosessi. Yksi nimeltä Operaattori, joka omistaa tuloksen."
+          },
+          {
+            "number": "02",
+            "title": "Kuusi viikkoa, kiinteä maksu",
+            "body": "Rakennettu todelliseen työnkulkuun, todellisessa portaalissasi."
+          },
+          {
+            "number": "03",
+            "title": "Joukkueesi pitää sen",
+            "body": "Joukkueesi suorittaa sen ja jatkaa sitä, kun luovutan. Se toimii brändisi alla ja pidät sen. Ensimmäinen puhelu on kolmekymmentä minuuttia, ja näytän sinulle harjoituksen oikeaa portaalia vastaan, en dioja."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "emil",
+        "brandSuffix": "Tulli- ja operaattoriportaalin toiminnot",
+        "tagline": "Logistiikkapino pysähtyy portaaliin. Emil jatkaa.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

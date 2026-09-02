@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "id",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Tumpukan logistik Anda berhenti di portal. Emil terus berjalan.",
+    "subheadline": "TMS Anda menyimpan kiriman. Kemudian seseorang membuka portbase, atau DMS, atau NCTS, atau layar eBooking operator, dan memasukkannya lagi dengan tangan. Tidak ada API yang menunggu di sisi lain, dan tidak akan pernah ada untuk sebagian besar dari mereka. Emil membawa data pengiriman yang disetujui dari TMS Anda ke portal tersebut. Ini melatih seluruh proses terlebih dahulu terhadap salinan lingkungan Anda yang sebenarnya, menunjukkan kepada pemberi pernyataan Anda dengan tepat apa yang akan dimasukkan, dan tidak melakukan apa pun sampai mereka menyetujuinya.",
+    "ctaLabel": "Jalankan simulasi portal",
+    "description": "Emil menangani operasi portal bea cukai dan kapal induk dengan melatih entri pengiriman yang disetujui terhadap salinan lingkungan nyata sebelum pemberi pernyataan menyetujui apa pun.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Wajah",
+          "target": "about"
+        },
+        {
+          "label": "Bagaimana itu bekerja",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Kontak",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Lingkup seorang pilot"
+    },
+    "heroChat": {
+      "statusLabel": "ONLINE",
+      "inputPlaceholder": "Tanya Emil tentang portal run…",
+      "suggestedPrompts": [
+        "melatih pengarsipan",
+        "Periksa pemesanan",
+        "Menjelaskan kontrol"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Beri saya catatan pengiriman yang disetujui dan saya akan melatih pekerjaan portal sebelum sesuatu dikirimkan."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil di kantor operasi logistik dengan simulasi pengarsipan bea cukai"
+    },
+    "contact": {
+      "heading": "satu portal. satu proses. satu operator bernama.",
+      "body": "Enam minggu, biaya tetap. Dibangun di atas alur kerja Anda yang sebenarnya, di portal Anda yang sebenarnya. Tim Anda menjalankannya dan memperpanjangnya setelah saya menyerahkannya. Ini berjalan di bawah merek Anda dan Anda menyimpannya.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Operasi Portal Bea Cukai dan Operator",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Wajah",
+            "target": "edge"
+          },
+          {
+            "label": "Bagaimana itu bekerja",
+            "target": "control"
+          },
+          {
+            "label": "coba demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Lingkup seorang pilot"
+      },
+      "hero": {
+        "eyebrow": "Eksekusi portal yang dikendalikan manusia",
+        "heading": "Tumpukan logistik Anda berhenti di portal.",
+        "accentHeading": "Emil terus berjalan.",
+        "body": "Emil membawa data pengiriman yang disetujui ke portal bea cukai dan pengangkut tanpa API. Ini melatih setiap lari, jeda untuk persetujuan manusia, dan mengembalikan catatan lengkap.",
+        "primaryCtaLabel": "Jalankan simulasi portal",
+        "secondaryCtaLabel": "Lingkup Satu Pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "dilatih terlebih dahulu"
+          },
+          {
+            "number": "02",
+            "label": "Disetujui oleh manusia"
+          },
+          {
+            "number": "03",
+            "label": "Tercatat sepenuhnya"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, operator portal logistik",
+        "chat": {
+          "roleLabel": "Operasi Portal Bea Cukai dan Operator",
+          "statusLabel": "ONLINE",
+          "openingMessage": "Hai, saya Emil. Beri saya catatan pengiriman yang disetujui dan saya akan melatih pekerjaan portal sebelum sesuatu dikirimkan.",
+          "inputPlaceholder": "Tanyakan kepada emil tentang pekerjaan portal…",
+          "suggestions": [
+            "melatih pengarsipan",
+            "Periksa pemesanan",
+            "Menjelaskan kontrol"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Kotak pasir simulasi",
+          "restartLabel": "Mengulang kembali",
+          "demoNote": "Simulasi ilustratif · Tidak ada portal nyata, kredensial, atau data pelanggan",
+          "sectionEyebrow": "Coba sekarang",
+          "sectionHeading": "lihat Emil",
+          "sectionAccentHeading": "di tepi portal.",
+          "sectionBody": "Beralih alur kerja, periksa bidang yang dipetakan, tinjau tiga pengecualian yang disimulasikan, dan pilih apakah sampel berjalan harus dilanjutkan atau dieskalasi.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Pengajuan Bea Cukai"
+            },
+            {
+              "id": "carrier",
+              "label": "Pemesanan operator"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-cus",
+              "title": "Deklarasi Impor · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "Jendela tunggal nasional",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Referensi Pengiriman",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Deskripsi komoditas",
+                  "value": "Majelis presisi…",
+                  "state": "review"
+                },
+                {
+                  "label": "Referensi importir",
+                  "value": "2 Catatan Sumber",
+                  "state": "review"
+                },
+                {
+                  "label": "massa kotor",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "dokumen pendukung",
+                  "value": "Faktur Tertunda",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Deskripsi komoditas",
+                  "detail": "Teks sumber melebihi batas portal"
+                },
+                {
+                  "title": "Referensi importir",
+                  "detail": "Dua catatan yang disetujui ditemukan"
+                },
+                {
+                  "title": "dokumen pendukung",
+                  "detail": "Faktur Komersial Perlu Konfirmasi"
+                }
+              ],
+              "receipt": "Paket Deklarasi Tercatat"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-Laut",
+              "title": "Pemesanan Laut · FCL",
+              "lane": "Antwerpen → Singapura",
+              "source": "Approved TMS booking",
+              "destination": "Portal operator pihak ketiga",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Referensi pemesanan",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Pilihan berlayar",
+                  "value": "2 Kecocokan Layanan",
+                  "state": "review"
+                },
+                {
+                  "label": "Peralatan",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "pelepasan peralatan",
+                  "value": "Depot Tertunda",
+                  "state": "review"
+                },
+                {
+                  "label": "cut-off kargo",
+                  "value": "Jadwal berbeda",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Pilihan berlayar",
+                  "detail": "Dua layanan memenuhi permintaan kedatangan"
+                },
+                {
+                  "title": "pelepasan peralatan",
+                  "detail": "Konfirmasi depot tertunda"
+                },
+                {
+                  "title": "cut-off kargo",
+                  "detail": "Portal berbeda dari jadwal sumber"
+                }
+              ],
+              "receipt": "Konfirmasi Pemesanan Tercatat"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Sumber Baca",
+              "detail": "Catatan yang disetujui",
+              "state": "done"
+            },
+            {
+              "title": "Kembar Dibangun",
+              "detail": "Bidang dipetakan",
+              "state": "done"
+            },
+            {
+              "title": "3 Pengecualian",
+              "detail": "membutuhkan penilaian",
+              "state": "warning"
+            },
+            {
+              "title": "Persetujuan",
+              "detail": "pos pemeriksaan manusia",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Tiga bidang membutuhkan penilaian.",
+          "reviewBody": "Emil tidak akan menebak atau menyentuh portal langsung.",
+          "reviewLabel": "Tinjau kembaran portal",
+          "approveLabel": "Menyetujui Sampel Lari",
+          "escalateLabel": "meningkat dengan aman",
+          "approvedKicker": "Penyelesaian simulasi",
+          "approvedBody": "Kembar yang disetujui dieksekusi di kotak pasir dan setiap tindakan dilampirkan pada catatan lari.",
+          "approvedChecks": [
+            "Kembar yang disetujui",
+            "Respon Portal",
+            "Catatan audit"
+          ],
+          "escalatedKicker": "Eskalasi dicatat",
+          "escalatedTitle": "Tidak ada yang mencapai portal langsung.",
+          "escalatedBody": "Emil melestarikan bidang yang dipetakan, bukti, dan keputusan terbuka untuk diselesaikan oleh operator.",
+          "continueLabel": "Lanjutkan dengan Pengiriman Nyata",
+          "loginNotice": "Masuk untuk melatih pengarsipan bea cukai pribadi dengan Emil. Tidak ada pengiriman portal langsung yang terjadi di versi ini."
+        }
+      },
+      "ticker": [
+        "Pengajuan Bea Cukai",
+        "Pemesanan operator",
+        "kembar portal",
+        "persetujuan manusia",
+        "Tinjauan Pengecualian",
+        "penerimaan audit"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Nama Anda tetap ada di entri",
+        "heading": "Emil menyiapkan entri.",
+        "accentHeading": "Deklarasi Anda file itu.",
+        "body": "Emil tidak mengajukan. Deklarasi berlisensi Anda melakukannya. Emil menyiapkan entri, memeriksanya terhadap dokumen sumber, menandai apa yang akan ditolak, dan menunggu. Deklarasi catatan tidak berubah, dan tidak ada yang diajukan atas wewenang Emil.",
+        "governedLabel": "Tumpukan Anda yang diatur",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "EDI",
+          "AI internal"
+        ],
+        "boundaryLabel": "Batas API",
+        "operatorTitle": "Emil bekerja di sini",
+        "operatorBody": "Amati · Latihan · Menyetujui · Eksekusi",
+        "externalLabel": "Sistem Eksternal",
+        "portals": [
+          {
+            "label": "Portal Bea Cukai",
+            "badge": "Tidak ada API"
+          },
+          {
+            "label": "Portal pengangkut",
+            "badge": "Tidak ada API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "sebelum Emil",
+            "title": "Portal menjadi kursi putar seseorang.",
+            "body": "Penyalinan manual, tangkapan layar yang terfragmentasi, pengecualian tersembunyi, dan tidak ada latihan yang konsisten sebelum pengiriman."
+          },
+          {
+            "label": "dengan Emil",
+            "title": "Portal menjadi permukaan operasi yang terkontrol.",
+            "body": "Data yang disetujui, dipetakan menjadi kembaran yang setia, pengecualian yang dibuat terlihat, dan tindakan yang tidak dapat diubah yang dipegang untuk seseorang."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Nama Anda tetap ada di entri",
+            "body": "Emil tidak mengajukan. Deklarasi berlisensi Anda melakukannya. Emil menyiapkan entri, memeriksanya terhadap dokumen sumber, menandai apa yang akan ditolak, dan menunggu. Deklarasi catatan tidak berubah, dan tidak ada yang diajukan atas wewenang Emil."
+          },
+          {
+            "number": "02",
+            "title": "Setiap lari meninggalkan rekor",
+            "body": "Apa yang dibaca, apa yang diusulkan, siapa yang menyetujuinya, apa yang diajukan, stempel waktu. Ketika audit menanyakan bagaimana suatu entri diperoleh, jawabannya sudah ada."
+          },
+          {
+            "number": "03",
+            "title": "Apa itu bekerja dengan",
+            "body": "PortBase dan Cargonaut, DMS dan AGS, NCTS Phase 5, Atlas, CDS, Portal eBooking Carrier, Inttra. Jika tim Anda masuk ke dalamnya, Emil dapat mengerjakannya, karena Emil mengerjakan layar seperti yang dilakukan seseorang."
+          },
+          {
+            "number": "04",
+            "title": "ini untuk siapa",
+            "body": "Pialang bea cukai dan pengirim barang, 10 hingga 150 orang. Tim kepatuhan perdagangan internal. Deklarasi itu nyata. volumenya meningkat. Mempekerjakan pemberi pernyataan lain tidak terjadi tahun ini. ICS2 Rilis 3 telah diwajibkan di semua Negara Anggota sejak September 2025, dan pengurangan terakhir berakhir pada Juni 2026. NCTS Fase 6 mendarat di sampingnya. Beban pengarsipan yang datang dengan mereka tidak akan kembali turun, dan tidak ada yang datang untuk mengambilnya."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Setiap lari meninggalkan rekor",
+        "heading": "jawaban audit",
+        "accentHeading": "sudah ada.",
+        "body": "Apa yang dibaca, apa yang diusulkan, siapa yang menyetujuinya, apa yang diajukan, stempel waktu. Ketika audit menanyakan bagaimana suatu entri diperoleh, jawabannya sudah ada.",
+        "portalLabel": "Portal Kembar · Mode Aman",
+        "fields": [
+          {
+            "label": "Referensi Pengiriman",
+            "status": "verified"
+          },
+          {
+            "label": "Detail komoditas",
+            "status": "review"
+          },
+          {
+            "label": "dokumen pendukung",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "pos pemeriksaan manusia",
+        "points": [
+          {
+            "title": "Dokumen sumber diperiksa",
+            "body": "Emil menyiapkan entri dari data pengiriman yang disetujui."
+          },
+          {
+            "title": "Penolakan ditandai",
+            "body": "Deklarasi Anda melihat apa yang akan ditolak sebelum sesuatu dikirimkan."
+          },
+          {
+            "title": "Persetujuan Deklarasi diperlukan",
+            "body": "Deklarasi catatan tetap memegang kendali."
+          },
+          {
+            "title": "Tidak ada apa pun atas otoritas Emil",
+            "body": "Setiap tindakan yang diusulkan dan disetujui adalah stempel waktu."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Setiap lari meninggalkan rekor",
+        "heading": "Setiap lari berlatih.",
+        "accentHeading": "setiap keputusan yang dicatat.",
+        "body": "Apa yang dibaca, apa yang diusulkan, siapa yang menyetujuinya, apa yang diajukan, stempel waktu. Ketika audit menanyakan bagaimana suatu entri diperoleh, jawabannya sudah ada.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Cakupan",
+            "body": "Kunci satu portal, satu proses, izin, dan kondisi keberhasilan."
+          },
+          {
+            "number": "02",
+            "title": "Berlatih",
+            "body": "Bangun data sumber kembar Portal Twin dan peta yang hanya disetujui."
+          },
+          {
+            "number": "03",
+            "title": "Menyelesaikan",
+            "body": "Mengekspos ambiguitas, mengubah halaman, dan bukti yang hilang alih-alih menebak."
+          },
+          {
+            "number": "04",
+            "title": "Menyetujui",
+            "body": "Jeda pada saat konsekuensi yang tepat untuk manusia yang bertanggung jawab."
+          },
+          {
+            "number": "05",
+            "title": "Menjalankan",
+            "body": "Lakukan hanya langkah-langkah browser yang disetujui—tidak ada yang di luar cakupan."
+          },
+          {
+            "number": "06",
+            "title": "Merekam",
+            "body": "Kembalikan respons portal, keputusan, dan artefak sebagai satu tanda terima."
+          }
+        ],
+        "failClosedTitle": "Kontrolnya adalah struktural, bukan kosmetik.",
+        "failClosedBody": "Jika halaman berubah, bukti konflik, atau ruang lingkup yang disetujui terlampaui, Emil berhenti.",
+        "failClosedLabel": "Gagal ditutup"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Apa itu bekerja dengan",
+        "heading": "Jika tim Anda masuk ke dalamnya,",
+        "accentHeading": "Emil bisa mengerjakannya.",
+        "body": "PortBase dan Cargonaut, DMS dan AGS, NCTS Phase 5, Atlas, CDS, Portal eBooking Carrier, Inttra. Emil mengerjakan layar seperti yang dilakukan seseorang.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Pengajuan Bea Cukai",
+            "body": "Catatan Pengiriman → Kembar Jendela Tunggal Nasional → Tinjauan Pengecualian → Persetujuan Manusia → Tanda Terima.",
+            "points": [
+              "Asupan Catatan Pengiriman",
+              "Kembar Jendela Tunggal Nasional",
+              "pengecualian dan tinjauan dokumen",
+              "Pengambilan persetujuan dan penerimaan"
+            ],
+            "ctaLabel": "Simulasikan pengajuan"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Pemesanan operator",
+            "body": "Pemesanan TMS → Portal Carrier Twin → Verifikasi Berlayar → Persetujuan Manusia → Konfirmasi.",
+            "points": [
+              "Asupan Pemesanan yang Disetujui",
+              "Portal Carrier Kembar",
+              "verifikasi berlayar dan opsi",
+              "Pengambilan persetujuan dan konfirmasi"
+            ],
+            "ctaLabel": "Simulasi pemesanan"
+          }
+        ],
+        "moreLabel": "Lebih banyak pekerjaan yang dapat ditangani Emil",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase dan Cargonaut",
+            "body": "Operasi Portal Bea Cukai dan Komunitas Kargo Disiapkan dari data pengiriman yang disetujui."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS dan NCTS Tahap 5",
+            "body": "Deklarasi dilatih, diperiksa, dan diadakan untuk pemberi pernyataan berlisensi."
+          },
+          {
+            "number": "03",
+            "title": "Atlas dan CD",
+            "body": "Pekerjaan portal dilakukan melalui layar di mana tidak ada API yang dapat digunakan."
+          },
+          {
+            "number": "04",
+            "title": "Ebooking dan Inttra Operator",
+            "body": "Data pemesanan yang disetujui dibawa ke portal operator dengan catatan proses lengkap."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Cara Kerja Pilot",
+        "heading": "satu portal. satu proses.",
+        "accentHeading": "satu operator bernama.",
+        "body": "satu portal. satu proses. Satu operator bernama di pihak Anda yang memiliki hasilnya. Enam minggu, biaya tetap. Dibangun di atas alur kerja Anda yang sebenarnya, di portal Anda yang sebenarnya. Tim Anda menjalankannya dan memperpanjangnya setelah saya menyerahkannya. Ini berjalan di bawah merek Anda dan Anda menyimpannya. Panggilan pertama adalah tiga puluh menit dan saya akan menunjukkan latihan melawan portal nyata, bukan slide.",
+        "ctaLabel": "Lingkup Satu Pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Lingkup Pilot Emil",
+        "steps": [
+          {
+            "number": "01",
+            "title": "satu bernama operator",
+            "body": "satu portal. satu proses. Satu operator bernama di pihak Anda yang memiliki hasilnya."
+          },
+          {
+            "number": "02",
+            "title": "Enam minggu, biaya tetap",
+            "body": "Dibangun di atas alur kerja Anda yang sebenarnya, di portal Anda yang sebenarnya."
+          },
+          {
+            "number": "03",
+            "title": "Tim Anda menyimpannya",
+            "body": "Tim Anda menjalankannya dan memperpanjangnya setelah saya menyerahkannya. Ini berjalan di bawah merek Anda dan Anda menyimpannya. Panggilan pertama adalah tiga puluh menit dan saya akan menunjukkan latihan melawan portal nyata, bukan slide."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Operasi Portal Bea Cukai dan Operator",
+        "tagline": "Tumpukan logistik Anda berhenti di portal. Emil terus berjalan.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

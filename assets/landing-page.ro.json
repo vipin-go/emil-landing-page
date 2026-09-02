@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "ro",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Stiva ta de logistică se oprește la portal. Emil continuă.",
+    "subheadline": "TMS-ul dvs. deține transportul. Apoi cineva deschide PortBase, sau DMS, sau NCT-uri sau un ecran de rezervare electronică Carrier și îl introduce din nou manual. Nu există API care așteaptă de cealaltă parte și nu va exista niciodată pentru majoritatea dintre ei. EMIL transportă date de expediere aprobate de la TMS în acele portaluri. Repetă mai întâi întreaga rulare împotriva unei copii a mediului tău real, îi arată declarantului tău exact ce urmează să intre și nu face nimic până când îl aprobă.",
+    "ctaLabel": "Rulați o simulare de portal",
+    "description": "Emil se ocupă de operațiunile vamale și ale portalului de transport, repetând intrarea aprobată de expediere împotriva unei copii a mediului real înainte ca un declarant să aprobe ceva.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Caracteristici",
+          "target": "about"
+        },
+        {
+          "label": "Cum functioneaza",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Contact",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "SCOPE A PILOT"
+    },
+    "heroChat": {
+      "statusLabel": "Pe net",
+      "inputPlaceholder": "Întreabă-l pe Emil despre o rulare pe portal...",
+      "suggestedPrompts": [
+        "repeta o depunere",
+        "Verificați o rezervare",
+        "Explicați controalele"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Dați-mi o înregistrare aprobată de expediere și voi repeta lucrările portalului înainte de a fi depusă ceva."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil într-un birou de operațiuni logistice cu o simulare de depunere în vamă"
+    },
+    "contact": {
+      "heading": "un portal. un proces. un operator numit.",
+      "body": "Șase săptămâni, taxă fixă. Construit pe fluxul tău de lucru real, pe portalul tău real. Echipa ta îl conduce și îl extinde după ce eu predau. Acesta rulează sub marca dvs. și îl păstrați.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Operațiuni vamale și portalul transportatorului",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Caracteristici",
+            "target": "edge"
+          },
+          {
+            "label": "Cum functioneaza",
+            "target": "control"
+          },
+          {
+            "label": "Încercați un demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "SCOPE A PILOT"
+      },
+      "hero": {
+        "eyebrow": "Execuția portalului controlat de om",
+        "heading": "Stiva ta de logistică se oprește la portal.",
+        "accentHeading": "Emil continuă.",
+        "body": "EMIL transportă datele de expediere aprobate în portalurile vamale și de transport fără API. Repetă fiecare rulare, face o pauză pentru aprobarea umană și returnează o înregistrare completă.",
+        "primaryCtaLabel": "Rulați o simulare de portal",
+        "secondaryCtaLabel": "SCOPE ONE PILOT",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "repetat mai întâi"
+          },
+          {
+            "number": "02",
+            "label": "aprobat de om"
+          },
+          {
+            "number": "03",
+            "label": "Complet înregistrat"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, un operator de portal logistic",
+        "chat": {
+          "roleLabel": "Operațiuni vamale și portalul transportatorului",
+          "statusLabel": "Pe net",
+          "openingMessage": "Bună, sunt Emil. Dați-mi o înregistrare de expediere aprobată și voi repeta lucrările portalului înainte de a fi trimisă ceva.",
+          "inputPlaceholder": "Întrebați-l pe Emil despre munca pe portal...",
+          "suggestions": [
+            "repeta o depunere",
+            "Verificați o rezervare",
+            "Explicați controalele"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Simulare sandbox",
+          "restartLabel": "Reîncepe",
+          "demoNote": "Simulare ilustrativă · Fără portal real, acreditări sau date despre clienți",
+          "sectionEyebrow": "incearca acum",
+          "sectionHeading": "Vezi Emil",
+          "sectionAccentHeading": "La marginea portalului.",
+          "sectionBody": "Schimbați fluxurile de lucru, inspectați câmpurile mapate, examinați trei excepții simulate și alegeți dacă rularea eșantionului ar trebui să continue sau să escaladeze.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Dosar vamal"
+            },
+            {
+              "id": "carrier",
+              "label": "Rezervarea transportatorului"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Declarație de import · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "Fereastra unică națională",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Referință de expediere",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Descrierea mărfurilor",
+                  "value": "ansambluri de precizie...",
+                  "state": "review"
+                },
+                {
+                  "label": "Referință importator",
+                  "value": "2 înregistrări sursă",
+                  "state": "review"
+                },
+                {
+                  "label": "masa brută",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Document justificativ",
+                  "value": "factura in curs",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Descrierea mărfurilor",
+                  "detail": "Textul sursă depășește limita portalului"
+                },
+                {
+                  "title": "Referință importator",
+                  "detail": "S-au găsit două înregistrări aprobate"
+                },
+                {
+                  "title": "Document justificativ",
+                  "detail": "Factura comercială necesită confirmare"
+                }
+              ],
+              "receipt": "Pachetul de declarație înregistrat"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Rezervare oceanică · FCL",
+              "lane": "Anvers → Singapore",
+              "source": "Approved TMS booking",
+              "destination": "Portal de transport terță parte",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Referință de rezervare",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Opțiune de navigație",
+                  "value": "2 Servicii se potrivesc",
+                  "state": "review"
+                },
+                {
+                  "label": "Echipament",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Eliberarea echipamentului",
+                  "value": "depozit în așteptare",
+                  "state": "review"
+                },
+                {
+                  "label": "Decuparea încărcăturii",
+                  "value": "Programul diferă",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Opțiune de navigație",
+                  "detail": "Două servicii îndeplinesc sosirea solicitată"
+                },
+                {
+                  "title": "Eliberarea echipamentului",
+                  "detail": "Confirmarea depozitului este în așteptare"
+                },
+                {
+                  "title": "Decuparea încărcăturii",
+                  "detail": "Portalul diferă de programul sursă"
+                }
+              ],
+              "receipt": "Confirmarea rezervării înregistrată"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "citire sursă",
+              "detail": "Înregistrare aprobată",
+              "state": "done"
+            },
+            {
+              "title": "geamăn construit",
+              "detail": "Câmpuri mapate",
+              "state": "done"
+            },
+            {
+              "title": "3 excepții",
+              "detail": "are nevoie de judecată",
+              "state": "warning"
+            },
+            {
+              "title": "Aprobare",
+              "detail": "punct de control uman",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Trei domenii au nevoie de judecată.",
+          "reviewBody": "Emil nu va ghici și nu va atinge un portal live.",
+          "reviewLabel": "Review the portal twin",
+          "approveLabel": "Aprobați rularea eșantionului",
+          "escalateLabel": "escaladează în siguranță",
+          "approvedKicker": "Finalizare simulată",
+          "approvedBody": "Geamănul aprobat a fost executat în cutia de nisip și fiecare acțiune a fost atașată la înregistrarea de alergare.",
+          "approvedChecks": [
+            "Twin aprobat",
+            "Răspunsul portalului",
+            "înregistrarea auditului"
+          ],
+          "escalatedKicker": "escaladare înregistrată",
+          "escalatedTitle": "Nimic nu a ajuns pe portalul live.",
+          "escalatedBody": "Emil a păstrat câmpurile mapate, dovezile și deciziile deschise pentru ca un operator să le rezolve.",
+          "continueLabel": "Continuați cu un transport real",
+          "loginNotice": "Conectați-vă pentru a repeta un dosar vamal privat la Emil. În această versiune nu are loc nicio trimitere live de portal."
+        }
+      },
+      "ticker": [
+        "Dosar vamal",
+        "Rezervarea transportatorului",
+        "Portal Twin",
+        "aprobarea umană",
+        "Revizuirea excepției",
+        "Chitanța de audit"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Numele tău rămâne pe intrare",
+        "heading": "Emil pregătește intrarea.",
+        "accentHeading": "Declarantul dvs. îl depune.",
+        "body": "Emil nu depune. Declarantul dvs. autorizat o face. Emil pregătește intrarea, o verifică cu documentele sursă, semnalează ceea ce ar fi respins și așteaptă. Declarantul de evidență nu se modifică și nu se depune nimic sub autoritatea lui Emil.",
+        "governedLabel": "stiva dvs. guvernată",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "EDI",
+          "AI intern"
+        ],
+        "boundaryLabel": "Limita API",
+        "operatorTitle": "Emil lucrează aici",
+        "operatorBody": "Observați · Repetați · Aprobați · Executați",
+        "externalLabel": "Sisteme externe",
+        "portals": [
+          {
+            "label": "Portal vamal",
+            "badge": "Fără API"
+          },
+          {
+            "label": "Portal de transport",
+            "badge": "Fără API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Înainte de Emil",
+            "title": "Portalul devine scaunul pivotant al cuiva.",
+            "body": "Copierea manuală, capturi de ecran fragmentate, excepții ascunse și nicio repetiție consistentă înainte de depunere."
+          },
+          {
+            "label": "cu Emil",
+            "title": "Portalul devine o suprafață de operare controlată.",
+            "body": "Date aprobate, mapate într-un geamăn fidel, excepții făcute vizibile și acțiuni ireversibile desfășurate pentru o persoană."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Numele tău rămâne pe intrare",
+            "body": "Emil nu depune. Declarantul dvs. autorizat o face. Emil pregătește intrarea, o verifică cu documentele sursă, semnalează ceea ce ar fi respins și așteaptă. Declarantul de evidență nu se modifică și nu se depune nimic sub autoritatea lui Emil."
+          },
+          {
+            "number": "02",
+            "title": "Fiecare alergare lasă un record",
+            "body": "Ce s-a citit, ce s-a propus, cine a aprobat-o, ce a fost depus, marcat de timp. Când un audit întreabă cum s-a ajuns la o intrare, răspunsul există deja."
+          },
+          {
+            "number": "03",
+            "title": "Cu ce funcționează",
+            "body": "PortBase și Cargonaut, DMS și AGS, NCTS Faza 5, Atlas, CDS, Portaluri de rezervări electronice Carrier, Intra. Dacă echipa ta se conectează la el, Emil poate lucra, deoarece Emil lucrează pe ecran așa cum o face o persoană."
+          },
+          {
+            "number": "04",
+            "title": "Pentru cine este acesta",
+            "body": "Brokeri vamali și expeditori de marfă, între 10 și 150 de persoane. Echipe interne de conformitate a comerțului. Declarațiile sunt reale. volumele sunt în creștere. Angajarea unui alt declarant nu are loc anul acesta. ICS2 Release 3 a fost obligatorie în toate statele membre din septembrie 2025, iar ultimele derogări au expirat în iunie 2026. Faza 6 a NCTS a aterizat alături de aceasta. Încărcătura de pilire care a sosit cu ei nu scade din nou și nimeni nu vine să o ia."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Fiecare alergare lasă un record",
+        "heading": "Răspunsul de audit",
+        "accentHeading": "există deja.",
+        "body": "Ce s-a citit, ce s-a propus, cine a aprobat-o, ce a fost depus, marcat de timp. Când un audit întreabă cum s-a ajuns la o intrare, răspunsul există deja.",
+        "portalLabel": "Portal Twin · Mod sigur",
+        "fields": [
+          {
+            "label": "Referință de expediere",
+            "status": "verified"
+          },
+          {
+            "label": "Detalii despre mărfuri",
+            "status": "review"
+          },
+          {
+            "label": "Document justificativ",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "punct de control uman",
+        "points": [
+          {
+            "title": "Documente sursă verificate",
+            "body": "EMIL pregătește intrarea din datele de expediere aprobate."
+          },
+          {
+            "title": "Respingeri semnalate",
+            "body": "Declarantul dumneavoastră vede ce ar fi respins înainte ca ceva să fie depus."
+          },
+          {
+            "title": "Este necesară aprobarea declarantului",
+            "body": "Declarantul de evidență rămâne în control."
+          },
+          {
+            "title": "Nimic pe autoritatea lui Emil",
+            "body": "Fiecare acțiune propusă și aprobată este marcată cu timp."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Fiecare alergare lasă un record",
+        "heading": "fiecare alergare repetată.",
+        "accentHeading": "fiecare decizie înregistrată.",
+        "body": "Ce s-a citit, ce s-a propus, cine a aprobat-o, ce a fost depus, marcat de timp. Când un audit întreabă cum s-a ajuns la o intrare, răspunsul există deja.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Domeniu",
+            "body": "Blocați un portal, un proces, permisiunile și condiția de succes."
+          },
+          {
+            "number": "02",
+            "title": "Repeta",
+            "body": "Construiți un portal fidel geamăn și mapați numai date sursă aprobate."
+          },
+          {
+            "number": "03",
+            "title": "Rezolva",
+            "body": "Expuneți ambiguitatea, paginile schimbate și dovezile lipsă în loc să ghiciți."
+          },
+          {
+            "number": "04",
+            "title": "Aproba",
+            "body": "Faceți o pauză la momentul exact în consecință pentru un om responsabil."
+          },
+          {
+            "number": "05",
+            "title": "Executa",
+            "body": "Efectuați numai pașii aprobați din browser - nimic în afara domeniului de aplicare."
+          },
+          {
+            "number": "06",
+            "title": "Record",
+            "body": "Returnați răspunsul portalului, deciziile și artefactele ca o singură chitanță."
+          }
+        ],
+        "failClosedTitle": "Controlul este structural, nu cosmetic.",
+        "failClosedBody": "Dacă pagina se modifică, conflictele de dovezi sau domeniul de aplicare aprobat este depășit, Emil se oprește.",
+        "failClosedLabel": "Eșuează închis"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Cu ce funcționează",
+        "heading": "Dacă echipa ta se conectează la el,",
+        "accentHeading": "Emil poate lucra.",
+        "body": "PortBase și Cargonaut, DMS și AGS, NCTS Faza 5, Atlas, CDS, Portaluri de rezervări electronice Carrier, Intra. Emil lucrează pe ecran așa cum o face o persoană.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Dosar vamal",
+            "body": "Înregistrare expediere → National-Window Twin → Excepție Revizuire → Aprobare umană → Chitanță.",
+            "points": [
+              "Admisia record de expediere",
+              "National-Window Twin",
+              "Excepție și revizuirea documentelor",
+              "aprobarea și captarea chitanței"
+            ],
+            "ctaLabel": "Simulați depunerea"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Rezervarea transportatorului",
+            "body": "Rezervare TMS → Portal portal dublu → Verificare navigație → Aprobare umană → Confirmare.",
+            "points": [
+              "Admisia de rezervare aprobată",
+              "Portalul de transport twin",
+              "Navigație și verificarea opțiunilor",
+              "Captarea aprobării și confirmarea"
+            ],
+            "ctaLabel": "Simulați rezervarea"
+          }
+        ],
+        "moreLabel": "Mai multă muncă pe care Emil o poate gestiona",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase și Cargonaut",
+            "body": "Operațiuni vamale și portalul comunității de marfă pregătite din datele de expediere aprobate."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS și NCTS faza 5",
+            "body": "Declarațiile repetate, verificate și ținute pentru declarantul autorizat."
+          },
+          {
+            "number": "03",
+            "title": "Atlas și CD-uri",
+            "body": "Lucrul portal efectuat prin ecran acolo unde nu există API utilizabil."
+          },
+          {
+            "number": "04",
+            "title": "Carrier eBooking și Intra",
+            "body": "Datele de rezervare aprobate transportate în portalurile de transport cu o înregistrare completă a rulării."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Cum funcționează un pilot",
+        "heading": "un portal. un proces.",
+        "accentHeading": "un operator numit.",
+        "body": "un portal. un proces. Un operator numit de partea dvs. care deține rezultatul. Șase săptămâni, taxă fixă. Construit pe fluxul tău de lucru real, pe portalul tău real. Echipa ta îl conduce și îl extinde după ce eu predau. Acesta rulează sub marca dvs. și îl păstrați. Primul apel este de treizeci de minute și vă voi arăta o repetiție împotriva unui portal adevărat, nu a diapozitivelor.",
+        "ctaLabel": "SCOPE ONE PILOT",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Scoate un pilot Emil",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Un operator numit",
+            "body": "un portal. un proces. Un operator numit de partea dvs. care deține rezultatul."
+          },
+          {
+            "number": "02",
+            "title": "șase săptămâni, taxă fixă",
+            "body": "Construit pe fluxul tău de lucru real, pe portalul tău real."
+          },
+          {
+            "number": "03",
+            "title": "Echipa ta o păstrează",
+            "body": "Echipa ta îl conduce și îl extinde după ce eu predau. Acesta rulează sub marca dvs. și îl păstrați. Primul apel este de treizeci de minute și vă voi arăta o repetiție împotriva unui portal adevărat, nu a diapozitivelor."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Operațiuni vamale și portalul transportatorului",
+        "tagline": "Stiva ta de logistică se oprește la portal. Emil continuă.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

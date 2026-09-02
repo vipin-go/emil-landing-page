@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "lv",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Jūsu loģistikas steks apstājas pie portāla. Emil turpina.",
+    "subheadline": "Jūsu TMS glabā sūtījumu. Pēc tam kāds atver Portbase vai DMS vai NCTS vai pārvadātāja eBooking ekrānu un ievada to manuāli no jauna. Nav API, kas gaida otrā pusē, un vairumam no tiem tāda nekad nebūs. Emil pārnes apstiprinātos sūtījumu datus no jūsu TMS uz šiem portāliem. Vispirms tas izmēģina visu darbību pret jūsu reālās vides kopiju, parāda jūsu deklarantam tieši to, ko gatavojas ievadīt, un nedara neko, kamēr viņi to neapstiprina.",
+    "ctaLabel": "Izpildiet portāla simulāciju",
+    "description": "Emil veic muitas un pārvadātāja portāla operācijas, vingrinot apstiprināto sūtījumu ievadi pret reālās vides kopiju, pirms deklarants kaut ko apstiprina.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Funkcijas",
+          "target": "about"
+        },
+        {
+          "label": "Kā tas darbojas",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Kontakti",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Definējiet pilotprojektu"
+    },
+    "heroChat": {
+      "statusLabel": "Tiešsaistē",
+      "inputPlaceholder": "Jautājiet Emilam par portāla darbību...",
+      "suggestedPrompts": [
+        "Nodarbiniet iesniegšanu",
+        "Pārbaudiet rezervāciju",
+        "Izskaidrojiet kontroli"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Dodiet man apstiprinātu sūtījuma ierakstu un es nodarbinišu portāla darbu pirms kaut kas tiek iesniegts."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil loģistikas operāciju birojā ar muitas deklarācijas simulāciju"
+    },
+    "contact": {
+      "heading": "Viens portāls. Viens process. Viens norādītais operators.",
+      "body": "Sešas nedēļas, fiksēta maksa. Būvēts uz jūsu reālā darbplūsmas, uz jūsu reālā portāla. Jūsu komanda to darbina un paplašina pēc nodošanas. Tā darbojas ar jūsu zīmolu un jūs to saglabājat.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "EMIL",
+        "brandSuffix": "Muitas un pārvadātāja portāla operācijas",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Funkcijas",
+            "target": "edge"
+          },
+          {
+            "label": "Kā tas darbojas",
+            "target": "control"
+          },
+          {
+            "label": "Izmēģiniet demonstrāciju",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Definējiet pilotprojektu"
+      },
+      "hero": {
+        "eyebrow": "Portalas izpilde cilvēka kontrolē",
+        "heading": "Jūsu loģistikas steks apstājas pie portāla.",
+        "accentHeading": "Emil turpina.",
+        "body": "Emil pārnes apstiprinātos sūtījumu datus uz muitas un pārvadātāja portāliem bez API. Tā vingro katru izpildi, gaida cilvēka apstiprinājumu un atgriež pilnu ierakstu.",
+        "primaryCtaLabel": "Izpildiet portāla simulāciju",
+        "secondaryCtaLabel": "Definējiet vienu pilotprojektu",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "Vispirms nodarbots"
+          },
+          {
+            "number": "02",
+            "label": "Cilvēka apstiprināts"
+          },
+          {
+            "number": "03",
+            "label": "Pilnībā reģistrēts"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, loģistikas portāla operators",
+        "chat": {
+          "roleLabel": "Muitas un pārvadātāja portāla operācijas",
+          "statusLabel": "Tiešsaistē",
+          "openingMessage": "Sveiki, es esmu Emil. Dodiet man apstiprinātu sūtījuma ierakstu un es nodarbinišu portāla darbu pirms kaut kas tiek iesniegts.",
+          "inputPlaceholder": "Jautājiet Emilam par portāla darbu...",
+          "suggestions": [
+            "Nodarbiniet iesniegšanu",
+            "Pārbaudiet rezervāciju",
+            "Izskaidrojiet kontroli"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Simulācijas smilšu kaste",
+          "restartLabel": "Restartēt",
+          "demoNote": "Ilustratīva simulācija · Nav īsta portāla, akreditācijas datu vai klienta datu",
+          "sectionEyebrow": "Izmēģiniet tagad",
+          "sectionHeading": "Skatiet Emilu",
+          "sectionAccentHeading": "Pie portāla malas.",
+          "sectionBody": "Pārslēdziet darbplūsmas, pārbaudiet kartētos laukus, pārskatiet trīs simulētus izņēmumus un izvēlieties, vai parauga izpildei jāturpinās vai jāpaaugstina.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Muitas iesniegšana"
+            },
+            {
+              "id": "carrier",
+              "label": "Pārvadātāja rezervācija"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Importa deklarācija · NL",
+              "lane": "Roterdama → Monreāla",
+              "source": "Approved TMS shipment",
+              "destination": "Nacionālais vienotais logs",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Sūtījuma atsauce",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Preces apraksts",
+                  "value": "Precizās komplektēšanas...",
+                  "state": "review"
+                },
+                {
+                  "label": "Importētāja atsauce",
+                  "value": "2 avota ieraksti",
+                  "state": "review"
+                },
+                {
+                  "label": "Brutomasa",
+                  "value": "18 420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Atbalsta dokuments",
+                  "value": "Rēķins gaida",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Preces apraksts",
+                  "detail": "Avota teksts pārsniedz portāla ierobežojumu"
+                },
+                {
+                  "title": "Importētāja atsauce",
+                  "detail": "Atrasti divi apstiprināti ieraksti"
+                },
+                {
+                  "title": "Atbalsta dokuments",
+                  "detail": "Komerciālais rēķins nepieciešams apstiprinājums"
+                }
+              ],
+              "receipt": "Deklarācijas pakete reģistrēta"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Okeāna rezervācija · FCL",
+              "lane": "Antverpene → Singapūra",
+              "source": "Approved TMS booking",
+              "destination": "Trešās puses pārvadātāja portāls",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Rezervācijas atsauce",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Kuģošanas variants",
+                  "value": "2 pakalpojumi atbilst",
+                  "state": "review"
+                },
+                {
+                  "label": "Aprīkojums",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Aprīkojuma izlaišana",
+                  "value": "Noliktava gaida",
+                  "state": "review"
+                },
+                {
+                  "label": "Kravas noildēšanas laiks",
+                  "value": "Grafiks atšķiras",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Kuģošanas variants",
+                  "detail": "Divi pakalpojumi atbilst pieprasītajam ierašanās laikam"
+                },
+                {
+                  "title": "Aprīkojuma izlaišana",
+                  "detail": "Noliktavas apstiprinājums gaida"
+                },
+                {
+                  "title": "Kravas noildēšanas laiks",
+                  "detail": "Portāls atšķiras no avota grafika"
+                }
+              ],
+              "receipt": "Rezervācijas apstiprinājums reģistrēts"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Avota teksts nolasīts",
+              "detail": "Apstiprināts ieraksts",
+              "state": "done"
+            },
+            {
+              "title": "Dvīņi izveidoti",
+              "detail": "Lauki kartēti",
+              "state": "done"
+            },
+            {
+              "title": "3 izņēmumi",
+              "detail": "Nepieciešams spriedums",
+              "state": "warning"
+            },
+            {
+              "title": "Apstiprinājums",
+              "detail": "Cilvēka kontroles punkts",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Trīs lauki nepieciešams spriedums.",
+          "reviewBody": "Emil neprognozē un nepieskaras tiešraides portālam.",
+          "reviewLabel": "Pārskatiet portāla dvīni",
+          "approveLabel": "Apstipriniet parauga izpildi",
+          "escalateLabel": "Eskalējiet droši",
+          "approvedKicker": "Simulēti pabeigts",
+          "approvedBody": "Apstiprinātais dvīnis tika izpildīts smilšu kastes vidē un katra darbība tika pievienota izpildes ierakstam.",
+          "approvedChecks": [
+            "Apstiprinātais dvīnis",
+            "Portāla atbilde",
+            "Audita ieraksts"
+          ],
+          "escalatedKicker": "Eskalācija reģistrēta",
+          "escalatedTitle": "Nekas necentās līdz tiešraides portālam.",
+          "escalatedBody": "Emil saglabāja kartētos laukus, pierādījumus un atklātos lēmumus operatora risināšanai.",
+          "continueLabel": "Turpiniet ar īstu sūtījumu",
+          "loginNotice": "Pierakstieties, lai nodarbotos privātu muitas deklarāciju ar Emilu. Šajā versijā netiek veikta tiešsaistes portāla iesniegšana."
+        }
+      },
+      "ticker": [
+        "Muitas iesniegšana",
+        "Pārvadātāja rezervācija",
+        "Portāla dvīnis",
+        "Cilvēka apstiprinājums",
+        "Izņēmumu pārskatīšana",
+        "Audita čeks"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Jūsu vārds paliek ierakstā",
+        "heading": "Emil sagatavo ierakstu.",
+        "accentHeading": "Jūsu deklarants to iesniedz.",
+        "body": "Emil neiesniedz. To dara jūsu licencētais deklarants. Emil sagatavo ierakstu, pārbauda to pret avota dokumentiem, atzīmē to, kas tiktu noraidīts, un gaida. Ieraksta deklarants nemainās un nekas netiek iesniegts Emil pilnvarā.",
+        "governedLabel": "Jūsu pārvaldītais steks",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "EDI",
+          "Iekšējais AI"
+        ],
+        "boundaryLabel": "API robeža",
+        "operatorTitle": "Emil strādā šeit",
+        "operatorBody": "Novēro · Nodarbini · Apstiprini · Izpildi",
+        "externalLabel": "Ārējās sistēmas",
+        "portals": [
+          {
+            "label": "Muitas portāls",
+            "badge": "BEZ API"
+          },
+          {
+            "label": "Pārvadātāja portāls",
+            "badge": "BEZ API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Pirms Emila",
+            "title": "Portāls kļūst par kāda pagriežamo krēslu.",
+            "body": "Manuāla kopēšana, sadrumstaloti ekrānuzņēmumi, slēpti izņēmumi un nav konsekventas nodarbības pirms iesniegšanas."
+          },
+          {
+            "label": "Ar Emilu",
+            "title": "Portāls kļūst par kontrolējamu darbības virsmu.",
+            "body": "Apstiprināti dati, kartēti uzticīgā dvīnī, izņēmumi padarīti redzami un neatgriezeniska darbība atstāta personai."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Jūsu vārds paliek ierakstā",
+            "body": "Emil neiesniedz. To dara jūsu licencētais deklarants. Emil sagatavo ierakstu, pārbauda to pret avota dokumentiem, atzīmē to, kas tiktu noraidīts, un gaida. Ieraksta deklarants nemainās un nekas netiek iesniegts Emil pilnvarā."
+          },
+          {
+            "number": "02",
+            "title": "Katra izpilde atstāj ierakstu",
+            "body": "Kas tika nolasīts, kas tika piedāvāts, kurš apstiprināja, kas tika iesniegts, ar laika zīmogu. Kad audits jautā, kā tika nonākts pie ieraksta, atbilde jau eksistē."
+          },
+          {
+            "number": "03",
+            "title": "Ar ko strādā",
+            "body": "Portbase un Cargonaut, DMS un AGS, NCTS Phase 5, ATLAS, CDS, pārvadātāju eBooking portāli, INTTRA. Ja jūsu komanda tajā pierakstās, Emil var ar to strādāt, jo Emil strādā ar ekrānu tā, kā to dara cilvēks."
+          },
+          {
+            "number": "04",
+            "title": "KAM TAS IR",
+            "body": " Muitas starpnieki un kravu ekspeditori, no 10 līdz 150 cilvēkiem. Iekšējās tirdzniecības atbilstības komandas. Deklarācijas ir īstas. Apjomi pieaug. Vēl viena deklaranta pieņemšana notiks tikai nākamgad. ICS2 Release 3 ir obligāts visās dalībvalstīs kopš 2025. gada septembra, un pēdējie atbrīvojumi beidzās 2026. gada jūnijā. NCTS Phase 6 ieradās līdz ar to. Iesniegšanas slodze, kas atnāca kopā ar viņiem, neizrādīsies, un neviens neienāk to aiznest."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Katra izpilde atstāj ierakstu",
+        "heading": "Audita atbilde",
+        "accentHeading": "jau eksistē.",
+        "body": "Kas tika nolasīts, kas tika piedāvāts, kurš apstiprināja, kas tika iesniegts, ar laika zīmogu. Kad audits jautā, kā tika nonākts pie ieraksta, atbilde jau eksistē.",
+        "portalLabel": "PORTĀLA DVĪNIS · DROŠAIS REŽĪMS",
+        "fields": [
+          {
+            "label": "Sūtījuma atsauce",
+            "status": "verified"
+          },
+          {
+            "label": "Preces detaļas",
+            "status": "review"
+          },
+          {
+            "label": "Atbalsta dokuments",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Cilvēka kontroles punkts",
+        "points": [
+          {
+            "title": "Avota dokumenti pārbaudīti",
+            "body": "Emil sagatavo ierakstu no apstiprinātiem sūtījuma datiem."
+          },
+          {
+            "title": "Noraidījumi atzīmēti",
+            "body": "Jūsu deklarants redz, kas tiktu noraidīts pirms kaut kas tiek iesniegts."
+          },
+          {
+            "title": "Nepieciešams deklaranta apstiprinājums",
+            "body": "Ieraksta deklarants paliek kontrolē."
+          },
+          {
+            "title": "Nekas ar Emil pilnvaru",
+            "body": "Katrs piedāvātais un apstiprinātais darbībai ir laika zīmogs."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Katra izpilde atstāj ierakstu",
+        "heading": "Katra izpilde nodarbota.",
+        "accentHeading": "Katrs lēmums reģistrēts.",
+        "body": "Kas tika nolasīts, kas tika piedāvāts, kurš apstiprināja, kas tika iesniegts, ar laika zīmogu. Kad audits jautā, kā tika nonākts pie ieraksta, atbilde jau eksistē.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Apjoms",
+            "body": "Noslēdziet vienu portālu, vienu procesu, atļaujas un sekmības nosacījumu."
+          },
+          {
+            "number": "02",
+            "title": "Nodarbiniet",
+            "body": "Izveidojiet uzticīgu portāla dvīni un kartējiet tikai apstiprinātos avota datus."
+          },
+          {
+            "number": "03",
+            "title": "Risiniet",
+            "body": "Atklājiet neskaidrības, mainītās lapas un trūkstošos pierādījumus, nevis miniet."
+          },
+          {
+            "number": "04",
+            "title": "Apstiprināt",
+            "body": "Apstājieties tieši izšķirošajā brīdī atbildīgajam cilvēkam."
+          },
+          {
+            "number": "05",
+            "title": "Izpildīt",
+            "body": "Izpildi tikai apstiprinātās pārlūkprogrammas darbības—nekas ārpus tvērumā."
+          },
+          {
+            "number": "06",
+            "title": "Ierakstīt",
+            "body": "Atgrieziet portaļa atbildi, lēmumus un artefaktus kā vienu čeku."
+          }
+        ],
+        "failClosedTitle": "Kontrole ir strukturāla, nevis kosmētiska.",
+        "failClosedBody": "Ja lapa mainās, pierādījumi nonāk pretrunā vai apstiprinātais tvērums tiek pārsniegts, Emils apstājas.",
+        "failClosedLabel": "Kļūmes slēgšana"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Ar ko strādā",
+        "heading": "Ja jūsu komanda pieteicas,",
+        "accentHeading": "Emils to var apstrādāt.",
+        "body": "Portbase un Cargonaut, DMS un AGS, NCTS Phase 5, ATLAS, CDS, pārvadātāja e-birzēšanas portāli, INTTRA. Emils strādā ar ekrānu tā, kā to dara cilvēks.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Muitas iesniegšana",
+            "body": "Sūtījuma ieraksts → valsts vienotā loga dubultnieks → izņēmumu pārskats → cilvēka apstiprinājums → čeks.",
+            "points": [
+              "Sūtījuma ieraksta pieņemšana",
+              "Valsts vienotā loga dubultnieks",
+              "Izņēmumu un dokumentu pārskats",
+              "Apstiprinājums un čeka fiksēšana"
+            ],
+            "ctaLabel": "Simulēt iesniegšanu"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Pārvadātāja rezervācija",
+            "body": "TMS rezervācija → pārvadātāja portaļa dubultnieks → kuģošanas verifikācija → cilvēka apstiprinājums → apstiprinājums.",
+            "points": [
+              "Apstiprinātās rezervācijas pieņemšana",
+              "Pārvadātāja portaļa dubultnieks",
+              "Kuģošanas un opciju verifikācija",
+              "Apstiprinājums un apstiprinājuma fiksēšana"
+            ],
+            "ctaLabel": "Simulēt rezervāciju"
+          }
+        ],
+        "moreLabel": "Vairāk darbu, ko Emils var veikt",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase un Cargonaut",
+            "body": "Muitniecības un kravu kopienas portaļu darbības, sagatavotas no apstiprinātiem sūtījuma datiem."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS un NCTS Phase 5",
+            "body": "Deklarācijas ir izmēģinātas, pārbaudītas un turētas licencētā deklarantam."
+          },
+          {
+            "number": "03",
+            "title": "ATLAS un CDS",
+            "body": "Portāla darbs tiek veikts caur ekrānu, kur neeksistē izmantojams API."
+          },
+          {
+            "number": "04",
+            "title": "Pārvadātāja e-birzēšana un INTTRA",
+            "body": "Apstiprinātie rezervācijas dati tiek pārnesti uz pārvadātāja portāliem ar pilnu izpildes ierakstu."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Kā darbojas pilots",
+        "heading": "Viens portāls. Viens process.",
+        "accentHeading": "Viens nosauktais operators.",
+        "body": "Viens portāls. Viens process. Viens nosauktais operators jūsu pusē, kurš ir atbildīgs par rezultātu. Sešas nedēļas, fiksēta maksa. Būvēts uz jūsu reālā darbplūsmas, uz jūsu reālā portaļa. Jūsu komanda to vada un paplašina pēc nodošanas. Tā darbojas zem jūsu zīmola un jūs to paturat. Pirmais zvans ir trīsdesmit minūtes un es jums parādīšu mēģinājumu pret reālu portālu, nevis slaidus.",
+        "ctaLabel": "Definējiet vienu pilotprojektu",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Nosakiet Emila pilota tvērumu",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Viens nosauktais operators",
+            "body": "Viens portāls. Viens process. Viens nosauktais operators jūsu pusē, kurš ir atbildīgs par rezultātu."
+          },
+          {
+            "number": "02",
+            "title": "Sešas nedēļas, fiksēta maksa",
+            "body": "Būvēts uz jūsu reālā darbplūsmas, uz jūsu reālā portaļa."
+          },
+          {
+            "number": "03",
+            "title": "Jūsu komanda to patur",
+            "body": "Jūsu komanda to vada un paplašina pēc nodošanas. Tā darbojas zem jūsu zīmola un jūs to paturat. Pirmais zvans ir trīsdesmit minūtes un es jums parādīšu mēģinājumu pret reālu portālu, nevis slaidus."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "EMIL",
+        "brandSuffix": "Muitas un pārvadātāja portāla operācijas",
+        "tagline": "Jūsu loģistikas steks apstājas pie portāla. Emil turpina.",
+        "copyright": "© 2026 Emils"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

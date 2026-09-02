@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "da",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Din logistikstak stopper ved portalen. Emil bliver ved.",
+    "subheadline": "Din TMS holder forsendelsen. Så åbner nogen PortBase, eller DMS, eller NCTS, eller en Carrier ebooking-skærm, og indtaster den igen i hånden. Der er ingen API, der venter på den anden side, og det vil der aldrig være for de fleste af dem. EMIL transporterer godkendte forsendelsesdata fra din TMS til disse portaler. Den øver hele løbet først mod en kopi af dit virkelige miljø, viser din erklærer præcis, hvad den er ved at komme ind i, og gør ingenting, før de godkender den.",
+    "ctaLabel": "Kør en portalsimulering",
+    "description": "EMIL håndterer told- og transportørportaloperationer ved at øve godkendt forsendelsesadgang mod en kopi af det virkelige miljø, før en erklærer godkender noget.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Funktioner",
+          "target": "about"
+        },
+        {
+          "label": "Hvordan det virker",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Kontakt",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Omfang en pilot"
+    },
+    "heroChat": {
+      "statusLabel": "online",
+      "inputPlaceholder": "Spørg Emil om en portalkørsel...",
+      "suggestedPrompts": [
+        "øve en arkivering",
+        "Tjek en reservation",
+        "Forklar kontrolelementer"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Giv mig en godkendt forsendelsesjournal, og jeg vil øve portalarbejdet, før der indsendes noget."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil på et logistikkontor med en toldansøgningssimulering"
+    },
+    "contact": {
+      "heading": "en portal. én proces. en navngivet operatør.",
+      "body": "Seks uger, fast gebyr. Bygget på din rigtige arbejdsgang på din rigtige portal. Dit hold kører det og forlænger det, efter jeg har afleveret. Det kører under dit brand, og du beholder det.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Told- og transportørportaldrift",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Funktioner",
+            "target": "edge"
+          },
+          {
+            "label": "Hvordan det virker",
+            "target": "control"
+          },
+          {
+            "label": "Prøv en demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Omfang en pilot"
+      },
+      "hero": {
+        "eyebrow": "Menneskestyret portaludførelse",
+        "heading": "Din logistikstak stopper ved portalen.",
+        "accentHeading": "Emil bliver ved.",
+        "body": "EMIL transporterer godkendte forsendelsesdata til told- og transportportaler uden API. Den øver hvert løb, holder pause for menneskelig godkendelse og returnerer en komplet plade.",
+        "primaryCtaLabel": "Kør en portalsimulering",
+        "secondaryCtaLabel": "Omfang én pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "øvet først"
+          },
+          {
+            "number": "02",
+            "label": "Mennesket godkendt"
+          },
+          {
+            "number": "03",
+            "label": "Fuldt registreret"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, en logistikportaloperatør",
+        "chat": {
+          "roleLabel": "Told- og transportørportaldrift",
+          "statusLabel": "online",
+          "openingMessage": "Hej, jeg hedder Emil. Giv mig en godkendt forsendelsesjournal, og jeg vil øve portalarbejdet, før der indsendes noget.",
+          "inputPlaceholder": "Spørg Emil om portalarbejde...",
+          "suggestions": [
+            "øve en arkivering",
+            "Tjek en reservation",
+            "Forklar kontrolelementer"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Simuleringssandkasse",
+          "restartLabel": "Genstart",
+          "demoNote": "Illustrativ simulering · Ingen reel portal, legitimationsoplysninger eller kundedata",
+          "sectionEyebrow": "Prøv det nu",
+          "sectionHeading": "Se Emil",
+          "sectionAccentHeading": "ved portalkanten.",
+          "sectionBody": "Skift arbejdsgange, inspicér de tilknyttede felter, gennemgå tre simulerede undtagelser og vælg, om prøvekørslen skal fortsætte eller eskalere.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Toldarkivering"
+            },
+            {
+              "id": "carrier",
+              "label": "Carrier booking"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Importangivelse · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "Nationalt enkelt vindue",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Forsendelsesreference",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Varebeskrivelse",
+                  "value": "Præcisionssamlinger...",
+                  "state": "review"
+                },
+                {
+                  "label": "Importørreference",
+                  "value": "2 Kildeposter",
+                  "state": "review"
+                },
+                {
+                  "label": "Bruttomasse",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Støttedokument",
+                  "value": "Faktura afventer",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Varebeskrivelse",
+                  "detail": "Kildetekst overskrider portalgrænsen"
+                },
+                {
+                  "title": "Importørreference",
+                  "detail": "To godkendte optegnelser fundet"
+                },
+                {
+                  "title": "Støttedokument",
+                  "detail": "Kommerciel faktura skal bekræftes"
+                }
+              ],
+              "receipt": "Erklæringspakke optaget"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Ocean Booking · FCL",
+              "lane": "Antwerpen → Singapore",
+              "source": "Approved TMS booking",
+              "destination": "Tredjeparts transportørportal",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Booking reference",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Sejlmulighed",
+                  "value": "2 tjenester matcher",
+                  "state": "review"
+                },
+                {
+                  "label": "Udstyr",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Udgivelse af udstyr",
+                  "value": "depot afventer",
+                  "state": "review"
+                },
+                {
+                  "label": "Fragtafskæring",
+                  "value": "Tidsplanen er forskellig",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Sejlmulighed",
+                  "detail": "To tjenester opfylder den ønskede ankomst"
+                },
+                {
+                  "title": "Udgivelse af udstyr",
+                  "detail": "Depotbekræftelsen afventer"
+                },
+                {
+                  "title": "Fragtafskæring",
+                  "detail": "Portalen adskiller sig fra kildeplanen"
+                }
+              ],
+              "receipt": "Bookingbekræftelse registreret"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Kilde læst",
+              "detail": "Godkendt registrering",
+              "state": "done"
+            },
+            {
+              "title": "Tvilling bygget",
+              "detail": "Felter kortlagt",
+              "state": "done"
+            },
+            {
+              "title": "3 Undtagelser",
+              "detail": "har brug for dømmekraft",
+              "state": "warning"
+            },
+            {
+              "title": "Godkendelse",
+              "detail": "Menneskelig kontrolpunkt",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Tre felter har brug for dømmekraft.",
+          "reviewBody": "Emil vil ikke gætte eller røre ved en live portal.",
+          "reviewLabel": "Gennemgå portal-tvillingen",
+          "approveLabel": "Godkend prøvekørsel",
+          "escalateLabel": "eskalere sikkert",
+          "approvedKicker": "Simuleret færdiggørelse",
+          "approvedBody": "Den godkendte tvilling blev udført i sandkassen, og hver handling blev knyttet til løbejournalen.",
+          "approvedChecks": [
+            "Godkendt tvilling",
+            "Portalsvar",
+            "Revisionsjournal"
+          ],
+          "escalatedKicker": "Eskalering registreret",
+          "escalatedTitle": "Intet nåede liveportalen.",
+          "escalatedBody": "Emil bevarede de kortlagte felter, beviser og åbne beslutninger, som en operatør kunne løse.",
+          "continueLabel": "Fortsæt med en rigtig forsendelse",
+          "loginNotice": "Log ind for at øve en privat toldansøgning hos Emil. Der forekommer ingen live portalindsendelse i denne version."
+        }
+      },
+      "ticker": [
+        "Toldarkivering",
+        "Carrier booking",
+        "Portal tvilling",
+        "Menneskelig godkendelse",
+        "Undtagelsesgennemgang",
+        "Revisionskvittering"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Dit navn forbliver på indgangen",
+        "heading": "Emil forbereder indgangen.",
+        "accentHeading": "Din erklærer indgiver det.",
+        "body": "Emil arkiverer ikke. Det gør din autoriserede erklærer. Emil forbereder indlægget, kontrollerer det mod kildedokumenterne, markerer, hvad der ville blive afvist, og venter. Reklamerets erklærer ændrer sig ikke, og intet er indsendt på EMILs autoritet.",
+        "governedLabel": "Din styrede stak",
+        "governedSystems": [
+          "tms",
+          "WMS",
+          "edi",
+          "Intern AI"
+        ],
+        "boundaryLabel": "API-grænse",
+        "operatorTitle": "Emil arbejder her",
+        "operatorBody": "observere · øve · godkende · udføre",
+        "externalLabel": "Eksterne systemer",
+        "portals": [
+          {
+            "label": "Toldportalen",
+            "badge": "Ingen API"
+          },
+          {
+            "label": "Carrier Portal",
+            "badge": "Ingen API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Før Emil",
+            "title": "Portalen bliver nogens drejestol.",
+            "body": "Manuel kopiering, fragmenterede skærmbilleder, skjulte undtagelser og ingen konsekvent genhør før indsendelse."
+          },
+          {
+            "label": "med Emil",
+            "title": "Portalen bliver en kontrolleret driftsflade.",
+            "body": "Godkendte data, kortlagt til en trofast tvilling, undtagelser gjort synlige og irreversible handlinger holdt for en person."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Dit navn forbliver på indgangen",
+            "body": "Emil arkiverer ikke. Det gør din autoriserede erklærer. Emil forbereder indlægget, kontrollerer det mod kildedokumenterne, markerer, hvad der ville blive afvist, og venter. Reklamerets erklærer ændrer sig ikke, og intet er indsendt på EMILs autoritet."
+          },
+          {
+            "number": "02",
+            "title": "Hvert løb efterlader en rekord",
+            "body": "Hvad blev læst, hvad der blev foreslået, hvem godkendte det, hvad der blev indsendt, tidsstemplet. Når en revision spørger, hvordan en post er nået frem, eksisterer svaret allerede."
+          },
+          {
+            "number": "03",
+            "title": "Hvad det fungerer med",
+            "body": "Portbase og Cargonaut, DMS og AGS, NCTS fase 5, ATLAS, CDS, Carrier ebooking portaler, Inttra. Hvis dit team logger på det, kan Emil arbejde med det, fordi Emil arbejder på skærmen, som en person gør."
+          },
+          {
+            "number": "04",
+            "title": "Hvem er dette til",
+            "body": "toldmæglere og speditører, 10 til 150 personer. In-house handel compliance teams. Erklæringerne er reelle. mængderne stiger. Ansættelse af en anden erklærer sker ikke i år. ICS2 Release 3 har været obligatorisk på tværs af alle medlemslande siden september 2025, og de sidste undtagelser udløb i juni 2026. NCTS fase 6 landede ved siden af den. Arkivlasten, der kom med dem, går ikke ned igen, og ingen kommer for at tage den væk."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Hvert løb efterlader en rekord",
+        "heading": "Revisionssvaret",
+        "accentHeading": "eksisterer allerede.",
+        "body": "Hvad blev læst, hvad der blev foreslået, hvem godkendte det, hvad der blev indsendt, tidsstemplet. Når en revision spørger, hvordan en post er nået frem, eksisterer svaret allerede.",
+        "portalLabel": "Portal Twin · Sikker tilstand",
+        "fields": [
+          {
+            "label": "Forsendelsesreference",
+            "status": "verified"
+          },
+          {
+            "label": "Råvaredetaljer",
+            "status": "review"
+          },
+          {
+            "label": "Støttedokument",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Menneskelig kontrolpunkt",
+        "points": [
+          {
+            "title": "Kildedokumenter kontrolleret",
+            "body": "EMIL forbereder indtastningen fra godkendte forsendelsesdata."
+          },
+          {
+            "title": "Afvisninger markeret",
+            "body": "Din erklærer ser, hvad der ville blive afvist, før noget indsendes."
+          },
+          {
+            "title": "Erklærerens godkendelse påkrævet",
+            "body": "Rekordopklareren forbliver i kontrol."
+          },
+          {
+            "title": "Intet på Emils autoritet",
+            "body": "Enhver foreslået og godkendt handling er tidsstemplet."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Hvert løb efterlader en rekord",
+        "heading": "Hvert løb indøves.",
+        "accentHeading": "hver beslutning registreret.",
+        "body": "Hvad blev læst, hvad der blev foreslået, hvem godkendte det, hvad der blev indsendt, tidsstemplet. Når en revision spørger, hvordan en post er nået frem, eksisterer svaret allerede.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Omfang",
+            "body": "Lås én portal, én proces, tilladelserne og succesbetingelsen."
+          },
+          {
+            "number": "02",
+            "title": "Indstudere",
+            "body": "Byg en trofast portal-tvilling og kortlæg kun godkendte kildedata."
+          },
+          {
+            "number": "03",
+            "title": "løse",
+            "body": "Afslør tvetydighed, ændrede sider og manglende beviser i stedet for at gætte."
+          },
+          {
+            "number": "04",
+            "title": "Godkende",
+            "body": "Hold pause i det nøjagtige konsekvensøjeblik for et ansvarligt menneske."
+          },
+          {
+            "number": "05",
+            "title": "udføre",
+            "body": "Udfør kun de godkendte browsertrin – intet uden for omfanget."
+          },
+          {
+            "number": "06",
+            "title": "Optage",
+            "body": "Returner portalsvaret, beslutninger og artefakter som én kvittering."
+          }
+        ],
+        "failClosedTitle": "Styringen er strukturel, ikke kosmetisk.",
+        "failClosedBody": "Hvis siden ændres, beviser konflikter eller det godkendte omfang overskrides, stopper EMIL.",
+        "failClosedLabel": "Mislykkes lukket"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Hvad det fungerer med",
+        "heading": "Hvis dit hold logger på det,",
+        "accentHeading": "Emil kan arbejde med det.",
+        "body": "Portbase og Cargonaut, DMS og AGS, NCTS fase 5, ATLAS, CDS, Carrier ebooking portaler, Inttra. Emil arbejder på skærmen, som en person gør.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Toldarkivering",
+            "body": "Forsendelsespost → National Single-Window Twin → Undtagelsesgennemgang → Menneskelig godkendelse → kvittering.",
+            "points": [
+              "Indtag af forsendelsesjournal",
+              "National Single-Window Twin",
+              "Undtagelse og dokumentgennemgang",
+              "godkendelse og kvittering fangst"
+            ],
+            "ctaLabel": "Simuler arkiveringen"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Carrier booking",
+            "body": "TMS Booking → Carrier Portal Twin → Sailing Verification → Human Approval → Confirmation.",
+            "points": [
+              "Godkendt reservationsindtag",
+              "Carrier Portal Twin",
+              "sejlads og option verifikation",
+              "godkendelse og bekræftelsesfangst"
+            ],
+            "ctaLabel": "simulere reservationen"
+          }
+        ],
+        "moreLabel": "mere arbejde Emil kan klare",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase og Cargonaut",
+            "body": "Told- og fragt-fællesskabsportal-operationer udarbejdet ud fra godkendte forsendelsesdata."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS og NCTS fase 5",
+            "body": "Erklæringer indøves, kontrolleres og opbevares for den autoriserede erklærer."
+          },
+          {
+            "number": "03",
+            "title": "Atlas og CDS",
+            "body": "Portalarbejde udført gennem skærmen, hvor der ikke findes nogen brugbar API."
+          },
+          {
+            "number": "04",
+            "title": "Carrier ebooking og intrattra",
+            "body": "Godkendte reservationsdata transporteres ind i operatørportaler med en komplet kørselsrecord."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Sådan fungerer en pilot",
+        "heading": "en portal. én proces.",
+        "accentHeading": "en navngivet operatør.",
+        "body": "en portal. én proces. En navngivet operatør på din side, som ejer resultatet. Seks uger, fast gebyr. Bygget på din rigtige arbejdsgang på din rigtige portal. Dit hold kører det og forlænger det, efter jeg har afleveret. Det kører under dit brand, og du beholder det. Det første opkald er tredive minutter, og jeg vil vise dig en genhør mod en rigtig portal, ikke slides.",
+        "ctaLabel": "Omfang én pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Omfang en EMIL-pilot",
+        "steps": [
+          {
+            "number": "01",
+            "title": "En navngivet operatør",
+            "body": "en portal. én proces. En navngivet operatør på din side, som ejer resultatet."
+          },
+          {
+            "number": "02",
+            "title": "Seks uger, fast gebyr",
+            "body": "Bygget på din rigtige arbejdsgang på din rigtige portal."
+          },
+          {
+            "number": "03",
+            "title": "Dit hold beholder det",
+            "body": "Dit hold kører det og forlænger det, efter jeg har afleveret. Det kører under dit brand, og du beholder det. Det første opkald er tredive minutter, og jeg vil vise dig en genhør mod en rigtig portal, ikke slides."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Told- og transportørportaldrift",
+        "tagline": "Din logistikstak stopper ved portalen. Emil bliver ved.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "sk",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Váš stack logistiky sa zastaví na portáli. Emil pokračuje.",
+    "subheadline": "Váš TMS drží zásielku. Potom niekto otvorí PortBase, DMS alebo NCT alebo obrazovku Carrier eBooking a znova ju zadá ručne. Na druhej strane nečaká žiadne API a pre väčšinu z nich nikdy nebude. Emil prenáša schválené údaje o zásielke z vašich TM do týchto portálov. Najprv nacvičí celý beh proti kópii vášho skutočného prostredia, ukáže vášmu deklarantovi presne to, čo sa chystá vstúpiť, a neurobí nič, kým to neschváli.",
+    "ctaLabel": "Spustite simuláciu portálu",
+    "description": "Emil sa stará o operácie colných a dopravcov tak, že nacvičuje schválený vstup zásielky na kópiu skutočného prostredia predtým, ako deklarant čokoľvek schváli.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "rysy",
+          "target": "about"
+        },
+        {
+          "label": "Ako to funguje",
+          "target": "how-it-works"
+        },
+        {
+          "label": "kontaktovať",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "rozsah pilot"
+    },
+    "heroChat": {
+      "statusLabel": "priamo",
+      "inputPlaceholder": "Opýtajte sa Emila na spustenie portálu…",
+      "suggestedPrompts": [
+        "nacvičiť podanie",
+        "Skontrolujte rezerváciu",
+        "Vysvetlite ovládacie prvky"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Dajte mi schválený záznam o zásielke a ja nacvičím portálovú prácu skôr, ako bude čokoľvek predložené."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil v kancelárii logistickej prevádzky so simuláciou colného podania"
+    },
+    "contact": {
+      "heading": "jeden portál. jeden proces. jeden menovaný operátor.",
+      "body": "Šesť týždňov, pevný poplatok. Postavený na vašom skutočnom pracovnom postupe, na vašom skutočnom portáli. Váš tím to riadi a rozširuje, keď som ho odovzdal. Beží pod vašou značkou a vy si ho necháte.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Operácie colných a dopravných portálov",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "rysy",
+            "target": "edge"
+          },
+          {
+            "label": "Ako to funguje",
+            "target": "control"
+          },
+          {
+            "label": "skúste demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "rozsah pilot"
+      },
+      "hero": {
+        "eyebrow": "Vykonávanie portálu riadeného človekom",
+        "heading": "Váš stack logistiky sa zastaví na portáli.",
+        "accentHeading": "Emil pokračuje.",
+        "body": "EMIL prenáša schválené údaje o zásielke do colných a prepravných portálov bez API. Nacvičuje každý beh, zastaví sa na ľudský súhlas a vráti kompletný záznam.",
+        "primaryCtaLabel": "Spustite simuláciu portálu",
+        "secondaryCtaLabel": "Rozsah jeden pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "Najprv nacvičené"
+          },
+          {
+            "number": "02",
+            "label": "schválené človekom"
+          },
+          {
+            "number": "03",
+            "label": "Plne zaznamenané"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, prevádzkovateľ logistického portálu",
+        "chat": {
+          "roleLabel": "Operácie colných a dopravných portálov",
+          "statusLabel": "priamo",
+          "openingMessage": "Ahoj, ja som Emil. Dajte mi schválený záznam o zásielke a ja nacvičím portálovú prácu skôr, ako bude čokoľvek predložené.",
+          "inputPlaceholder": "Opýtajte sa Emila na prácu s portálom…",
+          "suggestions": [
+            "nacvičiť podanie",
+            "Skontrolujte rezerváciu",
+            "Vysvetlite ovládacie prvky"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "pieskovisko",
+          "restartLabel": "Reštart",
+          "demoNote": "Ilustratívna simulácia · Žiadny skutočný portál, poverenia alebo údaje o zákazníkoch",
+          "sectionEyebrow": "Vyskúšaj to teraz",
+          "sectionHeading": "Pozri Emil",
+          "sectionAccentHeading": "na okraji portálu.",
+          "sectionBody": "Prepnite pracovné postupy, skontrolujte mapované polia, skontrolujte tri simulované výnimky a vyberte, či má vzorový chod pokračovať alebo eskalovať.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Colné podanie"
+            },
+            {
+              "id": "carrier",
+              "label": "rezervácia dopravcu"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-cus",
+              "title": "Import deklarácie · NL",
+              "lane": "Rotterdam → Montreal",
+              "source": "Approved TMS shipment",
+              "destination": "Národné jedno okno",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "zásielka",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Popis tovaru",
+                  "value": "Presné zostavy…",
+                  "state": "review"
+                },
+                {
+                  "label": "Odkaz na dovozcu",
+                  "value": "2 zdrojové záznamy",
+                  "state": "review"
+                },
+                {
+                  "label": "hrubá hmotnosť",
+                  "value": "18 420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "podporný dokument",
+                  "value": "Faktúra čaká",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Popis tovaru",
+                  "detail": "Zdrojový text prekračuje limit portálu"
+                },
+                {
+                  "title": "Odkaz na dovozcu",
+                  "detail": "Našli sa dva schválené záznamy"
+                },
+                {
+                  "title": "podporný dokument",
+                  "detail": "Komerčná faktúra potrebuje potvrdenie"
+                }
+              ],
+              "receipt": "Declaration package recorded"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Ocean Booking · FCL",
+              "lane": "Antverpy → Singapur",
+              "source": "Approved TMS booking",
+              "destination": "Portál operátora tretej strany",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Referenčná rezervácia",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Možnosť plavby",
+                  "value": "2 služby zápasu",
+                  "state": "review"
+                },
+                {
+                  "label": "vybavenie",
+                  "value": "1 × 40 HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "uvoľnenie zariadenia",
+                  "value": "v sklade",
+                  "state": "review"
+                },
+                {
+                  "label": "prerušenie nákladu",
+                  "value": "Harmonogram sa líši",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Možnosť plavby",
+                  "detail": "Dve služby spĺňajú požadovaný príchod"
+                },
+                {
+                  "title": "uvoľnenie zariadenia",
+                  "detail": "Čaká sa na potvrdenie skladu"
+                },
+                {
+                  "title": "prerušenie nákladu",
+                  "detail": "Portál sa líši od plánu zdrojov"
+                }
+              ],
+              "receipt": "Zaznamenané potvrdenie rezervácie"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "zdroj čítaný",
+              "detail": "schválený záznam",
+              "state": "done"
+            },
+            {
+              "title": "dvojité postavené",
+              "detail": "Polia zmapované",
+              "state": "done"
+            },
+            {
+              "title": "3 výnimky",
+              "detail": "potrebuje úsudok",
+              "state": "warning"
+            },
+            {
+              "title": "súhlas",
+              "detail": "Ľudský kontrolný bod",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Tri polia potrebujú úsudok.",
+          "reviewBody": "Emil neuhádne ani sa nedotkne živého portálu.",
+          "reviewLabel": "Prezrite si portálové dvojča",
+          "approveLabel": "Schváliť vzorový chod",
+          "escalateLabel": "bezpečne eskalovať",
+          "approvedKicker": "Simulované dokončenie",
+          "approvedBody": "Schválené dvojča bolo vykonané v pieskovisku a každá akcia bola pripojená k záznamu behu.",
+          "approvedChecks": [
+            "schválené dvojča",
+            "portál",
+            "audit"
+          ],
+          "escalatedKicker": "eskalácia zaznamenaná",
+          "escalatedTitle": "Na živý portál sa nič nedostalo.",
+          "escalatedBody": "Emil zachoval zmapované polia, dôkazy a otvorené rozhodnutia, ktoré musí operátor vyriešiť.",
+          "continueLabel": "Pokračujte skutočnou zásielkou",
+          "loginNotice": "Prihláste sa a nacvičte si súkromné colné podanie u Emila. V tejto verzii sa nevyskytuje žiadne odoslanie živého portálu."
+        }
+      },
+      "ticker": [
+        "Colné podanie",
+        "rezervácia dopravcu",
+        "portálové dvojča",
+        "Ľudský súhlas",
+        "Exception review",
+        "potvrdenie"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Vaše meno zostane na zázname",
+        "heading": "Emil pripraví záznam.",
+        "accentHeading": "Váš deklarant to podá.",
+        "body": "emil nepodáva. Váš licencovaný deklarant áno. Emil pripraví záznam, skontroluje ho so zdrojovými dokumentmi, označí, čo by bolo odmietnuté, a čaká. Deklarant záznamu sa nemení a na Emilovej právomoci nie je nič predložené.",
+        "governedLabel": "Váš riadený zásobník",
+        "governedSystems": [
+          "tms",
+          "WMS",
+          "edi",
+          "Vnútorná AI"
+        ],
+        "boundaryLabel": "hranica API",
+        "operatorTitle": "Emil tu pracuje",
+        "operatorBody": "pozorovať · skúšať · schvaľovať · vykonávať",
+        "externalLabel": "externé systémy",
+        "portals": [
+          {
+            "label": "colný portál",
+            "badge": "Žiadne API"
+          },
+          {
+            "label": "portál",
+            "badge": "Žiadne API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Pred Emilom",
+            "title": "Portál sa stane niečím otočným kreslom.",
+            "body": "Manuálne kopírovanie, fragmentované snímky obrazovky, skryté výnimky a žiadne konzistentné skúšky pred odoslaním."
+          },
+          {
+            "label": "s Emilom",
+            "title": "Portál sa stáva riadeným operačným povrchom.",
+            "body": "Schválené údaje, zmapované na verné dvojča, zviditeľnené výnimky a nezvratné konanie pre osobu."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Vaše meno zostane na zázname",
+            "body": "emil nepodáva. Váš licencovaný deklarant áno. Emil pripraví záznam, skontroluje ho so zdrojovými dokumentmi, označí, čo by bolo odmietnuté, a čaká. Deklarant záznamu sa nemení a na Emilovej právomoci nie je nič predložené."
+          },
+          {
+            "number": "02",
+            "title": "Každý beh zanechá rekord",
+            "body": "Čo bolo prečítané, čo bolo navrhnuté, kto to schválil, čo bolo predložené, časová pečiatka. Keď sa audit spýta, ako sa dospelo k záznamu, odpoveď už existuje."
+          },
+          {
+            "number": "03",
+            "title": "s čím to funguje",
+            "body": "Portbase a Cargonaut, DMS a AGS, NCTS Phase 5, Atlas, CD, Carrier eBooking Portals, Inttra. Ak sa do nej váš tím prihlási, Emil to môže pracovať, pretože Emil pracuje na obrazovke tak, ako to robí človek."
+          },
+          {
+            "number": "04",
+            "title": "Pre koho to je",
+            "body": "Colní makléri a špeditéri, 10 až 150 ľudí. Interné tímy pre dodržiavanie predpisov. Vyhlásenia sú skutočné. Objemy stúpajú. Prijímanie ďalšieho deklaranta sa tento rok nekoná. ICS2 Release 3 je povinná vo všetkých členských štátoch od septembra 2025 a posledné výnimky vypršali v júni 2026. NCTS Phase 6 pristála vedľa nej. Záťaž pilníka, ktorá s nimi dorazila, sa nevráti dole a nikto nepríde, aby to vzal."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Každý beh zanechá rekord",
+        "heading": "Odpoveď auditu",
+        "accentHeading": "už existuje.",
+        "body": "Čo bolo prečítané, čo bolo navrhnuté, kto to schválil, čo bolo predložené, časová pečiatka. Keď sa audit spýta, ako sa dospelo k záznamu, odpoveď už existuje.",
+        "portalLabel": "portál dvojča · bezpečný režim",
+        "fields": [
+          {
+            "label": "zásielka",
+            "status": "verified"
+          },
+          {
+            "label": "Podrobnosti o komodite",
+            "status": "review"
+          },
+          {
+            "label": "podporný dokument",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Ľudský kontrolný bod",
+        "points": [
+          {
+            "title": "Skontrolované zdrojové dokumenty",
+            "body": "Emil pripravuje záznam zo schválených údajov o zásielke."
+          },
+          {
+            "title": "Označené odmietnutia",
+            "body": "Váš deklarant vidí, čo by bolo zamietnuté skôr, ako bude čokoľvek predložené."
+          },
+          {
+            "title": "Vyžaduje sa súhlas deklaranta",
+            "body": "Deklarant záznamov zostáva pod kontrolou."
+          },
+          {
+            "title": "Nič z Emilovej autority",
+            "body": "Každá navrhovaná a schválená akcia je stanovená časovou pečiatkou."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Každý beh zanechá rekord",
+        "heading": "Každý beh nacvičený.",
+        "accentHeading": "každé zaznamenané rozhodnutie.",
+        "body": "Čo bolo prečítané, čo bolo navrhnuté, kto to schválil, čo bolo predložené, časová pečiatka. Keď sa audit spýta, ako sa dospelo k záznamu, odpoveď už existuje.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Rozsah",
+            "body": "Uzamknite jeden portál, jeden proces, povolenia a podmienku úspechu."
+          },
+          {
+            "number": "02",
+            "title": "nacvičovať",
+            "body": "Vytvorte verné portálové dvojča a zmapujte iba schválené zdrojové údaje."
+          },
+          {
+            "number": "03",
+            "title": "rozlíšiť",
+            "body": "Odhaľte nejednoznačnosť, zmenené stránky a chýbajúce dôkazy namiesto hádania."
+          },
+          {
+            "number": "04",
+            "title": "schváliť",
+            "body": "Zastavte sa v presnom následnom momente pre zodpovedného človeka."
+          },
+          {
+            "number": "05",
+            "title": "vykonať",
+            "body": "Vykonajte iba schválené kroky prehliadača – nič mimo rozsahu."
+          },
+          {
+            "number": "06",
+            "title": "zapisovať",
+            "body": "Vráťte odpoveď portálu, rozhodnutia a artefakty ako jednu účtenku."
+          }
+        ],
+        "failClosedTitle": "Kontrola je štrukturálna, nie kozmetická.",
+        "failClosedBody": "Ak sa stránka zmení, dôkazy sú v konflikte alebo prekročí schválený rozsah, EMIL sa zastaví.",
+        "failClosedLabel": "Fail closed"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "s čím to funguje",
+        "heading": "Ak sa do toho váš tím prihlási,",
+        "accentHeading": "Emil to dokáže zvládnuť.",
+        "body": "Portbase a Cargonaut, DMS a AGS, NCTS Phase 5, Atlas, CD, Carrier eBooking Portals, Inttra. Emil pracuje na obrazovke tak, ako to robí človek.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Colné podanie",
+            "body": "Záznam o zásielke → Národné jedno okno s jedným okienkom → Kontrola výnimky → Schválenie človeka → Potvrdenie.",
+            "points": [
+              "Príjem záznamu o zásielke",
+              "Národné jednooké Dvojča",
+              "Výnimka a kontrola dokumentov",
+              "Approval and receipt capture"
+            ],
+            "ctaLabel": "simulovať podanie"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "rezervácia dopravcu",
+            "body": "Rezervácia TMS → Portál nosiča Twin → Overenie plachtenia → Schválenie človeka → Potvrdenie.",
+            "points": [
+              "Schválený príjem rezervácie",
+              "Carrier Portal Twin",
+              "plavba a overenie možností",
+              "Zachytenie schválenia a potvrdenia"
+            ],
+            "ctaLabel": "simulovať rezerváciu"
+          }
+        ],
+        "moreLabel": "Viac práce Emila zvládne",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase a Cargonaut",
+            "body": "Colné a nákladné portálové operácie pripravené zo schválených údajov o zásielke."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS a NCTS fáza 5",
+            "body": "Vyhlásenia boli nacvičené, skontrolované a zadržané pre licencovaného deklaranta."
+          },
+          {
+            "number": "03",
+            "title": "Atlas a CD",
+            "body": "Portálová práca vykonávaná cez obrazovku, kde neexistuje použiteľné API."
+          },
+          {
+            "number": "04",
+            "title": "Carrier eBooking a Inttra",
+            "body": "Schválené údaje o rezervácii prenesené do portálov dopravcov s úplným záznamom o behu."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Ako funguje pilot",
+        "heading": "jeden portál. jeden proces.",
+        "accentHeading": "jeden menovaný operátor.",
+        "body": "jeden portál. jeden proces. Jeden menovaný operátor na vašej strane, ktorý vlastní výsledok. Šesť týždňov, pevný poplatok. Postavený na vašom skutočnom pracovnom postupe, na vašom skutočnom portáli. Váš tím to riadi a rozširuje, keď som ho odovzdal. Beží pod vašou značkou a vy si ho necháte. Prvý hovor je tridsať minút a ja vám ukážem skúšku proti skutočnému portálu, nie snímkam.",
+        "ctaLabel": "Rozsah jeden pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Rozsah EMIL Pilot",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Jeden menovaný operátor",
+            "body": "jeden portál. jeden proces. Jeden menovaný operátor na vašej strane, ktorý vlastní výsledok."
+          },
+          {
+            "number": "02",
+            "title": "Šesť týždňov, pevný poplatok",
+            "body": "Postavený na vašom skutočnom pracovnom postupe, na vašom skutočnom portáli."
+          },
+          {
+            "number": "03",
+            "title": "Váš tím to udržiava",
+            "body": "Váš tím to riadi a rozširuje, keď som ho odovzdal. Beží pod vašou značkou a vy si ho necháte. Prvý hovor je tridsať minút a ja vám ukážem skúšku proti skutočnému portálu, nie snímkam."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Operácie colných a dopravných portálov",
+        "tagline": "Váš stack logistiky sa zastaví na portáli. Emil pokračuje.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

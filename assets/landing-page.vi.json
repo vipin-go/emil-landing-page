@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "vi",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Ngăn xếp hậu cần của bạn dừng ở cổng thông tin. Emil tiếp tục đi.",
+    "subheadline": "TMS của bạn giữ lô hàng. Sau đó, ai đó mở Portbase, hoặc DMS, hoặc NCTs, hoặc màn hình ebooking của nhà cung cấp dịch vụ và nhập lại bằng tay. Không có API đang chờ ở phía bên kia, và sẽ không bao giờ có cho hầu hết chúng. Emil mang dữ liệu lô hàng được phê duyệt từ TMS của bạn vào các cổng đó. Nó diễn tập toàn bộ quá trình chạy trước một bản sao của môi trường thực của bạn, cho người khai báo của bạn chính xác những gì nó sắp nhập và không làm gì cho đến khi họ chấp thuận nó.",
+    "ctaLabel": "Chạy mô phỏng cổng thông tin",
+    "description": "Emil xử lý các hoạt động của hải quan và cổng thông tin vận tải bằng cách diễn tập nhập cảnh được phê duyệt đối với một bản sao của môi trường thực trước khi người khai báo phê duyệt bất cứ điều gì.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Tính năng",
+          "target": "about"
+        },
+        {
+          "label": "Làm thế nào nó hoạt động",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Tiếp xúc",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "phạm vi một thí điểm"
+    },
+    "heroChat": {
+      "statusLabel": "Trực tuyến",
+      "inputPlaceholder": "Hỏi Emil về một cổng chạy…",
+      "suggestedPrompts": [
+        "diễn tập một hồ sơ",
+        "Kiểm tra đặt phòng",
+        "Giải thích các điều khiển"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Cung cấp cho tôi một hồ sơ lô hàng đã được phê duyệt và tôi sẽ diễn tập cổng thông tin trước khi bất cứ điều gì được gửi."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil trong một văn phòng hoạt động hậu cần với mô phỏng hồ sơ hải quan"
+    },
+    "contact": {
+      "heading": "một cổng thông tin. một quá trình. một toán tử có tên.",
+      "body": "Sáu tuần, phí cố định. Được xây dựng trên quy trình làm việc thực của bạn, trên cổng thông tin thực của bạn. Nhóm của bạn điều hành nó và mở rộng nó sau khi tôi bàn giao. Nó chạy dưới thương hiệu của bạn và bạn giữ nó.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Hoạt động của Cổng thông tin hải quan và tàu sân bay",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Tính năng",
+            "target": "edge"
+          },
+          {
+            "label": "Làm thế nào nó hoạt động",
+            "target": "control"
+          },
+          {
+            "label": "Hãy thử một bản demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "phạm vi một thí điểm"
+      },
+      "hero": {
+        "eyebrow": "Thực hiện cổng thông tin do con người kiểm soát",
+        "heading": "Ngăn xếp hậu cần của bạn dừng ở cổng thông tin.",
+        "accentHeading": "Emil tiếp tục đi.",
+        "body": "EMIL mang dữ liệu lô hàng được phê duyệt vào các cổng thông tin hải quan và hãng hàng không không có API. Nó diễn tập từng lần chạy, tạm dừng để được sự chấp thuận của con người và trả về một bản ghi hoàn chỉnh.",
+        "primaryCtaLabel": "Chạy mô phỏng cổng thông tin",
+        "secondaryCtaLabel": "Phạm vi một thí điểm",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "diễn tập trước"
+          },
+          {
+            "number": "02",
+            "label": "con người được chấp thuận"
+          },
+          {
+            "number": "03",
+            "label": "ghi đầy đủ"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, một nhà điều hành cổng thông tin hậu cần",
+        "chat": {
+          "roleLabel": "Hoạt động của Cổng thông tin hải quan và tàu sân bay",
+          "statusLabel": "Trực tuyến",
+          "openingMessage": "Xin chào, tôi là Emil. Cung cấp cho tôi một hồ sơ lô hàng đã được phê duyệt và tôi sẽ diễn tập công việc cổng thông tin trước khi bất cứ điều gì được gửi.",
+          "inputPlaceholder": "Hỏi Emil về công việc cổng thông tin…",
+          "suggestions": [
+            "diễn tập một hồ sơ",
+            "Kiểm tra đặt phòng",
+            "Giải thích các điều khiển"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Hộp cát mô phỏng",
+          "restartLabel": "Khởi động lại",
+          "demoNote": "Mô phỏng minh họa · Không có cổng thông tin thực, thông tin đăng nhập hoặc dữ liệu khách hàng",
+          "sectionEyebrow": "Thử ngay bây giờ",
+          "sectionHeading": "Xem Emil",
+          "sectionAccentHeading": "ở cạnh cổng.",
+          "sectionBody": "Chuyển đổi quy trình làm việc, kiểm tra các trường được ánh xạ, xem xét ba ngoại lệ mô phỏng và chọn xem quá trình chạy mẫu nên tiến hành hay leo thang.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Hồ sơ hải quan"
+            },
+            {
+              "id": "carrier",
+              "label": "Đặt chỗ của nhà cung cấp dịch vụ"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-Cus",
+              "title": "Khai báo nhập khẩu · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "một cửa sổ quốc gia",
+              "mapped": "42/45",
+              "fields": [
+                {
+                  "label": "Tham khảo lô hàng",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Mô tả hàng hóa",
+                  "value": "lắp ráp chính xác…",
+                  "state": "review"
+                },
+                {
+                  "label": "Tham chiếu nhà nhập khẩu",
+                  "value": "2 Bản ghi nguồn",
+                  "state": "review"
+                },
+                {
+                  "label": "tổng khối lượng",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Tài liệu hỗ trợ",
+                  "value": "Hóa đơn đang chờ xử lý",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Mô tả hàng hóa",
+                  "detail": "Văn bản nguồn vượt quá giới hạn cổng thông tin"
+                },
+                {
+                  "title": "Tham chiếu nhà nhập khẩu",
+                  "detail": "Hai hồ sơ được phê duyệt đã"
+                },
+                {
+                  "title": "Tài liệu hỗ trợ",
+                  "detail": "Hóa đơn thương mại cần xác nhận"
+                }
+              ],
+              "receipt": "Gói khai báo được ghi lại"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Đặt chỗ trên biển · FCL",
+              "lane": "Antwerp → Singapore",
+              "source": "Approved TMS booking",
+              "destination": "Cổng thông tin nhà cung cấp bên thứ ba",
+              "mapped": "36/39",
+              "fields": [
+                {
+                  "label": "Đặt chỗ",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "tùy chọn chèo thuyền",
+                  "value": "2 dịch vụ phù hợp",
+                  "state": "review"
+                },
+                {
+                  "label": "Thiết bị",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Phát hành thiết bị",
+                  "value": "Kho đang chờ xử lý",
+                  "state": "review"
+                },
+                {
+                  "label": "cắt hàng hóa",
+                  "value": "Lịch trình khác nhau",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "tùy chọn chèo thuyền",
+                  "detail": "Hai dịch vụ đáp ứng yêu cầu đến"
+                },
+                {
+                  "title": "Phát hành thiết bị",
+                  "detail": "Xác nhận kho đang chờ xử lý"
+                },
+                {
+                  "title": "cắt hàng hóa",
+                  "detail": "cổng thông tin khác với lịch biểu nguồn"
+                }
+              ],
+              "receipt": "Xác nhận đặt phòng được ghi lại"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Đọc nguồn",
+              "detail": "Hồ sơ được phê duyệt",
+              "state": "done"
+            },
+            {
+              "title": "Đã xây dựng đôi",
+              "detail": "Các trường được lập bản đồ",
+              "state": "done"
+            },
+            {
+              "title": "3 ngoại lệ",
+              "detail": "cần phán xét",
+              "state": "warning"
+            },
+            {
+              "title": "Sự phê duyệt",
+              "detail": "trạm kiểm soát của con người",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Ba lĩnh vực cần phán xét.",
+          "reviewBody": "Emil sẽ không đoán hoặc chạm vào cổng trực tiếp.",
+          "reviewLabel": "Xem lại Cổng thông tin song sinh",
+          "approveLabel": "Phê duyệt chạy mẫu",
+          "escalateLabel": "leo thang an toàn",
+          "approvedKicker": "hoàn thành mô phỏng",
+          "approvedBody": "Cặp song sinh được chấp thuận đã được thực hiện trong hộp cát và mọi hành động đều được đính kèm vào hồ sơ chạy.",
+          "approvedChecks": [
+            "Đã chấp thuận sinh đôi",
+            "Phản hồi cổng thông tin",
+            "Hồ sơ kiểm toán"
+          ],
+          "escalatedKicker": "sự leo thang được ghi lại",
+          "escalatedTitle": "Không có gì đến cổng trực tiếp.",
+          "escalatedBody": "Emil đã bảo tồn các trường được lập bản đồ, bằng chứng và các quyết định mở để một nhà điều hành giải quyết.",
+          "continueLabel": "tiếp tục với một lô hàng thực sự",
+          "loginNotice": "Đăng nhập để diễn tập hồ sơ hải quan riêng với Emil. Không có gửi cổng trực tiếp nào xảy ra trong phiên bản này."
+        }
+      },
+      "ticker": [
+        "Hồ sơ hải quan",
+        "Đặt chỗ của nhà cung cấp dịch vụ",
+        "Cổng thông tin song sinh",
+        "Sự chấp thuận của con người",
+        "Đánh giá ngoại lệ",
+        "Biên lai kiểm toán"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Tên của bạn vẫn ở trên mục nhập",
+        "heading": "Emil chuẩn bị bài dự thi.",
+        "accentHeading": "Khai báo của bạn sẽ gửi nó.",
+        "body": "Emil không nộp hồ sơ. người khai báo được cấp phép của bạn có. Emil chuẩn bị mục nhập, kiểm tra nó dựa trên các tài liệu nguồn, gắn cờ những gì sẽ bị từ chối và chờ đợi. Người khai báo hồ sơ không thay đổi và không có gì được đệ trình theo thẩm quyền của Emil.",
+        "governedLabel": "ngăn xếp được quản lý của bạn",
+        "governedSystems": [
+          "tms",
+          "WMS",
+          "EDI",
+          "AI nội bộ"
+        ],
+        "boundaryLabel": "Ranh giới API",
+        "operatorTitle": "Emil làm việc ở đây",
+        "operatorBody": "quan sát · diễn tập · chấp thuận · thực hiện",
+        "externalLabel": "Hệ thống bên ngoài",
+        "portals": [
+          {
+            "label": "Cổng thông tin hải quan",
+            "badge": "Không có API"
+          },
+          {
+            "label": "Cổng thông tin nhà cung cấp dịch vụ",
+            "badge": "Không có API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "trước Emil",
+            "title": "Cổng thông tin trở thành chiếc ghế xoay của ai đó.",
+            "body": "Sao chép thủ công, ảnh chụp màn hình bị phân mảnh, ngoại lệ ẩn và không có diễn tập nhất quán trước khi gửi."
+          },
+          {
+            "label": "với Emil",
+            "title": "Cổng thông tin trở thành bề mặt vận hành được kiểm soát.",
+            "body": "Dữ liệu được phê duyệt, được ánh xạ thành một cặp song sinh trung thành, các trường hợp ngoại lệ được hiển thị và hành động không thể đảo ngược được tổ chức đối với một người."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Tên của bạn vẫn ở trên mục nhập",
+            "body": "Emil không nộp hồ sơ. người khai báo được cấp phép của bạn có. Emil chuẩn bị mục nhập, kiểm tra nó dựa trên các tài liệu nguồn, gắn cờ những gì sẽ bị từ chối và chờ đợi. Người khai báo hồ sơ không thay đổi và không có gì được đệ trình theo thẩm quyền của Emil."
+          },
+          {
+            "number": "02",
+            "title": "Mỗi lần chạy để lại một kỷ lục",
+            "body": "Những gì đã được đọc, những gì đã được đề xuất, ai đã chấp thuận nó, những gì đã được gửi, dấu thời gian. Khi một cuộc kiểm toán hỏi làm thế nào một mục nhập đã đến, câu trả lời đã tồn tại."
+          },
+          {
+            "number": "03",
+            "title": "Nó hoạt động với cái gì",
+            "body": "Portbase và Cargonaut, DMS và AGS, NCTS Giai đoạn 5, Atlas, CD, Cổng thông tin điện tử của nhà cung cấp dịch vụ, Inttra. Nếu nhóm của bạn đăng nhập vào đó, Emil có thể làm việc đó, bởi vì Emil làm việc trên màn hình theo cách mà một người làm."
+          },
+          {
+            "number": "04",
+            "title": "cái này dành cho ai",
+            "body": "Người môi giới hải quan và giao nhận hàng hóa, 10 đến 150 người. Các nhóm tuân thủ thương mại nội bộ. những tuyên bố là có thật. khối lượng đang tăng. Việc thuê một người khai báo khác sẽ không xảy ra trong năm nay. ICS2 Bản phát hành 3 đã được bắt buộc trên tất cả các Quốc gia Thành viên kể từ tháng 9 năm 2025, và các vụ vi phạm cuối cùng đã hết hạn vào tháng 6 năm 2026. NCTs Giai đoạn 6 đã hạ cánh cùng với nó. Tải hồ sơ đi cùng với họ sẽ không trở lại, và không ai đến để lấy nó đi."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Mỗi lần chạy để lại một kỷ lục",
+        "heading": "Câu trả lời kiểm toán",
+        "accentHeading": "đã tồn tại.",
+        "body": "Những gì đã được đọc, những gì đã được đề xuất, ai đã chấp thuận nó, những gì đã được gửi, dấu thời gian. Khi một cuộc kiểm toán hỏi làm thế nào một mục nhập đã đến, câu trả lời đã tồn tại.",
+        "portalLabel": "Cổng thông tin · Chế độ an toàn",
+        "fields": [
+          {
+            "label": "Tham khảo lô hàng",
+            "status": "verified"
+          },
+          {
+            "label": "Chi tiết hàng hóa",
+            "status": "review"
+          },
+          {
+            "label": "Tài liệu hỗ trợ",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "trạm kiểm soát của con người",
+        "points": [
+          {
+            "title": "tài liệu nguồn đã được kiểm tra",
+            "body": "Emil chuẩn bị mục nhập từ dữ liệu lô hàng đã được phê duyệt."
+          },
+          {
+            "title": "Từ chối được gắn cờ",
+            "body": "Người khai báo của bạn thấy những gì sẽ bị từ chối trước khi bất cứ điều gì được gửi."
+          },
+          {
+            "title": "Yêu cầu phê duyệt của người khai báo",
+            "body": "người khai báo hồ sơ vẫn được kiểm soát."
+          },
+          {
+            "title": "Không có gì trong thẩm quyền của Emil",
+            "body": "Mọi hành động được đề xuất và phê duyệt đều được đánh dấu thời gian."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Mỗi lần chạy để lại một kỷ lục",
+        "heading": "Mỗi lần chạy đều được diễn tập.",
+        "accentHeading": "Mọi quyết định được ghi lại.",
+        "body": "Những gì đã được đọc, những gì đã được đề xuất, ai đã chấp thuận nó, những gì đã được gửi, dấu thời gian. Khi một cuộc kiểm toán hỏi làm thế nào một mục nhập đã đến, câu trả lời đã tồn tại.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Phạm vi",
+            "body": "Khóa một cổng thông tin, một quy trình, quyền và điều kiện thành công."
+          },
+          {
+            "number": "02",
+            "title": "Diễn tập",
+            "body": "Xây dựng một cổng thông tin trung thành song sinh và chỉ dữ liệu nguồn được phê duyệt."
+          },
+          {
+            "number": "03",
+            "title": "Giải quyết",
+            "body": "phơi bày sự mơ hồ, thay đổi trang và thiếu bằng chứng thay vì đoán."
+          },
+          {
+            "number": "04",
+            "title": "chấp thuận",
+            "body": "Tạm dừng vào thời điểm hậu quả chính xác đối với một con người có trách nhiệm."
+          },
+          {
+            "number": "05",
+            "title": "Thi hành",
+            "body": "Chỉ thực hiện các bước trình duyệt đã được phê duyệt — không có gì bên ngoài phạm vi."
+          },
+          {
+            "number": "06",
+            "title": "Ghi",
+            "body": "Trả lại phản hồi cổng thông tin, quyết định và hiện vật dưới dạng một biên lai."
+          }
+        ],
+        "failClosedTitle": "Kiểm soát là cấu trúc, không phải thẩm mỹ.",
+        "failClosedBody": "Nếu trang thay đổi, xung đột bằng chứng hoặc phạm vi được phê duyệt vượt quá, Emil sẽ dừng lại.",
+        "failClosedLabel": "Không đóng được"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Nó hoạt động với cái gì",
+        "heading": "Nếu nhóm của bạn đăng nhập vào nó,",
+        "accentHeading": "Emil có thể làm việc đó.",
+        "body": "Portbase và Cargonaut, DMS và AGS, NCTS Giai đoạn 5, Atlas, CD, Cổng thông tin điện tử của nhà cung cấp dịch vụ, Inttra. Emil làm việc trên màn hình theo cách một người làm.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Hồ sơ hải quan",
+            "body": "Hồ sơ Lô hàng → Quốc gia một cửa sổ sinh đôi → Đánh giá ngoại lệ → Sự chấp thuận của con người → Biên nhận.",
+            "points": [
+              "Biên bản Lô hàng Nhập khẩu",
+              "Twin một cửa quốc gia",
+              "Ngoại lệ và xem xét tài liệu",
+              "Phê duyệt và thu nhận"
+            ],
+            "ctaLabel": "Mô phỏng hồ sơ"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Đặt chỗ của nhà cung cấp dịch vụ",
+            "body": "Đặt phòng TMS → Cổng thông tin của hãng hàng không Twin → Xác minh đi thuyền → Sự chấp thuận của con người → Xác nhận.",
+            "points": [
+              "Đã chấp nhận đặt phòng",
+              "Cổng thông tin nhà cung cấp đôi",
+              "Đi thuyền và xác minh tùy chọn",
+              "Phê duyệt và xác nhận"
+            ],
+            "ctaLabel": "Mô phỏng việc đặt phòng"
+          }
+        ],
+        "moreLabel": "nhiều công việc hơn Emil có thể xử lý",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase và Cargonaut",
+            "body": "các hoạt động của cảng hàng hóa và hàng hóa được chuẩn bị từ dữ liệu lô hàng đã được phê duyệt."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS và NCTS giai đoạn 5",
+            "body": "Các tuyên bố đã diễn tập, kiểm tra và tổ chức cho người khai báo được cấp phép."
+          },
+          {
+            "number": "03",
+            "title": "Tập bản đồ và đĩa CD",
+            "body": "Công việc cổng thông tin được thực hiện thông qua màn hình không tồn tại API có thể sử dụng được."
+          },
+          {
+            "number": "04",
+            "title": "Ebooking và Inttra của nhà cung cấp dịch vụ",
+            "body": "Dữ liệu đặt chỗ được phê duyệt được chuyển vào các cổng thông tin của nhà cung cấp dịch vụ với hồ sơ chạy hoàn chỉnh."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Cách hoạt động của một phi công",
+        "heading": "một cổng thông tin. một quá trình.",
+        "accentHeading": "một toán tử có tên.",
+        "body": "một cổng thông tin. một quá trình. Một nhà điều hành có tên ở phía bạn, người sở hữu kết quả. Sáu tuần, phí cố định. Được xây dựng trên quy trình làm việc thực của bạn, trên cổng thông tin thực của bạn. Nhóm của bạn điều hành nó và mở rộng nó sau khi tôi bàn giao. Nó chạy dưới thương hiệu của bạn và bạn giữ nó. Cuộc gọi đầu tiên là ba mươi phút và tôi sẽ chỉ cho bạn một buổi diễn tập dựa trên một cổng thông tin thực, không phải slide.",
+        "ctaLabel": "Phạm vi một thí điểm",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Phạm vi thí điểm Emil",
+        "steps": [
+          {
+            "number": "01",
+            "title": "một toán tử có tên",
+            "body": "một cổng thông tin. một quá trình. Một nhà điều hành có tên ở phía bạn, người sở hữu kết quả."
+          },
+          {
+            "number": "02",
+            "title": "Sáu tuần, phí cố định",
+            "body": "Được xây dựng trên quy trình làm việc thực của bạn, trên cổng thông tin thực của bạn."
+          },
+          {
+            "number": "03",
+            "title": "Nhóm của bạn giữ nó",
+            "body": "Nhóm của bạn điều hành nó và mở rộng nó sau khi tôi bàn giao. Nó chạy dưới thương hiệu của bạn và bạn giữ nó. Cuộc gọi đầu tiên là ba mươi phút và tôi sẽ chỉ cho bạn một buổi diễn tập dựa trên một cổng thông tin thực, không phải slide."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Hoạt động của Cổng thông tin hải quan và tàu sân bay",
+        "tagline": "Ngăn xếp hậu cần của bạn dừng ở cổng thông tin. Emil tiếp tục đi.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

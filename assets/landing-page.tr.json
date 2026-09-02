@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "tr",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Lojistik yığınınız portalda durur. Emil devam ediyor.",
+    "subheadline": "TMS'niz gönderiyi tutar. Ardından birisi Portbase veya DMS veya NCTS veya bir taşıyıcı e-kitap ekranını açar ve tekrar elle tuşlar. Diğer tarafta bekleyen bir API yok ve çoğu için asla olmayacak. EMIL, TMS'nizden onaylanmış gönderi verilerini bu portallara taşır. Gerçek ortamınızın bir kopyasına karşı ilk olarak tüm koşuyu prova eder, beyan sahibinize tam olarak ne girmek üzere olduğunu gösterir ve onaylayana kadar hiçbir şey yapmaz.",
+    "ctaLabel": "Portal simülasyonu çalıştırın",
+    "description": "Emil, bir beyan sahibi herhangi bir şeyi onaylamadan önce gerçek ortamın bir kopyasına karşı onaylanmış gönderi girişini prova ederek gümrük ve taşıyıcı portal operasyonlarını yönetir.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "özellikler",
+          "target": "about"
+        },
+        {
+          "label": "Nasıl çalışır",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Temas",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "bir pilot uygulama"
+    },
+    "heroChat": {
+      "statusLabel": "çevrimiçi",
+      "inputPlaceholder": "Emil'e bir portal çalıştırması hakkında soru sorun…",
+      "suggestedPrompts": [
+        "bir dosyalamayı prova etmek",
+        "Bir rezervasyonu kontrol edin",
+        "Kontrolleri açıklayın"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Bana onaylanmış bir gönderi kaydı verin, herhangi bir şey sunulmadan önce portal çalışmasını prova edeceğim."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Gümrük Dosyalama Simülasyonu ile Lojistik Operasyon Ofisinde Emil"
+    },
+    "contact": {
+      "heading": "Bir portal. bir süreç. Adlandırılmış bir operatör.",
+      "body": "Altı hafta, sabit ücret. Gerçek portalınız üzerinde gerçek iş akışınıza inşa edilmiştir. Ekibiniz çalıştırıyor ve ben teslim ettikten sonra uzatıyor. Markanızın altında çalışır ve siz onu korursunuz.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Gümrük ve Taşıyıcı Portal İşlemleri",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "özellikler",
+            "target": "edge"
+          },
+          {
+            "label": "Nasıl çalışır",
+            "target": "control"
+          },
+          {
+            "label": "Bir Demo Deneyin",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "bir pilot uygulama"
+      },
+      "hero": {
+        "eyebrow": "İnsan kontrollü portal yürütme",
+        "heading": "Lojistik yığınınız portalda durur.",
+        "accentHeading": "Emil devam ediyor.",
+        "body": "EMIL, onaylanmış gönderi verilerini API'si olmayan gümrük ve taşıyıcı portallarına taşır. Her koşuyu prova eder, insan onayı için duraklar ve tam bir kayıt döndürür.",
+        "primaryCtaLabel": "Portal simülasyonu çalıştırın",
+        "secondaryCtaLabel": "Kapsam Bir Pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "önce prova"
+          },
+          {
+            "number": "02",
+            "label": "insan onaylı"
+          },
+          {
+            "number": "03",
+            "label": "tamamen kayıtlı"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, bir lojistik portalı operatörü",
+        "chat": {
+          "roleLabel": "Gümrük ve Taşıyıcı Portal İşlemleri",
+          "statusLabel": "çevrimiçi",
+          "openingMessage": "Merhaba, ben Emil. Bana onaylanmış bir gönderi kaydı verin, herhangi bir şey sunulmadan önce portal çalışmasını prova edeceğim.",
+          "inputPlaceholder": "Emil'e portal çalışmaları hakkında bilgi verin…",
+          "suggestions": [
+            "bir dosyalamayı prova etmek",
+            "Bir rezervasyonu kontrol edin",
+            "Kontrolleri açıklayın"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Simülasyon korumalı alan",
+          "restartLabel": "yeniden başlamak",
+          "demoNote": "Açıklayıcı Simülasyon · Gerçek portal, kimlik bilgileri veya müşteri verileri yok",
+          "sectionEyebrow": "şimdi dene",
+          "sectionHeading": "Emil'i görmek",
+          "sectionAccentHeading": "Portal kenarında.",
+          "sectionBody": "İş akışlarını değiştirin, eşlenen alanları inceleyin, üç simüle edilmiş istisnayı gözden geçirin ve örnek çalıştırmanın devam edip etmeyeceğini seçin.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "gümrük belgesi"
+            },
+            {
+              "id": "carrier",
+              "label": "taşıyıcı rezervasyon"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "İthalat beyanı · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "Ulusal tek pencere",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Gönderi Referansı",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "emtia açıklaması",
+                  "value": "Hassas montajlar…",
+                  "state": "review"
+                },
+                {
+                  "label": "ithalatçı referansı",
+                  "value": "2 kaynak kaydı",
+                  "state": "review"
+                },
+                {
+                  "label": "brüt kütle",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "yardım belgesi",
+                  "value": "Fatura Beklemede",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "emtia açıklaması",
+                  "detail": "Kaynak metin portal sınırını aşıyor"
+                },
+                {
+                  "title": "ithalatçı referansı",
+                  "detail": "İki Onaylı Kayıt Bulundu"
+                },
+                {
+                  "title": "yardım belgesi",
+                  "detail": "Ticari faturanın onaylanması gerekiyor"
+                }
+              ],
+              "receipt": "Bildirim paketi kaydedildi"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-Deniz",
+              "title": "Okyanus Rezervasyonu · FCL",
+              "lane": "Antwerp → Singapur",
+              "source": "Approved TMS booking",
+              "destination": "Üçüncü taraf taşıyıcı portalı",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Rezervasyon referansı",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Yelken Seçeneği",
+                  "value": "2 hizmet eşleşmesi",
+                  "state": "review"
+                },
+                {
+                  "label": "Ekipman",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Ekipman serbest bırakma",
+                  "value": "Depo Beklemede",
+                  "state": "review"
+                },
+                {
+                  "label": "kargonun kesilmesi",
+                  "value": "Program Farklıdır",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Yelken Seçeneği",
+                  "detail": "İki hizmet istenen varışı karşılıyor"
+                },
+                {
+                  "title": "Ekipman serbest bırakma",
+                  "detail": "Depo onayı bekleniyor"
+                },
+                {
+                  "title": "kargonun kesilmesi",
+                  "detail": "Portal, kaynak programdan farklıdır"
+                }
+              ],
+              "receipt": "Rezervasyon onayı kaydedildi"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Kaynak Okuma",
+              "detail": "Onaylı Kayıt",
+              "state": "done"
+            },
+            {
+              "title": "İkiz inşalı",
+              "detail": "Haritalanan alanlar",
+              "state": "done"
+            },
+            {
+              "title": "3 istisna",
+              "detail": "yargıya ihtiyacı var",
+              "state": "warning"
+            },
+            {
+              "title": "Onay",
+              "detail": "insan kontrol noktası",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Üç alanın yargıya ihtiyacı var.",
+          "reviewBody": "Emil canlı bir portal tahmin etmeyecek veya dokunmayacaktır.",
+          "reviewLabel": "Portal ikizini gözden geçirin",
+          "approveLabel": "Örnek çalıştırmayı onayla",
+          "escalateLabel": "güvenli bir şekilde tırmandırmak",
+          "approvedKicker": "simüle edilmiş tamamlama",
+          "approvedBody": "Onaylı ikiz, kum havuzunda yürütüldü ve her eylem Run kaydına eklendi.",
+          "approvedChecks": [
+            "Onaylı İkiz",
+            "portal yanıtı",
+            "denetim kaydı"
+          ],
+          "escalatedKicker": "Yükseltme kaydedildi",
+          "escalatedTitle": "Canlı portala hiçbir şey ulaşmadı.",
+          "escalatedBody": "Emil, haritalanan alanları, kanıtları ve bir operatörün çözmesi için açık kararları korudu.",
+          "continueLabel": "Gerçek Bir Gönderi ile Devam Edin",
+          "loginNotice": "Emil ile özel bir gümrük dosyasını prova etmek için oturum açın. Bu sürümde hiçbir canlı portal gönderimi gerçekleşmez."
+        }
+      },
+      "ticker": [
+        "gümrük belgesi",
+        "taşıyıcı rezervasyon",
+        "Portal ikiz",
+        "insan onayı",
+        "İstisna incelemesi",
+        "denetleyici"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Adınız girişte kalır",
+        "heading": "Emil girişi hazırlar.",
+        "accentHeading": "Beyanınız dosyalar.",
+        "body": "Emil dosyalamaz. lisanslı beyannameniz yapar. Emil girişi hazırlar, kaynak belgelere karşı kontrol eder, reddedilecekleri işaretler ve bekler. Kayıt beyanı değişmez ve Emil'in yetkisine göre hiçbir şey sunulmaz.",
+        "governedLabel": "yönetilen yığınınız",
+        "governedSystems": [
+          "TMS",
+          "WM'ler",
+          "Edi",
+          "Dahili AI"
+        ],
+        "boundaryLabel": "API sınırı",
+        "operatorTitle": "Emil burada çalışıyor",
+        "operatorBody": "gözlemlemek",
+        "externalLabel": "Harici sistemler",
+        "portals": [
+          {
+            "label": "gümrük portalı",
+            "badge": "API yok"
+          },
+          {
+            "label": "taşıyıcı portal",
+            "badge": "API yok"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Emil'den önce",
+            "title": "Portal, birinin döner sandalyesi olur.",
+            "body": "Manuel kopyalama, parçalanmış ekran görüntüleri, gizli istisnalar ve göndermeden önce tutarlı bir prova yok."
+          },
+          {
+            "label": "Emil ile",
+            "title": "Portal kontrollü bir çalışma yüzeyi haline gelir.",
+            "body": "Onaylanmış veriler, sadık bir ikizle eşlenen, bir kişi için görünür kılınan istisnalar ve geri dönüşü olmayan eylemler."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Adınız girişte kalır",
+            "body": "Emil dosyalamaz. lisanslı beyannameniz yapar. Emil girişi hazırlar, kaynak belgelere karşı kontrol eder, reddedilecekleri işaretler ve bekler. Kayıt beyanı değişmez ve Emil'in yetkisine göre hiçbir şey sunulmaz."
+          },
+          {
+            "number": "02",
+            "title": "Her koşu bir rekor bırakır",
+            "body": "Ne okundu, ne önerildi, kim onayladı, ne sunuldu, zaman damgalı. Bir denetim, bir girişin nasıl yapıldığını sorduğunda, cevap zaten mevcuttur."
+          },
+          {
+            "number": "03",
+            "title": "ne ile çalışır",
+            "body": "Portbase ve Cargonaut, DMS ve AGS, NCTS Phase 5, Atlas, CDS, Carrier ebooking Portals, Inttra. Ekibiniz oturum açarsa, Emil çalışabilir, çünkü Emil ekranı bir kişinin yaptığı gibi çalışır."
+          },
+          {
+            "number": "04",
+            "title": "bu kimin için",
+            "body": "Gümrük komisyoncuları ve nakliyeciler, 10 ila 150 kişi. Şirket içi ticaret uyum ekipleri. beyanlar gerçektir. Hacimler yükseliyor. Bu yıl başka bir bildirimde bulunmak gerçekleşmiyor. ICS2 Sürüm 3, Eylül 2025'ten bu yana tüm Üye Devletlerde zorunlu olmuştur ve son tasfiyeler Haziran 2026'da sona ermiştir. NCTS Aşama 6, bunun yanına inmiştir. Onlarla birlikte gelen dosyalama yükü geri dönmüyor ve kimse onu almaya gelmiyor."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Her koşu bir rekor bırakır",
+        "heading": "Denetim Cevabı",
+        "accentHeading": "zaten var.",
+        "body": "Ne okundu, ne önerildi, kim onayladı, ne sunuldu, zaman damgalı. Bir denetim, bir girişin nasıl yapıldığını sorduğunda, cevap zaten mevcuttur.",
+        "portalLabel": "Portal İkiz · Güvenli Mod",
+        "fields": [
+          {
+            "label": "Gönderi Referansı",
+            "status": "verified"
+          },
+          {
+            "label": "emtia ayrıntıları",
+            "status": "review"
+          },
+          {
+            "label": "yardım belgesi",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "insan kontrol noktası",
+        "points": [
+          {
+            "title": "Kaynak belgeler kontrol edildi",
+            "body": "Emil, onaylı gönderi verilerinden girişi hazırlar."
+          },
+          {
+            "title": "İşaretlenen retler",
+            "body": "Beyancınız, herhangi bir şey gönderilmeden önce neyin reddedileceğini görür."
+          },
+          {
+            "title": "Beyan onayı gerekli",
+            "body": "Kayıt beyanı kontrolde kalır."
+          },
+          {
+            "title": "Emil'in yetkisi hakkında hiçbir şey",
+            "body": "Önerilen ve onaylanan her eylem zaman damgalıdır."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Her koşu bir rekor bırakır",
+        "heading": "Her koşu prova yaptı.",
+        "accentHeading": "Her karar kaydedildi.",
+        "body": "Ne okundu, ne önerildi, kim onayladı, ne sunuldu, zaman damgalı. Bir denetim, bir girişin nasıl yapıldığını sorduğunda, cevap zaten mevcuttur.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Kapsam",
+            "body": "Bir portalı, bir işlemi, izinleri ve başarı koşulunu kilitleyin."
+          },
+          {
+            "number": "02",
+            "title": "Prova yapmak",
+            "body": "Sadık bir portal ikiz oluşturun ve yalnızca onaylı kaynak verilerini haritalayın."
+          },
+          {
+            "number": "03",
+            "title": "Gidermek",
+            "body": "Tahmin etmek yerine belirsizliği, sayfaları ve eksik kanıtları ortaya çıkarın."
+          },
+          {
+            "number": "04",
+            "title": "Onaylamak",
+            "body": "Sorumlu bir insan için tam olarak sonuçta duraklayın."
+          },
+          {
+            "number": "05",
+            "title": "Gerçekleştirmek",
+            "body": "Yalnızca onaylanmış tarayıcı adımlarını gerçekleştirin - kapsam dışında bir şey yok."
+          },
+          {
+            "number": "06",
+            "title": "Rekor",
+            "body": "Portal yanıtını, kararları ve eserleri tek bir makbuz olarak iade edin."
+          }
+        ],
+        "failClosedTitle": "Kontrol kozmetik değil yapısaldır.",
+        "failClosedBody": "Sayfa değişirse, kanıt çakışması veya onaylanan kapsam aşılırsa Emil durur.",
+        "failClosedLabel": "başarısız kapalı"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "ne ile çalışır",
+        "heading": "Ekibiniz oturum açarsa,",
+        "accentHeading": "Emil çalışabilir.",
+        "body": "Portbase ve Cargonaut, DMS ve AGS, NCTS Phase 5, Atlas, CDS, Carrier ebooking Portals, Inttra. Emil, ekranı bir kişinin yaptığı gibi çalıştırır.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "gümrük belgesi",
+            "body": "Gönderi Kaydı → Ulusal Tek Pencere İkiz → İstisna İncelemesi → İnsan Onayı → Makbuz.",
+            "points": [
+              "Sevkiyat Kaydı Alımı",
+              "Ulusal tek pencereli ikiz",
+              "İstisna ve Belge İncelemesi",
+              "Onay ve makbuz yakalama"
+            ],
+            "ctaLabel": "dosyalamayı simüle etmek"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "taşıyıcı rezervasyon",
+            "body": "TMS Rezervasyonu → Taşıyıcı Portal İkiz → Yelken Doğrulaması → İnsan Onayı → Onay.",
+            "points": [
+              "Onaylı rezervasyon alımı",
+              "Taşıyıcı Portal İkiz",
+              "Yelken ve seçenek doğrulama",
+              "Onay ve onay yakalama"
+            ],
+            "ctaLabel": "Rezervasyonu simüle edin"
+          }
+        ],
+        "moreLabel": "Emil'in kaldırabileceği daha fazla iş",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase ve KargoNot",
+            "body": "Onaylı sevkiyat verilerinden hazırlanan gümrük ve kargo-topluluk portalı operasyonları."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS ve NCTS Aşama 5",
+            "body": "Deklarasyonlar, lisanslı beyan sahibi için prova edildi, kontrol edildi ve tutuldu."
+          },
+          {
+            "number": "03",
+            "title": "Atlas ve CD'ler",
+            "body": "Kullanılabilir API'nin olmadığı ekran aracılığıyla gerçekleştirilen portal çalışması."
+          },
+          {
+            "number": "04",
+            "title": "Taşıyıcı e-kitap ve Inttra",
+            "body": "Onaylanmış rezervasyon verileri, tam bir çalıştırma kaydıyla taşıyıcı portallarına taşındı."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Pilot Nasıl Çalışır?",
+        "heading": "Bir portal. bir süreç.",
+        "accentHeading": "Adlandırılmış bir operatör.",
+        "body": "Bir portal. bir süreç. Sonucun sahibi sizin tarafınızda bir isimli operatör. Altı hafta, sabit ücret. Gerçek portalınız üzerinde gerçek iş akışınıza inşa edilmiştir. Ekibiniz çalıştırıyor ve ben teslim ettikten sonra uzatıyor. Markanızın altında çalışır ve siz onu korursunuz. İlk arama otuz dakika ve size slaytlara değil, gerçek bir portala karşı bir prova göstereceğim.",
+        "ctaLabel": "Kapsam Bir Pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Bir EMIL Pilot Kapsamını Kapsam",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Adlandırılmış bir operatör",
+            "body": "Bir portal. bir süreç. Sonucun sahibi sizin tarafınızda bir isimli operatör."
+          },
+          {
+            "number": "02",
+            "title": "Altı hafta, sabit ücret",
+            "body": "Gerçek portalınız üzerinde gerçek iş akışınıza inşa edilmiştir."
+          },
+          {
+            "number": "03",
+            "title": "Ekibiniz Tutar",
+            "body": "Ekibiniz çalıştırıyor ve ben teslim ettikten sonra uzatıyor. Markanızın altında çalışır ve siz onu korursunuz. İlk arama otuz dakika ve size slaytlara değil, gerçek bir portala karşı bir prova göstereceğim."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emil",
+        "brandSuffix": "Gümrük ve Taşıyıcı Portal İşlemleri",
+        "tagline": "Lojistik yığınınız portalda durur. Emil devam ediyor.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

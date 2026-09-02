@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "lt",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Jūsų logistikos krūva sustoja portale. Emilis tęsia.",
+    "subheadline": "Jūsų TMS saugo siuntą. Tada kažkas atidaro „Portbase“, DMS, NCT arba operatoriaus el. užsakymo ekraną ir vėl įveda jį ranka. Kitoje pusėje nelaukia API, o daugumai jų niekada nebus. EMIL į tuos portalus perneša patvirtintus siuntų duomenis iš jūsų TMS. Pirmiausia jis repetuoja visą bėgimą prieš jūsų tikrosios aplinkos kopiją, tiksliai parodo jūsų deklarantui, ką jis ruošiasi įvesti, ir nieko nedaro, kol jis to nepatvirtina.",
+    "ctaLabel": "Paleiskite portalo modeliavimą",
+    "description": "Emilis tvarko muitinės ir vežėjų portalo operacijas, pakartodamas patvirtintą siuntos įrašą, palyginti su tikrosios aplinkos kopija, prieš deklarantui ką nors patvirtinti.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Funkcijos",
+          "target": "about"
+        },
+        {
+          "label": "Kaip tai veikia",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Susisiekti",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Apimtis pilotas"
+    },
+    "heroChat": {
+      "statusLabel": "Internete",
+      "inputPlaceholder": "Paklauskite Emilio apie portalo bėgimą…",
+      "suggestedPrompts": [
+        "Repetuoti paraišką",
+        "Patikrinkite užsakymą",
+        "Paaiškinkite valdiklius"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Duok man patvirtintą siuntos įrašą ir aš repetuosiu portalo darbus prieš ką nors pateikus."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emilis logistikos operacijų biure su muitinės padavimo modeliavimu"
+    },
+    "contact": {
+      "heading": "Vienas portalas. vienas procesas. Vienas pavadintas operatorius.",
+      "body": "Šešios savaitės, fiksuotas mokestis. Sukurta pagal jūsų tikrąją darbo eigą, tikrame portale. Jūsų komanda jį valdo ir pratęsia, kai aš perduodu. Jis veikia pagal jūsų prekės ženklą ir jūs jį išlaikote.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emilis",
+        "brandSuffix": "Muitinės ir vežėjų portalo operacijos",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Funkcijos",
+            "target": "edge"
+          },
+          {
+            "label": "Kaip tai veikia",
+            "target": "control"
+          },
+          {
+            "label": "Išbandykite demonstracinę versiją",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Apimtis pilotas"
+      },
+      "hero": {
+        "eyebrow": "Žmogaus valdomas portalo vykdymas",
+        "heading": "Jūsų logistikos krūva sustoja portale.",
+        "accentHeading": "Emilis tęsia.",
+        "body": "EMIL perneša patvirtintus siuntų duomenis į muitinės ir vežėjų portalus be API. Jis repetuoja kiekvieną bėgimą, pristabdo žmogaus pritarimą ir grąžina visą įrašą.",
+        "primaryCtaLabel": "Paleiskite portalo modeliavimą",
+        "secondaryCtaLabel": "Taikymo sritis Vienas pilotas",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "Pirmiausia repetavo"
+          },
+          {
+            "number": "02",
+            "label": "Žmogaus patvirtintas"
+          },
+          {
+            "number": "03",
+            "label": "Visiškai įrašyta"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emilis, logistikos portalo operatorius",
+        "chat": {
+          "roleLabel": "Muitinės ir vežėjų portalo operacijos",
+          "statusLabel": "Internete",
+          "openingMessage": "Sveiki, aš Emilis. Duokite man patvirtintą siuntos įrašą ir aš repetuosiu portalo darbus prieš ką nors pateikus.",
+          "inputPlaceholder": "Paklauskite Emilio apie portalo darbą…",
+          "suggestions": [
+            "Repetuoti paraišką",
+            "Patikrinkite užsakymą",
+            "Paaiškinkite valdiklius"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "Modeliavimo smėlio dėžė",
+          "restartLabel": "Perkrauti",
+          "demoNote": "Iliustracinis modeliavimas · Nėra tikro portalo, kredencialų ar klientų duomenų",
+          "sectionEyebrow": "Išbandykite dabar",
+          "sectionHeading": "Žiūrėkite Emilį",
+          "sectionAccentHeading": "Portalo krašte.",
+          "sectionBody": "Perjunkite darbo eigas, patikrinkite susietus laukus, peržiūrėkite tris imituotas išimtis ir pasirinkite, ar imties vykdymas turėtų tęstis, ar eskaluoti.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "Muitinės paraiška"
+            },
+            {
+              "id": "carrier",
+              "label": "Vežėjo užsakymas"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Importo deklaracija · NL",
+              "lane": "Roterdamas → Monrealis",
+              "source": "Approved TMS shipment",
+              "destination": "Nacionalinis vienas langas",
+              "mapped": "42/45",
+              "fields": [
+                {
+                  "label": "Siuntimo nuoroda",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Prekės aprašymas",
+                  "value": "Tikslūs asamblėjai…",
+                  "state": "review"
+                },
+                {
+                  "label": "Importuotojo nuoroda",
+                  "value": "2 šaltinio įrašai",
+                  "state": "review"
+                },
+                {
+                  "label": "Bendroji masė",
+                  "value": "18 420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Patvirtinamasis dokumentas",
+                  "value": "Sąskaitos faktūros laukiama",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Prekės aprašymas",
+                  "detail": "Šaltinio tekstas viršija portalo limitą"
+                },
+                {
+                  "title": "Importuotojo nuoroda",
+                  "detail": "Rasti du patvirtinti įrašai"
+                },
+                {
+                  "title": "Patvirtinamasis dokumentas",
+                  "detail": "Komercinės sąskaitos faktūros reikia patvirtinti"
+                }
+              ],
+              "receipt": "Deklaracijos paketas įrašytas"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-SEA",
+              "title": "Vandenyno užsakymas · FCL",
+              "lane": "Antverpenas → Singapūras",
+              "source": "Approved TMS booking",
+              "destination": "Trečiosios šalies operatoriaus portalas",
+              "mapped": "36/39",
+              "fields": [
+                {
+                  "label": "Užsakymo nuoroda",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Buriavimo variantas",
+                  "value": "2 Paslaugų atitikimas",
+                  "state": "review"
+                },
+                {
+                  "label": "Įrengimai",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Įrangos išleidimas",
+                  "value": "Depas laukiamas",
+                  "state": "review"
+                },
+                {
+                  "label": "Krovinio atjungimas",
+                  "value": "Tvarkaraštis skiriasi",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Buriavimo variantas",
+                  "detail": "Dvi paslaugos atitinka prašomą atvykimą"
+                },
+                {
+                  "title": "Įrangos išleidimas",
+                  "detail": "Depo patvirtinimo laukiama"
+                },
+                {
+                  "title": "Krovinio atjungimas",
+                  "detail": "Portalas skiriasi nuo šaltinio tvarkaraščio"
+                }
+              ],
+              "receipt": "Užsakymo patvirtinimas įrašytas"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Šaltinis skaityti",
+              "detail": "Patvirtintas įrašas",
+              "state": "done"
+            },
+            {
+              "title": "Dvyniai pastatytas",
+              "detail": "Laukai pažymėti",
+              "state": "done"
+            },
+            {
+              "title": "3 Išimtys",
+              "detail": "Reikia sprendimo",
+              "state": "warning"
+            },
+            {
+              "title": "Pritarimas",
+              "detail": "Žmogaus kontrolinis punktas",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Trims sritims reikia spręsti.",
+          "reviewBody": "Emilis neatspės ir nepalies tiesioginio portalo.",
+          "reviewLabel": "Peržiūrėkite „Portal Twin“.",
+          "approveLabel": "Patvirtinti pavyzdžio vykdymą",
+          "escalateLabel": "Eskaluokite saugiai",
+          "approvedKicker": "Imituotas užbaigimas",
+          "approvedBody": "Patvirtintas dvynys buvo įvykdytas smėlio dėžėje ir kiekvienas veiksmas buvo pridėtas prie bėgimo rekordo.",
+          "approvedChecks": [
+            "Patvirtintas dvynys",
+            "Portalo atsakymas",
+            "Audito įrašas"
+          ],
+          "escalatedKicker": "Eskalacija užfiksuota",
+          "escalatedTitle": "Tiesioginio portalo niekas nepasiekė.",
+          "escalatedBody": "Emilis išsaugojo susietus laukus, įrodymus ir atvirus sprendimus, kuriuos operatorius turėjo išspręsti.",
+          "continueLabel": "Tęskite su tikra siunta",
+          "loginNotice": "Prisijunkite, kad galėtumėte repetuoti privačią muitinės paraišką su Emiliu. Šioje versijoje tiesioginis portalas nepateikiamas."
+        }
+      },
+      "ticker": [
+        "Muitinės paraiška",
+        "Vežėjo užsakymas",
+        "Portalo dvynys",
+        "Žmogaus pritarimas",
+        "Išimčių peržiūra",
+        "Audito kvitas"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Jūsų vardas lieka įraše",
+        "heading": "Emilis parengia įrašą.",
+        "accentHeading": "Jūsų deklarantas jį pateikia.",
+        "body": "Emilis nepateikia dokumentų. Jūsų licencijuotas deklarantas tai daro. Emilis parengia įrašą, patikrina jį pagal pirminius dokumentus, pažymi, kas būtų atmesta, ir laukia. Įrašų deklarantas nesikeičia ir Emilio įgaliojimu nieko nepateikiama.",
+        "governedLabel": "Jūsų valdomas krūvas",
+        "governedSystems": [
+          "TMS",
+          "WMS",
+          "Edi",
+          "Vidinis AI"
+        ],
+        "boundaryLabel": "API riba",
+        "operatorTitle": "Emilis dirba čia",
+        "operatorBody": "Stebėti · repetuoti · patvirtinti · vykdyti",
+        "externalLabel": "Išorinės sistemos",
+        "portals": [
+          {
+            "label": "Muitinės portalas",
+            "badge": "Nėra API"
+          },
+          {
+            "label": "Vežėjo portalas",
+            "badge": "Nėra API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Prieš Emilį",
+            "title": "Portalas tampa kažkieno pasukama kėde.",
+            "body": "Rankinis kopijavimas, fragmentuotos ekrano kopijos, paslėptos išimtys ir jokios nuoseklios repeticijos prieš pateikiant."
+          },
+          {
+            "label": "Su Emiliu",
+            "title": "Portalas tampa kontroliuojamu darbiniu paviršiumi.",
+            "body": "Patvirtinti duomenys, susieti su ištikimu dvyniu, matomos išimtys ir negrįžtami veiksmai asmeniui."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Jūsų vardas lieka įraše",
+            "body": "Emilis nepateikia dokumentų. Jūsų licencijuotas deklarantas tai daro. Emilis parengia įrašą, patikrina jį pagal pirminius dokumentus, pažymi, kas būtų atmesta, ir laukia. Įrašų deklarantas nesikeičia ir Emilio įgaliojimu nieko nepateikiama."
+          },
+          {
+            "number": "02",
+            "title": "Kiekvienas bėgimas palieka rekordą",
+            "body": "Kas buvo perskaityta, kas buvo pasiūlyta, kas ją patvirtino, kas pateikta, laiko žyma. Kai auditas klausia, kaip buvo gautas įrašas, atsakymas jau yra."
+          },
+          {
+            "number": "03",
+            "title": "Su kuo tai veikia",
+            "body": "Portbase ir Cargonaut, DMS ir AGS, NCT 5 fazė, Atlas, CDS, Carrier eBooking Portals, Inttra. Jei jūsų komanda prisijungia prie jo, Emilis gali tai padaryti, nes Emilis veikia ekrane taip, kaip tai daro žmogus."
+          },
+          {
+            "number": "04",
+            "title": "Kam tai skirta",
+            "body": "Muitinės brokeriai ir ekspeditoriai, nuo 10 iki 150 žmonių. Vidinės prekybos atitikties komandos. Deklaracijos yra tikros. Apimtys kyla. Kito deklaranto samdymo šiais metais nevyksta. ICS2 3 leidimas buvo privalomas visose valstybėse narėse nuo 2025 m. rugsėjo mėn., o paskutinės nukrypimų galiojimas baigėsi 2026 m. birželį. Šalia jo atsidūrė NCT 6 fazė. Kartu su jais atvežtas padavimo krūvis negrįžta ir niekas neateina jo atimti."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Kiekvienas bėgimas palieka rekordą",
+        "heading": "Audito atsakymas",
+        "accentHeading": "jau egzistuoja.",
+        "body": "Kas buvo perskaityta, kas buvo pasiūlyta, kas ją patvirtino, kas pateikta, laiko žyma. Kai auditas klausia, kaip buvo gautas įrašas, atsakymas jau yra.",
+        "portalLabel": "Portal Twin · Saugusis režimas",
+        "fields": [
+          {
+            "label": "Siuntimo nuoroda",
+            "status": "verified"
+          },
+          {
+            "label": "Prekės detalės",
+            "status": "review"
+          },
+          {
+            "label": "Patvirtinamasis dokumentas",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Žmogaus kontrolinis punktas",
+        "points": [
+          {
+            "title": "Patikrinti pirminiai dokumentai",
+            "body": "EMIL parengia įrašą iš patvirtintų siuntos duomenų."
+          },
+          {
+            "title": "Atmetimai pažymėti",
+            "body": "Jūsų deklarantas mato, kas būtų atmesta prieš ką nors pateikiant."
+          },
+          {
+            "title": "Reikalingas deklaranto patvirtinimas",
+            "body": "Įrašų deklarantas išlieka kontroliuojamas."
+          },
+          {
+            "title": "Nieko apie Emilio autoritetą",
+            "body": "Kiekvienas siūlomas ir patvirtintas veiksmas yra pažymėtas laiko žyma."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Kiekvienas bėgimas palieka rekordą",
+        "heading": "Kiekvienas bėgimas repetuojamas.",
+        "accentHeading": "Kiekvienas įrašytas sprendimas.",
+        "body": "Kas buvo perskaityta, kas buvo pasiūlyta, kas ją patvirtino, kas pateikta, laiko žyma. Kai auditas klausia, kaip buvo gautas įrašas, atsakymas jau yra.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Apimtis",
+            "body": "Užrakinkite vieną portalą, vieną procesą, leidimus ir sėkmės sąlygą."
+          },
+          {
+            "number": "02",
+            "title": "Repetuoti",
+            "body": "Sukurkite patikimą portalo dvynį ir žemėlapį tik patvirtintus šaltinio duomenis."
+          },
+          {
+            "number": "03",
+            "title": "Išspręsti",
+            "body": "Atskleiskite dviprasmiškumą, pakeistus puslapius ir trūkstamus įrodymus, o ne spėliodami."
+          },
+          {
+            "number": "04",
+            "title": "Patvirtinti",
+            "body": "Sustabdykite būtent tą akimirką atskaitingam žmogui."
+          },
+          {
+            "number": "05",
+            "title": "Vykdyti",
+            "body": "Atlikite tik patvirtintus naršyklės veiksmus – nieko nepatenka į taikymo sritį."
+          },
+          {
+            "number": "06",
+            "title": "Rekordas",
+            "body": "Grąžinkite portalo atsakymą, sprendimus ir artefaktus kaip vieną kvitą."
+          }
+        ],
+        "failClosedTitle": "Kontrolė yra struktūrinė, o ne kosmetinė.",
+        "failClosedBody": "Jei puslapis pasikeičia, prieštarauja įrodymai arba viršijama patvirtinta apimtis, EMIL sustoja.",
+        "failClosedLabel": "Nepavyko uždaryti"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Su kuo tai veikia",
+        "heading": "Jei jūsų komanda prisijungs prie to,",
+        "accentHeading": "Emilis gali tai padaryti.",
+        "body": "Portbase ir Cargonaut, DMS ir AGS, NCT 5 fazė, Atlas, CDS, Carrier eBooking Portals, Inttra. Emilis veikia ekrane taip, kaip žmogus.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "Muitinės paraiška",
+            "body": "Siuntimo įrašas → Nacionalinis vieno lango dvynys → Išimčių peržiūra → Žmogaus patvirtinimas → Kvitas.",
+            "points": [
+              "Siuntimo įrašų priėmimas",
+              "Nacionalinis vieno lango dvynys",
+              "Išimtis ir dokumentų peržiūra",
+              "Patvirtinimo ir kvito fiksavimas"
+            ],
+            "ctaLabel": "Imituokite padavimą"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Vežėjo užsakymas",
+            "body": "TMS užsakymas → Vežėjas Portalas Twin → Buriavimo patvirtinimas → Žmogaus patvirtinimas → Patvirtinimas.",
+            "points": [
+              "Patvirtinta užsakymo priėmimas",
+              "Carrier Portal Twin",
+              "Buriavimas ir pasirinkimo patikrinimas",
+              "Patvirtinimo ir patvirtinimo fiksavimas"
+            ],
+            "ctaLabel": "Imituokite užsakymą"
+          }
+        ],
+        "moreLabel": "Emilis gali atlikti daugiau darbų",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase ir Cargonaut",
+            "body": "muitinės ir krovinių bendrijos portalo operacijos, parengtos iš patvirtintų siuntų duomenų."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS ir NCT 5 fazė",
+            "body": "Deklaracijos buvo repetuotos, patikrintos ir laikomos licencijuotam deklarantui."
+          },
+          {
+            "number": "03",
+            "title": "Atlasas ir kompaktiniai diskai",
+            "body": "Portalo darbas atliekamas per ekraną, kuriame nėra naudojamos API."
+          },
+          {
+            "number": "04",
+            "title": "Carrier eBooking ir Inttra",
+            "body": "Patvirtinti užsakymo duomenys, perkeliami į vežėjų portalus su visu vykdymo įrašu."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Kaip veikia pilotas",
+        "heading": "Vienas portalas. vienas procesas.",
+        "accentHeading": "Vienas pavadintas operatorius.",
+        "body": "Vienas portalas. vienas procesas. Vienas jūsų pusėje pavadintas operatorius, kuriam priklauso rezultatas. Šešios savaitės, fiksuotas mokestis. Sukurta pagal jūsų tikrąją darbo eigą, tikrame portale. Jūsų komanda jį valdo ir pratęsia, kai aš perduodu. Jis veikia pagal jūsų prekės ženklą ir jūs jį išlaikote. Pirmas skambutis yra trisdešimt minučių ir aš jums parodysiu repeticiją prieš tikrą portalą, o ne skaidres.",
+        "ctaLabel": "Taikymo sritis Vienas pilotas",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Apimti Emilio pilotą",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Vienas pavadintas operatorius",
+            "body": "Vienas portalas. vienas procesas. Vienas jūsų pusėje pavadintas operatorius, kuriam priklauso rezultatas."
+          },
+          {
+            "number": "02",
+            "title": "Šešios savaitės, fiksuotas mokestis",
+            "body": "Sukurta pagal jūsų tikrąją darbo eigą, tikrame portale."
+          },
+          {
+            "number": "03",
+            "title": "Jūsų komanda tai išlaiko",
+            "body": "Jūsų komanda jį valdo ir pratęsia, kai aš perduodu. Jis veikia pagal jūsų prekės ženklą ir jūs jį išlaikote. Pirmas skambutis yra trisdešimt minučių ir aš jums parodysiu repeticiją prieš tikrą portalą, o ne skaidres."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emilis",
+        "brandSuffix": "Muitinės ir vežėjų portalo operacijos",
+        "tagline": "Jūsų logistikos krūva sustoja portale. Emilis tęsia.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

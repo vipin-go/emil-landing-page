@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "hr",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Vaš logistički stog se zaustavlja na portalu. Emil nastavlja.",
+    "subheadline": "Vaš TMS drži pošiljku. Zatim netko otvori Portbase, ili DMS, ili NCTS, ili zaslon za e-knjige operatera i ponovno ga unese ručno. S druge strane nema API-ja koji čeka, a za većinu njih nikada neće biti. EMIL prenosi odobrene podatke o pošiljci iz vašeg TMS-a u te portale. Najprije uvježbava cijeli niz na primjerku vašeg stvarnog okruženja, pokazuje vašem deklarantu što se točno sprema ući i ne čini ništa dok ga ne odobre.",
+    "ctaLabel": "Pokrenite simulaciju portala",
+    "description": "Emil upravlja carinskim i prijevozničkim portalom uvježbavanjem odobrenog unosa pošiljke protiv kopije stvarnog okruženja prije nego što deklarant odobri bilo što.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "obilježje",
+          "target": "about"
+        },
+        {
+          "label": "Kako radi",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Kontakt",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "Opseg A Pilot"
+    },
+    "heroChat": {
+      "statusLabel": "Na vezi",
+      "inputPlaceholder": "Pitajte Emila o trčanju na portalu…",
+      "suggestedPrompts": [
+        "uvježbavati podnošenje",
+        "Provjerite rezervaciju",
+        "Objasnite kontrole"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Dajte mi odobrenu evidenciju o otpremi i uvježbat ću rad na portalu prije nego što se bilo što pošalje."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil u logističkom operativnom uredu sa simulacijom carinskog arhiviranja"
+    },
+    "contact": {
+      "heading": "jedan portal. Jedan proces. Jedan imenovani operator.",
+      "body": "Šest tjedana, fiksna naknada. Izgrađen na vašem stvarnom tijeku rada, na vašem pravom portalu. Vaš tim ga vodi i produžuje nakon što predam. Prolazi pod vašom robnom markom i vi ga čuvate.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "eil",
+        "brandSuffix": "Operacije carinskog i carinskog portala",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "obilježje",
+            "target": "edge"
+          },
+          {
+            "label": "Kako radi",
+            "target": "control"
+          },
+          {
+            "label": "probaj demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "Opseg A Pilot"
+      },
+      "hero": {
+        "eyebrow": "Izvršenje portala koje je čovjek kontrolirao",
+        "heading": "Vaš logistički stog se zaustavlja na portalu.",
+        "accentHeading": "Emil nastavlja.",
+        "body": "EMIL prenosi odobrene podatke o otpremi u carinske i portale prijevoznika bez API-ja. Uvježbava svako trčanje, zastaje radi ljudskog odobrenja i vraća kompletan zapis.",
+        "primaryCtaLabel": "Pokrenite simulaciju portala",
+        "secondaryCtaLabel": "jedan pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "prvo uvježbano"
+          },
+          {
+            "number": "02",
+            "label": "čovjek odobren"
+          },
+          {
+            "number": "03",
+            "label": "potpuno snimljen"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, operater logističkog portala",
+        "chat": {
+          "roleLabel": "Operacije carinskog i carinskog portala",
+          "statusLabel": "Na vezi",
+          "openingMessage": "Bok, ja sam Emil. Dajte mi odobrenu evidenciju o pošiljci i uvježbat ću rad na portalu prije nego što se bilo što pošalje.",
+          "inputPlaceholder": "Pitajte Emila o portalnom radu…",
+          "suggestions": [
+            "uvježbavati podnošenje",
+            "Provjerite rezervaciju",
+            "Objasnite kontrole"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "pješčara",
+          "restartLabel": "Pokrenuti",
+          "demoNote": "Ilustrativna simulacija · Nema pravog portala, vjerodajnica ili podataka o kupcima",
+          "sectionEyebrow": "probaj sada",
+          "sectionHeading": "vidi Emil",
+          "sectionAccentHeading": "Na rubu portala.",
+          "sectionBody": "Prebacite tijekove rada, pregledajte mapirana polja, pregledajte tri simulirane iznimke i odaberite hoće li se izvođenje uzorka nastaviti ili eskalirati.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "podnošenje zahtjeva"
+            },
+            {
+              "id": "carrier",
+              "label": "rezerviranje"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "uvozna deklaracija · nl",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "nacionalni pojedinačni prozor",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "reference za otpremu",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "opis robe",
+                  "value": "Precizni sklopovi…",
+                  "state": "review"
+                },
+                {
+                  "label": "referenca za uvoznik",
+                  "value": "2 izvorna zapisa",
+                  "state": "review"
+                },
+                {
+                  "label": "bruto masa",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "popratni dokument",
+                  "value": "faktura na čekanju",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "opis robe",
+                  "detail": "Izvorni tekst prelazi ograničenje portala"
+                },
+                {
+                  "title": "referenca za uvoznik",
+                  "detail": "pronađena su dva odobrena zapisa"
+                },
+                {
+                  "title": "popratni dokument",
+                  "detail": "Potrebna je potvrda komercijalne fakture"
+                }
+              ],
+              "receipt": "Declaration package recorded"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-Sea",
+              "title": "Rezervacija oceana · FCL",
+              "lane": "Antwerpen → Singapur",
+              "source": "Approved TMS booking",
+              "destination": "Portal treće strane",
+              "mapped": "36/39",
+              "fields": [
+                {
+                  "label": "Referenca za rezervaciju",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "jedrenje",
+                  "value": "2 usluge se podudaraju",
+                  "state": "review"
+                },
+                {
+                  "label": "Oprema",
+                  "value": "1 × 40hc",
+                  "state": "verified"
+                },
+                {
+                  "label": "ispuštanje opreme",
+                  "value": "na čekanju",
+                  "state": "review"
+                },
+                {
+                  "label": "kargo-odsjaj",
+                  "value": "raspored se razlikuje",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "jedrenje",
+                  "detail": "Dvije službe ispunjavaju traženi dolazak"
+                },
+                {
+                  "title": "ispuštanje opreme",
+                  "detail": "Potvrda depoa je na čekanju"
+                },
+                {
+                  "title": "kargo-odsjaj",
+                  "detail": "Portal se razlikuje od izvornog rasporeda"
+                }
+              ],
+              "receipt": "Zabilježena potvrda rezervacije"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Izvor čitanja",
+              "detail": "odobrena evidencija",
+              "state": "done"
+            },
+            {
+              "title": "izgrađena odbrana",
+              "detail": "polja",
+              "state": "done"
+            },
+            {
+              "title": "3 Iznimke",
+              "detail": "treba sud",
+              "state": "warning"
+            },
+            {
+              "title": "Odobrenje",
+              "detail": "kontrolna točka",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Tri polja trebaju prosudbu.",
+          "reviewBody": "Emil neće pogoditi niti dodirnuti portal uživo.",
+          "reviewLabel": "Pregledajte Twin Portal",
+          "approveLabel": "Odobrenje uzorka",
+          "escalateLabel": "eskalirati sigurno",
+          "approvedKicker": "simulirani završetak",
+          "approvedBody": "Odobreni blizanac izveden je u pješčaniku i svaka radnja bila je priložena zapisu trčanja.",
+          "approvedChecks": [
+            "odobrenik",
+            "odziv na portalu",
+            "revizija"
+          ],
+          "escalatedKicker": "eskalacija",
+          "escalatedTitle": "Ništa nije stiglo do portala uživo.",
+          "escalatedBody": "Emil je sačuvao mapirana polja, dokaze i otvorene odluke koje operater može riješiti.",
+          "continueLabel": "Nastavite s pravom pošiljkom",
+          "loginNotice": "Prijavite se za uvježbavanje privatne carinske prijave kod Emila. U ovoj verziji ne postoji slanje portala uživo."
+        }
+      },
+      "ticker": [
+        "podnošenje zahtjeva",
+        "rezerviranje",
+        "portala",
+        "ljudsko odobrenje",
+        "iznimka",
+        "revizija"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Vaše ime ostaje na unosu",
+        "heading": "Emil priprema prijavu.",
+        "accentHeading": "Vaš deklarant to arhivira.",
+        "body": "Emil ne podnosi dokumentaciju. Vaš licencirani deklarant to čini. Emil priprema unos, provjerava ga prema izvornim dokumentima, označava što bi bilo odbijeno i čeka. Zapisnik se ne mijenja i ništa se ne podnosi na temelju Emilove ovlasti.",
+        "governedLabel": "Vaš upravljani stog",
+        "governedSystems": [
+          "Tm",
+          "WMS",
+          "edi",
+          "unutrašnji AI"
+        ],
+        "boundaryLabel": "API granica",
+        "operatorTitle": "Emil radi ovdje",
+        "operatorBody": "promatrati · uvježbati · odobriti · izvršiti",
+        "externalLabel": "vanjski sustavi",
+        "portals": [
+          {
+            "label": "carinik",
+            "badge": "Nema API-ja"
+          },
+          {
+            "label": "nosač ženske akcije",
+            "badge": "Nema API-ja"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "prije Emila",
+            "title": "Portal postaje nečija okretna stolica.",
+            "body": "Ručno kopiranje, fragmentirane snimke zaslona, skrivene iznimke i bez dosljedne probe prije slanja."
+          },
+          {
+            "label": "s Emilom",
+            "title": "Portal postaje kontrolirana radna površina.",
+            "body": "Odobreni podaci, mapirani u vjernog blizanca, iznimke su vidljive i nepovratna radnja koja se vodi za osobu."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Vaše ime ostaje na unosu",
+            "body": "Emil ne podnosi dokumentaciju. Vaš licencirani deklarant to čini. Emil priprema unos, provjerava ga prema izvornim dokumentima, označava što bi bilo odbijeno i čeka. Zapisnik se ne mijenja i ništa se ne podnosi na temelju Emilove ovlasti."
+          },
+          {
+            "number": "02",
+            "title": "Svako trčanje ostavlja rekord",
+            "body": "što je pročitano, što je predloženo, tko je to odobrio, što je dostavljeno, vremenski žig. Kada se revizija pita kako je upisan unos, odgovor već postoji."
+          },
+          {
+            "number": "03",
+            "title": "s čime radi",
+            "body": "Portbase i Cargonaut, DMS i AGS, NCTS faza 5, ATLAS, CDS, portali za e-booking Carrier, Inttra. Ako se vaš tim prijavi u njega, Emil to može raditi, jer Emil radi na ekranu na način na koji osoba radi."
+          },
+          {
+            "number": "04",
+            "title": "Za koga je ovo",
+            "body": "Carinski posrednici i špediteri, 10 do 150 osoba. In-house timovi za usklađenost trgovine. Deklaracije su stvarne. Sveske količine rastu. Zapošljavanje drugog deklaranta neće se dogoditi ove godine. ICS2 izdanje 3 obvezno je u svim državama članicama od rujna 2025., a posljednja odstupanja istekla su u lipnju 2026. NCTS faza 6 sletio je uz njega. Opterećenje koje je stiglo s njima ne spušta se i nitko ga neće odnijeti."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Svako trčanje ostavlja rekord",
+        "heading": "odgovor na reviziju",
+        "accentHeading": "već postoji.",
+        "body": "što je pročitano, što je predloženo, tko je to odobrio, što je dostavljeno, vremenski žig. Kada se revizija pita kako je upisan unos, odgovor već postoji.",
+        "portalLabel": "Portal Twin · siguran način rada",
+        "fields": [
+          {
+            "label": "reference za otpremu",
+            "status": "verified"
+          },
+          {
+            "label": "detalji o robi",
+            "status": "review"
+          },
+          {
+            "label": "popratni dokument",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "kontrolna točka",
+        "points": [
+          {
+            "title": "Provjereni izvorni dokumenti",
+            "body": "EMIL priprema unos iz odobrenih podataka o pošiljci."
+          },
+          {
+            "title": "Odbijanje označeno",
+            "body": "Vaš deklarant vidi što bi bilo odbijeno prije nego što se bilo što podnese."
+          },
+          {
+            "title": "Potrebno je odobrenje deklaranta",
+            "body": "Zapisnik ostaje pod kontrolom."
+          },
+          {
+            "title": "Ništa o Emilovom autoritetu",
+            "body": "Svaka predložena i odobrena radnja ima vremenski žig."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Svako trčanje ostavlja rekord",
+        "heading": "Svako trčanje uvježbano.",
+        "accentHeading": "Svaka zabilježena odluka.",
+        "body": "što je pročitano, što je predloženo, tko je to odobrio, što je dostavljeno, vremenski žig. Kada se revizija pita kako je upisan unos, odgovor već postoji.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Djelokrug",
+            "body": "Zaključajte jedan portal, jedan proces, dopuštenja i uvjet uspjeha."
+          },
+          {
+            "number": "02",
+            "title": "Vježbati",
+            "body": "Izgradite vjerni portal Twin i mapirajte samo odobrene izvorne podatke."
+          },
+          {
+            "number": "03",
+            "title": "Odlučnost",
+            "body": "Razotkrijte dvosmislenost, promijenjene stranice i nedostajuće dokaze umjesto nagađanja."
+          },
+          {
+            "number": "04",
+            "title": "Odobriti",
+            "body": "Zastanite u točnom posljedičnom trenutku za odgovornog čovjeka."
+          },
+          {
+            "number": "05",
+            "title": "Izvršiti",
+            "body": "Izvodite samo odobrene korake preglednika - ništa izvan opsega."
+          },
+          {
+            "number": "06",
+            "title": "Snimiti",
+            "body": "Vratite odgovor, odluke i artefakte portala kao jedan račun."
+          }
+        ],
+        "failClosedTitle": "Kontrola je strukturna, a ne kozmetička.",
+        "failClosedBody": "Ako se stranica promijeni, dokazi sukoba ili je odobreni opseg prekoračen, Emil se zaustavlja.",
+        "failClosedLabel": "otkazati"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "s čime radi",
+        "heading": "Ako se vaš tim prijavi na to,",
+        "accentHeading": "Emil to može raditi.",
+        "body": "Portbase i Cargonaut, DMS i AGS, NCTS faza 5, ATLAS, CDS, portali za e-booking Carrier, Inttra. Emil radi na ekranu na način na koji osoba radi.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "podnošenje zahtjeva",
+            "body": "Zapis o otpremi → Nacionalni blizanac s jednim prozorom → Pregled iznimke → Ljudsko odobrenje → Potvrda.",
+            "points": [
+              "registaratorski zapis",
+              "nacionalna dvostruka izloga",
+              "iznimka i pregled dokumenata",
+              "Odobrenje i hvatanje računa"
+            ],
+            "ctaLabel": "simulirati arhiviranje"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "rezerviranje",
+            "body": "TMS rezervacija → Carrier Portal Twin → Provjera plovidbe → Ljudsko odobrenje → Potvrda.",
+            "points": [
+              "Odobreni unos rezervacija",
+              "Carrier Portal",
+              "Provjera plovidbe i opcija",
+              "Odobrenje i potvrda"
+            ],
+            "ctaLabel": "simulirati rezervaciju"
+          }
+        ],
+        "moreLabel": "Više posla Emil može podnijeti",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase i Cargonaut",
+            "body": "Operacije portala carinskih i teretnih zajednica pripremljene iz odobrenih podataka o otpremi."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS i NCTS faza 5",
+            "body": "Izjave uvježbane, provjerene i zadržane za licenciranog deklaranta."
+          },
+          {
+            "number": "03",
+            "title": "Atlas i CD",
+            "body": "Rad na portalu koji se izvodi putem zaslona gdje ne postoji upotrebljivi API."
+          },
+          {
+            "number": "04",
+            "title": "eBooking i Inttra operatera",
+            "body": "Odobreni podaci o rezervacijama koji se prenose na portale nosača s potpunim zapisom o izvođenju."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Kako pilot radi",
+        "heading": "jedan portal. Jedan proces.",
+        "accentHeading": "Jedan imenovani operator.",
+        "body": "jedan portal. Jedan proces. Jedan imenovani operater na vašoj strani koji je vlasnik ishoda. Šest tjedana, fiksna naknada. Izgrađen na vašem stvarnom tijeku rada, na vašem pravom portalu. Vaš tim ga vodi i produžuje nakon što predam. Prolazi pod vašom robnom markom i vi ga čuvate. Prvi poziv je trideset minuta i pokazat ću vam probu protiv pravog portala, a ne slajdova.",
+        "ctaLabel": "jedan pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "opseg emil pilota",
+        "steps": [
+          {
+            "number": "01",
+            "title": "jedan imenovani operator",
+            "body": "jedan portal. Jedan proces. Jedan imenovani operater na vašoj strani koji je vlasnik ishoda."
+          },
+          {
+            "number": "02",
+            "title": "Šest tjedana, fiksna naknada",
+            "body": "Izgrađen na vašem stvarnom tijeku rada, na vašem pravom portalu."
+          },
+          {
+            "number": "03",
+            "title": "Vaš tim ga čuva",
+            "body": "Vaš tim ga vodi i produžuje nakon što predam. Prolazi pod vašom robnom markom i vi ga čuvate. Prvi poziv je trideset minuta i pokazat ću vam probu protiv pravog portala, a ne slajdova."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "eil",
+        "brandSuffix": "Operacije carinskog i carinskog portala",
+        "tagline": "Vaš logistički stog se zaustavlja na portalu. Emil nastavlja.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

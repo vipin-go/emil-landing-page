@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "nl",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "Uw logistieke stack stopt bij de portal. Emil blijft doorgaan.",
+    "subheadline": "Uw TMS houdt de zending vast. Vervolgens opent iemand Portbase, of DMS, of NCTS, of een ebooking-scherm van de provider, en toetst het opnieuw met de hand in. Er wacht geen API aan de andere kant, en dat zal er voor de meeste van hen nooit zijn. Emil draagt goedgekeurde zendingsgegevens van uw TMS in die portals. Het repeteert de hele run eerst tegen een kopie van uw echte omgeving, laat uw aangever precies zien wat hij gaat betreden en doet niets totdat ze het goedkeuren.",
+    "ctaLabel": "Voer een portalsimulatie uit",
+    "description": "EMIL behandelt de activiteiten van de douane- en vervoerderportal door goedgekeurde zendingsinvoer te repeteren tegen een kopie van de echte omgeving voordat een aangever iets goedkeurt.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Functies",
+          "target": "about"
+        },
+        {
+          "label": "Hoe het werkt",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Contact",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "reikwijdte een piloot"
+    },
+    "heroChat": {
+      "statusLabel": "Online",
+      "inputPlaceholder": "Vraag Emil over een portalrun…",
+      "suggestedPrompts": [
+        "een aanvraag repeteren",
+        "Controleer een boeking",
+        "Besturingselementen uitleggen"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Geef me een goedgekeurd verzenddossier en ik zal het portalwerk repeteren voordat er iets wordt ingediend."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil in een logistiek kantoor met een douaneaangiftesimulatie"
+    },
+    "contact": {
+      "heading": "Eén portaal. een proces. een genoemde operator.",
+      "body": "Zes weken, vaste vergoeding. Gebouwd op uw echte workflow, op uw echte portal. Je team runt het en verlengt het nadat ik het heb overhandigd. Het loopt onder je merk en je houdt het.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "werpen",
+        "brandSuffix": "Douane- en vervoerderportaloperaties",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Functies",
+            "target": "edge"
+          },
+          {
+            "label": "Hoe het werkt",
+            "target": "control"
+          },
+          {
+            "label": "Probeer een demo",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "reikwijdte een piloot"
+      },
+      "hero": {
+        "eyebrow": "Door de mens gecontroleerde portal executie",
+        "heading": "Uw logistieke stack stopt bij de portal.",
+        "accentHeading": "Emil blijft doorgaan.",
+        "body": "Emil draagt goedgekeurde zendingsgegevens in douane- en vervoerderportals zonder API. Het repeteert elke run, pauzeert voor menselijke goedkeuring en retourneert een compleet record.",
+        "primaryCtaLabel": "Voer een portalsimulatie uit",
+        "secondaryCtaLabel": "Scope één piloot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "eerst geoefend"
+          },
+          {
+            "number": "02",
+            "label": "Menselijk goedgekeurd"
+          },
+          {
+            "number": "03",
+            "label": "Volledig opgenomen"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, een logistieke portaloperator",
+        "chat": {
+          "roleLabel": "Douane- en vervoerderportaloperaties",
+          "statusLabel": "Online",
+          "openingMessage": "Hallo, ik ben Emil. Geef me een goedgekeurd verzenddossier en ik zal het portaalwerk repeteren voordat er iets wordt ingediend.",
+          "inputPlaceholder": "Vraag Emil over portalwerk…",
+          "suggestions": [
+            "een aanvraag repeteren",
+            "Controleer een boeking",
+            "Besturingselementen uitleggen"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "simulatie zandbak",
+          "restartLabel": "Opnieuw opstarten",
+          "demoNote": "Illustratieve simulatie · Geen echte portal, inloggegevens of klantgegevens",
+          "sectionEyebrow": "Probeer het nu",
+          "sectionHeading": "Zie Emil",
+          "sectionAccentHeading": "aan de portaalrand.",
+          "sectionBody": "Wissel van workflows, inspecteer de toegewezen velden, bekijk drie gesimuleerde uitzonderingen en kies of de voorbeeldrun moet doorgaan of escaleren.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "douanedossier"
+            },
+            {
+              "id": "carrier",
+              "label": "Verzendingsboeking"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Invoeraangifte · NL",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "Nationaal enkel venster",
+              "mapped": "42 / 45",
+              "fields": [
+                {
+                  "label": "Zendingsreferentie:",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "Goederenbeschrijving",
+                  "value": "Precisie assemblages…",
+                  "state": "review"
+                },
+                {
+                  "label": "Importeursreferentie",
+                  "value": "2 Bronrecords",
+                  "state": "review"
+                },
+                {
+                  "label": "bruto massa",
+                  "value": "18.420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "Ondersteunend document",
+                  "value": "Factuur in behandeling",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Goederenbeschrijving",
+                  "detail": "Brontekst overschrijdt portallimiet"
+                },
+                {
+                  "title": "Importeursreferentie",
+                  "detail": "Twee goedgekeurde records gevonden"
+                },
+                {
+                  "title": "Ondersteunend document",
+                  "detail": "Commerciële factuur moet bevestiging"
+                }
+              ],
+              "receipt": "Aangiftepakket opgenomen"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-zee",
+              "title": "Oceaan boeken · FCL",
+              "lane": "Antwerpen → Singapore",
+              "source": "Approved TMS booking",
+              "destination": "Portal van derden",
+              "mapped": "36 / 39",
+              "fields": [
+                {
+                  "label": "Boekingsreferentie",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "Zeiloptie",
+                  "value": "2 Diensten Match",
+                  "state": "review"
+                },
+                {
+                  "label": "Uitrusting",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "Uitrusting van apparatuur",
+                  "value": "Depot in afwachting van",
+                  "state": "review"
+                },
+                {
+                  "label": "vrachtafsnijding",
+                  "value": "Schema verschilt",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "Zeiloptie",
+                  "detail": "Twee diensten voldoen aan de gevraagde aankomst"
+                },
+                {
+                  "title": "Uitrusting van apparatuur",
+                  "detail": "Depotbevestiging is in behandeling"
+                },
+                {
+                  "title": "vrachtafsnijding",
+                  "detail": "Portal verschilt van bronschema"
+                }
+              ],
+              "receipt": "Boekingsbevestiging opgenomen"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Bron lezen",
+              "detail": "Goedgekeurd record",
+              "state": "done"
+            },
+            {
+              "title": "tweeling gebouwd",
+              "detail": "Velden toegewezen",
+              "state": "done"
+            },
+            {
+              "title": "3 uitzonderingen",
+              "detail": "oordeel nodig",
+              "state": "warning"
+            },
+            {
+              "title": "Goedkeuring",
+              "detail": "Menselijke controlepost",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Drie velden hebben een oordeel nodig.",
+          "reviewBody": "Emil zal een live portal niet raden of aanraken.",
+          "reviewLabel": "Bekijk de portaltwin",
+          "approveLabel": "Goedkeuren van voorbeeldrun",
+          "escalateLabel": "Veilig escaleren",
+          "approvedKicker": "Simulated completion",
+          "approvedBody": "De goedgekeurde tweeling werd uitgevoerd in de zandbak en elke actie werd aan het runrecord toegevoegd.",
+          "approvedChecks": [
+            "goedgekeurd",
+            "Portaalreactie",
+            "Auditdossier"
+          ],
+          "escalatedKicker": "escalatie opgenomen",
+          "escalatedTitle": "Niets bereikte het live portaal.",
+          "escalatedBody": "Emil bewaarde de in kaart gebrachte velden, bewijs en open beslissingen die een operator moest oplossen.",
+          "continueLabel": "Ga verder met een echte zending",
+          "loginNotice": "Meld u aan om een privé-douaneaangifte te repeteren met Emil. In deze versie vindt geen live portal-inzending plaats."
+        }
+      },
+      "ticker": [
+        "douanedossier",
+        "Verzendingsboeking",
+        "portal tweeling",
+        "Menselijke goedkeuring",
+        "Uitzondering beoordeling",
+        "Auditontvangst"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "Uw naam blijft bij de invoer",
+        "heading": "Emil bereidt de inzending voor.",
+        "accentHeading": "Uw aangever dient het.",
+        "body": "Emil doet het niet. Uw gelicentieerde aangever doet dat wel. Emil bereidt de invoer voor, controleert deze aan de brondocumenten, markeert wat zou worden afgewezen en wacht. De aangever van record verandert niet en er wordt niets ingediend op gezag van Emil.",
+        "governedLabel": "Uw geregeerde stapel",
+        "governedSystems": [
+          "TMS",
+          "raft",
+          "draver",
+          "Interne AI"
+        ],
+        "boundaryLabel": "API-grens",
+        "operatorTitle": "Emil werkt hier",
+        "operatorBody": "observeren · repeteren · goedkeuren · uitvoeren",
+        "externalLabel": "Externe systemen",
+        "portals": [
+          {
+            "label": "douaneportaal",
+            "badge": "Geen API"
+          },
+          {
+            "label": "vervoerderportal",
+            "badge": "Geen API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "voor emil",
+            "title": "Het portaal wordt iemands draaistoel.",
+            "body": "Handmatig kopiëren, gefragmenteerde screenshots, verborgen uitzonderingen en geen consistente repetitie voor indiening."
+          },
+          {
+            "label": "met emil",
+            "title": "Het portaal wordt een gecontroleerd werkoppervlak.",
+            "body": "Goedgekeurde gegevens, in kaart gebracht in een trouwe tweeling, uitzonderingen zichtbaar gemaakt en onomkeerbare actie voor een persoon."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "Uw naam blijft bij de invoer",
+            "body": "Emil doet het niet. Uw gelicentieerde aangever doet dat wel. Emil bereidt de invoer voor, controleert deze aan de brondocumenten, markeert wat zou worden afgewezen en wacht. De aangever van record verandert niet en er wordt niets ingediend op gezag van Emil."
+          },
+          {
+            "number": "02",
+            "title": "Elke run laat een record achter",
+            "body": "Wat werd gelezen, wat werd voorgesteld, wie keurde het goed, wat was ingediend, tijdstempel. Wanneer een audit vraagt hoe een item tot stand is gekomen, bestaat het antwoord al."
+          },
+          {
+            "number": "03",
+            "title": "Waar het mee werkt",
+            "body": "Portbase en Cargonaut, DMS en AGS, NCTS Phase 5, Atlas, CDS, Carrier eBooking Portals, Inttra. Als je team erop inlogt, kan Emil het werken, omdat Emil het scherm werkt zoals een persoon dat doet."
+          },
+          {
+            "number": "04",
+            "title": "Voor wie is dit?",
+            "body": "Douanemakelaars en expediteurs, 10 tot 150 personen. In-house trade compliance teams. De verklaringen zijn echt. De volumes stijgen. Het inhuren van een andere aanklager vindt dit jaar niet plaats. ICS2 Release 3 is sinds september 2025 verplicht in alle lidstaten en de laatste afwijkingen verliepen in juni 2026. NCTS Fase 6 kwam ernaast terecht. De vijllading die bij hen is aangekomen, gaat niet terug naar beneden en niemand komt het wegnemen."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Elke run laat een record achter",
+        "heading": "Het auditantwoord",
+        "accentHeading": "bestaat al.",
+        "body": "Wat werd gelezen, wat werd voorgesteld, wie keurde het goed, wat was ingediend, tijdstempel. Wanneer een audit vraagt hoe een item tot stand is gekomen, bestaat het antwoord al.",
+        "portalLabel": "Portal Twin · Veilige modus",
+        "fields": [
+          {
+            "label": "Zendingsreferentie:",
+            "status": "verified"
+          },
+          {
+            "label": "Grondstoffendetails",
+            "status": "review"
+          },
+          {
+            "label": "Ondersteunend document",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "Menselijke controlepost",
+        "points": [
+          {
+            "title": "Brondocumenten gecontroleerd",
+            "body": "Emil bereidt de invoer uit van goedgekeurde zendingsgegevens."
+          },
+          {
+            "title": "Afwijzingen gemarkeerd",
+            "body": "Uw aangever ziet wat zou worden afgewezen voordat er iets wordt ingediend."
+          },
+          {
+            "title": "Goedkeuring van de aangever vereist",
+            "body": "De verantwoordelijke van het record blijft in control."
+          },
+          {
+            "title": "Niets op Emil's autoriteit",
+            "body": "Elke voorgestelde en goedgekeurde actie is een tijdstempel."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Elke run laat een record achter",
+        "heading": "Elke run repeteerde.",
+        "accentHeading": "elke beslissing geregistreerd.",
+        "body": "Wat werd gelezen, wat werd voorgesteld, wie keurde het goed, wat was ingediend, tijdstempel. Wanneer een audit vraagt hoe een item tot stand is gekomen, bestaat het antwoord al.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Omvang",
+            "body": "Vergrendel één portal, één proces, de machtigingen en de succesvoorwaarde."
+          },
+          {
+            "number": "02",
+            "title": "Repeteren",
+            "body": "Bouw een trouwe portal twin en breng alleen goedgekeurde brongegevens in kaart."
+          },
+          {
+            "number": "03",
+            "title": "Oplossen",
+            "body": "Leg dubbelzinnigheid bloot, veranderde pagina's en ontbreekt bewijs in plaats van te raden."
+          },
+          {
+            "number": "04",
+            "title": "Goedkeuren",
+            "body": "pauzeer op het exacte daaruit voortvloeiende moment voor een verantwoordelijke mens."
+          },
+          {
+            "number": "05",
+            "title": "Uitvoeren",
+            "body": "Voer alleen de goedgekeurde browserstappen uit - niets buiten het bereik."
+          },
+          {
+            "number": "06",
+            "title": "Record",
+            "body": "Retourneer de portalreactie, beslissingen en artefacten als één ontvangst."
+          }
+        ],
+        "failClosedTitle": "De controle is structureel, niet cosmetisch.",
+        "failClosedBody": "Als de pagina verandert, bewijs conflicten of de goedgekeurde scope wordt overschreden, stopt Emil.",
+        "failClosedLabel": "Mislukte gesloten"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Waar het mee werkt",
+        "heading": "Als je team inlogt,",
+        "accentHeading": "Emil kan het werken.",
+        "body": "Portbase en Cargonaut, DMS en AGS, NCTS Phase 5, Atlas, CDS, Carrier eBooking Portals, Inttra. Emil werkt op het scherm zoals een persoon dat doet.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "douanedossier",
+            "body": "Zendingsrecord → Nationale single-window twin → Uitzonderingsbeoordeling → Menselijke goedkeuring → Ontvangst.",
+            "points": [
+              "Intake voor zendingen",
+              "nationale tweeling met één raam",
+              "Uitzondering en documentbeoordeling",
+              "Goedkeuring en ontvangst van de ontvangst"
+            ],
+            "ctaLabel": "Simuleer de dossier"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "Verzendingsboeking",
+            "body": "TMS Booking → Carrier Portal Twin → Zeilverificatie → Menselijke goedkeuring → Bevestiging.",
+            "points": [
+              "Goedgekeurde boekingsintake",
+              "vervoerder portal tweeling",
+              "Zeilen en optieverificatie",
+              "Goedkeuring en bevestiging van opname"
+            ],
+            "ctaLabel": "Simuleer de boeking"
+          }
+        ],
+        "moreLabel": "Meer werk dat Emil aankan",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase en Cargonaut",
+            "body": "Douane- en vracht-communityportaloperaties opgesteld op basis van goedgekeurde zendingsgegevens."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS en NCTS Fase 5",
+            "body": "Verklaringen gerepeteerd, gecontroleerd en vastgehouden voor de gelicentieerde aangever."
+          },
+          {
+            "number": "03",
+            "title": "Atlas en cd's",
+            "body": "Portalwerk uitgevoerd via het scherm waar geen bruikbare API bestaat."
+          },
+          {
+            "number": "04",
+            "title": "Vervoerder e-boeking en inttra",
+            "body": "Goedgekeurde boekingsgegevens die naar vervoerderportals worden vervoerd met een volledig runrecord."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Hoe een piloot werkt",
+        "heading": "Eén portaal. een proces.",
+        "accentHeading": "een genoemde operator.",
+        "body": "Eén portaal. een proces. Een genoemde operator aan uw kant die de uitkomst bezit. Zes weken, vaste vergoeding. Gebouwd op uw echte workflow, op uw echte portal. Je team runt het en verlengt het nadat ik het heb overhandigd. Het loopt onder je merk en je houdt het. De eerste oproep is dertig minuten en ik zal je een repetitie laten zien tegen een echt portaal, niet op dia's.",
+        "ctaLabel": "Scope één piloot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "Scope een Emil-piloot",
+        "steps": [
+          {
+            "number": "01",
+            "title": "een genoemde operator",
+            "body": "Eén portaal. een proces. Een genoemde operator aan uw kant die de uitkomst bezit."
+          },
+          {
+            "number": "02",
+            "title": "Zes weken, vaste vergoeding",
+            "body": "Gebouwd op uw echte workflow, op uw echte portal."
+          },
+          {
+            "number": "03",
+            "title": "Je team houdt het",
+            "body": "Je team runt het en verlengt het nadat ik het heb overhandigd. Het loopt onder je merk en je houdt het. De eerste oproep is dertig minuten en ik zal je een repetitie laten zien tegen een echt portaal, niet op dia's."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "werpen",
+        "brandSuffix": "Douane- en vervoerderportaloperaties",
+        "tagline": "Uw logistieke stack stopt bij de portal. Emil blijft doorgaan.",
+        "copyright": "© 2026"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

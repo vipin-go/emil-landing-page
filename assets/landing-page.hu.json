@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "regionKey": null,
+  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "landingPage": {
+    "headline": "A logisztikai köteg a portálon áll meg. Emil tovább megy.",
+    "subheadline": "A TMS birtokolja a szállítmányt. Ezután valaki megnyitja a PortBase-t, vagy a DMS-t, vagy az NCT-ket, vagy egy szolgáltatói e-könyv-képernyőt, és újra kézzel beírja. A másik oldalon nincs API, és a legtöbbjüknek soha nem is lesz. Az EMIL jóváhagyta a jóváhagyott szállítási adatokat a TMS-ből ezekre a portálokra. Először a teljes futást próbálja a valós környezet másolatával szemben, megmutatja a nyilatkozattevőnek, hogy pontosan mire készül, és nem tesz semmit, amíg nem hagyja jóvá.",
+    "ctaLabel": "Futtasson egy portálszimulációt",
+    "description": "Az EMIL úgy kezeli a vám- és szolgáltatói portálműveleteket, hogy a jóváhagyott szállítmány bejegyzést a valós környezet másolatára próbálja, mielőtt a nyilatkozattevő bármit is jóváhagyna.",
+    "design": {
+      "variant": "logistics-portal",
+      "defaultThemeMode": "dark",
+      "theme": {
+        "palette": "custom",
+        "primaryColor": "green",
+        "secondaryColor": "slate",
+        "accentColor": "green",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f4f4f0",
+            "surface": "#ffffff",
+            "sidebar": "#111111",
+            "text": "#111111",
+            "accent": "#698500",
+            "userBubble": "#698500"
+          },
+          "dark": {
+            "canvas": "#000000",
+            "surface": "#111111",
+            "sidebar": "#080808",
+            "text": "#f4f4f0",
+            "accent": "#cfff39",
+            "userBubble": "#cfff39"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "display": {
+            "source": "google",
+            "family": "Geist"
+          },
+          "label": {
+            "source": "google",
+            "family": "Geist Mono"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
+      "navItems": [
+        {
+          "label": "Jellemzők",
+          "target": "about"
+        },
+        {
+          "label": "Hogyan működik",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Érintkezés",
+          "target": "contact"
+        }
+      ],
+      "ctaLabel": "hatókörű pilóta"
+    },
+    "heroChat": {
+      "statusLabel": "Online",
+      "inputPlaceholder": "Kérdezd meg Emilt egy portálfutásról…",
+      "suggestedPrompts": [
+        "Próbáljon meg egy bejelentést",
+        "Ellenőrizze a foglalást",
+        "magyarázza el a vezérlőket"
+      ]
+    },
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Adjon meg egy jóváhagyott szállítmányozási jegyzőkönyvet, és el fogom próbálni a portálmunkát, mielőtt bármit benyújtanak."
+      }
+    ],
+    "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+    "seoImage": {
+      "src": "/landing-pages/emil/emil-seo-og.png",
+      "alt": "Emil egy logisztikai üzemeltetési irodában vámnyilvántartási szimulációval"
+    },
+    "contact": {
+      "heading": "egy portál. egy folyamat. egy nevű operátor.",
+      "body": "Hat hét, fix díj. Valódi munkafolyamatára építve, a valódi portálra. A csapatod vezeti, és kiterjeszti, miután átadtam. A márkád alatt fut, és megtartod.",
+      "email": "vipin@gabrieloperator.com"
+    },
+    "logisticsPortal": {
+      "header": {
+        "brandLabel": "Emil",
+        "brandSuffix": "vám- és fuvarozói portálműveletek",
+        "logoImage": "/landing-pages/emil/icon.svg",
+        "navItems": [
+          {
+            "label": "Jellemzők",
+            "target": "edge"
+          },
+          {
+            "label": "Hogyan működik",
+            "target": "control"
+          },
+          {
+            "label": "próbálj ki egy demót",
+            "target": "simulation"
+          }
+        ],
+        "ctaLabel": "hatókörű pilóta"
+      },
+      "hero": {
+        "eyebrow": "ember által irányított kivégzés",
+        "heading": "A logisztikai köteg a portálon áll meg.",
+        "accentHeading": "Emil tovább megy.",
+        "body": "Az EMIL API nélkül szállítja a jóváhagyott szállítási adatokat a vám- és szolgáltatói portálokra. Minden futást elpróbál, szünetet tart az emberi jóváhagyásra, és teljes rekordot ad vissza.",
+        "primaryCtaLabel": "Futtasson egy portálszimulációt",
+        "secondaryCtaLabel": "Scope One Pilot",
+        "proofItems": [
+          {
+            "number": "01",
+            "label": "először próbálták"
+          },
+          {
+            "number": "02",
+            "label": "ember által jóváhagyott"
+          },
+          {
+            "number": "03",
+            "label": "Teljesen rögzített"
+          }
+        ],
+        "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
+        "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
+        "characterAlt": "Emil, logisztikai portál üzemeltetője",
+        "chat": {
+          "roleLabel": "vám- és fuvarozói portálműveletek",
+          "statusLabel": "Online",
+          "openingMessage": "Szia, Emil vagyok. Adjon meg egy jóváhagyott küldeményrekordot, és elpróbálom a portálmunkát, mielőtt bármit benyújtanak.",
+          "inputPlaceholder": "Kérdezd meg Emilt a portálmunkáról…",
+          "suggestions": [
+            "Próbáljon meg egy bejelentést",
+            "Ellenőrizze a foglalást",
+            "magyarázza el a vezérlőket"
+          ]
+        },
+        "rehearsal": {
+          "enabled": true,
+          "commandTrigger": "rehearse-filing",
+          "sandboxLabel": "szimulációs homokozó",
+          "restartLabel": "Beindít",
+          "demoNote": "Szemléltető szimuláció · Nincsenek valódi portál, hitelesítő adatok vagy ügyféladatok",
+          "sectionEyebrow": "Probáld ki most",
+          "sectionHeading": "Lásd Emil",
+          "sectionAccentHeading": "a portál szélén.",
+          "sectionBody": "Váltson munkafolyamatokat, ellenőrizze a leképezett mezőket, tekintse át három szimulált kivételt, és válassza ki, hogy a mintafutás folytatódjon vagy fokozódjon.",
+          "workflowTabs": [
+            {
+              "id": "customs",
+              "label": "vámnyilvántartás"
+            },
+            {
+              "id": "carrier",
+              "label": "fuvarozói foglalás"
+            }
+          ],
+          "samples": [
+            {
+              "id": "customs",
+              "runReference": "EM-4471-CUS",
+              "title": "Importnyilatkozat · nl",
+              "lane": "Rotterdam → Montréal",
+              "source": "Approved TMS shipment",
+              "destination": "nemzeti egyablak",
+              "mapped": "42/45",
+              "fields": [
+                {
+                  "label": "Szállítási referencia",
+                  "value": "TMS-984271",
+                  "state": "verified"
+                },
+                {
+                  "label": "áru leírása",
+                  "value": "Precíziós szerelvények…",
+                  "state": "review"
+                },
+                {
+                  "label": "importreferencia",
+                  "value": "2 forrásrekord",
+                  "state": "review"
+                },
+                {
+                  "label": "bruttó tömeg",
+                  "value": "18 420 kg",
+                  "state": "verified"
+                },
+                {
+                  "label": "segédokmány",
+                  "value": "Számla függőben",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "áru leírása",
+                  "detail": "A forrásszöveg meghaladja a portálkorlátot"
+                },
+                {
+                  "title": "importreferencia",
+                  "detail": "Két jóváhagyott rekord található"
+                },
+                {
+                  "title": "segédokmány",
+                  "detail": "Kereskedelmi számla megerősítésre szorul"
+                }
+              ],
+              "receipt": "Nyilatkozat csomag"
+            },
+            {
+              "id": "carrier",
+              "runReference": "EM-5824-tenger",
+              "title": "Ocean Booking · FCL",
+              "lane": "Antwerpen → Szingapúr",
+              "source": "Approved TMS booking",
+              "destination": "harmadik féltől származó szolgáltatói portál",
+              "mapped": "36/39",
+              "fields": [
+                {
+                  "label": "Foglalás hivatkozási",
+                  "value": "BK-204871",
+                  "state": "verified"
+                },
+                {
+                  "label": "hajózási lehetőség",
+                  "value": "2 szolgáltatás egyezés",
+                  "state": "review"
+                },
+                {
+                  "label": "Felszerelés",
+                  "value": "1 × 40HC",
+                  "state": "verified"
+                },
+                {
+                  "label": "berendezés kioldása",
+                  "value": "raktár függőben",
+                  "state": "review"
+                },
+                {
+                  "label": "árubevonási megszakítás",
+                  "value": "A menetrend eltérő",
+                  "state": "review"
+                }
+              ],
+              "exceptions": [
+                {
+                  "title": "hajózási lehetőség",
+                  "detail": "Két szolgáltatás teljesíti a kért érkezést"
+                },
+                {
+                  "title": "berendezés kioldása",
+                  "detail": "A depó megerősítése függőben van"
+                },
+                {
+                  "title": "árubevonási megszakítás",
+                  "detail": "A portál eltér a forrás ütemezésétől"
+                }
+              ],
+              "receipt": "Foglalás visszaigazolása rögzített"
+            }
+          ],
+          "intakeSteps": [
+            {
+              "title": "Forrás Olvasás",
+              "detail": "jóváhagyott rekord",
+              "state": "done"
+            },
+            {
+              "title": "ikerépítésű",
+              "detail": "Feltérképezett mezők",
+              "state": "done"
+            },
+            {
+              "title": "3 kivétel",
+              "detail": "Ítélet kell",
+              "state": "warning"
+            },
+            {
+              "title": "Jóváhagyás",
+              "detail": "emberi ellenőrző pont",
+              "state": "pending"
+            }
+          ],
+          "reviewHeading": "Három területen kell megítélni.",
+          "reviewBody": "Emil nem fog kitalálni és nem nyúlni egy élő portálhoz.",
+          "reviewLabel": "Tekintse át a Portal Twin-t",
+          "approveLabel": "Jóváhagyja a mintafutást",
+          "escalateLabel": "biztonságosan eszkalálódik",
+          "approvedKicker": "teljesítés szimulált",
+          "approvedBody": "A jóváhagyott iker a homokozóban történt, és minden műveletet csatoltak a futási rekordhoz.",
+          "approvedChecks": [
+            "engedélyezett iker",
+            "portál válasz",
+            "könyvvizsgálat"
+          ],
+          "escalatedKicker": "Eszkaláció rögzített",
+          "escalatedTitle": "Semmi sem érte el az élő portálot.",
+          "escalatedBody": "Emil megőrizte a feltérképezett mezőket, bizonyítékokat és nyílt döntéseket, hogy az üzemeltető megoldja.",
+          "continueLabel": "Folytassa valódi szállítással",
+          "loginNotice": "Jelentkezzen be, hogy elpróbáljon egy magánvámot az EMIL-lel. Ebben a verzióban nem történik élő portál benyújtása."
+        }
+      },
+      "ticker": [
+        "vámnyilvántartás",
+        "fuvarozói foglalás",
+        "portál iker",
+        "emberi jóváhagyás",
+        "kivételek áttekintése",
+        "ellenőrzési kérés"
+      ],
+      "edge": {
+        "number": "01 / The edge",
+        "kicker": "A neved a bejegyzésen marad",
+        "heading": "Emil elkészíti a bejegyzést.",
+        "accentHeading": "A nyilatkozattevő fájlokat iktat be.",
+        "body": "Emil nem iktat. Az engedéllyel rendelkező nyilatkozattevő igen. Emil elkészíti a bejegyzést, ellenőrzi a forrásdokumentumokkal, megjelöli, hogy mit utasítanak el, és vár. A jegyzőkönyvi nyilatkozat nem változik, és Emil felhatalmazása alapján semmit sem nyújtanak be.",
+        "governedLabel": "Az Ön által irányított verem",
+        "governedSystems": [
+          "evigmama",
+          "WMS",
+          "edi",
+          "belső mesterséges intelligencia"
+        ],
+        "boundaryLabel": "API határ",
+        "operatorTitle": "Emil itt dolgozik",
+        "operatorBody": "megfigyelni · próbálni · jóváhagyni · végrehajtani",
+        "externalLabel": "külső rendszerek",
+        "portals": [
+          {
+            "label": "vámkikötő",
+            "badge": "Nincs API"
+          },
+          {
+            "label": "fuvarozói kikötő",
+            "badge": "Nincs API"
+          }
+        ],
+        "comparison": [
+          {
+            "label": "Emil előtt",
+            "title": "A portál valakinek a forgószékévé válik.",
+            "body": "Kézi másolás, töredezett képernyőképek, rejtett kivételek és nincs következetes próba a benyújtás előtt."
+          },
+          {
+            "label": "Emillel",
+            "title": "A portál ellenőrzött működési felületté válik.",
+            "body": "Jóváhagyott adatok, hűséges ikerbe, a kivételek láthatóvá váltak, és egy személyre vonatkozó visszafordíthatatlan intézkedés."
+          }
+        ],
+        "capabilities": [
+          {
+            "number": "01",
+            "title": "A neved a bejegyzésen marad",
+            "body": "Emil nem iktat. Az engedéllyel rendelkező nyilatkozattevő igen. Emil elkészíti a bejegyzést, ellenőrzi a forrásdokumentumokkal, megjelöli, hogy mit utasítanak el, és vár. A jegyzőkönyvi nyilatkozat nem változik, és Emil felhatalmazása alapján semmit sem nyújtanak be."
+          },
+          {
+            "number": "02",
+            "title": "Minden futás rekordot hagy maga után",
+            "body": "Amit elolvastak, amit javasoltak, ki hagyta jóvá, amit benyújtottak, az időbélyegzett. Amikor egy audit megkérdezi, hogyan érkezett a bejegyzés, a válasz már létezik."
+          },
+          {
+            "number": "03",
+            "title": "Amivel működik",
+            "body": "Portbase és Cargonaut, DMS és AGS, NCTS 5. fázis, ATLAS, CDS, Carrier Ebooking Portals, Inttra. Ha a csapata bejelentkezik, Emil meg tudja dolgozni, mert Emil úgy dolgozik a képernyőn, mint egy ember."
+          },
+          {
+            "number": "04",
+            "title": "Kinek szól ez",
+            "body": "Vámügynökök és szállítmányozók, 10-150 fő. Házon belüli kereskedelmi megfelelőségi csapatok. A nyilatkozatok valódiak. A mennyiségek emelkednek. Idén nem történik újabb nyilatkozattevő felvétele. Az ICS2 3. kiadása 2025 szeptembere óta minden tagállamban kötelező, az utolsó eltérések pedig 2026 júniusában jártak le. Az NCTS 6. fázisa mellette szállt le. A velük érkezett iratterhelés nem csökken, és senki sem jön el, hogy elvigye."
+          }
+        ]
+      },
+      "platform": {
+        "eyebrow": "Minden futás rekordot hagy maga után",
+        "heading": "az audit válasz",
+        "accentHeading": "már létezik.",
+        "body": "Amit elolvastak, amit javasoltak, ki hagyta jóvá, amit benyújtottak, az időbélyegzett. Amikor egy audit megkérdezi, hogyan érkezett a bejegyzés, a válasz már létezik.",
+        "portalLabel": "Portal Twin · Biztonságos mód",
+        "fields": [
+          {
+            "label": "Szállítási referencia",
+            "status": "verified"
+          },
+          {
+            "label": "árucikkek",
+            "status": "review"
+          },
+          {
+            "label": "segédokmány",
+            "status": "verified"
+          }
+        ],
+        "checkpointLabel": "emberi ellenőrző pont",
+        "points": [
+          {
+            "title": "forrásdokumentumok ellenőrizve",
+            "body": "Emil elkészíti a bejegyzést a jóváhagyott szállítási adatokból."
+          },
+          {
+            "title": "Az elutasítások megjelölték",
+            "body": "A nyilatkozattevő látja, hogy mit utasítanak el, mielőtt bármit benyújtanak."
+          },
+          {
+            "title": "Nyilvántartó jóváhagyás szükséges",
+            "body": "A nyilvántartási nyilatkozat továbbra is az irányítást irányítja."
+          },
+          {
+            "title": "Emil felhatalmazása alatt semmi",
+            "body": "Minden javasolt és jóváhagyott intézkedés időbélyeggel van ellátva."
+          }
+        ]
+      },
+      "process": {
+        "number": "02 / The control loop",
+        "eyebrow": "Minden futás rekordot hagy maga után",
+        "heading": "Minden futást begyakoroltak.",
+        "accentHeading": "minden rögzített döntést.",
+        "body": "Amit elolvastak, amit javasoltak, ki hagyta jóvá, amit benyújtottak, az időbélyegzett. Amikor egy audit megkérdezi, hogyan érkezett a bejegyzés, a válasz már létezik.",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Terület",
+            "body": "Zároljon egy portált, egy folyamatot, az engedélyeket és a sikeres feltételt."
+          },
+          {
+            "number": "02",
+            "title": "Próbál",
+            "body": "Hűséges portál iker létrehozása, és csak jóváhagyott forrásadatok térképezése."
+          },
+          {
+            "number": "03",
+            "title": "Elhatározás",
+            "body": "Tegye fel a kétértelműséget, a megváltozott oldalakat és a hiányzó bizonyítékokat a találgatás helyett."
+          },
+          {
+            "number": "04",
+            "title": "Jóváhagy",
+            "body": "Szünet a pontos következmény pillanatában egy elszámoltatható ember számára."
+          },
+          {
+            "number": "05",
+            "title": "Végrehajt",
+            "body": "Csak a jóváhagyott böngésző lépéseket hajtsa végre – semmin kívüli a hatókörön."
+          },
+          {
+            "number": "06",
+            "title": "Rekord",
+            "body": "Egy nyugtaként küldje vissza a portál válaszát, döntéseit és műtermékeit."
+          }
+        ],
+        "failClosedTitle": "A vezérlés szerkezeti, nem kozmetikai jellegű.",
+        "failClosedBody": "Ha az oldal megváltozik, a bizonyítékok ütköznek, vagy túllépik a jóváhagyott hatókört, az EMIL leáll.",
+        "failClosedLabel": "Sikertelen zárva"
+      },
+      "workflows": {
+        "number": "03 / The work",
+        "kicker": "Amivel működik",
+        "heading": "Ha a csapata bejelentkezik,",
+        "accentHeading": "Emil meg tudja dolgozni.",
+        "body": "Portbase és Cargonaut, DMS és AGS, NCTS 5. fázis, ATLAS, CDS, Carrier Ebooking Portals, Inttra. Emil úgy dolgozik a képernyőn, ahogy egy ember.",
+        "primary": [
+          {
+            "number": "01",
+            "type": "Primary workflow",
+            "id": "customs",
+            "title": "vámnyilvántartás",
+            "body": "Szállítási nyilvántartás → Országos egyablakos iker → kivétel áttekintése → emberi jóváhagyás → nyugta.",
+            "points": [
+              "Szállítási nyilvántartás felvétele",
+              "nemzeti egyablakos iker",
+              "kivétel és dokumentum áttekintése",
+              "jóváhagyás és nyugta rögzítés"
+            ],
+            "ctaLabel": "Szimulálja a bejelentést"
+          },
+          {
+            "number": "02",
+            "type": "Primary workflow",
+            "id": "carrier",
+            "title": "fuvarozói foglalás",
+            "body": "TMS foglalás → Carrier Portal Twin → Vitorlázás ellenőrzése → Emberi jóváhagyás → Megerősítés.",
+            "points": [
+              "Jóváhagyott foglalási felvétel",
+              "Ikerszállító portál",
+              "Vitorlázás és opció ellenőrzése",
+              "Jóváhagyás és megerősítés rögzítése"
+            ],
+            "ctaLabel": "Szimulálja a foglalást"
+          }
+        ],
+        "moreLabel": "Több munkát Emil elbír",
+        "more": [
+          {
+            "number": "01",
+            "title": "Portbase és Cargonaut",
+            "body": "Vám- és rakomány-közösségi portálműveletek jóváhagyott szállítmányadatokból készültek."
+          },
+          {
+            "number": "02",
+            "title": "DMS, AGS és NCTS 5. fázis",
+            "body": "A nyilatkozatokat begyakorolták, ellenőrizték és megtartották az engedéllyel rendelkező nyilatkozattevő számára."
+          },
+          {
+            "number": "03",
+            "title": "Atlasz és CD",
+            "body": "A képernyőn keresztül végzett portálmunka, ahol nem létezik használható API."
+          },
+          {
+            "number": "04",
+            "title": "Carrier ebooking és Inttra",
+            "body": "A jóváhagyott foglalási adatok a szolgáltatói portálokon teljes futási rekorddal."
+          }
+        ]
+      },
+      "pilot": {
+        "eyebrow": "Hogyan működik a pilóta",
+        "heading": "egy portál. egy folyamat.",
+        "accentHeading": "egy nevű operátor.",
+        "body": "egy portál. egy folyamat. Az egyik operátor az Ön oldalán, aki az eredmény tulajdonosa. Hat hét, fix díj. Valódi munkafolyamatára építve, a valódi portálra. A csapatod vezeti, és kiterjeszti, miután átadtam. A márkád alatt fut, és megtartod. Az első hívás harminc perc, és egy próbát mutatok meg egy valódi portál ellen, nem csúszdák ellen.",
+        "ctaLabel": "Scope One Pilot",
+        "email": "vipin@gabrieloperator.com",
+        "emailSubject": "hatókör egy emil pilóta",
+        "steps": [
+          {
+            "number": "01",
+            "title": "egy operátor",
+            "body": "egy portál. egy folyamat. Az egyik operátor az Ön oldalán, aki az eredmény tulajdonosa."
+          },
+          {
+            "number": "02",
+            "title": "Hat hét, fix díj",
+            "body": "Valódi munkafolyamatára építve, a valódi portálra."
+          },
+          {
+            "number": "03",
+            "title": "A csapatod megtartja",
+            "body": "A csapatod vezeti, és kiterjeszti, miután átadtam. A márkád alatt fut, és megtartod. Az első hívás harminc perc, és egy próbát mutatok meg egy valódi portál ellen, nem csúszdák ellen."
+          }
+        ]
+      },
+      "footer": {
+        "brandLabel": "Emil",
+        "brandSuffix": "vám- és fuvarozói portálműveletek",
+        "tagline": "A logisztikai köteg a portálon áll meg. Emil tovább megy.",
+        "copyright": "© 2026 Emil"
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.100Z"
+}

@@ -35,6 +35,10 @@
           "defaultAssetPattern": "assets/landing-page.<language>.json",
           "regionalAssetPattern": "assets/landing-page.<regionKey>.<language>.json",
           "legacyInlinePageReadCompatible": true,
+          "newWritesRequireAssetPath": true,
+          "newWritesAllowInlinePage": false,
+          "aggregateTranslationFileAllowed": false,
+          "sourceLanguageAssetAllowed": false,
           "lazyLoadSelectedAssetOnly": true
         },
         "publicDistinctTargetLimit": 3,

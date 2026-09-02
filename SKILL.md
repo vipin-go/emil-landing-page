@@ -9,7 +9,7 @@ description: >
   from within ChatGPT Sites, Claude Design, or any other AI site builder.
 metadata:
   author: gabriel-operator
-  version: "1.2"
+  version: "1.4"
   compatibility: Requires Node.js 16+ for the validation script.
 ---
 
@@ -156,7 +156,7 @@ button instead of two, a generic opening line in the hero mockup).
     - Normal text must reach WCAG AA contrast against both `canvas` and `surface`. Low decorative-accent contrast is reported as a warning.
 - `landingPage.localization` (required on every new landing page; optional only for backward-compatible reads of legacy pages) — public translation and IP-country routing. This is an additive schema-version-2 field; do not bump the landing-page schema version. New pages must set `translation.enabled: true`, `sourceLanguage: "en"`, `defaultLanguage: "en"`, `autoDetectCountryLanguage: true`, `generatedTranslations: []`, and `regionalPages: []` before authored regions or generated variants are added. Do not disable it during creation.
   - `translation` (optional object) — `{ "enabled": boolean, "sourceLanguage": "en", "defaultLanguage": "en", "autoDetectCountryLanguage": true, "generatedTranslations": [] }`. Languages must use shared-catalogue ids. Enabling it adds the language selector to every registered landing-page header. `autoDetectCountryLanguage` defaults to true and uses the server-resolved request-IP country plus CLDR likely-language data; an explicit matched regional default still wins. The platform—not authored JSON—enforces a maximum of three newly translated target languages per visitor and page in each rolling 24-hour window.
-  - `translation.generatedTranslations` is a compact platform-owned Git manifest. New entries contain `language`, nullable `regionKey`, a 64-character `sourceRevision`, `assetPath`, and optional `generatedAt`. The complete translated page lives in `assets/landing-page.<language>.json`; regional filenames are `assets/landing-page.<regionKey>.<language>.json`. Runtime fetches only the selected file before quota reservation or LLM generation. Legacy inline `page` entries remain readable during migration, but new writers must not create them. Never invent a revision or asset path: generate entries through the platform translation flow or repository tooling.
+  - `translation.generatedTranslations` is a compact platform-owned Git manifest. New entries contain `language`, nullable `regionKey`, a 64-character `sourceRevision`, `assetPath`, `assetSchemaVersion: 2`, and optional `generatedAt`. Each v2 asset also contains a path/source-text-hash translation index. The complete translated page lives in `assets/landing-page.<language>.json`; regional filenames are `assets/landing-page.<regionKey>.<language>.json`. Runtime fetches only the selected file before quota reservation or LLM generation. Legacy inline `page` and exact-match v1 assets remain readable during migration, but new writers must not create them. Never invent a revision or asset path: generate entries through the platform translation flow or repository tooling.
   - `regionalPages` (optional array) — each item requires a unique lowercase `key`, an author-facing `label`, one or more unique uppercase ISO alpha-2 `countryCodes`, a catalogue `defaultLanguage`, and `page`.
   - Each regional `page` is a complete landing-page clone without `localization`; it may select any registered `design.variant`. Never nest localization or reuse a country in another region.
   - Runtime matching uses the server-resolved request-IP country only. A visitor language preference changes translation, never region selection. Matching regional content replaces the base page before theme, SEO, header, CTA, widget, and embed presentation are derived.
@@ -223,6 +223,31 @@ features actually match what the persona does, rather than generic SaaS copy.
 
 ## Git-backed landing page repositories
 
+### Required translation file layout
+
+Every newly generated or updated cache uses split locale files by default:
+
+```text
+assets/landing-page.json                 authored source + localization manifest
+assets/landing-page.<language>.json      one complete base-page translation
+assets/landing-page.<region>.<language>.json
+```
+
+`assets/landing-page.json` must stay compact. Its `generatedTranslations[]` entries
+contain metadata and `assetPath`, never a complete translated `page` or translated
+`chatEmbedConfig`. The selected asset envelope owns those values. Do not create an
+aggregate translations JSON, do not create `landing-page.en.json`, and do not load all
+locale files to select one language.
+
+The validator accepts inline `page` entries only so old repositories can be opened. If
+one is found while editing a repository, use the translation skill's
+`--migrate-inline --apply` mode and validate again before handoff. All new generation,
+incremental regeneration, cloning, and parent mirroring must use the split v2 format.
+After any authored page edit—including text, accessibility copy, media, or structure—run
+the translation generator before committing. It reuses unchanged strings from historical
+assets and translates only the delta. The validator recomputes source revisions and must
+reject a syntactically valid but stale manifest.
+
 When this skill is materialized as a Git repository for one persona's landing
 page, the repo contains this scaffold plus `assets/landing-page.json`. Edit
 that file directly — there is no separate runtime-data file for this
@@ -287,8 +312,8 @@ compact manifest and every referenced language file into the parent.
 
 ### Pre-generating cached language variants
 
-For every newly created landing page, finish and validate the authored English copy,
-then read `../landing-page-translations/SKILL.md` and run its maintained generator with
+For every newly created landing page and after every later authored change, finish and validate the authored English copy,
+then read `../landing-page-translations/SKILL.md` and run its maintained incremental generator with
 the default 37-language catalogue before the initial Git handoff. That skill owns bulk
 language selection, safe-string extraction, provider authorization, source revisions,
 resumable generation, validation, and child-to-parent mirroring. Prefer its private
@@ -299,6 +324,10 @@ After generation, run the generator's `--check`, commit and push a linked child 
 then commit and push the parent Persona projection. If a provider is unavailable, leave
 dynamic translation and country detection enabled and report which cache languages are
 missing; never turn localization off to make creation appear complete.
+
+Before declaring the landing page complete, also confirm that every manifest entry has
+the deterministic `assetPath`, no manifest entry contains `page`, every referenced file
+exists in both child and parent, and the runtime needs only the selected locale file.
 
 ## Validation
 

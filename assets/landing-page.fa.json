@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "language": "fa",
   "regionKey": null,
-  "sourceRevision": "6b451429315ba29cf3d05326a8409dadb5892c5d5e74ded8d149cee881b91c33",
+  "sourceRevision": "71945c56be2b4bb383875413622eaca5ebfce964c48c909cc31f3a4f7baf7945",
   "landingPage": {
     "headline": "پشته لجستیک شما در پورتال متوقف می‌شود. امیل ادامه می‌دهد.",
     "subheadline": "TMS شما محموله را نگه می‌دارد. سپس کسی Portbase، یا DMS، یا NCTS، یا صفحه eBooking شرکت حمل را باز می‌کند و دوباره دستی وارد می‌کند. هیچ API در آن طرف منتظر نیست، و برای اکثر آنها هرگز نخواهد بود. امیل داده‌های تأیید شده محموله را از TMS شما به آن پورتال‌ها منتقل می‌کند. ابتدا کل فرآیند را در برابر یک کپی از محیط واقعی شما تمرین می‌کند، دقیقاً آنچه را که می‌خواهد وارد کند به اعلام‌کننده شما نشان می‌دهد، و تا زمانی که آنها تأیید نکنند کاری انجام نمی‌دهد.",
@@ -439,42 +439,42 @@
           {
             "number": "01",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
-            "alt": "Operator defining a governed logistics portal workflow",
+            "alt": "اپراتور در حال تعریف گردش کار پورتال لجستیک تحت حاکمیت",
             "title": "دامنه",
             "body": "یک پورتال، یک فرآیند، مجوزها و شرط موفقیت را قفل کنید."
           },
           {
             "number": "02",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
-            "alt": "Operator rehearsing a portal run in a digital twin",
+            "alt": "اپراتور در حال تمرین اجرای پورتال در دوقلوی دیجیتال",
             "title": "تمرین کنید",
             "body": "یک دوقلوی وفادار پورتال بسازید و فقط داده‌های منبع تأیید شده را نگاشت کنید."
           },
           {
             "number": "03",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
-            "alt": "Operator reviewing flagged shipment exceptions",
+            "alt": "اپراتور در حال بررسی استثناهای پرچم‌گذاری‌شده محموله",
             "title": "حل کنید",
             "body": "ابهام، صفحات تغییر یافته و شواهد گمشده را آشکار کنید نه حدس زدن."
           },
           {
             "number": "04",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
-            "alt": "Declarants reviewing and approving a proposed portal entry",
+            "alt": "اظهارکنندگان در حال بررسی و تأیید ورودی پیشنهادی پورتال",
             "title": "تأیید",
             "body": "در لحظه تعیین‌کننده برای یک انسان مسئول متوقف شوید."
           },
           {
             "number": "05",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
-            "alt": "Operator monitoring an approved portal execution",
+            "alt": "اپراتور در حال پایش اجرای تأییدشده پورتال",
             "title": "اجرا کن",
             "body": "فقط مراحل تأیید‌شده مرورگر را انجام دهید—هیچ‌چیز خارج از محدوده."
           },
           {
             "number": "06",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
-            "alt": "Audit reviewer inspecting a completed logistics run record",
+            "alt": "بازرس حسابرسی در حال بررسی سابقه اجرای کامل‌شده لجستیک",
             "title": "ثبت",
             "body": "پاسخ پورتال، تصمیمات و مصنوعات را به‌عنوان یک رسید برگردانید."
           }
@@ -577,5 +577,2573 @@
       }
     }
   },
-  "generatedAt": "2026-09-01T15:39:42.100Z"
+  "translationIndex": [
+    {
+      "path": [
+        "landingPage",
+        "headline"
+      ],
+      "sourceHash": "5a341154fa452020676f710b6b6bde10d151819bc1c0123d20088c31bcf3357b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "subheadline"
+      ],
+      "sourceHash": "00fe5fffff3c1220d79f913cf65dbd8f30ab9acf7f44cb1d854ddfd5c70be965"
+    },
+    {
+      "path": [
+        "landingPage",
+        "ctaLabel"
+      ],
+      "sourceHash": "8150f32442acab89e720379b27254fb1a4aa700c8a7b06f4c1cd52c7d1b214ff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "description"
+      ],
+      "sourceHash": "abb61d42d9bb9253e7d4e43643c9037c67034a73dd6eb4a840149758744027a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "ctaLabel"
+      ],
+      "sourceHash": "1a914db39e3af43baedc9e829ebab2ab1ec8a50f705273ad71b37abf869fd99b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "statusLabel"
+      ],
+      "sourceHash": "0d21bd52022ca7f7e97109d28d327da1e68cc0bedd9713b2dc2b49d3aa104392"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "15a6d68940cb7c0234a70cfed8b76802e78a1117da83ca96b982aa9d1d909ab6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        0
+      ],
+      "sourceHash": "207a2ac968406c4b0661e97fef8ad14282807a3ab1f50183f876b00cf05ae793"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        1
+      ],
+      "sourceHash": "c4ed9c14f011fcf7de35ea3fa4cfe9c50161c09f8a608d5c93354a458268693b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        2
+      ],
+      "sourceHash": "4773c33b5a346c0d2d1e27a2160928381a3d593604a0e1473f1f59c4f92ef93c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        0,
+        "text"
+      ],
+      "sourceHash": "5570af200d8f008fcfb8d6637048f409aec9b4289be743bda4419cf87de5d9d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "seoImage",
+        "alt"
+      ],
+      "sourceHash": "7cf2d1552255eb789282e24ef5dd5649b4a2a59435dde65c13c5c39ef2b7b4f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "contact",
+        "heading"
+      ],
+      "sourceHash": "b99cfc9fdae71512e5a44e8e0bce3755f7eb07eae2aefbe57ad174273fb8de48"
+    },
+    {
+      "path": [
+        "landingPage",
+        "contact",
+        "body"
+      ],
+      "sourceHash": "5abc61bca9366537c84dde84e1caa6ceb6634629af81032425e9d1680b93ae24"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "brandLabel"
+      ],
+      "sourceHash": "537d9faede35144ef21cdaa3125f43087a35743d6ed365103d821f5db8c7ec33"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "brandSuffix"
+      ],
+      "sourceHash": "7e8073dff7570f4f7c1602803f35cbf7993ab41c5da9ace8c5317377365de9fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "4325999290ee3d01a0f6ded14458dc8d237117cf5e77c36ce455264c2c295b57"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "ctaLabel"
+      ],
+      "sourceHash": "1a914db39e3af43baedc9e829ebab2ab1ec8a50f705273ad71b37abf869fd99b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "eyebrow"
+      ],
+      "sourceHash": "c20d8bded3772ce83b1056bc4cf45ec1392c1a61192bfbf71e976d5740dd851c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "heading"
+      ],
+      "sourceHash": "b2103387d696ebae715b2d4311ef2ffb214fd5c2f6fe16c76d00cacfa6077c6b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "accentHeading"
+      ],
+      "sourceHash": "02bf590c474e06747944cca7bcd0313210174284955583e5e97cb557bf66cddb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "body"
+      ],
+      "sourceHash": "9efed0bcbd7ad13de44b00eeed7b67cb52982ee17856e611ef0129a2ec146de7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "primaryCtaLabel"
+      ],
+      "sourceHash": "8150f32442acab89e720379b27254fb1a4aa700c8a7b06f4c1cd52c7d1b214ff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "secondaryCtaLabel"
+      ],
+      "sourceHash": "98fdfc82852e2ab99c8f8688adf1719c241f4049f8f5c243710444bbace95fad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "proofItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "742e8bb26757c9ad3f9f16df246cfe882dbe39a7c05db9c8b96f41504c091d88"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "proofItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "e3bee02722edac7c4ca12eae0072c847c503305312a2c0d770d089779258b1ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "proofItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "4755fba4ec1f9e38e72621ad54bab1acae48e67fe5d6270b049778bf2569f3ee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "characterAlt"
+      ],
+      "sourceHash": "455210dce9d2dd1c02373c27417a260c1c6afdb23032832d22da116390d2f863"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "chat",
+        "roleLabel"
+      ],
+      "sourceHash": "7e8073dff7570f4f7c1602803f35cbf7993ab41c5da9ace8c5317377365de9fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "chat",
+        "statusLabel"
+      ],
+      "sourceHash": "0d21bd52022ca7f7e97109d28d327da1e68cc0bedd9713b2dc2b49d3aa104392"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "chat",
+        "openingMessage"
+      ],
+      "sourceHash": "f4ef27a67840cf88a3f9e77fee4a09cf3828d8e56c0f57379429d7937b9b7a0b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "chat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "41345499e590782346c62e8e03b40a268e026cbdd57b3546f728c982ea202866"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "chat",
+        "suggestions",
+        0
+      ],
+      "sourceHash": "207a2ac968406c4b0661e97fef8ad14282807a3ab1f50183f876b00cf05ae793"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "chat",
+        "suggestions",
+        1
+      ],
+      "sourceHash": "c4ed9c14f011fcf7de35ea3fa4cfe9c50161c09f8a608d5c93354a458268693b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "chat",
+        "suggestions",
+        2
+      ],
+      "sourceHash": "4773c33b5a346c0d2d1e27a2160928381a3d593604a0e1473f1f59c4f92ef93c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "sandboxLabel"
+      ],
+      "sourceHash": "69ef8c7fb94a3e71015e1db0ca74b0401f7a14cc273d1121cf3bfdec8e828521"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "restartLabel"
+      ],
+      "sourceHash": "6b983a81e5e8099e4e23a368e72636e31f029f2e691e5be714106b8cf59d70a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "demoNote"
+      ],
+      "sourceHash": "b7e178a19ae52c17966acb5e6f8036b5af1aa7f69a4075af481d21cfc0f56c1e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "sectionEyebrow"
+      ],
+      "sourceHash": "addb776b173a84f2377dd5956c8a30066cb05496a8a39db573ee32681f69d09e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "sectionHeading"
+      ],
+      "sourceHash": "ce17283d1d36b0284042e558ed0230455b0ba2340d619610ed90ff654bfa492b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "sectionAccentHeading"
+      ],
+      "sourceHash": "0b3dffc8d721b82c67397f199d41cf6d002df113b5717c2ac3aa1f5de0562cc3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "sectionBody"
+      ],
+      "sourceHash": "be4890d0a4ae735bc36b763fcb8771ead639b592488a1d6b971f198b03fb5da6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "workflowTabs",
+        0,
+        "label"
+      ],
+      "sourceHash": "96325d9e5ad979b9e7eec5057ac0475d9b6d7d782ed6eed849908fb6d71b25fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "workflowTabs",
+        1,
+        "label"
+      ],
+      "sourceHash": "ee26007f35bcce0b88ac3ae0e523ad66692347afb435f22d8909029b9a329bca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "runReference"
+      ],
+      "sourceHash": "6339ad02eee8a8e08b3754853cd4440da7683b600b51065edf87759a6b17ef7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "title"
+      ],
+      "sourceHash": "838ae2624991b4da9b983af623169d395ded8b670d82141738591fabfe38624e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "lane"
+      ],
+      "sourceHash": "809121965d8ac6abda0badcfd207082a2f500060a9f6fda864ae29780e8af355"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "destination"
+      ],
+      "sourceHash": "6ea2f1e2a572f558e2500d912893d7a6c785cacc8a94e93d2bacb843056c744a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "mapped"
+      ],
+      "sourceHash": "8e6fe50616dd92c02f13b6f333ee7fd1fb94173befb7a6edbaedde151b884dc5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        0,
+        "label"
+      ],
+      "sourceHash": "a7942896a0880ceceb2499439a1bb8cb2b789bff6a5fc18eb9ed88e12545b9ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        0,
+        "value"
+      ],
+      "sourceHash": "868d9138a0fa9bdd0d93e5d8bc6d97566f647a9b5efc08d0eebd8028b5005cd4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        1,
+        "label"
+      ],
+      "sourceHash": "f2ded812b4b0d4723bfa316dab641aa1cc2d0952c2fac3ced461382f3f102d6e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        1,
+        "value"
+      ],
+      "sourceHash": "c2563571e0e3a4cb1e23162bbefb7e87eaac1409dbde032cc48f0876e161805a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        2,
+        "label"
+      ],
+      "sourceHash": "da24c766ff216cc81aacf5303f3ec47238e84d0f6d5d84018b6a73bdeeb20af2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        2,
+        "value"
+      ],
+      "sourceHash": "2486580d006755ce8197c0fc193ce3fa2d6d7b330947351a7d2e4980c3bbc46f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        3,
+        "label"
+      ],
+      "sourceHash": "024b46d7a65635f29f54fd5cd1dd1aa007e407bb086cd8bd27882a5216ebd57e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        3,
+        "value"
+      ],
+      "sourceHash": "ad5c2d3a67cb04d2f7db026b7dd82f9b5f33aabde0f64036cc335d0241201d1c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        4,
+        "label"
+      ],
+      "sourceHash": "cacb2035870a2e01fc3b770fea588bb6a6c0ef71026d94de5e8b7080ec941794"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "fields",
+        4,
+        "value"
+      ],
+      "sourceHash": "3db1f67e7285fb542ccd342f74e354c68ca8be2dc590012b53a16968d69e8bea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "exceptions",
+        0,
+        "title"
+      ],
+      "sourceHash": "f2ded812b4b0d4723bfa316dab641aa1cc2d0952c2fac3ced461382f3f102d6e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "exceptions",
+        0,
+        "detail"
+      ],
+      "sourceHash": "634c5cd5b9d6f5437c3112741a05e976927ab6e660cd026b1ee311c7592b553b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "exceptions",
+        1,
+        "title"
+      ],
+      "sourceHash": "da24c766ff216cc81aacf5303f3ec47238e84d0f6d5d84018b6a73bdeeb20af2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "exceptions",
+        1,
+        "detail"
+      ],
+      "sourceHash": "cf7a94fa72bdacda370eb5b82003eff4ba12a9fd2c6f448765ca41dbe0322a9b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "exceptions",
+        2,
+        "title"
+      ],
+      "sourceHash": "cacb2035870a2e01fc3b770fea588bb6a6c0ef71026d94de5e8b7080ec941794"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "exceptions",
+        2,
+        "detail"
+      ],
+      "sourceHash": "306b0a1ee71856904a091f86592b76e84aeadb1de12f6f85f0adecad56fa3db5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        0,
+        "receipt"
+      ],
+      "sourceHash": "df781882ca63898db1b10b8b832b37677f2ecba27e48717b23524215035ffc08"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "runReference"
+      ],
+      "sourceHash": "ae08e3df70a2bcf469592060032bd598228e66fd0087f3c936fc1a9055dda833"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "title"
+      ],
+      "sourceHash": "e94f7007ac6302bf0828f26db2a58f6717d7a8fc425d277c6f7b9c0ab64d4922"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "lane"
+      ],
+      "sourceHash": "98423eb9c72433f6ee143d565110b37e357308a43d77734f2403a61d0d87f169"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "destination"
+      ],
+      "sourceHash": "95798acbcf60fbbf9699fb35e2e7b6e3c1a14398a4b551a92df259fdbeeb2969"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "mapped"
+      ],
+      "sourceHash": "eef5466b05dbc65e6dc12b6c7df4a8ca406fd5091cacbd3732c6fa92c312097d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0ace695147434c7ec21cb35c45c164594c41ad559b818d84c8dd8fa709e5e7c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        0,
+        "value"
+      ],
+      "sourceHash": "fb76238343a547265d53b3e51376a5efdd4d911675d5e34ae2e4f717b3307b9f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        1,
+        "label"
+      ],
+      "sourceHash": "21bb1f03ffdd42eff8852f6f2902b4aa6338dfc9c28762ecce37a549d43b61c2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        1,
+        "value"
+      ],
+      "sourceHash": "6e40fa215eec6781c10e303cdb25b4fcb359c7e8456e05146294ebec75a1681c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        2,
+        "label"
+      ],
+      "sourceHash": "7f2465ac7cefab2766e6ee0714647089df9364b0ff09858c84b21b8a436a845d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        2,
+        "value"
+      ],
+      "sourceHash": "6f7f0eefee3a30497bdb243784a4062957447b78bb608e84ee1da5bcbb9c530e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        3,
+        "label"
+      ],
+      "sourceHash": "0adea1f3866a031fd6d9b922f0795d13925a65c62ff139db072c2938a1d319c4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        3,
+        "value"
+      ],
+      "sourceHash": "2f5c0fe3e2d03906c768e47cd2b94c29d855db86af9a0da23c4f05b06fa693b2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        4,
+        "label"
+      ],
+      "sourceHash": "672dd557b285344b683ccbe1fe963b31130354c5107ff65360f7b277d19e7a59"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "fields",
+        4,
+        "value"
+      ],
+      "sourceHash": "04f944e10730e6d04d03b54e69b0a9a68bd11972931ae53b8a050aa92e6316ee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "exceptions",
+        0,
+        "title"
+      ],
+      "sourceHash": "21bb1f03ffdd42eff8852f6f2902b4aa6338dfc9c28762ecce37a549d43b61c2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "exceptions",
+        0,
+        "detail"
+      ],
+      "sourceHash": "34e65663f7254e1486b8d33518fd4684d84c5cdd29aaa2f6a320493be923fb8e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "exceptions",
+        1,
+        "title"
+      ],
+      "sourceHash": "0adea1f3866a031fd6d9b922f0795d13925a65c62ff139db072c2938a1d319c4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "exceptions",
+        1,
+        "detail"
+      ],
+      "sourceHash": "7244711bd8b5e5afd0779641caae4e6e6090f7499a56dd82cce5a5fd8691ff89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "exceptions",
+        2,
+        "title"
+      ],
+      "sourceHash": "672dd557b285344b683ccbe1fe963b31130354c5107ff65360f7b277d19e7a59"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "exceptions",
+        2,
+        "detail"
+      ],
+      "sourceHash": "9c120e7d9257cd9b7cf10c218e02789d1ba1a5dd8f15a32e550be4e5c552a487"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "samples",
+        1,
+        "receipt"
+      ],
+      "sourceHash": "4ee9b2d5ff3fcba9fa0e84fa19d70f8090c87d029fd19f2987bab06bb0d87fbb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        0,
+        "title"
+      ],
+      "sourceHash": "35965e7c7cd42d05b3925e145c6800d0a8bcd8fd6796a4430bbe18a8623811f9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        0,
+        "detail"
+      ],
+      "sourceHash": "5c171a78baf4f3b2b3c99a526c9e08ed8f444a1fa037803c3c67b2d6904643d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        1,
+        "title"
+      ],
+      "sourceHash": "3efd6767b8789c4d5f2eae946eedbcb217de0d3e98091d682bfdab3b4ad1665f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        1,
+        "detail"
+      ],
+      "sourceHash": "a3919dd1b79fa1941db5da5a5c3443f8c52d378cdea3f8226987780192cfeaed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        2,
+        "title"
+      ],
+      "sourceHash": "31a94a37ee4526c0a03fd0ce0520b48933594292b9c15530c7bec16967daa973"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        2,
+        "detail"
+      ],
+      "sourceHash": "f3f50c5939c7c5ab8ac5b53e0a0be5c6d71874d497f4f1f373edc04b9d555f86"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        3,
+        "title"
+      ],
+      "sourceHash": "147fb813a2515718ef6121c61c9636d6ffbcb055bcdb45dbb483af667aa94c8b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "intakeSteps",
+        3,
+        "detail"
+      ],
+      "sourceHash": "bb8a32dbb167005299916176be51e2aad41d9b314a8a8718f75485acb4a795d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "reviewHeading"
+      ],
+      "sourceHash": "716ab2a6e51a466e713ea3659008d81e78121b293db53b8990732956d4075465"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "reviewBody"
+      ],
+      "sourceHash": "db90df82e96223708b3f47a896f483608ebebd8323ac56d7cf32fbfac56d1415"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "reviewLabel"
+      ],
+      "sourceHash": "c37da8be989481df11a2377b0c1a5d864468f3c400b300cb938e99d324226da2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "approveLabel"
+      ],
+      "sourceHash": "d5349e466af1f6931a2878d76be0d2964b52b7bed237639c3c1fae7398dc479f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "escalateLabel"
+      ],
+      "sourceHash": "b00734775ab6d6c955be6975c4b7fa90cd84723bfa30140096dda8a7f1ca6924"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "approvedKicker"
+      ],
+      "sourceHash": "b7bffe6c76eb6948adcd474561811e4d7a4be3c43f8afab32c3c4719ce1845b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "approvedBody"
+      ],
+      "sourceHash": "3fcfc99f1ea42318cb5dd943ecd0609198da9a5315ffa48c053cd88521396ad8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "approvedChecks",
+        0
+      ],
+      "sourceHash": "6ab251f5bc066c34f5320bece50e5ef3b06b476bbb7db237f639ea399b01deb0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "approvedChecks",
+        1
+      ],
+      "sourceHash": "a6fa21efde15681c530025e6224904d4d4169fc44a68f82c51dafd789013018f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "approvedChecks",
+        2
+      ],
+      "sourceHash": "268fd7afc6f3a5ef6835fb97f75177e6a306f842101988e0fdef5c0d53fee59d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "escalatedKicker"
+      ],
+      "sourceHash": "48db5354ce2c4cd3cb0aaa4c531089907cbeb40c30310ca47aa811878a755369"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "escalatedTitle"
+      ],
+      "sourceHash": "959c5bdf657b1ee6539a0989670acea98c6d4c968960730394d00b135559d133"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "escalatedBody"
+      ],
+      "sourceHash": "6d298a69c5e902235a8175e01df24c3a3e6b276d69e3120dbfa5331b9f6925fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "continueLabel"
+      ],
+      "sourceHash": "314c4ef2e9399bdf6c445da05504668a87e73fad9521c0c653ca87bd6497f986"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "hero",
+        "rehearsal",
+        "loginNotice"
+      ],
+      "sourceHash": "6cd0a366dc23dc442ccde735dc3e3f8131e41da1d31e3c88569a7d385977f6bb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "ticker",
+        0
+      ],
+      "sourceHash": "96325d9e5ad979b9e7eec5057ac0475d9b6d7d782ed6eed849908fb6d71b25fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "ticker",
+        1
+      ],
+      "sourceHash": "ee26007f35bcce0b88ac3ae0e523ad66692347afb435f22d8909029b9a329bca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "ticker",
+        2
+      ],
+      "sourceHash": "781edc2b9094f252688e26f1b8adbda70761557b6d0d5cc4e93d91681f4eef76"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "ticker",
+        3
+      ],
+      "sourceHash": "1dc716cfff4169e1ed0d32ed6bb33d3dcde5c52003cbf6ecc57d3619c8feaaf2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "ticker",
+        4
+      ],
+      "sourceHash": "f81ef4b2d55d716acaa2429d6cef0c41fece71ec7f2f1c77088ec68f8df73782"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "ticker",
+        5
+      ],
+      "sourceHash": "113d3f7153af00570c5d8a33c4af2317a5b7272d7caef315c1a9ab725f1db756"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "kicker"
+      ],
+      "sourceHash": "0fcff8fb16a8f4aea5542001c8e046c030290c3c39a019376423a50253e2413d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "heading"
+      ],
+      "sourceHash": "6294c767f4cd76f605d2918d0ef48ce6901d65c3645b502d07ecf5bfd7dd4937"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "accentHeading"
+      ],
+      "sourceHash": "3e025057f5e669d13296684173b2db06ca008378c4784abed9643f6c0ccee44d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "body"
+      ],
+      "sourceHash": "ffbcaf0fcc75d081317fd0119ef21ce5ba0fa0b38e3f461212d3dbfc67bbc0bb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "governedLabel"
+      ],
+      "sourceHash": "5bce52fee6c8a4cd4ceab06cc1d66da46c8941581f1123a7c6fe28afb612f46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "governedSystems",
+        0
+      ],
+      "sourceHash": "6d596f7ba2f701675c46f2d3b0ceb94dd963550e577b738872522dcae20d20ee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "governedSystems",
+        1
+      ],
+      "sourceHash": "3bd7b00b71626a802919c45af4cb8c48be0150dbe165cb38816ca6810bc243df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "governedSystems",
+        2
+      ],
+      "sourceHash": "da1ae149a14dc66f91ee4d569ec3d43abf225b2ceb0c69a1fb3b269c3ff72134"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "governedSystems",
+        3
+      ],
+      "sourceHash": "2346f734ce5088dac166ef6f73385ed9505edd8e278840a787f37872db35f048"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "boundaryLabel"
+      ],
+      "sourceHash": "eb8427bb558c61467aa8dfac9e0afa22b8289adfdc85ce9bd58152b151ec9eb4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "operatorTitle"
+      ],
+      "sourceHash": "0bcb123cd88e2237d8e60cd55132c04294b0ff382c41d9b92119414e8deb0665"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "operatorBody"
+      ],
+      "sourceHash": "051c5440b9138d2e28e762744c8e0988e1e2315b3043fe65398a12ea2be1c570"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "externalLabel"
+      ],
+      "sourceHash": "07da7131343bcc52f1d2441e0d0b25e670edcc971ee74ce14bacecad6a156d00"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "portals",
+        0,
+        "label"
+      ],
+      "sourceHash": "71f4fd9bbd9a10814f48b7e4944cf76ede5e63e4935dac2267fc7e99028c3375"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "portals",
+        0,
+        "badge"
+      ],
+      "sourceHash": "60578e9914725265cbeb4eb6cc7d4e362e14fb7c830a54ac1a9daeb36207fa4c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "portals",
+        1,
+        "label"
+      ],
+      "sourceHash": "44d621b3c5fd488a727353737358c47f3c43b9920419552e316dea9354908883"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "portals",
+        1,
+        "badge"
+      ],
+      "sourceHash": "60578e9914725265cbeb4eb6cc7d4e362e14fb7c830a54ac1a9daeb36207fa4c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "comparison",
+        0,
+        "label"
+      ],
+      "sourceHash": "8f874db1ac8ee8e09266337f8f68ec8059a83cba92ffd62c7817ced178dee3f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "comparison",
+        0,
+        "title"
+      ],
+      "sourceHash": "91decfb8c8e82237e5b3754b69d97b9b58221ccdd137c8a6dccd7a7219d081a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "comparison",
+        0,
+        "body"
+      ],
+      "sourceHash": "fec74c14c7eba7921bb62a75d75313f37dbbd88f1d8f49ecd6ba517b5d69fdbc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "comparison",
+        1,
+        "label"
+      ],
+      "sourceHash": "b1690f2dfacb9018238ccfc460ada0de6db019082e4881a9a15a29fa373cbd61"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "comparison",
+        1,
+        "title"
+      ],
+      "sourceHash": "205713ef727cde86ccc2130e95215300c1ef0a5b048c35fd243c049432bf0fd0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "comparison",
+        1,
+        "body"
+      ],
+      "sourceHash": "f9ce3402f6d391f8e13b1c1fab891abca0e09055f29ad8929a3a4023ebaed1de"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        0,
+        "title"
+      ],
+      "sourceHash": "0fcff8fb16a8f4aea5542001c8e046c030290c3c39a019376423a50253e2413d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        0,
+        "body"
+      ],
+      "sourceHash": "ffbcaf0fcc75d081317fd0119ef21ce5ba0fa0b38e3f461212d3dbfc67bbc0bb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        1,
+        "title"
+      ],
+      "sourceHash": "4bb62aeac29adb8ad519941e195d0ee9b4293db90d86382694f8ab5bfd495cad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        1,
+        "body"
+      ],
+      "sourceHash": "cca3189e87316237dc8efa048b4abf43cf36188d8253324435c473100440c1ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        2,
+        "title"
+      ],
+      "sourceHash": "87dd5a55c158da6ee2aa9ce0d22d5a32a182f0a8991fefdd5f8418b3f2846fc3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        2,
+        "body"
+      ],
+      "sourceHash": "dc998b5a333a38e24c733960a140df66c3f3a241d624d43c591ac4ea6abe3d8f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        3,
+        "title"
+      ],
+      "sourceHash": "06b391f9f3af56ddfdf79a8b63dcbf6d5e8b621e8f439bce968fc7bf561b3193"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "edge",
+        "capabilities",
+        3,
+        "body"
+      ],
+      "sourceHash": "f16be36e0ed798c32e1f9f3a95f15bbaddec922e68aecf90cee59f48ce85f810"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "eyebrow"
+      ],
+      "sourceHash": "4bb62aeac29adb8ad519941e195d0ee9b4293db90d86382694f8ab5bfd495cad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "heading"
+      ],
+      "sourceHash": "2b70e235b24725465ff40d772b0c17a38d2f4fbe3ac9b179908eb053addba90f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "accentHeading"
+      ],
+      "sourceHash": "6e446353b3c64c6ae3c19a51cdc9c28f19a4e2391241418d960c07fad6319150"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "body"
+      ],
+      "sourceHash": "cca3189e87316237dc8efa048b4abf43cf36188d8253324435c473100440c1ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "portalLabel"
+      ],
+      "sourceHash": "ca54d7990704422b2911700acbcc31741794bace33c78a9a2190db0d52ff56c7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "fields",
+        0,
+        "label"
+      ],
+      "sourceHash": "a7942896a0880ceceb2499439a1bb8cb2b789bff6a5fc18eb9ed88e12545b9ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "fields",
+        1,
+        "label"
+      ],
+      "sourceHash": "e7ec31b14c53c530528771ada2073127711ab9dfd7cbb80041778d30e6df94e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "fields",
+        2,
+        "label"
+      ],
+      "sourceHash": "cacb2035870a2e01fc3b770fea588bb6a6c0ef71026d94de5e8b7080ec941794"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "checkpointLabel"
+      ],
+      "sourceHash": "bb8a32dbb167005299916176be51e2aad41d9b314a8a8718f75485acb4a795d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        0,
+        "title"
+      ],
+      "sourceHash": "5e403dcf6232f7db200175c85eda0891137fe33b4cfa9c4b77b81802c79d9357"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        0,
+        "body"
+      ],
+      "sourceHash": "f8fc093911823c87c0474d7b0b5db8ab71e90acadcf1bcd8aba295bc173cbc14"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        1,
+        "title"
+      ],
+      "sourceHash": "cb1e3da1de3e34e677dce4a28fd48b40b7389e1fae4d76d959fef167a16e63b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        1,
+        "body"
+      ],
+      "sourceHash": "cba66b42c22b8a5ee25b4422903b39930b978f08b074d944bf3068bc19eab23f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        2,
+        "title"
+      ],
+      "sourceHash": "0b60ab82176c7639354b23473604e5c4ac2fb61943c6d5d724d37de6e655203b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        2,
+        "body"
+      ],
+      "sourceHash": "6cbf276ed2a3b6211fbdca9ab5de64e16de5ab162f81c0da65abb62632904505"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        3,
+        "title"
+      ],
+      "sourceHash": "cfa2c4beac80de57728e70f1bf4dbcdd4d136f10defe1beb68342096a67536ee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "platform",
+        "points",
+        3,
+        "body"
+      ],
+      "sourceHash": "6418e9c5a198f0f95b87cfcec7a704c3e21bc133048fa71a29b232e045e0a831"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "eyebrow"
+      ],
+      "sourceHash": "4bb62aeac29adb8ad519941e195d0ee9b4293db90d86382694f8ab5bfd495cad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "heading"
+      ],
+      "sourceHash": "2c4debd64c052c810efb76dfbee7bd5d53862fb6f3c9dc0ffd93d5fb55fc12be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "accentHeading"
+      ],
+      "sourceHash": "0d060ce78a3a7521ad86947e15c09f080a7abbbfbe22bac16a24b26d59313929"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "body"
+      ],
+      "sourceHash": "cca3189e87316237dc8efa048b4abf43cf36188d8253324435c473100440c1ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        0,
+        "alt"
+      ],
+      "sourceHash": "b5d9ea8b88650d47693c8f9e626754f0020daa0f7fb8f48f7432241f7a06e854"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "b073f6c68ef8721107fd9815b19b2c35ec111d526b75c2123d1111ba64424000"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "e1981312e113bcf070e8661389e5acbe83956c99c02b5cc0a0b632dbec98da32"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        1,
+        "alt"
+      ],
+      "sourceHash": "4d276c00a5ca4d904d66009e6901b29467a48dfb560506c16fdad27a0acb4d1a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "62294a4c9ee48768ff022aa3fda79ce865b19c8d05bafdac8437b4dc9c6fcc4d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "055282766d2d1800eba75fc1432329f28e33c84b63ba60fce73710215d36450c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        2,
+        "alt"
+      ],
+      "sourceHash": "8bf36f1917ea9a68dc6ff590a332c9f8cd22ec584fc394ad5ec4751eee49c987"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "c8f193b315c86f3a9d5ff6c85697aa6112760966f93f92da5f7a4153f3c0bc8c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "0fb6ba73e556608064ca98c2dcbe57c07ee5ba5de708028c0887c37f1c28b9f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        3,
+        "alt"
+      ],
+      "sourceHash": "3f3e29c89b811b3455dfeacc5b212b42b500019cd8413265f96a888abcfe3e63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "6007acbe30b2cd98703e83350ea665c06009fcd51f26dd73b309294235f45f21"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "815d8f06ec911973ee983aaeaab3ce5d3bf1afcad4f42e5c421c017851539ee0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        4,
+        "alt"
+      ],
+      "sourceHash": "d9b46efca8f7155522cc713461fee55034c38a8aaee85ae42a47bc8fc906c153"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        4,
+        "title"
+      ],
+      "sourceHash": "e3a67d9540e9a204f7dc4aa9d44a0ec652856cfa932a21196bf9df23aa0e4cd1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        4,
+        "body"
+      ],
+      "sourceHash": "ef2745ed0ebe677790a24af494ea1f32a49c6d3318b1e5aedf1123fb8e276b94"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        5,
+        "alt"
+      ],
+      "sourceHash": "48b47b5e17d8477173ba4903ae585f2f1cb72c5ce142e7c5b3375b38aa024100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        5,
+        "title"
+      ],
+      "sourceHash": "bfdd510698ef3ccbf17f2c67fc47790e1ba72894fb74fe284bbc136b47ef73e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "steps",
+        5,
+        "body"
+      ],
+      "sourceHash": "7308e7831472d2f8a441eaeb72837f424d7cda1a40b0c1302a3377ede1504076"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "failClosedTitle"
+      ],
+      "sourceHash": "960f2a72e63b0493a961aa8dc3e96de9411fe06c42db114f3c3f6060f45ce610"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "failClosedBody"
+      ],
+      "sourceHash": "8735f020f7d8a2c852035fafe8caac16b2d9339407eb48a9761b4ad0559b96b6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "process",
+        "failClosedLabel"
+      ],
+      "sourceHash": "eac20c4006bb41e117b00473c9e6f45a3025cbd2dc0e2557a7f981aee05f2a07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "kicker"
+      ],
+      "sourceHash": "87dd5a55c158da6ee2aa9ce0d22d5a32a182f0a8991fefdd5f8418b3f2846fc3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "heading"
+      ],
+      "sourceHash": "821e84c4053697cb3cc0f61dd80d120c58070e87224ca7048c160cda58275f5d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "accentHeading"
+      ],
+      "sourceHash": "3639392b9f27ce41bbfd744758cf544f33a080b40a4fcd77cf76bfec4d506869"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "body"
+      ],
+      "sourceHash": "77c672923ad3fc2b3a5c3c2d5a52f7fb057a96a97f0220458b771140f6d391c9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        0,
+        "title"
+      ],
+      "sourceHash": "96325d9e5ad979b9e7eec5057ac0475d9b6d7d782ed6eed849908fb6d71b25fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        0,
+        "body"
+      ],
+      "sourceHash": "7e413ff3c48c9acc43e96ea11151fdde6fd83f3cb91b087d87cada74ac221490"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        0,
+        "points",
+        0
+      ],
+      "sourceHash": "cee15fc0d3f49c4d78352196a68b14439866c900bf8bd24aea48834501b53b75"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        0,
+        "points",
+        1
+      ],
+      "sourceHash": "f80730e3e4a31ed68d89277fdb2b69926d40055db952d4d99191f3fc9cc80985"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        0,
+        "points",
+        2
+      ],
+      "sourceHash": "043aefedda5039041dda38239411630446382a16d0a98825b7ced42b7cbb9aba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        0,
+        "points",
+        3
+      ],
+      "sourceHash": "8c02fda36339058660b523942b9ddc40c5aab58f7718a1d6c6571d187d5a1815"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "beff3306a719a4ef0454d4459ef43e1516e9b5c708bad7d16020bc716185626b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        1,
+        "title"
+      ],
+      "sourceHash": "ee26007f35bcce0b88ac3ae0e523ad66692347afb435f22d8909029b9a329bca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        1,
+        "body"
+      ],
+      "sourceHash": "dbcb87a26108a46473d4d132e031b264b1b2225dbc378f3e9212d34148024837"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        1,
+        "points",
+        0
+      ],
+      "sourceHash": "ce2d9b77d82bb66aa86dfb7ffdf34a1e1ff5cb014776cbb64dd22ffdecbfd8a9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        1,
+        "points",
+        1
+      ],
+      "sourceHash": "19b24ef725ef7efe1b54c55d48b752f8946185bfcd94ad66f25cadd8d06490f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        1,
+        "points",
+        2
+      ],
+      "sourceHash": "cd30e16ab1325cf8412c16a3958c0d3729a0b94b7adc66fd21dfc64c46042e21"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        1,
+        "points",
+        3
+      ],
+      "sourceHash": "d02bab05bcab437ed4b42e1d1ee4beb6c5a62c4b6a1c592d506c180c5fbf0d6f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "primary",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "e430aa8930b19a1fb87691ccddc2c844df59265a1d42efd7f14e15d8ac96b967"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "moreLabel"
+      ],
+      "sourceHash": "f2a93f08f74b83fbd5ac7385208e8a7dda4f25043a36e60c25cf0ef82883af67"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        0,
+        "title"
+      ],
+      "sourceHash": "7482ed0e74e3e692c5048ce4be28538a8af91add55e401cfbcafbd2e19a6d21d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        0,
+        "body"
+      ],
+      "sourceHash": "eb6cd3f5c030e9c50901080e47f9008cba11552944cd8e9d66acafaac8f0ab42"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        1,
+        "title"
+      ],
+      "sourceHash": "45b606514424597762480079cb997492c0bc233ffd01cda0983c1765fb4ed492"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        1,
+        "body"
+      ],
+      "sourceHash": "67972d22b1f1ee3f2b48d37c825f89e29c4f529b7e6a45b6f6f74b4e89a9deae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        2,
+        "title"
+      ],
+      "sourceHash": "563f3d17680742b7a5a59e43b460d42a68dc79ecf19d95d85113d1431f3d402f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        2,
+        "body"
+      ],
+      "sourceHash": "30f0c53d8892af3439d6e5f70d28d72f03e1214e38ebf168c20d08b84fdcfd0a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        3,
+        "title"
+      ],
+      "sourceHash": "0e008316ad2c1a928aea3c78d0e985c7e46a8ef3192a054e002d1a9cb4794137"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "workflows",
+        "more",
+        3,
+        "body"
+      ],
+      "sourceHash": "c4a67552e8a0c1cabe54894ee6789c58831556828cc26180dcbef6c3aedc293c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "eyebrow"
+      ],
+      "sourceHash": "7940e0af9baf060bdd448ffd52bc7926128095e92d81dce5309b93e38bb449ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "heading"
+      ],
+      "sourceHash": "5b716c41b98d17ef6106f6e98efaaf800e7effe1ee09c92df11f12c5bac77802"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "accentHeading"
+      ],
+      "sourceHash": "cd607aa955576871af44ed09a5be0e446125839bca247f24c575e9acd0744e6b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "body"
+      ],
+      "sourceHash": "dfcd1433e643c3ef4e67625f319d27b1b2cbd8e7dbec885a8b8868bff37cad5e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "ctaLabel"
+      ],
+      "sourceHash": "98fdfc82852e2ab99c8f8688adf1719c241f4049f8f5c243710444bbace95fad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "emailSubject"
+      ],
+      "sourceHash": "f5207fb66a30e7df30d320810df9a34568bc7ab476630ebbfc87d5320a51bf73"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "82a5f49da586f1dd7224fb1fd704b56d54369134d3ab2c17d96e484082b07feb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "1cdc6c4cb0c0ba31e63512b783a089bc21ba521480122bd0d1791189aeaa29bb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "186fda0afac1be6e0c854d44ad6f2764277f22b706b09b0b1b9253dbf2b3957d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "5b6180ff18c2464dce5c1461fa93876c855a4915f777aa3f616a56eccf773ab2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "3efada4154b92718bb52e5eb962099d27eefbf266b484cdfd4426f269bf4b603"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "pilot",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "27aad36183ec21c537be54987608c4d9ab2f31c3e840203c1c9aae1e78476cd9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "footer",
+        "brandLabel"
+      ],
+      "sourceHash": "537d9faede35144ef21cdaa3125f43087a35743d6ed365103d821f5db8c7ec33"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "footer",
+        "brandSuffix"
+      ],
+      "sourceHash": "7e8073dff7570f4f7c1602803f35cbf7993ab41c5da9ace8c5317377365de9fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "footer",
+        "tagline"
+      ],
+      "sourceHash": "5a341154fa452020676f710b6b6bde10d151819bc1c0123d20088c31bcf3357b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "footer",
+        "copyright"
+      ],
+      "sourceHash": "e75be53566fd7827991de0ccdbbf0f797ba8843684da525a696f129d0f1a43be"
+    }
+  ],
+  "generatedAt": "2026-09-02T11:39:13.961Z"
 }

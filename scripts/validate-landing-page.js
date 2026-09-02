@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const nodePath = require('path');
+const { createHash } = require('crypto');
 
 const ALLOWED_ICONS = new Set([
   'heart', 'shield-check', 'sparkles', 'chat', 'users', 'lock', 'check', 'star',
@@ -31,6 +32,46 @@ const REGION_KEY = /^[a-z0-9][a-z0-9-]{0,63}$/;
 const COUNTRY_CODE = /^[A-Z]{2}$/;
 const SOURCE_REVISION = /^[a-f0-9]{64}$/;
 const LANGUAGE_CODES = new Set('aa ab ae af ak am an ar as av ay az ba be bg bh bi bm bn bo br bs ca ce ch co cr cs cu cv cy da de dv dz ee el en eo es et eu fa ff fi fj fo fr fy ga gd gl gn gu gv ha he hi ho hr ht hu hy hz ia id ie ig ii ik io is it iu ja jv ka kg ki kj kk kl km kn ko kr ks ku kv kw ky la lb lg li ln lo lt lu lv mg mh mi mk ml mn mr ms mt my na nb nd ne ng nl nn no nr nv ny oc oj om or os pa pi pl ps pt qu rm rn ro ru rw sa sc sd se sg sh si sk sl sm sn so sq sr ss st su sv sw ta te tg th ti tk tl tn to tr ts tt tw ty ug uk ur uz ve vi vo wa wo xh yi yo za zh zu'.split(' '));
+
+const stableValue = (value) => {
+  if (Array.isArray(value)) return value.map(stableValue);
+  if (!value || typeof value !== 'object') return value;
+  return Object.fromEntries(Object.keys(value).sort().map((key) => [key, stableValue(value[key])]));
+};
+const sourceRevision = (value) => createHash('sha256').update(JSON.stringify(stableValue(value ?? null))).digest('hex');
+const withoutLocalization = (page) => {
+  const copy = JSON.parse(JSON.stringify(page));
+  delete copy.localization;
+  return copy;
+};
+const selectEmbedCopy = (chatConfigPath) => {
+  if (!chatConfigPath || !fs.existsSync(chatConfigPath)) return {};
+  const config = JSON.parse(fs.readFileSync(chatConfigPath, 'utf8'));
+  const published = config?.publishedConfig && typeof config.publishedConfig === 'object' ? config.publishedConfig : {};
+  const embed = published.chatEmbedConfig && typeof published.chatEmbedConfig === 'object'
+    ? published.chatEmbedConfig
+    : config?.chatEmbedConfig && typeof config.chatEmbedConfig === 'object'
+      ? config.chatEmbedConfig
+      : {};
+  return {
+    ...(typeof embed.heroTitle === 'string' ? { heroTitle: embed.heroTitle } : {}),
+    ...(typeof embed.heroSubtitle === 'string' ? { heroSubtitle: embed.heroSubtitle } : {}),
+    ...(Array.isArray(embed.openingStatements) ? { openingStatements: embed.openingStatements } : {}),
+    ...(embed.about && typeof embed.about === 'object' && !Array.isArray(embed.about) ? { about: embed.about } : {}),
+    ...(embed.conversion && typeof embed.conversion === 'object' && !Array.isArray(embed.conversion) ? { conversion: embed.conversion } : {}),
+  };
+};
+
+function currentSourceRevisions(landingPage, regionKey, chatConfigPath) {
+  const regional = Array.isArray(landingPage?.localization?.regionalPages)
+    ? landingPage.localization.regionalPages.find((entry) => entry?.key === regionKey)
+    : null;
+  const page = regionKey && regional?.page ? regional.page : withoutLocalization(landingPage);
+  return new Set([
+    sourceRevision({ landingPage: page, chatEmbedConfig: selectEmbedCopy(chatConfigPath) }),
+    sourceRevision({ landingPage: page, chatEmbedConfig: {} }),
+  ]);
+}
 
 function fail(message) {
   throw new Error(message);
@@ -730,6 +771,9 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
           if (generatedKeys.has(generatedKey)) fail(`${path} duplicates a generated region/language pair`);
           generatedKeys.add(generatedKey);
           if (!SOURCE_REVISION.test(generated.sourceRevision || '')) fail(`${path}.sourceRevision must be a SHA-256 revision`);
+          if (!currentSourceRevisions(landingPage, generated.regionKey || null, chatConfigPath).has(generated.sourceRevision)) {
+            fail(`${path}.sourceRevision is stale; run the incremental landing-page translation refresh before publishing`);
+          }
           const hasInlinePage = Boolean(generated.page && typeof generated.page === 'object' && !Array.isArray(generated.page));
           const hasAssetPath = generated.assetPath !== undefined;
           const expectedAssetPath = `assets/landing-page${generated.regionKey ? `.${generated.regionKey}` : ''}.${String(generated.language || '').toLowerCase()}.json`;
@@ -744,9 +788,17 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
             const assetFilePath = nodePath.join(nodePath.resolve(nodePath.dirname(definitionFilePath), '..'), generated.assetPath);
             if (!fs.existsSync(assetFilePath)) fail(`${path}.assetPath does not exist: ${generated.assetPath}`);
             const asset = JSON.parse(fs.readFileSync(assetFilePath, 'utf8'));
-            if (asset.schemaVersion !== 1) fail(`${generated.assetPath}.schemaVersion must be 1`);
+            if (asset.schemaVersion !== 1 && asset.schemaVersion !== 2) fail(`${generated.assetPath}.schemaVersion must be 1 or 2`);
+            if (generated.assetSchemaVersion !== undefined && generated.assetSchemaVersion !== asset.schemaVersion) fail(`${generated.assetPath}.schemaVersion must match ${path}.assetSchemaVersion`);
             if (asset.language !== generated.language || (asset.regionKey || null) !== (generated.regionKey || null) || asset.sourceRevision !== generated.sourceRevision) {
               fail(`${generated.assetPath} metadata must match ${path}`);
+            }
+            if (asset.schemaVersion === 2) {
+              if (!Array.isArray(asset.translationIndex) || asset.translationIndex.some((entry) => (
+                !entry || typeof entry !== 'object' || !Array.isArray(entry.path) || entry.path.length === 0
+                || entry.path.some((part) => typeof part !== 'string' && !Number.isInteger(part))
+                || !SOURCE_REVISION.test(entry.sourceHash || '')
+              ))) fail(`${generated.assetPath}.translationIndex must contain valid path and sourceHash entries`);
             }
             if (!asset.landingPage || typeof asset.landingPage !== 'object' || Array.isArray(asset.landingPage)) fail(`${generated.assetPath}.landingPage must be a complete page object`);
             if (asset.landingPage.localization !== undefined) fail(`${generated.assetPath}.landingPage.localization is not allowed`);

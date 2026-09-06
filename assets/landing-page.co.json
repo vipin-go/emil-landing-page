@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "language": "hu",
+  "language": "co",
   "regionKey": null,
   "sourceRevision": "d2862717548ccca5c75e5b9717639bcb4b6641188f22c5b629d684ecc65d396d",
   "landingPage": {
-    "headline": "A logisztikai köteg a portálon áll meg. Emil tovább megy.",
-    "subheadline": "A TMS birtokolja a szállítmányt. Ezután valaki megnyitja a PortBase-t, vagy a DMS-t, vagy az NCT-ket, vagy egy szolgáltatói e-könyv-képernyőt, és újra kézzel beírja. A másik oldalon nincs API, és a legtöbbjüknek soha nem is lesz. Az EMIL jóváhagyta a jóváhagyott szállítási adatokat a TMS-ből ezekre a portálokra. Először a teljes futást próbálja a valós környezet másolatával szemben, megmutatja a nyilatkozattevőnek, hogy pontosan mire készül, és nem tesz semmit, amíg nem hagyja jóvá.",
-    "ctaLabel": "Futtasson egy portálszimulációt",
-    "description": "Az EMIL úgy kezeli a vám- és szolgáltatói portálműveleteket, hogy a jóváhagyott szállítmány bejegyzést a valós környezet másolatára próbálja, mielőtt a nyilatkozattevő bármit is jóváhagyna.",
+    "headline": "U vostru stack logisticu si ferma à u portale. Emil cuntinueghja.",
+    "subheadline": "U vostru TMS tene a spedizione. Poi qualchissia apre Portbase, o DMS, o NCTS, o un schermu di eBooking di u traspurtadore, è l'inserisce di novu à manu. Ùn ci hè micca un API chì aspetta da l'altra parte, è ùn ci serà mai per a maiò parte di elli. Emil porta dati di spedizione appruvati da u vostru TMS in quelli portali. Ripete prima tutta l'operazione contr'à una copia di u vostru ambiente reale, mostra à u vostru dichjarante esattamente ciò chì hè per entre, è ùn face nunda finu à ch'ellu l'appruva.",
+    "ctaLabel": "Fate una simulazione di portale",
+    "description": "Emil gestisce l'operazioni di i portali doganali è di i traspurtadori ripitendu l'inserimentu di spedizioni appruvati contr'à una copia di l'ambiente reale prima chì un dichjarante appruva qualcosa.",
     "design": {
       "variant": "logistics-portal",
       "defaultThemeMode": "dark",
@@ -59,530 +59,530 @@
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
       "navItems": [
         {
-          "label": "Jellemzők",
+          "label": "Funziunalità",
           "target": "about"
         },
         {
-          "label": "Hogyan működik",
+          "label": "Cumu funziona",
           "target": "how-it-works"
         },
         {
-          "label": "Érintkezés",
+          "label": "Cuntattu",
           "target": "contact"
         }
       ],
-      "ctaLabel": "hatókörű pilóta"
+      "ctaLabel": "Scuprite un pilotu"
     },
     "heroChat": {
-      "statusLabel": "Online",
-      "inputPlaceholder": "Kérdezd meg Emilt egy portálfutásról…",
+      "statusLabel": "In ligna",
+      "inputPlaceholder": "Dumandate à Emil nantu à una corsa di portale…",
       "suggestedPrompts": [
-        "Próbáljon meg egy bejelentést",
-        "Ellenőrizze a foglalást",
-        "magyarázza el a vezérlőket"
+        "Ripetite un depositu",
+        "Verificate una riservazione",
+        "Spiegate i cuntrolli"
       ]
     },
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Adjon meg egy jóváhagyott szállítmányozási jegyzőkönyvet, és el fogom próbálni a portálmunkát, mielőtt bármit benyújtanak."
+        "text": "Datemi un registru di spedizione appruvatu è ripeteraghju u travagliu di u portale prima chì qualcosa sia sottumessu."
       }
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
       "src": "/landing-pages/emil/emil-seo-og.png",
-      "alt": "Emil egy logisztikai üzemeltetési irodában vámnyilvántartási szimulációval"
+      "alt": "Emil in un uffiziu d'operazioni logistiche cù una simulazione di depositu doganale"
     },
     "contact": {
-      "heading": "egy portál. egy folyamat. egy nevű operátor.",
-      "body": "Hat hét, fix díj. Valódi munkafolyamatára építve, a valódi portálra. A csapatod vezeti, és kiterjeszti, miután átadtam. A márkád alatt fut, és megtartod.",
+      "heading": "Un portale. Un prucessu. Un operatore numinatu.",
+      "body": "Sei settimane, tariffa fissa. Custruitu nantu à u vostru veru flussu di travagliu, nantu à u vostru veru portale. A vostra squadra u gestisce è l'estende dopu chì l'aghju trasmessu. Funziona sottu a vostra marca è u tenite.",
       "email": "vipin@gabrieloperator.com"
     },
     "logisticsPortal": {
       "header": {
-        "brandLabel": "Emil",
-        "brandSuffix": "vám- és fuvarozói portálműveletek",
+        "brandLabel": "EMIL",
+        "brandSuffix": "Operazioni di portali doganali è di traspurtadori",
         "logoImage": "/landing-pages/emil/icon.svg",
         "navItems": [
           {
-            "label": "Jellemzők",
+            "label": "Funziunalità",
             "target": "edge"
           },
           {
-            "label": "Hogyan működik",
+            "label": "Cumu funziona",
             "target": "control"
           },
           {
-            "label": "próbálj ki egy demót",
+            "label": "Pruvate una demo",
             "target": "simulation"
           }
         ],
-        "ctaLabel": "hatókörű pilóta"
+        "ctaLabel": "Scuprite un pilotu"
       },
       "hero": {
-        "eyebrow": "ember által irányított kivégzés",
-        "heading": "A logisztikai köteg a portálon áll meg.",
-        "accentHeading": "Emil tovább megy.",
-        "body": "Az EMIL API nélkül szállítja a jóváhagyott szállítási adatokat a vám- és szolgáltatói portálokra. Minden futást elpróbál, szünetet tart az emberi jóváhagyásra, és teljes rekordot ad vissza.",
-        "primaryCtaLabel": "Futtasson egy portálszimulációt",
-        "secondaryCtaLabel": "Scope One Pilot",
+        "eyebrow": "Esecuzione di portale cuntrullata da l'omu",
+        "heading": "U vostru stack logisticu si ferma à u portale.",
+        "accentHeading": "Emil cuntinueghja.",
+        "body": "Emil porta dati di spedizione appruvati in i portali doganali è di i traspurtadori senza API. Ripete ogni operazione, si ferma per l'approvazione umana, è restituisce un registru cumpletu.",
+        "primaryCtaLabel": "Fate una simulazione di portale",
+        "secondaryCtaLabel": "Scuprite un pilotu",
         "proofItems": [
           {
             "number": "01",
-            "label": "először próbálták"
+            "label": "Ripetutu prima"
           },
           {
             "number": "02",
-            "label": "ember által jóváhagyott"
+            "label": "Appruvatu da l'omu"
           },
           {
             "number": "03",
-            "label": "Teljesen rögzített"
+            "label": "Registratu cumpletamente"
           }
         ],
         "characterImage": "/landing-pages/emil/emil-fullbody-v4.png",
         "portraitImage": "/landing-pages/emil/emil-portrait-v3.png",
-        "characterAlt": "Emil, logisztikai portál üzemeltetője",
+        "characterAlt": "Emil, un operatore di portale logisticu",
         "chat": {
-          "roleLabel": "vám- és fuvarozói portálműveletek",
-          "statusLabel": "Online",
-          "openingMessage": "Szia, Emil vagyok. Adjon meg egy jóváhagyott küldeményrekordot, és elpróbálom a portálmunkát, mielőtt bármit benyújtanak.",
-          "inputPlaceholder": "Kérdezd meg Emilt a portálmunkáról…",
+          "roleLabel": "Operazioni di portali doganali è di traspurtadori",
+          "statusLabel": "In ligna",
+          "openingMessage": "Salute, sò Emil. Datemi un registru di spedizione appruvatu è ripeteraghju u travagliu di u portale prima chì qualcosa sia sottumessu.",
+          "inputPlaceholder": "Dumandate à Emil nantu à u travagliu di u portale…",
           "suggestions": [
-            "Próbáljon meg egy bejelentést",
-            "Ellenőrizze a foglalást",
-            "magyarázza el a vezérlőket"
+            "Ripetite un depositu",
+            "Verificate una riservazione",
+            "Spiegate i cuntrolli"
           ]
         },
         "rehearsal": {
           "enabled": true,
           "commandTrigger": "rehearse-filing",
-          "sandboxLabel": "szimulációs homokozó",
-          "restartLabel": "Beindít",
-          "demoNote": "Szemléltető szimuláció · Nincsenek valódi portál, hitelesítő adatok vagy ügyféladatok",
-          "sectionEyebrow": "Probáld ki most",
-          "sectionHeading": "Lásd Emil",
-          "sectionAccentHeading": "a portál szélén.",
-          "sectionBody": "Váltson munkafolyamatokat, ellenőrizze a leképezett mezőket, tekintse át három szimulált kivételt, és válassza ki, hogy a mintafutás folytatódjon vagy fokozódjon.",
+          "sandboxLabel": "Sandbox di simulazione",
+          "restartLabel": "Ricomincia",
+          "demoNote": "Simulazione illustrativa · Nisun portale reale, credenziali, o dati di u cliente",
+          "sectionEyebrow": "Pruvate avà",
+          "sectionHeading": "Vede Emil",
+          "sectionAccentHeading": "à u bordu di u portale.",
+          "sectionBody": "Cambiate i flussi di travagliu, inspeccionate i campi mappati, rivedete trè eccezzioni simulate, è sceglite se l'operazione di mostra deve prucede o escalà.",
           "workflowTabs": [
             {
               "id": "customs",
-              "label": "vámnyilvántartás"
+              "label": "Depositu doganale"
             },
             {
               "id": "carrier",
-              "label": "fuvarozói foglalás"
+              "label": "Riservazione di traspurtadore"
             }
           ],
           "samples": [
             {
               "id": "customs",
               "runReference": "EM-4471-CUS",
-              "title": "Importnyilatkozat · nl",
+              "title": "Dichjarazione d'importazione · NL",
               "lane": "Rotterdam → Montréal",
               "source": "Approved TMS shipment",
-              "destination": "nemzeti egyablak",
-              "mapped": "42/45",
+              "destination": "Finestra unica naziunale",
+              "mapped": "42 / 45",
               "fields": [
                 {
-                  "label": "Szállítási referencia",
+                  "label": "Riferimentu di spedizione",
                   "value": "TMS-984271",
                   "state": "verified"
                 },
                 {
-                  "label": "áru leírása",
-                  "value": "Precíziós szerelvények…",
+                  "label": "Descrizzione di a mercanzia",
+                  "value": "Assemblaggi di precisione…",
                   "state": "review"
                 },
                 {
-                  "label": "importreferencia",
-                  "value": "2 forrásrekord",
+                  "label": "Riferimentu di l'importatore",
+                  "value": "2 registri di fonte",
                   "state": "review"
                 },
                 {
-                  "label": "bruttó tömeg",
-                  "value": "18 420 kg",
+                  "label": "Massa bruta",
+                  "value": "18,420 kg",
                   "state": "verified"
                 },
                 {
-                  "label": "segédokmány",
-                  "value": "Számla függőben",
+                  "label": "Documentu di sustegnu",
+                  "value": "Fattura in attesa",
                   "state": "review"
                 }
               ],
               "exceptions": [
                 {
-                  "title": "áru leírása",
-                  "detail": "A forrásszöveg meghaladja a portálkorlátot"
+                  "title": "Descrizzione di a mercanzia",
+                  "detail": "U testu fonte supera u limitu di u portale"
                 },
                 {
-                  "title": "importreferencia",
-                  "detail": "Két jóváhagyott rekord található"
+                  "title": "Riferimentu di l'importatore",
+                  "detail": "Dui registri appruvati truvati"
                 },
                 {
-                  "title": "segédokmány",
-                  "detail": "Kereskedelmi számla megerősítésre szorul"
+                  "title": "Documentu di sustegnu",
+                  "detail": "A fattura cummerciale necessita cunferma"
                 }
               ],
-              "receipt": "Nyilatkozat csomag"
+              "receipt": "Pacchettu di dichjarazione registratu"
             },
             {
               "id": "carrier",
-              "runReference": "EM-5824-tenger",
-              "title": "Ocean Booking · FCL",
-              "lane": "Antwerpen → Szingapúr",
+              "runReference": "EM-5824-SEA",
+              "title": "Prenotazione oceanica · FCL",
+              "lane": "Anversa → Singapore",
               "source": "Approved TMS booking",
-              "destination": "harmadik féltől származó szolgáltatói portál",
-              "mapped": "36/39",
+              "destination": "Portale di trasportatore terzu",
+              "mapped": "36 / 39",
               "fields": [
                 {
-                  "label": "Foglalás hivatkozási",
+                  "label": "Riferimentu di prenotazione",
                   "value": "BK-204871",
                   "state": "verified"
                 },
                 {
-                  "label": "hajózási lehetőség",
-                  "value": "2 szolgáltatás egyezés",
+                  "label": "Opzione di navigazione",
+                  "value": "2 servizii currispondenu",
                   "state": "review"
                 },
                 {
-                  "label": "Felszerelés",
+                  "label": "Attrezzatura",
                   "value": "1 × 40HC",
                   "state": "verified"
                 },
                 {
-                  "label": "berendezés kioldása",
-                  "value": "raktár függőben",
+                  "label": "Rilasciu di l'attrezzatura",
+                  "value": "Depotu in attesa",
                   "state": "review"
                 },
                 {
-                  "label": "árubevonási megszakítás",
-                  "value": "A menetrend eltérő",
+                  "label": "Tagliu di caricu",
+                  "value": "U calendariu differisce",
                   "state": "review"
                 }
               ],
               "exceptions": [
                 {
-                  "title": "hajózási lehetőség",
-                  "detail": "Két szolgáltatás teljesíti a kért érkezést"
+                  "title": "Opzione di navigazione",
+                  "detail": "Dui servizii currispondenu à l'arrivu richiestu"
                 },
                 {
-                  "title": "berendezés kioldása",
-                  "detail": "A depó megerősítése függőben van"
+                  "title": "Rilasciu di l'attrezzatura",
+                  "detail": "A cunferma di u depositu hè in attesa"
                 },
                 {
-                  "title": "árubevonási megszakítás",
-                  "detail": "A portál eltér a forrás ütemezésétől"
+                  "title": "Tagliu di caricu",
+                  "detail": "U portale differisce da u calendariu fonte"
                 }
               ],
-              "receipt": "Foglalás visszaigazolása rögzített"
+              "receipt": "Cunferma di prenotazione registrata"
             }
           ],
           "intakeSteps": [
             {
-              "title": "Forrás Olvasás",
-              "detail": "jóváhagyott rekord",
+              "title": "Lettura fonte",
+              "detail": "Registru appruvatu",
               "state": "done"
             },
             {
-              "title": "ikerépítésű",
-              "detail": "Feltérképezett mezők",
+              "title": "Gemellu custruitu",
+              "detail": "Campi mappati",
               "state": "done"
             },
             {
-              "title": "3 kivétel",
-              "detail": "Ítélet kell",
+              "title": "3 eccezzioni",
+              "detail": "Bisognu di ghjudiziu",
               "state": "warning"
             },
             {
-              "title": "Jóváhagyás",
-              "detail": "emberi ellenőrző pont",
+              "title": "Appruvazione",
+              "detail": "Puntu di cuntrollu umanu",
               "state": "pending"
             }
           ],
-          "reviewHeading": "Három területen kell megítélni.",
-          "reviewBody": "Emil nem fog kitalálni és nem nyúlni egy élő portálhoz.",
-          "reviewLabel": "Tekintse át a Portal Twin-t",
-          "approveLabel": "Jóváhagyja a mintafutást",
-          "escalateLabel": "biztonságosan eszkalálódik",
-          "approvedKicker": "teljesítés szimulált",
-          "approvedBody": "A jóváhagyott iker a homokozóban történt, és minden műveletet csatoltak a futási rekordhoz.",
+          "reviewHeading": "Trè campi necessitanu ghjudiziu.",
+          "reviewBody": "Emil ùn indovinerà nè tuccarà un portale in diretta.",
+          "reviewLabel": "Rivedite u gemellu di u portale",
+          "approveLabel": "Appruvate a prova di mostra",
+          "escalateLabel": "Escalate in modu sicuru",
+          "approvedKicker": "Cumpiimentu simulatu",
+          "approvedBody": "U gemellu appruvatu hè statu eseguitu in u sandbox è ogni azzione hè stata attaccata à u registru di esecuzione.",
           "approvedChecks": [
-            "engedélyezett iker",
-            "portál válasz",
-            "könyvvizsgálat"
+            "Gemellu appruvatu",
+            "Risposta di u portale",
+            "Registru d'auditu"
           ],
-          "escalatedKicker": "Eszkaláció rögzített",
-          "escalatedTitle": "Semmi sem érte el az élő portálot.",
-          "escalatedBody": "Emil megőrizte a feltérképezett mezőket, bizonyítékokat és nyílt döntéseket, hogy az üzemeltető megoldja.",
-          "continueLabel": "Folytassa valódi szállítással",
-          "loginNotice": "Jelentkezzen be, hogy elpróbáljon egy magánvámot az EMIL-lel. Ebben a verzióban nem történik élő portál benyújtása."
+          "escalatedKicker": "Escalazione registrata",
+          "escalatedTitle": "Nunda hà righjuntu u portale in diretta.",
+          "escalatedBody": "Emil hà priservatu i campi mappati, l'evidenza è e decisioni aperte per un operatore per risolve.",
+          "continueLabel": "Cuntinuà cù una spedizione vera",
+          "loginNotice": "Accedi per pruvà una dichjarazione doganale privata cù Emil. Nisuna sottumissione di portale in diretta si verifica in sta versione."
         }
       },
       "ticker": [
-        "vámnyilvántartás",
-        "fuvarozói foglalás",
-        "portál iker",
-        "emberi jóváhagyás",
-        "kivételek áttekintése",
-        "ellenőrzési kérés"
+        "Depositu doganale",
+        "Riservazione di traspurtadore",
+        "Gemellu di u portale",
+        "Appruvazione umana",
+        "Revisione di l'eccezzioni",
+        "Ricevuta d'auditu"
       ],
       "edge": {
         "number": "01 / The edge",
-        "kicker": "A neved a bejegyzésen marad",
-        "heading": "Emil elkészíti a bejegyzést.",
-        "accentHeading": "A nyilatkozattevő fájlokat iktat be.",
-        "body": "Emil nem iktat. Az engedéllyel rendelkező nyilatkozattevő igen. Emil elkészíti a bejegyzést, ellenőrzi a forrásdokumentumokkal, megjelöli, hogy mit utasítanak el, és vár. A jegyzőkönyvi nyilatkozat nem változik, és Emil felhatalmazása alapján semmit sem nyújtanak be.",
-        "governedLabel": "Az Ön által irányított verem",
+        "kicker": "U vostru nome ferma nantu à l'entrata",
+        "heading": "Emil prepara l'entrata.",
+        "accentHeading": "U vostru dichjarante a presenta.",
+        "body": "Emil ùn presenta micca. U vostru dichjarante licenziatu u face. Emil prepara l'entrata, a verifica contr'à i documenti fonte, marca ciò chì seria rifiutatu, è aspetta. U dichjarante di registru ùn cambia, è nunda hè sottumessu sottu l'autorità di Emil.",
+        "governedLabel": "U vostru stack guvernatu",
         "governedSystems": [
-          "evigmama",
+          "TMS",
           "WMS",
-          "edi",
-          "belső mesterséges intelligencia"
+          "EDI",
+          "AI Interna"
         ],
-        "boundaryLabel": "API határ",
-        "operatorTitle": "Emil itt dolgozik",
-        "operatorBody": "megfigyelni · próbálni · jóváhagyni · végrehajtani",
-        "externalLabel": "külső rendszerek",
+        "boundaryLabel": "Limitu API",
+        "operatorTitle": "Emil travaglia quì",
+        "operatorBody": "Osservà · pruvà · appruvà · eseguisce",
+        "externalLabel": "Sistemi esterni",
         "portals": [
           {
-            "label": "vámkikötő",
-            "badge": "Nincs API"
+            "label": "Portale doganale",
+            "badge": "NO API"
           },
           {
-            "label": "fuvarozói kikötő",
-            "badge": "Nincs API"
+            "label": "Portale di u traspurtadore",
+            "badge": "NO API"
           }
         ],
         "comparison": [
           {
-            "label": "Emil előtt",
-            "title": "A portál valakinek a forgószékévé válik.",
-            "body": "Kézi másolás, töredezett képernyőképek, rejtett kivételek és nincs következetes próba a benyújtás előtt."
+            "label": "Nanzu à Emil",
+            "title": "U portale diventa a sedia girevule di qualchissia.",
+            "body": "Copia manuale, screenshots frammentati, eccezzioni piatte, è nisuna prova cunsistente prima di a sottumissione."
           },
           {
-            "label": "Emillel",
-            "title": "A portál ellenőrzött működési felületté válik.",
-            "body": "Jóváhagyott adatok, hűséges ikerbe, a kivételek láthatóvá váltak, és egy személyre vonatkozó visszafordíthatatlan intézkedés."
+            "label": "Cù Emil",
+            "title": "U portale diventa una superficia operativa cuntrullata.",
+            "body": "Dati appruvati, mappati in un gemellu fidu, eccezzioni rese visibili, è azzione irreversibile ritenuta per una persona."
           }
         ],
         "capabilities": [
           {
             "number": "01",
-            "title": "A neved a bejegyzésen marad",
-            "body": "Emil nem iktat. Az engedéllyel rendelkező nyilatkozattevő igen. Emil elkészíti a bejegyzést, ellenőrzi a forrásdokumentumokkal, megjelöli, hogy mit utasítanak el, és vár. A jegyzőkönyvi nyilatkozat nem változik, és Emil felhatalmazása alapján semmit sem nyújtanak be."
+            "title": "U vostru nome ferma nantu à l'entrata",
+            "body": "Emil ùn presenta micca. U vostru dichjarante licenziatu u face. Emil prepara l'entrata, a verifica contr'à i documenti fonte, marca ciò chì seria rifiutatu, è aspetta. U dichjarante di registru ùn cambia, è nunda hè sottumessu sottu l'autorità di Emil."
           },
           {
             "number": "02",
-            "title": "Minden futás rekordot hagy maga után",
-            "body": "Amit elolvastak, amit javasoltak, ki hagyta jóvá, amit benyújtottak, az időbélyegzett. Amikor egy audit megkérdezi, hogyan érkezett a bejegyzés, a válasz már létezik."
+            "title": "Ogni esecuzione lascia una traccia",
+            "body": "Ciò chì hè statu lettu, ciò chì hè statu prupostu, quale l'hà appruvatu, ciò chì hè statu sottumessu, cù data è ora. Quandu un auditu dumanda cumu hè stata ottenuta una entrata, a risposta esiste digià."
           },
           {
             "number": "03",
-            "title": "Amivel működik",
-            "body": "Portbase és Cargonaut, DMS és AGS, NCTS 5. fázis, ATLAS, CDS, Carrier Ebooking Portals, Inttra. Ha a csapata bejelentkezik, Emil meg tudja dolgozni, mert Emil úgy dolgozik a képernyőn, mint egy ember."
+            "title": "Cù chì travaglia",
+            "body": "Portbase è Cargonaut, DMS è AGS, NCTS Fase 5, ATLAS, CDS, portali di eBooking di traspurtadori, INTTRA. Se a vostra squadra si cunnetta, Emil pò travaglià, perchè Emil travaglia u screnu cum'è una persona."
           },
           {
             "number": "04",
-            "title": "Kinek szól ez",
-            "body": "Vámügynökök és szállítmányozók, 10-150 fő. Házon belüli kereskedelmi megfelelőségi csapatok. A nyilatkozatok valódiak. A mennyiségek emelkednek. Idén nem történik újabb nyilatkozattevő felvétele. Az ICS2 3. kiadása 2025 szeptembere óta minden tagállamban kötelező, az utolsó eltérések pedig 2026 júniusában jártak le. Az NCTS 6. fázisa mellette szállt le. A velük érkezett iratterhelés nem csökken, és senki sem jön el, hogy elvigye."
+            "title": "PER CHI HÈ QUESTU",
+            "body": "Mediatori doganali è speditori di merci, da 10 à 150 persone. Squadre interne di conformità cummerciale. E dichjarazioni sò reali. I volumi aumentanu. L'assunzione di un altru dichjarante ùn hè micca prevista questu annu. ICS2 Release 3 hè obligatoriu in tutti i Stati Membri da settembre 2025, è l'ultime derogazioni sò scadute in ghjugnu 2026. NCTS Fase 6 hè ghjuntu cun ellu. U caricu di presentazione chì hè ghjuntu cun elli ùn diminuirà micca, è nimu ùn vene à caccià lu."
           }
         ]
       },
       "platform": {
-        "eyebrow": "Minden futás rekordot hagy maga után",
-        "heading": "az audit válasz",
-        "accentHeading": "már létezik.",
-        "body": "Amit elolvastak, amit javasoltak, ki hagyta jóvá, amit benyújtottak, az időbélyegzett. Amikor egy audit megkérdezi, hogyan érkezett a bejegyzés, a válasz már létezik.",
-        "portalLabel": "Portal Twin · Biztonságos mód",
+        "eyebrow": "Ogni esecuzione lascia una traccia",
+        "heading": "A risposta di l'auditu",
+        "accentHeading": "esiste digià.",
+        "body": "Ciò chì hè statu lettu, ciò chì hè statu prupostu, quale l'hà appruvatu, ciò chì hè statu sottumessu, cù data è ora. Quandu un auditu dumanda cumu hè stata ottenuta una entrata, a risposta esiste digià.",
+        "portalLabel": "GEMELLU DI PORTALE · MODU SICURU",
         "fields": [
           {
-            "label": "Szállítási referencia",
+            "label": "Riferimentu di spedizione",
             "status": "verified"
           },
           {
-            "label": "árucikkek",
+            "label": "Dettagli di a merce",
             "status": "review"
           },
           {
-            "label": "segédokmány",
+            "label": "Documentu di sustegnu",
             "status": "verified"
           }
         ],
-        "checkpointLabel": "emberi ellenőrző pont",
+        "checkpointLabel": "Puntu di cuntrollu umanu",
         "points": [
           {
-            "title": "forrásdokumentumok ellenőrizve",
-            "body": "Emil elkészíti a bejegyzést a jóváhagyott szállítási adatokból."
+            "title": "Documenti fonte verificati",
+            "body": "Emil prepara l'entrata da i dati di spedizione appruvati."
           },
           {
-            "title": "Az elutasítások megjelölték",
-            "body": "A nyilatkozattevő látja, hogy mit utasítanak el, mielőtt bármit benyújtanak."
+            "title": "Rifiuti signalati",
+            "body": "U vostru dichjarante vede ciò chì seria rifiutatu prima di sottumette qualcosa."
           },
           {
-            "title": "Nyilvántartó jóváhagyás szükséges",
-            "body": "A nyilvántartási nyilatkozat továbbra is az irányítást irányítja."
+            "title": "Appruvazione di u dichjarante necessaria",
+            "body": "U dichjarante di record ferma in cuntrollu."
           },
           {
-            "title": "Emil felhatalmazása alatt semmi",
-            "body": "Minden javasolt és jóváhagyott intézkedés időbélyeggel van ellátva."
+            "title": "Nunda nantu à l'autorità di Emil",
+            "body": "Ogni azzione pruposta è appruvata hè timestamped."
           }
         ]
       },
       "process": {
         "number": "02 / The control loop",
-        "eyebrow": "Minden futás rekordot hagy maga után",
-        "heading": "Minden futást begyakoroltak.",
-        "accentHeading": "minden rögzített döntést.",
-        "body": "Amit elolvastak, amit javasoltak, ki hagyta jóvá, amit benyújtottak, az időbélyegzett. Amikor egy audit megkérdezi, hogyan érkezett a bejegyzés, a válasz már létezik.",
+        "eyebrow": "Ogni esecuzione lascia una traccia",
+        "heading": "Ogni esecuzione pruvata.",
+        "accentHeading": "Ogni decisione registrata.",
+        "body": "Ciò chì hè statu lettu, ciò chì hè statu prupostu, quale l'hà appruvatu, ciò chì hè statu sottumessu, cù data è ora. Quandu un auditu dumanda cumu hè stata ottenuta una entrata, a risposta esiste digià.",
         "steps": [
           {
             "number": "01",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/01-scope.webp",
-            "alt": "szabályozott logisztikai portál munkafolyamatát meghatározó üzemeltető",
-            "title": "Terület",
-            "body": "Zároljon egy portált, egy folyamatot, az engedélyeket és a sikeres feltételt."
+            "alt": "Operatore chì definisce un flussu di travagliu di portale logisticu guvernatu",
+            "title": "Scopu",
+            "body": "Bloccà un portale, un prucessu, i permessi, è a cundizione di successu."
           },
           {
             "number": "02",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/02-rehearse.webp",
-            "alt": "A kezelő egy portál futását próbálja meg egy digitális ikerben",
-            "title": "Próbál",
-            "body": "Hűséges portál iker létrehozása, és csak jóváhagyott forrásadatok térképezése."
+            "alt": "Operatore chì prova una esecuzione di portale in un gemellu digitale",
+            "title": "Prova",
+            "body": "Custruisce un gemellu di portale fidu è mappa solu i dati fonte appruvati."
           },
           {
             "number": "03",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/03-resolve.webp",
-            "alt": "A megjelölt szállítmánykivételeket áttekintő üzemeltető",
-            "title": "Elhatározás",
-            "body": "Tegye fel a kétértelműséget, a megváltozott oldalakat és a hiányzó bizonyítékokat a találgatás helyett."
+            "alt": "Operatore chì rivede l'eccezzioni di spedizione signalate",
+            "title": "Risolve",
+            "body": "Espone l'ambiguità, e pagine cambiate, è e prove mancanti invece di induvinà."
           },
           {
             "number": "04",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/04-approve.webp",
-            "alt": "A javasolt portálbejegyzést felülvizsgáló és jóváhagyó nyilatkozattevők",
-            "title": "Jóváhagy",
-            "body": "Szünet a pontos következmény pillanatában egy elszámoltatható ember számára."
+            "alt": "Dichjaranti chì rivedenu è appruvanu una entrata di portale pruposta",
+            "title": "Appruvà",
+            "body": "Pausa à u mumentu cunsequenziale esattu per un umanu rispunsevule."
           },
           {
             "number": "05",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
-            "alt": "A kezelő jóváhagyott portálvégrehajtást figyel",
-            "title": "Végrehajt",
-            "body": "Csak a jóváhagyott böngésző lépéseket hajtsa végre – semmin kívüli a hatókörön."
+            "alt": "Operatore chì monitoreghja una esecuzione di portale appruvata",
+            "title": "Eseguisce",
+            "body": "Eseguisce solu i passi di u navigatore appruvati, nunda fora di u scopu."
           },
           {
             "number": "06",
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/06-record.webp",
-            "alt": "Auditellenőr a befejezett logisztikai futási nyilvántartást vizsgálja",
-            "title": "Rekord",
-            "body": "Egy nyugtaként küldje vissza a portál válaszát, döntéseit és műtermékeit."
+            "alt": "Revisore di l'auditu chì ispeziona un registru di esecuzione logistica cumpletu",
+            "title": "Registra",
+            "body": "Ritorna a risposta di u portale, e decisioni, è l'artefatti cum'è una ricevuta."
           }
         ],
-        "failClosedTitle": "A vezérlés szerkezeti, nem kozmetikai jellegű.",
-        "failClosedBody": "Ha az oldal megváltozik, a bizonyítékok ütköznek, vagy túllépik a jóváhagyott hatókört, az EMIL leáll.",
-        "failClosedLabel": "Sikertelen zárva"
+        "failClosedTitle": "U cuntrollu hè strutturale, micca cosmeticu.",
+        "failClosedBody": "Se a pagina cambia, e prove cunflittanu, o u scopu appruvatu hè superatu, Emil si ferma.",
+        "failClosedLabel": "Fallimentu chjusu"
       },
       "workflows": {
         "number": "03 / The work",
-        "kicker": "Amivel működik",
-        "heading": "Ha a csapata bejelentkezik,",
-        "accentHeading": "Emil meg tudja dolgozni.",
-        "body": "Portbase és Cargonaut, DMS és AGS, NCTS 5. fázis, ATLAS, CDS, Carrier Ebooking Portals, Inttra. Emil úgy dolgozik a képernyőn, ahogy egy ember.",
+        "kicker": "Cù chì travaglia",
+        "heading": "Se a vostra squadra si cunnetta,",
+        "accentHeading": "Emil pò travaglià.",
+        "body": "Portbase è Cargonaut, DMS è AGS, NCTS Fase 5, ATLAS, CDS, portali di eBooking di traspurtadori, INTTRA. Emil travaglia u screnu cum'è una persona.",
         "primary": [
           {
             "number": "01",
             "type": "Primary workflow",
             "id": "customs",
-            "title": "vámnyilvántartás",
-            "body": "Szállítási nyilvántartás → Országos egyablakos iker → kivétel áttekintése → emberi jóváhagyás → nyugta.",
+            "title": "Depositu doganale",
+            "body": "Registru di spedizione → gemellu di finestra unica naziunale → revisione di eccezzioni → appruvazione umana → ricevuta.",
             "points": [
-              "Szállítási nyilvántartás felvétele",
-              "nemzeti egyablakos iker",
-              "kivétel és dokumentum áttekintése",
-              "jóváhagyás és nyugta rögzítés"
+              "Intake di registru di spedizione",
+              "Gemellu di finestra unica naziunale",
+              "Revisione di eccezzioni è documenti",
+              "Appruvazione è cattura di ricevuta"
             ],
-            "ctaLabel": "Szimulálja a bejelentést"
+            "ctaLabel": "Simulà a presentazione"
           },
           {
             "number": "02",
             "type": "Primary workflow",
             "id": "carrier",
-            "title": "fuvarozói foglalás",
-            "body": "TMS foglalás → Carrier Portal Twin → Vitorlázás ellenőrzése → Emberi jóváhagyás → Megerősítés.",
+            "title": "Riservazione di traspurtadore",
+            "body": "Prenotazione TMS → gemellu di portale di traspurtadore → verificazione di navigazione → appruvazione umana → cunferma.",
             "points": [
-              "Jóváhagyott foglalási felvétel",
-              "Ikerszállító portál",
-              "Vitorlázás és opció ellenőrzése",
-              "Jóváhagyás és megerősítés rögzítése"
+              "Intake di prenotazione appruvata",
+              "Gemellu di portale di traspurtadore",
+              "Verificazione di navigazione è opzioni",
+              "Appruvazione è cattura di cunferma"
             ],
-            "ctaLabel": "Szimulálja a foglalást"
+            "ctaLabel": "Simulà a riservazione"
           }
         ],
-        "moreLabel": "Több munkát Emil elbír",
+        "moreLabel": "Più travagliu chì Emil pò gestisce",
         "more": [
           {
             "number": "01",
-            "title": "Portbase és Cargonaut",
-            "body": "Vám- és rakomány-közösségi portálműveletek jóváhagyott szállítmányadatokból készültek."
+            "title": "Portbase è Cargonaut",
+            "body": "Operazioni di portale doganale è di cumunità di carica preparate da dati di spedizione appruvati."
           },
           {
             "number": "02",
-            "title": "DMS, AGS és NCTS 5. fázis",
-            "body": "A nyilatkozatokat begyakorolták, ellenőrizték és megtartották az engedéllyel rendelkező nyilatkozattevő számára."
+            "title": "DMS, AGS è NCTS Fase 5",
+            "body": "Dichjarazioni ripassate, verificate è tenute per u dichjarante licenziatu."
           },
           {
             "number": "03",
-            "title": "Atlasz és CD",
-            "body": "A képernyőn keresztül végzett portálmunka, ahol nem létezik használható API."
+            "title": "ATLAS è CDS",
+            "body": "Travagliu di portale realizatu attraversu u screnu induve ùn esiste micca una API utilizabile."
           },
           {
             "number": "04",
-            "title": "Carrier ebooking és Inttra",
-            "body": "A jóváhagyott foglalási adatok a szolgáltatói portálokon teljes futási rekorddal."
+            "title": "eBooking di u traspurtadore è INTTRA",
+            "body": "Dati di riservazione appruvati purtati in i portali di u traspurtadore cù un registru di esecuzione cumpletu."
           }
         ]
       },
       "pilot": {
-        "eyebrow": "Hogyan működik a pilóta",
-        "heading": "egy portál. egy folyamat.",
-        "accentHeading": "egy nevű operátor.",
-        "body": "egy portál. egy folyamat. Az egyik operátor az Ön oldalán, aki az eredmény tulajdonosa. Hat hét, fix díj. Valódi munkafolyamatára építve, a valódi portálra. A csapatod vezeti, és kiterjeszti, miután átadtam. A márkád alatt fut, és megtartod. Az első hívás harminc perc, és egy próbát mutatok meg egy valódi portál ellen, nem csúszdák ellen.",
-        "ctaLabel": "Scope One Pilot",
+        "eyebrow": "CUMU FUNZIONA UN PILOTU",
+        "heading": "Un portale. Un prucessu.",
+        "accentHeading": "Un operatore numinatu.",
+        "body": "Un portale. Un prucessu. Un operatore numinatu da u vostru latu chì pussede u risultatu. Sei settimane, tariffa fissa. Custruitu nantu à u vostru veru flussu di travagliu, nantu à u vostru veru portale. A vostra squadra u gestisce è l'estende dopu chì l'aghju consegnatu. Funziona sottu a vostra marca è u tenite. A prima chjama hè di trenta minuti è vi mustraraghju una prova contr'à un veru portale, micca diapositive.",
+        "ctaLabel": "Scuprite un pilotu",
         "email": "vipin@gabrieloperator.com",
-        "emailSubject": "hatókör egy emil pilóta",
+        "emailSubject": "Scopu un pilotu Emil",
         "steps": [
           {
             "number": "01",
-            "title": "egy operátor",
-            "body": "egy portál. egy folyamat. Az egyik operátor az Ön oldalán, aki az eredmény tulajdonosa."
+            "title": "Un operatore numinatu",
+            "body": "Un portale. Un prucessu. Un operatore numinatu da u vostru latu chì pussede u risultatu."
           },
           {
             "number": "02",
-            "title": "Hat hét, fix díj",
-            "body": "Valódi munkafolyamatára építve, a valódi portálra."
+            "title": "Sei settimane, tariffa fissa",
+            "body": "Custruitu nantu à u vostru veru flussu di travagliu, nantu à u vostru veru portale."
           },
           {
             "number": "03",
-            "title": "A csapatod megtartja",
-            "body": "A csapatod vezeti, és kiterjeszti, miután átadtam. A márkád alatt fut, és megtartod. Az első hívás harminc perc, és egy próbát mutatok meg egy valódi portál ellen, nem csúszdák ellen."
+            "title": "A vostra squadra u tene",
+            "body": "A vostra squadra u gestisce è l'estende dopu chì l'aghju consegnatu. Funziona sottu a vostra marca è u tenite. A prima chjama hè di trenta minuti è vi mustraraghju una prova contr'à un veru portale, micca diapositive."
           }
         ]
       },
       "footer": {
-        "brandLabel": "Emil",
-        "brandSuffix": "vám- és fuvarozói portálműveletek",
-        "tagline": "A logisztikai köteg a portálon áll meg. Emil tovább megy.",
+        "brandLabel": "EMIL",
+        "brandSuffix": "Operazioni di portali doganali è di traspurtadori",
+        "tagline": "U vostru stack logisticu si ferma à u portale. Emil cuntinueghja.",
         "copyright": "© 2026 Emil"
       }
     },
     "roiCalculator": {
       "methodologyVersion": 2,
       "enabled": true,
-      "kicker": "Üzleti hatás",
-      "heading": "ROI-kalkulátor",
-      "subheading": "Kezdje a kapacitással. Aztán döntsd el, mennyit érhet.",
-      "disclaimer": "Az Ön feltételezéseiből felépülő forgatókönyv, nem megfigyelt eredmények vagy garantált megtakarítások. A visszaküldött órák kapacitást jelentenek, nem pedig automatikus bércsökkentést.",
+      "kicker": "Impattu cummerciale",
+      "heading": "Calculatore di ROI",
+      "subheading": "Principià cù a capacità. Poi decide ciò chì puderia valere.",
+      "disclaimer": "Un scenariu custruitu da e vostre assunzioni, micca risultati osservati o risparmi garantiti. L'ore restituite sò capacità, micca una riduzione automatica di a paga.",
       "currency": "EUR",
       "locale": "en-GB",
       "inputs": [],
@@ -596,239 +596,239 @@
         },
         "copy": {
           "navLabel": "ROI",
-          "workloadStep": "Az Ön munkaterhelése",
-          "costStep": "Működési költség",
-          "valueStep": "Használja ki a kapacitást",
-          "workloadIntro": "Model Portal előkészítés és emberi felülvizsgálat – nem autonóm benyújtás vagy garantált vámeredmények.",
-          "costIntro": "Tartalmazza a munkaterhelés végrehajtásához szükséges költségeket. Ezek az Ön becslései, nem Gabriel idézet.",
-          "valueIntro": "Mit fogsz csinálni a visszaküldött órákkal? Csak olyan eredményeket válasszon, amelyek megvalósítását elvárja.",
-          "sampleNotice": "Szemléltető munkaterhelés · nem megfigyelt eredmények",
-          "monthly": "Havonta",
-          "yearly": "Évente",
-          "next": "Folytatás",
-          "back": "Vissza",
-          "reset": "Állítsa vissza a feltételezéseket",
-          "summary": "Az Ön modellezett hatása",
-          "volume": "Munkaegységek modellezve",
-          "grossHours": "Az ismétlődő munkavégzés csökkentése",
-          "capacity": "Nettó kapacitás visszatért",
-          "retained": "A kapacitás rendelkezésre áll",
-          "hours": "óra",
-          "days": "napokon",
+          "workloadStep": "U vostru caricu di travagliu",
+          "costStep": "Costi operativi",
+          "valueStep": "Utilizà a capacità",
+          "workloadIntro": "Mudellu di preparazione di u portale è rivista umana—micca sottumissione autonoma o risultati doganali garantiti.",
+          "costIntro": "Includite i costi necessarii per gestisce stu caricu di travagliu. Queste sò e vostre stime, micca una citazione di Gabriel.",
+          "valueIntro": "Chì farete cù l'ore restituite? Selezziunate solu i risultati chì aspettate di realizà.",
+          "sampleNotice": "Caricu di travagliu illustrativu · micca risultati osservati",
+          "monthly": "Mensile",
+          "yearly": "Annuale",
+          "next": "Cuntinuà",
+          "back": "Daretu",
+          "reset": "Resettà l'assunzioni",
+          "summary": "U vostru impattu mudellatu",
+          "volume": "Unità di travagliu mudellate",
+          "grossHours": "Travagliu ripetitivu ridottu",
+          "capacity": "Capacità netta restituita",
+          "retained": "Capacità mantenuta dispunibule",
+          "hours": "ore",
+          "days": "ghjorni",
           "percent": "%",
-          "minutes": "percben",
-          "reviewMode": "Ki intézi a felülvizsgálatot?",
-          "teamReview": "Meglévő csapat",
-          "paidReview": "További fizetett értékelő",
-          "reviewNote": "A meglévő csoportos felülvizsgálat a visszaadott kapacitást használja. A további fizetett felülvizsgálat a működési költségek részét képezi, és nem kerül levonásra a csapat kapacitásából.",
-          "totalMode": "Havi költségvetés",
-          "itemizedMode": "Költségbontás",
-          "budgetNote": "A költségvetésnek tartalmaznia kell a modelleket/médiát, az eszközöket, az infrastruktúrát, a Gabriel díjakat és minden további fizetett felülvizsgálatot. A változatlan bérszámfejtés ne szerepeljen új kiadásként.",
-          "itemizedNote": "A nem érvényes költség esetén adjon meg nullát. A további fizetett felülvizsgálat a felülvizsgálati órák és annak tényleges aránya alapján kerül kiszámításra.",
-          "paidReviewCost": "További fizetett felülvizsgálati költség",
-          "allInCost": "Működési költség",
-          "missing": "Add hozzá a feltételezéseidet",
-          "cashValue": "A készpénzkiadás elkerülhető",
-          "contribution": "Várható hozzájárulás",
-          "expectedLoss": "Várható veszteségcsökkenés",
-          "riskValue": "Bizonytalan kockázati érték is benne van",
-          "economicValue": "Modellezett gazdasági érték",
-          "netBenefit": "Nettó modellezett haszon",
-          "multiple": "Gazdasági megtérülés többszöröse",
-          "notApplicable": "Nem alkalmazható",
-          "annual": "Éves nézet",
-          "annualNote": "Ugyanazok a havi feltételezések, növekedés vagy összevonás nélkül. A felvételi megtakarítás csak a megadott időszakra érvényes.",
-          "method": "Hogyan számítják ezt ki",
-          "burdenHeading": "Az ismétlődő munkavégzés csökkentése",
-          "opportunityHeading": "Kapacitás nagyobb értékű munkára",
-          "methodBody": "Az eltávolított működési teher (negatív termelékenység) visszaadja a kapacitást. A magasabb értékű munka (potenciális pozitív termelékenység) csak akkor teremt gazdasági értéket, ha ezt a kapacitást kihasználják. Az órák önmagukban nem jelentenek készpénzmegtakarítást.",
-          "formulaLabel": "Gazdasági érték ÷ működési költség = gazdasági megtérülés többszöröse. A nettó haszon egyszer levonja a működési költséget.",
-          "allocationNote": "Minden órát egyszer lehet beosztani. A fel nem osztott órák kapacitása megmarad, euróérték nélkül.",
-          "overlapLabel": "Ezek az előnyök eltérőek; Kizártam a máshol már számba vett költségeket és veszteségeket.",
-          "overlapNote": "A hiba- és kockázatbecslések kizárják a munkaerő-megtakarítást, és ugyanaz az esemény nem fordulhat elő mindkét kategóriában. A hozzájárulás nem tartalmazza a mesterséges intelligencia költségeit, amelyeket külön vonnak le.",
-          "hiringLabel": "Ezt a bérbeadást valóban megtervezték, és a kiosztott kapacitás fedezi a munkát.",
-          "reviewedLabel": "Áttekintettem az eredményeimet; a nem kiválasztott eredményeknek nincs pénzügyi értéke ebben a becslésben.",
-          "cycleResult": "Ciklusidő javítása",
-          "throughputResult": "A kapacitás és az igény által támogatott további munka",
-          "assumptionsIncomplete": "Végezze el a kiválasztott feltevéseket a pénzügyi érték kiszámításához.",
-          "allocationError": "A kiosztott órák meghaladják a rendelkezésre álló nettó kapacitást. Csökkentse az allokációt.",
-          "reviewError": "A felülvizsgálat több időt vesz igénybe, mint amennyi munka csökkent. Ezen feltételezések szerint nem áll rendelkezésre pozitív kapacitás.",
-          "cashError": "Az elkerült kiadások nem haladhatják meg a jelenlegi kiadásokat, és nem lehetnek pozitív értékűek anélkül, hogy órákat szánnának.",
-          "hiringError": "A kiosztott kapacitásnak ki kell terjednie a tervezett bérlési órákra. Erősítse meg a tervezett bérletet és annak időtartamát.",
-          "riskError": "Az utáni valószínűség nem haladhatja meg a veszteségcsökkentési becslés előtti valószínűségét.",
-          "overlapError": "Mielőtt belefoglalná őket a pénzügyi eredménybe, győződjön meg arról, hogy az előnyök nem fedik egymást.",
-          "boundsError": "Használjon értékeket a megjelenített határokon belül.",
-          "rangeLabel": "Állítsa be az értéket",
-          "noCurrencyChange": "A nyelv megváltoztatja a formázást, nem a pénznemet vagy a feltételezéseket."
+          "minutes": "minuti",
+          "reviewMode": "Quale gestisce a rivista?",
+          "teamReview": "Squadra esistente",
+          "paidReview": "Revisore pagatu supplementu",
+          "reviewNote": "A rivista di a squadra esistente usa a capacità restituita. A rivista pagata supplementare hè inclusa in u costu operativu, micca dedotta di novu da a capacità di a squadra.",
+          "totalMode": "Budget mensile",
+          "itemizedMode": "Ripartizione di i costi",
+          "budgetNote": "U budgetu deve include mudelli/media, strumenti, infrastruttura, tariffi Gabriel, è qualsiasi rivista pagata supplementare. Ùn include micca a paga invariata cum'è nova spesa.",
+          "itemizedNote": "Inserite zero per un costu chì ùn si applica micca. A rivista pagata supplementare hè calculata da l'ore di rivista è a so tarifa attuale.",
+          "paidReviewCost": "Costo di rivista pagata supplementare",
+          "allInCost": "Costi operativi",
+          "missing": "Aghjunghje e vostre assunzioni",
+          "cashValue": "Spesa in contanti evitata",
+          "contribution": "Cuntribuzione prevista",
+          "expectedLoss": "Riduzzione di perdita prevista",
+          "riskValue": "Valore di risicu incertu inclusu",
+          "economicValue": "Valore ecunomicu mudellatu",
+          "netBenefit": "Benefiziu nettu mudellatu",
+          "multiple": "Multiplu di ritornu ecunomicu",
+          "notApplicable": "Micca applicabile",
+          "annual": "Vista annuale",
+          "annualNote": "E stesse assunzioni mensili, senza crescita o cumpunimentu. I risparmi di assunzione duranu solu per u periodu inseritu.",
+          "method": "Cumu si calcula questu",
+          "burdenHeading": "Travagliu ripetitivu ridottu",
+          "opportunityHeading": "Capacità per un travagliu di valore più altu",
+          "methodBody": "U pesu operativu eliminatu (produttività negativa) restituisce capacità. U travagliu di valore più altu (produttività positiva potenziale) crea valore ecunomicu solu se quella capacità hè usata. L'ore solu ùn sò micca risparmi di cassa.",
+          "formulaLabel": "Valore ecunomicu ÷ costu operativu = multiplu di ritornu ecunomicu. U benefiziu nettu sottrae u costu operativu una volta.",
+          "allocationNote": "Ogni ora pò esse attribuita una volta. L'ore micca attribuite restanu capacità, senza valore in euro.",
+          "overlapLabel": "Questi benefici sò distinti; aghju esclusu i costi è e perdite digià cuntate in altrò.",
+          "overlapNote": "E stime di errore è di risicu escludenu i risparmi di travagliu è u stessu incidente ùn deve micca apparisce in e duie categurie. A cuntribuzione esclude i costi di l'AI, chì sò dedutti separatamente.",
+          "hiringLabel": "Questa assunzione era veramente pianificata è a capacità attribuita pò copre u travagliu.",
+          "reviewedLabel": "Aghju rivisatu i mo risultati; i risultati micca selezziunati ùn anu micca valore finanziariu in questa stima.",
+          "cycleResult": "Migliuramentu di u tempu di ciclu",
+          "throughputResult": "Travagliu supplementu sustinutu da capacità è dumanda",
+          "assumptionsIncomplete": "Cumplete l'assunzioni selezziunate per calculà u valore finanziariu.",
+          "allocationError": "L'ore attribuite superanu a capacità netta dispunibule. Riduce l'attribuzioni.",
+          "reviewError": "A revisione piglia più tempu chè u travagliu ridottu. Nisuna capacità positiva hè dispunibule cù queste assunzioni.",
+          "cashError": "A spesa evitata ùn pò micca superà a spesa attuale o avè un valore pusitivu senza ore attribuite.",
+          "hiringError": "A capacità attribuita deve copre l'ore di assunzione pianificate. Cunfirmate l'assunzione pianificata è a so durata.",
+          "riskError": "A probabilità dopu ùn pò micca superà a probabilità prima per una stima di riduzzione di perdita.",
+          "overlapError": "Cunfirmate chì i benefici ùn si sovrapponenu prima di includeli in u risultatu finanziariu.",
+          "boundsError": "Aduprate valori in i limiti affissati.",
+          "rangeLabel": "Aghjustà u valore",
+          "noCurrencyChange": "A lingua cambia a furmattazione, micca a vostra valuta o assunzioni."
         },
         "fields": {
           "volume": {
-            "label": "portálnyilvántartási előkészületek minden hónapban",
-            "help": "Tipikus hónapot használjon, ne a legjobb eset csúcsát."
+            "label": "Preparazioni di presentazione di u portale ogni mese",
+            "help": "Aduprate un mese tipicu, micca un piccu di u megliu casu."
           },
           "minutes": {
-            "label": "Egységenkénti gyakorlati percek ma",
-            "help": "Aktív munkaidő, a várakozás és az eltelt naptári idő nélkül."
+            "label": "Minuti manuali per unità oghje",
+            "help": "Tempu di travagliu attivu, escludendu l'attesa è u tempu di calendariu trascuratu."
           },
           "automation": {
-            "label": "Ennek a munkának a részesedése csökkent",
-            "help": "Szemléltető feltevés a pilotban érvényesítendő, nem pedig teljesítményígéret."
+            "label": "Parte di quellu travagliu ridottu",
+            "help": "Un'assunzione illustrativa da validà in un pilotu, micca una prumessa di prestazione."
           },
           "review": {
-            "label": "Egységenkénti percek áttekintése",
-            "help": "Az automatizálás után is szükség van emberi ellenőrzésre."
+            "label": "Minuti di revisione per unità",
+            "help": "Verifica umana sempre necessaria dopu l'automatizazione."
           },
           "budget": {
-            "label": "Becsült havi működési költségvetés",
-            "help": "Tartalmazza az összes modellt/médiát, eszközt, infrastruktúrát, Gabriel díjat és további fizetett felülvizsgálatot."
+            "label": "Budget operativu mensile stimatu",
+            "help": "Include tutti i mudelli/media, strumenti, infrastruttura, tariffi Gabriel è revisione pagata supplementare."
           },
           "model_cost": {
-            "label": "Modellek és médiagenerálás",
-            "help": "Az Ön havi becslése, beleértve a képeket vagy videót, ahol van ilyen."
+            "label": "Generazione di mudelli è media",
+            "help": "A vostra stima mensile, cumprese l'imaghjini o video induve applicabile."
           },
           "tools_cost": {
-            "label": "Eszközök és integrációk",
-            "help": "Böngészőszekciók, csatlakozók és egyéb mért szolgáltatások."
+            "label": "Strumenti è integrazioni",
+            "help": "Sessioni di navigatore, connettori è altri servizii misurati."
           },
           "infrastructure_cost": {
-            "label": "Infrastruktúra",
-            "help": "Növekményes tárhely, tárolás és számítás ehhez a munkaterheléshez."
+            "label": "Infrastruttura",
+            "help": "Hosting incrementale, almacenamentu è calculu per stu caricu di travagliu."
           },
           "platform_cost": {
-            "label": "Gabriel díjak",
-            "help": "Használja a megállapodott díjat vagy a saját költségvetési feltételezését; ez nem árajánlat."
+            "label": "Tariffi Gabriel",
+            "help": "Aduprate a vostra tarifa accunsentita o a vostra propria assunzione di budget; questa ùn hè micca una citazione di prezzu."
           },
           "review_rate": {
-            "label": "További fizetett felülvizsgálat óránként",
-            "help": "Valós többletbírálói kiadás, nem egy változatlan alkalmazott fizetése."
+            "label": "Revisione pagata supplementare per ora",
+            "help": "Spesa extra attuale di u revisore, micca u salariu di un impiegatu invariatu."
           },
           "cash_hours": {
-            "label": "Órák, amelyek megszüntetik a fizetett munkát",
-            "help": "Csak olyan munkát jelöljön ki, amelynél a túlórák, a vállalkozók vagy a feldolgozási kiadások ténylegesen leállnak."
+            "label": "Ore chì eliminanu u travagliu pagatu",
+            "help": "Attribuisce solu u travagliu chì u so tempu supplementu, cuntrattu o spesa di trasfurmazione si fermerà veramente."
           },
           "cash_baseline": {
-            "label": "Jelenlegi havi kiadások erre a munkára",
-            "help": "A készpénzes költségvetés, amelyből a csökkentés származik."
+            "label": "Spesa mensile attuale per quellu travagliu",
+            "help": "U budgetu di cassa da quale vinarà a riduzzione."
           },
           "cash_avoided": {
-            "label": "A havi kiadásokat abbahagynád",
-            "help": "Egy kifejezett összeg, nem az órák és a fizetés szorzata; kizárja a külön beírt tervezett bérleti megtakarításokat."
+            "label": "Spesa mensile chì fermerete",
+            "help": "Un ammontu esplicitu, micca ore multiplicate per u salariu; escludite qualsiasi risparmiu di assunzione pianificata inseritu separatamente."
           },
           "higher_value_hours": {
-            "label": "Nagyobb értékű munkára felhasznált óra",
-            "help": "A reálisan átirányítható órák, alapértelmezés szerint nem a teljes kapacitás."
+            "label": "Ore aduprate per un travagliu di valore più altu",
+            "help": "Ore chì pudete realisticamente redirige, micca a capacità sana per difettu."
           },
           "contribution_rate": {
-            "label": "Növekményes hozzájárulás óránként",
-            "help": "A bevétel a növekményes szállítási költségekkel csökkentve, a mesterséges intelligencia költségeit külön figyelembe véve. Nem fizetés vagy bruttó bevétel."
+            "label": "Cuntribuzione incrementale per ora",
+            "help": "Ricavatu menu i costi di spedizione supplementari, escludendu i costi di l'IA cuntati separatamente. Micca salariu o ricavatu grossu."
           },
           "throughput_hours": {
-            "label": "További hangerőre használt órák",
-            "help": "Ez az összeg nem használható fel tanácsadói munkára vagy kiadáscsökkentésre."
+            "label": "Ore aduprate per un vulume supplementu",
+            "help": "Sta allocazione ùn pò micca esse aduprata ancu per u travagliu di cunsulenza o riduzioni di spesa."
           },
           "extra_minutes": {
-            "label": "Csapatperc további egységenként",
-            "help": "A fennmaradó emberi erőfeszítésre, beleértve a felülvizsgálatot is, még egy egység szállítására volt szükség."
+            "label": "Minuti di a squadra per unità supplementare",
+            "help": "U sforzu umanu restante, cumpresa a revisione, necessariu per furnisce una unità in più."
           },
           "demand": {
-            "label": "További egységek várható igényekkel",
-            "help": "A kapacitás önmagában nem kereslet. Adja meg a további havi munkát, amelyet el kell vállalnia."
+            "label": "Unità supplementari cù dumanda prevista",
+            "help": "A capacità sola ùn hè micca dumanda. Inserite u travagliu mensile extra chì aspettate di piglià."
           },
           "unit_margin": {
-            "label": "Hozzájárulás további egységenként",
-            "help": "Növekményes bevétel csökkentve a szállítási költségeket; Az AI működési költségeit külön vonják le."
+            "label": "Cuntribuzione per unità supplementare",
+            "help": "Ricavatu incrementale menu i costi di spedizione; i costi operativi di l'IA sò dedotti separatamente."
           },
           "hiring_hours": {
-            "label": "A tervezett bérleti munkaidő",
-            "help": "A kapacitást konkrét tervezett munkára kell felosztani, nem pedig általános, teljes munkaidővel egyenértékű becslést."
+            "label": "Ore chì coprenu l'assunzione prevista",
+            "help": "Allocate a capacità à un travagliu specificu pianificatu, micca una stima generica di equivalente à tempu pienu."
           },
           "planned_hours": {
-            "label": "A tervezett bérlet havi órákat fedezne",
-            "help": "A kiosztott kapacitásnak ezt a teljes munkaterhelést le kell fednie."
+            "label": "Ore mensili chì l'assunzione prevista copreria",
+            "help": "A capacità allocata deve copre tuttu stu caricu di travagliu."
           },
           "hire_cost": {
-            "label": "A havi bérleti költség ténylegesen halasztott",
-            "help": "Használja a valóban megtervezett bérbeadás költségeit, ne egy már alkalmazott fizetését."
+            "label": "Costo mensile di assunzione effettivamente differitu",
+            "help": "Aduprate u costu di una assunzione veramente pianificata, micca u salariu di qualchissia digià impiegata."
           },
           "hire_months": {
-            "label": "Hónapok elhalasztják a bérbeadást",
-            "help": "Egytől tizenkét hónapig; az éves becslés ezen időszak után leállítja a megtakarítások számítását."
+            "label": "Mesi chì l'assunzione hè differita",
+            "help": "Da unu à dodici mesi; a stima annuale smette di cuntà i risparmi dopu stu periodu."
           },
           "incidents": {
-            "label": "Várhatóan elkerült hibák havonta",
-            "help": "Használja az alapvonalat és a várható csökkentést. A kockázatcsökkentésnek számító incidensek kizárása."
+            "label": "Errori evitati previsti per mese",
+            "help": "Aduprate a vostra linea di basa è a riduzione prevista. Escludite l'incidenti cuntati ancu cum'è riduzione di risicu."
           },
           "incident_cost": {
-            "label": "Növekvő hibánkénti költség",
-            "help": "Zárja ki a munkaerőt, a visszatérítést vagy az egyéb veszteségeket, amelyek már máshol szerepelnek."
+            "label": "Costo incrementale per errore",
+            "help": "Escludite u travagliu, i rimborsi o altre perdite digià incluse in altrò."
           },
           "probability_before": {
-            "label": "Havi veszteség valószínűsége előtt",
-            "help": "Az Ön becslése, nem garantált kockázatértékelés."
+            "label": "Probabilità di perdita mensile prima",
+            "help": "A vostra stima, micca una valutazione di risicu garantita."
           },
           "probability_after": {
-            "label": "Havi veszteség valószínűsége után",
-            "help": "Használja ugyanazt az eseményt és havi időhorizontot, mint az alapvonalat."
+            "label": "Probabilità di perdita mensile dopu",
+            "help": "Aduprate u stessu avvenimentu è orizzonte di tempu mensile cum'è a linea di basa."
           },
           "loss": {
-            "label": "Veszteség kitettsége az adott eseményhez",
-            "help": "Zárja ki a már megszámolt hibákat és kiadásokat. Ez bizonytalan várható érték, nem megtakarított készpénz."
+            "label": "Esposizione à a perdita per quellu avvenimentu",
+            "help": "Escludite l'incidenti d'errore è e spese digià cuntate. Questu hè un valore attesu incertu, micca soldi risparmiati."
           },
           "days_before": {
-            "label": "Ciklusidő előtt, napokban",
-            "help": "Az elejétől a befejezésig eltelt idő, külön a gyakorlati erőfeszítéstől."
+            "label": "Tempu di ciclu prima, in ghjorni",
+            "help": "Tempu trascuratu da l'iniziu à a fine, separatu da u sforzu praticu."
           },
           "days_after": {
-            "label": "Ciklusidő után, napokban",
-            "help": "Csak működési változásként jelenik meg, feltételezett euróérték nélkül."
+            "label": "Tempu di ciclu dopu, in ghjorni",
+            "help": "Mostratu cum'è un cambiamentu operativu solu, senza un valore in euro assuntu."
           }
         },
         "burden": [
-          "Portál előkészítése, adatbevitel és állapotellenőrzés",
-          "Ismételt kivétel előkészítése"
+          "Preparazione di u portale, inserimentu di dati è verifiche di statutu",
+          "Preparazione ripetuta di eccezioni"
         ],
         "opportunity": [
-          "További felülvizsgált iktatási kapacitás",
-          "Ideje a nehéz kivételeknek"
+          "Capacità di archiviazione rivista supplementare",
+          "Tempu per eccezioni difficili"
         ],
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Nagyobb értékű munkát végezzen",
-            "help": "Használja ki a munkaképesség egy részét növekményes hozzájárulással."
+            "label": "Fate un travagliu di più valore",
+            "help": "Aduprate una parte di a capacità per u travagliu cù cuntribuzione incrementale."
           },
           {
             "id": "throughput",
-            "label": "Kezeljen nagyobb hangerőt",
-            "help": "Párosítsa a rendelkezésre álló kapacitást a tényleges várható kereslettel."
+            "label": "Gestisce più vulume",
+            "help": "Assuciate a capacità dispunibule cù a dumanda effettiva prevista."
           },
           {
             "id": "cash",
-            "label": "Hagyja abba a tényleges kiadásokat",
-            "help": "Csökkentse a túlórákat, a vállalkozókat vagy a fizetett feldolgozást – a fizetések változatlansága nélkül."
+            "label": "Fermate a spesa attuale",
+            "help": "Riduce l'ore di travagliu, i cuntrattori o u trattamentu pagatu—micca i salarii invariati."
           },
           {
             "id": "hiring",
-            "label": "Halassza el a tervezett bérletet",
-            "help": "Fedjen le egy konkrét, valóban tervezett munkaterhelést egy meghatározott időszakra."
+            "label": "Differisce una assunzione prevista",
+            "help": "Copre un caricu di travagliu specificu, veramente pianificatu per un periodu dichjaratu."
           },
           {
             "id": "error",
-            "label": "Kerülje el a hibákat és dolgozza fel",
-            "help": "becsülje meg a különböző eseményeket és azok többletköltségét."
+            "label": "Evite errori è rilavorazione",
+            "help": "Stimate incidenti distinti è u so costu incrementale."
           },
           {
             "id": "cycle_time",
-            "label": "Hamarabb fejezze be",
-            "help": "Az eltelt napok megjelenítése javítva az euróérték automatikus csatolása nélkül."
+            "label": "Finisce prima",
+            "help": "Mostra i ghjorni trascorsi migliorati senza attaccà automaticamente un valore in euro."
           }
         ]
       },
       "cta": {
-        "primaryLabel": "Próbáljon meg egy bejelentést a Emil",
-        "secondaryLabel": "Nézze meg, hogyan működik",
+        "primaryLabel": "Pruvate un archiviu cù Emil",
+        "secondaryLabel": "Vede cumu funziona",
         "primaryTarget": "pilot",
-        "privacyNote": "Adatai privátak maradnak. Az óra kapacitás. Az euró minősített modellezett érték, nem megfigyelt eredmény.",
+        "privacyNote": "I vostri dati restanu privati. L'ore sò capacità. L'euri sò valori mudellati classificati, micca risultati osservati.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -2824,7 +2824,7 @@
         4,
         "body"
       ],
-      "sourceHash": "ef2745ed0ebe677790a24af494ea1f32a49c6d3318b1e5aedf1123fb8e276b94"
+      "sourceHash": "71aea87640d82190af51c18f4f58f2535de4ab25437fd07b1139ba5591f14ea6"
     },
     {
       "path": [
@@ -4942,5 +4942,5 @@
       "sourceHash": "5bb1092e45d12cf344ec810103fd96adc18943f70e30d02a092a40f74fe906b0"
     }
   ],
-  "generatedAt": "2026-09-02T11:39:13.961Z"
+  "generatedAt": "2026-09-06T18:07:35.570Z"
 }

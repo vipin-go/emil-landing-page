@@ -469,7 +469,7 @@
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
             "alt": "操作员监控批准的门户执行",
             "title": "执行",
-            "body": "仅执行经批准的浏览器步骤——不在范围之外。"
+            "body": "仅执行经批准的浏览器步骤，不在范围之外。"
           },
           {
             "number": "06",

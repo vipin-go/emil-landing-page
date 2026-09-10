@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sk",
   "regionKey": null,
-  "sourceRevision": "ac567b01b9e4f4cdbcb6de5163a1d9b561af5149b39515560d65249df94b3ae7",
+  "sourceRevision": "afe18f214fa7c84949cac4db99e572f90ab8f0356e75924e9774ddf8e5d37724",
   "landingPage": {
     "headline": "Váš stack logistiky sa zastaví na portáli. Emil pokračuje.",
     "subheadline": "Váš TMS drží zásielku. Potom niekto otvorí PortBase, DMS alebo NCT alebo obrazovku Carrier eBooking a znova ju zadá ručne. Na druhej strane nečaká žiadne API a pre väčšinu z nich nikdy nebude. Emil prenáša schválené údaje o zásielke z vašich TM do týchto portálov. Najprv nacvičí celý beh proti kópii vášho skutočného prostredia, ukáže vášmu deklarantovi presne to, čo sa chystá vstúpiť, a neurobí nič, kým to neschváli.",
@@ -469,7 +469,7 @@
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
             "alt": "Operátor monitoruje vykonanie schváleného portálu",
             "title": "vykonať",
-            "body": "Vykonajte iba schválené kroky prehliadača – nič mimo rozsahu."
+            "body": "Perform only the approved browser steps, nothing outside scope."
           },
           {
             "number": "06",
@@ -580,9 +580,9 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "A typical logistics desk: 120 packets waiting for a person. Emil rehearses; a human still submits.",
-      "disclaimer": "A scenario built from typical portal-rehearsal usage, not observed customs results. Emil does not submit live in this model and does not guarantee acceptance.",
+      "heading": "What could DMS rehearsal return to your desk?",
+      "subheading": "Model one Dutch DMS 4.0 import workflow. Emil prepares and checks a review-ready packet; your authorised declarant still reviews and submits.",
+      "disclaimer": "Customer-provided and modeled estimates, not observed results or guaranteed savings. Emil does not submit, act as a declarant or customs broker, hold EORI or eHerkenning credentials, or guarantee DMS acceptance or compliance.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -592,49 +592,60 @@
         "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
-        "perUnit": "{amount} per work unit (average)",
+        "breakdown": "How your Emil price is built",
+        "perUnit": "{amount} per declaration (average)",
         "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
         "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "Returned hours are capacity, not automatic payroll savings. Add a monetary value only when it is supported by your own operating data."
       },
       "locale": "en-GB",
       "inputs": [],
       "metrics": [],
       "businessImpact": {
         "defaults": {
-          "volume": 120,
-          "minutes": 18,
-          "automation": 50,
-          "review": 3,
-          "tokens_per_output": 8000,
-          "model_cost": 0,
-          "tools_cost": 0,
-          "infrastructure_cost": 0,
-          "platform_cost": 1500,
-          "higher_value_hours": 12,
-          "contribution_rate": 250
+          "volume": null,
+          "minutes": null,
+          "automation": null,
+          "review": null,
+          "correction_rate_before": null,
+          "correction_rate_after": null,
+          "correction_minutes_before": null,
+          "correction_minutes_after": null,
+          "capacity_value_per_hour": null,
+          "customer_price": 950,
+          "included_volume": 400,
+          "overage_price": 2,
+          "setup_fee": 3000,
+          "contract_months": 12,
+          "tokens_per_output": null,
+          "model_cost": null,
+          "tools_cost": null,
+          "infrastructure_cost": null,
+          "platform_cost": null,
+          "cash_hours": null,
+          "cash_baseline": null,
+          "cash_avoided": null
         },
         "copy": {
-          "navLabel": "ROI",
-          "workloadStep": "Portal rehearsals",
-          "costStep": "Token usage",
-          "valueStep": "Exception time",
-          "workloadIntro": "Model portal preparation and human review—not autonomous submission or guaranteed customs outcomes.",
-          "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
-          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
-          "sampleNotice": "Typical usage · not observed results",
+          "navLabel": "DMS ROI",
+          "workloadStep": "DMS workload",
+          "costStep": "Emil price",
+          "valueStep": "Rework and value",
+          "workloadIntro": "Enter one customer workflow. Emil prepares a review-ready packet; the authorised declarant still reviews and submits.",
+          "costIntro": "Customer pricing is based on the workflow and review-ready declaration volume. Tokens remain an internal delivery-cost input.",
+          "valueIntro": "Add customer evidence for correction work and specialist capacity. Incomplete correction data is not treated as zero.",
+          "sampleNotice": "Customer inputs required · no benchmark assumed",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
           "back": "Back",
           "reset": "Reset assumptions",
-          "summary": "Your modeled impact",
-          "volume": "Rehearsals modeled",
-          "grossHours": "Repetitive work reduced",
-          "capacity": "Specialist hours returned",
-          "retained": "Capacity kept available",
+          "summary": "Your DMS workflow estimate",
+          "volume": "Declarations modeled",
+          "grossHours": "Preparation hours reduced",
+          "capacity": "Net preparation capacity returned",
+          "retained": "Capacity not allocated to paid-cost reduction",
           "hours": "hours",
           "days": "days",
           "percent": "%",
@@ -655,31 +666,46 @@
           "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
           "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
           "paidReviewCost": "Additional paid review cost",
-          "allInCost": "Operating cost",
+          "allInCost": "Internal delivery cost",
           "missing": "Add your assumptions",
+          "currentPreparation": "Current preparation hours",
+          "reviewHours": "Human review hours",
+          "reworkHours": "Avoided or added rework hours",
+          "capacityValue": "Modeled capacity value",
+          "acceptedUnits": "Accepted units",
+          "attendedUnits": "Attended units",
+          "costPerAttended": "Cost per attended unit",
           "cashValue": "Cash spending avoided",
           "contribution": "Expected contribution",
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
-          "economicValue": "Modeled economic value",
-          "netBenefit": "Net modeled benefit",
-          "multiple": "Economic return multiple",
+          "economicValue": "Modeled customer economic benefit",
+          "netBenefit": "Net customer benefit",
+          "multiple": "Benefit-cost multiple",
+          "customerBenefit": "Modeled customer economic benefit",
+          "customerRoi": "Customer ROI",
+          "benefitCost": "Benefit-cost multiple",
+          "firstYearCost": "First-year Emil price",
+          "firstYearRoi": "First-year ROI",
+          "payback": "Setup-fee payback",
+          "paybackOutsideTerm": "Not recovered within the modeled term",
+          "months": "months",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
           "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+          "methodBody": "Preparation capacity equals eligible declarations × current preparation minutes × Emil’s assisted share, minus human review. Complete correction inputs add the difference between current and Emil-assisted rework. Monetary benefit uses only the supported specialist value and any distinct paid cost that actually stops.",
+          "formulaLabel": "Benefit-cost multiple equals customer benefit divided by Emil price. ROI equals benefit minus price, divided by price. First-year cost includes the setup fee once.",
           "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
+          "overlapLabel": "The paid cost avoided is separate from the capacity value and is not counted elsewhere.",
           "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
           "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "reviewedLabel": "I have reviewed the paid-cost assumptions and excluded amounts already counted as capacity value.",
           "cycleResult": "Cycle-time improvement",
           "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
+          "assumptionsIncomplete": "Enter the required customer workload and specialist-value assumptions to calculate ROI.",
           "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
           "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
           "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
@@ -692,32 +718,60 @@
         },
         "fields": {
           "volume": {
-            "label": "Portal rehearsals each month",
-            "help": "Count packets you actually prepare for human submit, not live autonomous filings."
+            "label": "Eligible DMS import declarations per month",
+            "help": "Count declarations in the selected H1 import workflow that Emil could rehearse. Do not include other portals or customs processes."
+          },
+          "accepted_rate": {
+            "label": "Expected acceptance rate",
+            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+          },
+          "attendance_rate": {
+            "label": "Expected attendance rate",
+            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
           },
           "minutes": {
-            "label": "Minutes to prepare one packet today",
-            "help": "Hands-on portal prep and data entry, not waiting on a carrier or customs clock."
+            "label": "Current preparation minutes per declaration",
+            "help": "Use a time study for hands-on preparation before review, correction or live submission."
           },
           "automation": {
-            "label": "Share of that rehearsal Emil handles",
-            "help": "Illustrative share of the typing and status-check work, not a submission rate."
+            "label": "Share of preparation minutes Emil performs",
+            "help": "Enter a customer assumption or observed pilot result. This is a share of preparation time, not a submission or acceptance rate."
           },
           "review": {
-            "label": "Minutes a person checks each packet",
-            "help": "The human approval still required before anyone submits."
+            "label": "Human review minutes per rehearsed declaration",
+            "help": "Time the authorised declarant needs to inspect Emil’s packet before submitting through existing customs software."
+          },
+          "correction_rate_before": {
+            "label": "Current DMS correction rate",
+            "help": "Share of eligible declarations that currently require a correction or rework cycle. Leave blank until measured."
+          },
+          "correction_rate_after": {
+            "label": "Correction rate with Emil",
+            "help": "Observed or explicitly modeled share requiring correction after Emil. Leave blank until supported."
+          },
+          "correction_minutes_before": {
+            "label": "Current minutes per correction",
+            "help": "Hands-on specialist time for one current correction cycle."
+          },
+          "correction_minutes_after": {
+            "label": "Minutes per correction with Emil",
+            "help": "Hands-on time to resolve an Emil exception, abstention or later correction."
+          },
+          "cycles_per_unit": {
+            "label": "Cycles per unit each month",
+            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
           },
           "tokens_per_output": {
-            "label": "Tokens per portal rehearsal",
-            "help": "Modeled tokens to map TMS data into one rehearsal packet."
+            "label": "Tokens to produce one unit",
+            "help": "Modeled tokens consumed to prepare one typical output, not a provider meter reading."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
             "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
           },
           "model_cost": {
-            "label": "Extra model usage",
-            "help": "Leave at zero unless you pay for models beyond this token envelope. This is not image or video generation."
+            "label": "Extra models and media",
+            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
           },
           "tools_cost": {
             "label": "Tools and integrations",
@@ -728,32 +782,60 @@
             "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
           },
           "platform_cost": {
-            "label": "Gabriel platform fee",
-            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+          },
+          "customer_price": {
+            "label": "Monthly base subscription",
+            "help": "Proposed price for one desk and one DMS import workflow, excluding VAT."
+          },
+          "personal_value_per_hour": {
+            "label": "Optional value you assign to an hour",
+            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+          },
+          "capacity_value_per_hour": {
+            "label": "Fully loaded specialist value per hour",
+            "help": "Use a customer-supported operating value. It measures capacity, not automatic payroll savings."
+          },
+          "included_volume": {
+            "label": "Declarations included each month",
+            "help": "Review-ready declarations included in the monthly base subscription."
+          },
+          "overage_price": {
+            "label": "Price per additional declaration",
+            "help": "Applied only to eligible declarations above the included monthly volume."
+          },
+          "setup_fee": {
+            "label": "One-time workflow mapping",
+            "help": "Mapping and onboarding cost counted once in the first-year comparison."
+          },
+          "contract_months": {
+            "label": "Contract comparison period",
+            "help": "Used to show whether the one-time setup fee is recovered within the modeled term."
           },
           "review_rate": {
             "label": "Additional paid review per hour",
             "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "Hours tied to paid work that stops",
+            "help": "Use only hours linked to evidenced overtime, contractor or external-review spending."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "Current monthly paid cost",
+            "help": "Current overtime, contractor or external-review spend for this workflow."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "Monthly paid cost actually avoided",
+            "help": "Amount that would stop under the modeled workflow. Exclude capacity value already counted above."
           },
           "higher_value_hours": {
-            "label": "Hours kept for exceptions",
-            "help": "Time specialists can spend on the packets that still need judgment."
+            "label": "Hours used for higher-value work",
+            "help": "Hours you can realistically redirect, not the entire capacity by default."
           },
           "contribution_rate": {
-            "label": "Contribution of an exception hour",
-            "help": "Incremental value of specialist time on exceptions, not a customs outcome."
+            "label": "Incremental contribution per hour",
+            "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
           },
           "throughput_hours": {
             "label": "Hours used for additional volume",
@@ -817,95 +899,82 @@
           }
         },
         "burden": [
-          "Portal preparation, data entry and status checks",
-          "Repeated exception preparation"
+          "Preparing one recurring DMS 4.0 H1 import workflow",
+          "Correcting missing, invalid or inconsistent declaration fields"
         ],
         "opportunity": [
-          "Additional reviewed filing capacity",
-          "Time for difficult exceptions"
+          "Capacity for difficult customs exceptions",
+          "Less repeated DMS correction work"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 60,
-            "tokensPerOutput": 8000,
-            "platform_cost": 990,
-            "minutes": 18,
-            "automation": 50,
-            "review": 3,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 6,
-            "contribution_rate": 250
-          },
-          "medium": {
-            "volume": 120,
-            "tokensPerOutput": 8000,
-            "platform_cost": 1500,
-            "minutes": 18,
-            "automation": 50,
-            "review": 3,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 12,
-            "contribution_rate": 250
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
-        "selected": [
-          "higher_value"
-        ],
+        "selected": [],
         "confirmations": {
-          "overlap": true,
-          "hiring": true,
-          "outcomes": true,
-          "hide": true
+          "overlap": false,
+          "hiring": false,
+          "outcomes": false,
+          "hide": false
         },
         "hero": {
-          "kind": "volume",
-          "label": "Packets waiting for a person"
+          "kind": "capacity",
+          "label": "Net preparation capacity returned"
         },
         "outcomes": [
           {
-            "id": "higher_value",
-            "label": "Keep specialists on hard exceptions",
-            "help": "Use returned capacity on exceptions, not on re-typing portal fields."
+            "id": "cash",
+            "label": "Add evidenced paid cost avoided",
+            "help": "Optional: include overtime, contractor or external-review spending that will actually stop. Do not count the same hours again as capacity value."
           }
         ],
+        "pricing": {
+          "basis": "tiered",
+          "label": "Your Emil price",
+          "help": "Proposed production offer: €950 per month ex VAT for one DMS import workflow and desk, including 400 review-ready declarations, then €2 each, plus a €3,000 one-time mapping fee. Tokens set Emil’s delivery-cost floor; customers pay for the governed workflow and review-ready volume."
+        },
+        "presentation": {
+          "financial": "required",
+          "showCustomerEconomics": true,
+          "costFocus": "customer",
+          "showTokenUsage": false,
+          "showInternalCost": false
+        },
         "tabs": [
           {
-            "id": "rehearsals",
-            "label": "Portal rehearsals",
-            "intro": "How many Portbase, DMS, NCTS or eBooking packets a typical desk prepares, and the human check still required.",
+            "id": "workload",
+            "label": "DMS workload",
+            "intro": "Enter one typical month for a single Dutch DMS 4.0 H1 import workflow. No public productivity benchmark has been assumed.",
             "fields": [
               "volume",
               "minutes",
               "automation",
               "review"
             ],
-            "showPackage": true,
-            "showReview": true
+            "showPackage": true
           },
           {
-            "id": "tokens",
-            "label": "Token usage",
-            "intro": "Tokens to carry approved TMS data into one portal rehearsal, plus the Gabriel fee.",
+            "id": "price",
+            "label": "Emil price",
+            "intro": "Test the proposed production offer. Raw model tokens remain an internal delivery-cost measure rather than a customer-value metric.",
             "fields": [
-              "tokens_per_output",
-              "platform_cost",
-              "tools_cost",
-              "infrastructure_cost"
+              "customer_price",
+              "included_volume",
+              "overage_price",
+              "setup_fee",
+              "contract_months"
             ],
             "showPackage": true
           },
           {
-            "id": "exceptions",
-            "label": "Exception time",
-            "intro": "Hours returned to people who handle the filings that still need judgment.",
-            "fields": [],
+            "id": "rework",
+            "label": "Rework and value",
+            "intro": "Add correction evidence and a supported hourly value. If the correction set is incomplete, rework contributes nothing to the estimate.",
+            "fields": [
+              "correction_rate_before",
+              "correction_rate_after",
+              "correction_minutes_before",
+              "correction_minutes_after",
+              "capacity_value_per_hour"
+            ],
             "showPackage": true,
             "showOutcomes": true
           }
@@ -915,8 +984,8 @@
         "primaryLabel": "Rehearse a filing with Emil",
         "primaryTarget": "pilot",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
-        "secondaryTarget": "how-it-works"
+        "secondaryTarget": "how-it-works",
+        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results."
       }
     }
   },
@@ -948,6 +1017,36 @@
         "description"
       ],
       "sourceHash": "abb61d42d9bb9253e7d4e43643c9037c67034a73dd6eb4a840149758744027a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e"
     },
     {
       "path": [
@@ -1050,6 +1149,39 @@
         "brandSuffix"
       ],
       "sourceHash": "7e8073dff7570f4f7c1602803f35cbf7993ab41c5da9ace8c5317377365de9fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "logisticsPortal",
+        "header",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "4325999290ee3d01a0f6ded14458dc8d237117cf5e77c36ce455264c2c295b57"
     },
     {
       "path": [
@@ -2911,7 +3043,7 @@
         4,
         "body"
       ],
-      "sourceHash": "ef2745ed0ebe677790a24af494ea1f32a49c6d3318b1e5aedf1123fb8e276b94"
+      "sourceHash": "71aea87640d82190af51c18f4f58f2535de4ab25437fd07b1139ba5591f14ea6"
     },
     {
       "path": [
@@ -3427,69 +3559,6 @@
     {
       "path": [
         "landingPage",
-        "header",
-        "navItems",
-        0,
-        "label"
-      ],
-      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd"
-    },
-    {
-      "path": [
-        "landingPage",
-        "header",
-        "navItems",
-        1,
-        "label"
-      ],
-      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
-    },
-    {
-      "path": [
-        "landingPage",
-        "header",
-        "navItems",
-        2,
-        "label"
-      ],
-      "sourceHash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e"
-    },
-    {
-      "path": [
-        "landingPage",
-        "logisticsPortal",
-        "header",
-        "navItems",
-        0,
-        "label"
-      ],
-      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd"
-    },
-    {
-      "path": [
-        "landingPage",
-        "logisticsPortal",
-        "header",
-        "navItems",
-        1,
-        "label"
-      ],
-      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
-    },
-    {
-      "path": [
-        "landingPage",
-        "logisticsPortal",
-        "header",
-        "navItems",
-        2,
-        "label"
-      ],
-      "sourceHash": "4325999290ee3d01a0f6ded14458dc8d237117cf5e77c36ce455264c2c295b57"
-    },
-    {
-      "path": [
-        "landingPage",
         "roiCalculator",
         "kicker"
       ],
@@ -3501,7 +3570,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "95d3ceeff159c28fd0279f1acee530e2531a039d35af93861be977f0dc5ed968"
     },
     {
       "path": [
@@ -3509,7 +3578,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "59bd6b2d0b1fc668507c572b956807c63f6a839e40841ff806e8b757f7878894"
+      "sourceHash": "a1959f51f2204c807a38f4422246304676c3b185b890285e82802f65fb866ee3"
     },
     {
       "path": [
@@ -3517,7 +3586,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "55477ca07f5e522f877d48a567d976972fa8426b2b985eb637514357cf467a22"
+      "sourceHash": "2977fda0adeb81a4c17805addaf2d7a6fe67e08dcfa9f52c49d99e35c4acbda4"
     },
     {
       "path": [
@@ -3535,7 +3604,7 @@
         "costCopy",
         "breakdown"
       ],
-      "sourceHash": "895373aa73d1d5e90f508f353e090c0f393107e6048b39988897eb9bfbbe1bb1"
+      "sourceHash": "b242e3e521252cded6ba2f21fd10162bdcba231858ff5a792790325b495e13d4"
     },
     {
       "path": [
@@ -3571,7 +3640,7 @@
         "costCopy",
         "allocation"
       ],
-      "sourceHash": "f7f5f4af5286817988ebf0fe598c64627d0f00b7291334cd5ce16502cc6651d7"
+      "sourceHash": "3c874b19fe0e0cf69b467542c28566e96eafeab07abb7d9133af9c80af5cc35d"
     },
     {
       "path": [
@@ -3581,7 +3650,7 @@
         "copy",
         "navLabel"
       ],
-      "sourceHash": "5bb1092e45d12cf344ec810103fd96adc18943f70e30d02a092a40f74fe906b0"
+      "sourceHash": "7a7eaeccadeb40a8d3169e579d243015daef5905012e14ce75e5cd68a3f96199"
     },
     {
       "path": [
@@ -3591,7 +3660,7 @@
         "copy",
         "workloadStep"
       ],
-      "sourceHash": "3dda7d25603eb59ee0a506571e61a95788afe254b4a13831d6c01e8e724a9d95"
+      "sourceHash": "f9fdd0948415cbb0ab57b4a80567d3617e59f2e5a3351719439cbc337b47bbad"
     },
     {
       "path": [
@@ -3601,7 +3670,7 @@
         "copy",
         "costStep"
       ],
-      "sourceHash": "67908a8d41024d69be93738c7d7eea6068b329355ab9c2d374f189f2bb5da700"
+      "sourceHash": "83d6b3848ab13c7b8064fe9b65533ae6dbb74e2a0a607f09386d99d0098f361f"
     },
     {
       "path": [
@@ -3611,7 +3680,7 @@
         "copy",
         "valueStep"
       ],
-      "sourceHash": "b899ce310655c2fa95cc3d3827bb524fedf800939e418c8b0fe8967902e8e33f"
+      "sourceHash": "b576120e55cd34ab83cfcc80f4168ca6576a1257605ee8b37dcf35365bf58222"
     },
     {
       "path": [
@@ -3621,7 +3690,7 @@
         "copy",
         "workloadIntro"
       ],
-      "sourceHash": "17c96a17629fde011e5d513a778adb2cda5b5e9989737d6ae94634dbca7f7b99"
+      "sourceHash": "e04a126f0fb9afe6f4801d9c22678a9c5b9b89c19c309b80309a37ed58e837bf"
     },
     {
       "path": [
@@ -3631,7 +3700,7 @@
         "copy",
         "costIntro"
       ],
-      "sourceHash": "99519bb6804fac080a4d66e5d56dbf3cf8ced07705ab1e9d902b3d98d456e6ad"
+      "sourceHash": "7084d2de23bdd45288a4844e597f127df08f97734341c083f2bf85a7411ff448"
     },
     {
       "path": [
@@ -3641,7 +3710,7 @@
         "copy",
         "valueIntro"
       ],
-      "sourceHash": "6ff02073ccdf04b3e5de1dae681d73a69f2ff43a4d298ded9bb897fb2aa1867a"
+      "sourceHash": "dcd977afec8a7d80ec94eb192919280e3ab5839ff7357d757196342c4382a1f2"
     },
     {
       "path": [
@@ -3651,7 +3720,7 @@
         "copy",
         "sampleNotice"
       ],
-      "sourceHash": "0a279eee90e82ddde4431632effb01fb5ce9bcf8ef82e674bcb5eff2e6e0581d"
+      "sourceHash": "e95e08dda02f6c662cbef075a135d8d685549274a7c048511c9535bb70c77876"
     },
     {
       "path": [
@@ -3711,7 +3780,7 @@
         "copy",
         "summary"
       ],
-      "sourceHash": "2c79acad588e81cf07fcaaad4f5452ee631ee454649002b9c5b3d595905a8ab3"
+      "sourceHash": "c07e798d67d468c102901b7e25fb2c067e24eee28b03320fb5da2765866ada2e"
     },
     {
       "path": [
@@ -3721,7 +3790,7 @@
         "copy",
         "volume"
       ],
-      "sourceHash": "964511ac671c433954b65299e2360a95c12f111a47c711d4aa9494a755186d69"
+      "sourceHash": "c6d5dd9cb40f8518c536ce6afec3861a1c64d83ed0eb7879283b5b1a81b3c522"
     },
     {
       "path": [
@@ -3731,7 +3800,7 @@
         "copy",
         "grossHours"
       ],
-      "sourceHash": "e0658dd800c6876a51b8ed6c3f6e26858e13bee233efe93b9e1fb61e5d3881b5"
+      "sourceHash": "90ee28e1c5214983402fe3ff93dd46ae72888edb4a61772df8552c26db87af13"
     },
     {
       "path": [
@@ -3741,7 +3810,7 @@
         "copy",
         "capacity"
       ],
-      "sourceHash": "2ed4f8ce664e26c024048adbff8718574fdab162498b7c9c382acdb45b2522fe"
+      "sourceHash": "e293e0a87fb822bd2f8d5b8d6e8abdbea89df8de0c846876e6a93ed4b6163862"
     },
     {
       "path": [
@@ -3751,7 +3820,7 @@
         "copy",
         "retained"
       ],
-      "sourceHash": "9819dd6a211c7416ea481b22bac402061626e4f7d914908a88d74781b5f9dd77"
+      "sourceHash": "c3e4c690bcfcc54cf12c66ff00c87752c3aeaa9fc0c05488f3920797f03586de"
     },
     {
       "path": [
@@ -3961,7 +4030,7 @@
         "copy",
         "allInCost"
       ],
-      "sourceHash": "1d4afe96bef061b581adde6612949328a8a6a1b00343c56b9c94a806c17d0dba"
+      "sourceHash": "c2a30d8b1d95157f3b580301cda7960b3b95d97ae25124bd6804806ef305c4fd"
     },
     {
       "path": [
@@ -3972,6 +4041,76 @@
         "missing"
       ],
       "sourceHash": "f90eaf5b4ffc23794c7394dbd71f6867a4c55aae9987d14e9a90305c0d214fd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "currentPreparation"
+      ],
+      "sourceHash": "928d958c583b780cba9c5fad46428b528902459f6f74faae75a72a2b21f7cabc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reviewHours"
+      ],
+      "sourceHash": "3394ced95b267c4fd710961fbf5b99c081da26926fc35a65b3ba1b62c9a12fd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reworkHours"
+      ],
+      "sourceHash": "21523a67898e293abd0be47cf292c5b483391500d60950dda9865c3ca628df4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "capacityValue"
+      ],
+      "sourceHash": "4dcc485471faab34162bd8d16b862cd837b4b64dd86e84401842e28d920376ba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "acceptedUnits"
+      ],
+      "sourceHash": "3ed61fbb99811ea11ce35cb68185047f0446a13ecc082f4edb06d75e88460873"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "attendedUnits"
+      ],
+      "sourceHash": "0db82f1fd2dc4654d446d2314dc0e121be49032b71f161c5bb319e1ea6acb2fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "costPerAttended"
+      ],
+      "sourceHash": "986006eea01980a34bac981d6fdcd579b24644b9c0b38d2656019c7ef20af10d"
     },
     {
       "path": [
@@ -4021,7 +4160,7 @@
         "copy",
         "economicValue"
       ],
-      "sourceHash": "c4402679b0bd01837904090e68038db886c05ed3b1402e58296074c1cb135a57"
+      "sourceHash": "b261f945e486661817d2589cc365bba980523ca44c165550102bfc8d1288bc2a"
     },
     {
       "path": [
@@ -4031,7 +4170,7 @@
         "copy",
         "netBenefit"
       ],
-      "sourceHash": "387e61fb69f9bca35408f8250768560fe3d9db172de2af927403575107cc892c"
+      "sourceHash": "b96b5d1897490691c9661506684c1af29edd31685b441d206d98e7969fcdc342"
     },
     {
       "path": [
@@ -4041,7 +4180,77 @@
         "copy",
         "multiple"
       ],
-      "sourceHash": "10006b13cdfc279e8c6ce0e3d277d084ff911a5d6f8e8c191c738e90c286f6d3"
+      "sourceHash": "2a39db7e18bf9bef2886f35046487c9173020534025bd58500a83605a6c0b542"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "customerBenefit"
+      ],
+      "sourceHash": "b261f945e486661817d2589cc365bba980523ca44c165550102bfc8d1288bc2a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "customerRoi"
+      ],
+      "sourceHash": "a420556d962cbcc1bae82fe6eba87a854de6f4211884db490e529f6ba7b43722"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "benefitCost"
+      ],
+      "sourceHash": "2a39db7e18bf9bef2886f35046487c9173020534025bd58500a83605a6c0b542"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "firstYearCost"
+      ],
+      "sourceHash": "07377e05debc7e259672906c31e4b2309a8044860ee1585332025ec2c4fa69ed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "firstYearRoi"
+      ],
+      "sourceHash": "086f8fc44b4ee68fbee0be574928d80c02020715a2957269229f5c6016a0322a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "payback"
+      ],
+      "sourceHash": "7d832a8c539f304a271b1b4c75e639f8f55a39aac3bbf584cca820237d36a524"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "paybackOutsideTerm"
+      ],
+      "sourceHash": "2fa8b02a70b6cbedb48d8b8168d94fb34cc4616141582ee666347452f2ab28d7"
     },
     {
       "path": [
@@ -4111,7 +4320,7 @@
         "copy",
         "methodBody"
       ],
-      "sourceHash": "5c830e651ca8b5bf011287bfd4da0ac6b0611116c401f961f7f1bc55c50cdfe2"
+      "sourceHash": "18c71d9f079f780b30ce1c40da5b399116e1583865712b75dc9a66234b4997b3"
     },
     {
       "path": [
@@ -4121,7 +4330,7 @@
         "copy",
         "formulaLabel"
       ],
-      "sourceHash": "056d3a33de02c97f5733e1f2589835715f6915396b6ee9e44e0ed9a6a465c4c5"
+      "sourceHash": "f25c74cf563f89d2823ffba73ae9b0a478a9f2cb5318c1ec0a5dc35a8f299366"
     },
     {
       "path": [
@@ -4141,7 +4350,7 @@
         "copy",
         "overlapLabel"
       ],
-      "sourceHash": "3637765a204c805931e47bb46687d33d2f043af2667412dd05499a1f4a8c65dd"
+      "sourceHash": "9394a932e73c3c61cbb0812edf8e1d5ea8e88d16438dd23243686b6881a5567d"
     },
     {
       "path": [
@@ -4171,7 +4380,7 @@
         "copy",
         "reviewedLabel"
       ],
-      "sourceHash": "c498f9653237bc825c4c10daada8061afeb5a25eba7c6ded5958d2cffeb2bf56"
+      "sourceHash": "67f01173cef6a31c83fa93ef9b135a1e6904adc95be8701db3ea7935537c9fdc"
     },
     {
       "path": [
@@ -4201,7 +4410,7 @@
         "copy",
         "assumptionsIncomplete"
       ],
-      "sourceHash": "113d5132e58fd55af0ad01794b9d2a9d80e8968614b1139d5b340a8907753a56"
+      "sourceHash": "893b50a0a037a0097935cc07c86d7a0f331e026cf86063e1dfb5ef4346dd6521"
     },
     {
       "path": [
@@ -4302,7 +4511,7 @@
         "volume",
         "label"
       ],
-      "sourceHash": "af9a049785dfa876136ee7e70eec30a1c2f704921cf0eac61b53f9340f43ed26"
+      "sourceHash": "eada74dad48bebc51ffaefd7a5afc324c9239de39a652e71f85f79c0423ceac5"
     },
     {
       "path": [
@@ -4313,7 +4522,51 @@
         "volume",
         "help"
       ],
-      "sourceHash": "e5e5264a2e010ac573726cc9fe2293c185d2fbb212e228efda6aa6d9932d773f"
+      "sourceHash": "4cb55a49135e85de69be59ab75294f9bc793c3dd081b1119bb7f13fd5cc555db"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "accepted_rate",
+        "label"
+      ],
+      "sourceHash": "4f18eadc75d14eb74855873509015b808c65f203c106bb0b930b259c91a4cd90"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "accepted_rate",
+        "help"
+      ],
+      "sourceHash": "53c784692d4624ff93d2536a2758a75697784ab0bd514fd49cf0bfe137ff8b63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "label"
+      ],
+      "sourceHash": "5bd0a69e139ca817fa379a3199bfb60aa79162688b5bf69ab63f222d94009ece"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "help"
+      ],
+      "sourceHash": "6d642dbc90d83a7597e4d27c689bf20e6186d4a54377aabfa110ba67749df3f5"
     },
     {
       "path": [
@@ -4324,7 +4577,7 @@
         "minutes",
         "label"
       ],
-      "sourceHash": "7673ab65155cc8d880e34e302604b1e8a67e552bb2683676e8ad5d552c5286cf"
+      "sourceHash": "7421cfa53739c9c32731c81dd1c49132ef8582d4cd276f209f10b428117fa183"
     },
     {
       "path": [
@@ -4335,7 +4588,7 @@
         "minutes",
         "help"
       ],
-      "sourceHash": "b6afa4484dfebc9858d83f1af9ef8d13ce5ddbbe7f1e7b129ae6e303a4eef378"
+      "sourceHash": "9b57d146e12c0874791015f440000d4cc6f2f23ddfb5d972fb474ee1c2265d01"
     },
     {
       "path": [
@@ -4346,7 +4599,7 @@
         "automation",
         "label"
       ],
-      "sourceHash": "d6f3be3cc6be73590769543b9350dc4663856fadda2d9c8e8543f21ba24109ea"
+      "sourceHash": "dfd6bb4af1a73e3c046599bdfea9513fd373b0a020c74817553e749fd72b8e8f"
     },
     {
       "path": [
@@ -4357,7 +4610,7 @@
         "automation",
         "help"
       ],
-      "sourceHash": "05f1831f66576c3a4eeb72414a9593de9e9708fa9d27f95efda372ff10436d96"
+      "sourceHash": "9269a49f9e44d665df413be6caad1b447312df88b93e6172d24cb55a39ecf582"
     },
     {
       "path": [
@@ -4368,7 +4621,7 @@
         "review",
         "label"
       ],
-      "sourceHash": "9ef2302497daa2ec32f31ec030d2fdb783a1022ae54ef0ddbe722731240d13e4"
+      "sourceHash": "ae8a97975dc90e46261d1b7d2acea15914cd0c273cbeff1401e9f9b3e6e31677"
     },
     {
       "path": [
@@ -4379,7 +4632,117 @@
         "review",
         "help"
       ],
-      "sourceHash": "6b4aa7630cf44fbcc43a1188234525de609999e11c860e80f958ee9584ef5cbd"
+      "sourceHash": "f69e69dcc082148cc556bbe3d9704f4c13575dbc4594704b0dd4e0b22db520da"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_rate_before",
+        "label"
+      ],
+      "sourceHash": "024739e9da6a284a775166fa7867fab6bff7c7a16ea87d92c296f389dab17c29"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_rate_before",
+        "help"
+      ],
+      "sourceHash": "a58b548431df7e6664aa76a25895ea7b75914fae76a16270aaf1dcd1dcb8de71"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_rate_after",
+        "label"
+      ],
+      "sourceHash": "ef8589cd2699f2e8a4d3e196a470161f845aa2118c94f006d30a7581ec86523b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_rate_after",
+        "help"
+      ],
+      "sourceHash": "b2fe2b28f935d59364ee6ac077636eae631cad6d2eb567daead224576cc4153f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_minutes_before",
+        "label"
+      ],
+      "sourceHash": "68affb5277ba225523ef14640830634a742ea26e5fb5272cc17ed0da1eab875f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_minutes_before",
+        "help"
+      ],
+      "sourceHash": "d0a88c270730b386eccb8710f9e9cf2acb00804703e4bee1aa24ebeb2dd9cb71"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_minutes_after",
+        "label"
+      ],
+      "sourceHash": "13d60a70af49e589a8e8c67dd60429c0b8ed4fc4648ff2ecdf09ae298a9f4770"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "correction_minutes_after",
+        "help"
+      ],
+      "sourceHash": "e25826652bbeea1ae27a3ac6f7ea0d04b9866013fc0feb15209138e69f9ccfcd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cycles_per_unit",
+        "label"
+      ],
+      "sourceHash": "50ae3179cff21cf825b3980719fd56953da321da210f2ece4a4e260d8f452259"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cycles_per_unit",
+        "help"
+      ],
+      "sourceHash": "10da77417bec885daf5ad209507c2316d7049ed357fc4298c267d8aa4fcbc585"
     },
     {
       "path": [
@@ -4390,7 +4753,7 @@
         "tokens_per_output",
         "label"
       ],
-      "sourceHash": "8b589a589edd97cfa0c42c148389ddd943f37d9c15a9d0be4a2147d9b1da7336"
+      "sourceHash": "f527d50490f17293defc65db8b5a941f82d06781a9efcc83bbbf47a8fade36ed"
     },
     {
       "path": [
@@ -4401,7 +4764,7 @@
         "tokens_per_output",
         "help"
       ],
-      "sourceHash": "a6433c98ef114a68ab0b35066392179213c68c1d1792440c91c615f21cce96e3"
+      "sourceHash": "5cf3a8000374595c166cb3fac689be4081dde3368fbeda8a1556a8d75c52cdca"
     },
     {
       "path": [
@@ -4434,7 +4797,7 @@
         "model_cost",
         "label"
       ],
-      "sourceHash": "4cbf19de701f916588d09ac7802d4dac9d85661bbb1570eeff3f8b560b9e70c3"
+      "sourceHash": "43b23b2f537f0b1ebaff1c19a2691d41efb87dc1dee11f2e4b24a550f1196bb2"
     },
     {
       "path": [
@@ -4445,7 +4808,7 @@
         "model_cost",
         "help"
       ],
-      "sourceHash": "d17f42fcad6f1f4c53b3a03323e250b8a5f72af755dfe842b402496953cb57d7"
+      "sourceHash": "83bdb984467288cc5cd38c5335941a582de2f6bd82efc2b2d0c999a00c2a41db"
     },
     {
       "path": [
@@ -4500,7 +4863,7 @@
         "platform_cost",
         "label"
       ],
-      "sourceHash": "a6fcdd0b18bc1948c3d24b297f450e4a3e2c5067229cdd3e11bc43d89f8867b9"
+      "sourceHash": "879bc5433e23785c45e1fa0a349f108a6ad79fb35677603499c5a2b476e716fa"
     },
     {
       "path": [
@@ -4511,7 +4874,161 @@
         "platform_cost",
         "help"
       ],
-      "sourceHash": "6e9cc2bd308b9760c3e8c2fe9e311a11d6e100bd3c60f5c4763640168e8a1422"
+      "sourceHash": "d9e0ea9472566cefb05632557f2d4f35cd8cb8742e1e577ca3aa9202c4cb7d9d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "customer_price",
+        "label"
+      ],
+      "sourceHash": "97b02b47e7bc03671388c64a20096bf354c5f0ac4498cefe8c82ed3cb53506e3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "customer_price",
+        "help"
+      ],
+      "sourceHash": "e62f16ecf1369a7e0bb829cb27602784b6266fd2d7883bb0be96ab7b022da435"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "personal_value_per_hour",
+        "label"
+      ],
+      "sourceHash": "201c99a96bf2891da28703d1cdbd1fce65358f8fabd2e4516307e3712b2b3049"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "personal_value_per_hour",
+        "help"
+      ],
+      "sourceHash": "b48b72c5bcda4125000fc27e552c7de5c9f1d93ee39f88ff6e29a7e83081a8f7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "capacity_value_per_hour",
+        "label"
+      ],
+      "sourceHash": "e58e1f23acef14668f5aacfd09e6a12d9f09b4c9c9745b7403d191b54763fdc5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "capacity_value_per_hour",
+        "help"
+      ],
+      "sourceHash": "7319e1a19fd0fdbdd4d98c713751ab92704c0e46907234a98793dd1451bf4cdf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "included_volume",
+        "label"
+      ],
+      "sourceHash": "54690d8412c5b4c4bd2f96b104e11cbff3e679530a180a05e9f84bf0825eb624"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "included_volume",
+        "help"
+      ],
+      "sourceHash": "3e3456db004b874b4853d003e8c78d95f839df4fa61b1530a15a2f565378c617"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "overage_price",
+        "label"
+      ],
+      "sourceHash": "d803fb1bc3c703471f6de1faa4a52415e961ef203701f02b6151ea785e2c9023"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "overage_price",
+        "help"
+      ],
+      "sourceHash": "9b91b49ec6771a319788be8695bb2fb48e7ed05cb1d2246037e68cabbcf883e3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "setup_fee",
+        "label"
+      ],
+      "sourceHash": "44f51a93a9981030871d73dbb1efde63a652bd623bbe12039df13f0c189352f7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "setup_fee",
+        "help"
+      ],
+      "sourceHash": "da8b04a0cfaac28c60b16c9bc2a9f261a160f83c81eb52e28628a396d8f5e07a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "contract_months",
+        "label"
+      ],
+      "sourceHash": "8d1ce235a34946327d8322aa983e3d556e0665cd6b7538fdad4de9095c0a50a1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "contract_months",
+        "help"
+      ],
+      "sourceHash": "b5511feba21d8c34167539190c6f6fd367a01112602a1d3e72f64596c1fb83a1"
     },
     {
       "path": [
@@ -4544,7 +5061,7 @@
         "cash_hours",
         "label"
       ],
-      "sourceHash": "ab221066c4f04ad1a6b2a59c7693b3ff6d6bd360c65a63d87d338f3eba227755"
+      "sourceHash": "c65d54fcbcf2e5ca359b09ea88b04e17a83da27487c07f5b344e4d551c4fd6e2"
     },
     {
       "path": [
@@ -4555,7 +5072,7 @@
         "cash_hours",
         "help"
       ],
-      "sourceHash": "c9b7bfa0d9acaa2e41bcc75ab22dfbbc15b72bda449c7089d2adb77c430e1f7a"
+      "sourceHash": "483d0c1854af94d17a27cc9b5427f0b528fd5ee2909ef0e0781c378c1e8ad4dd"
     },
     {
       "path": [
@@ -4566,7 +5083,7 @@
         "cash_baseline",
         "label"
       ],
-      "sourceHash": "662c3f43ead66c852189cff9fa6bf8bf52cc1ab9a6323f9694924d9d19274340"
+      "sourceHash": "cb4a773fa944d1d8dcf30a9f4362ca0f4d5512365da9a0c8073cd9294bef6e84"
     },
     {
       "path": [
@@ -4577,7 +5094,7 @@
         "cash_baseline",
         "help"
       ],
-      "sourceHash": "04c6b54c40cc8edd44cab7c7d4abda646556b7b6d4473789ad4a952dac037b09"
+      "sourceHash": "cc457eb129fb504b6378004a000ebfecfc3971328cc9855f0a23088e51eb293b"
     },
     {
       "path": [
@@ -4588,7 +5105,7 @@
         "cash_avoided",
         "label"
       ],
-      "sourceHash": "21e4a2901a4a079b9a5612eb7f2afec39c612df9d63dbdb2a5541144bf890e09"
+      "sourceHash": "114ce84dca9c5aba79821cbebd9bad1d5899d7dfa07f28923a929aa350f5eb2d"
     },
     {
       "path": [
@@ -4599,7 +5116,7 @@
         "cash_avoided",
         "help"
       ],
-      "sourceHash": "14e141ec711044dbfc07c757f44678f36ecad568d96735cf13e08b0b28bfc472"
+      "sourceHash": "e0df9d01d1d27973a2cbfeb46819b40945de384659e75327be5b95c1f44f8f0c"
     },
     {
       "path": [
@@ -4610,7 +5127,7 @@
         "higher_value_hours",
         "label"
       ],
-      "sourceHash": "46923e9bab7585a0a707ef6f578224747f52068682ad80e0df0f3b581262ca81"
+      "sourceHash": "6b0aeebdbeeaaba7a52a3194724f219de19b34233859fc267716db3c77cbaee6"
     },
     {
       "path": [
@@ -4621,7 +5138,7 @@
         "higher_value_hours",
         "help"
       ],
-      "sourceHash": "0ed0c2b8eaa36fa6537cd3779945817c8d778e4b967a9bd19407a2294c3b009a"
+      "sourceHash": "35f545987cb05f88586866712c3e7afe61f23538e0970e3c251ed6d6bd6495e5"
     },
     {
       "path": [
@@ -4632,7 +5149,7 @@
         "contribution_rate",
         "label"
       ],
-      "sourceHash": "64d6bcec4f277ffdfe39dfc97a39eaf22c6b0ab66c50d9bd07c114dcd367a17d"
+      "sourceHash": "3c3273494c357b1e8411e3a2a550fa85ac4dcfa4f9b4c37c9e21b7dfc89d270a"
     },
     {
       "path": [
@@ -4643,7 +5160,7 @@
         "contribution_rate",
         "help"
       ],
-      "sourceHash": "74d778e05d5e1a5ac08650c414a1778ef0f29efece8c3db409c536d164e95853"
+      "sourceHash": "de0758a20af28301aa9cbbf3013592cade2590c3915c8d7dace3d54c33c169d4"
     },
     {
       "path": [
@@ -4983,7 +5500,7 @@
         "burden",
         0
       ],
-      "sourceHash": "ebcce02803aa1ab8e72e039f6c28bda418f57e25cbe9972a4e4459f24b3e9893"
+      "sourceHash": "21b0e5c7eb8227a7014de94b372dd50bb118b908f6fd4ed0abcab686e52e77f6"
     },
     {
       "path": [
@@ -4993,7 +5510,7 @@
         "burden",
         1
       ],
-      "sourceHash": "8addf99cb4a661c905a816715a9fa4844219da90aa622f553d73635df03237bd"
+      "sourceHash": "c727be1870175c062957c685641919bf48d2420a7f28ad311078589c42f5e166"
     },
     {
       "path": [
@@ -5003,7 +5520,7 @@
         "opportunity",
         0
       ],
-      "sourceHash": "9bde215e4b4d24506d39f036f7db795f6ccd19cdb8e50de50107a2142f88dbc0"
+      "sourceHash": "b8acf15ace93917b570c3795e3b490ea716f24a111747791348f92a876aa4577"
     },
     {
       "path": [
@@ -5013,16 +5530,7 @@
         "opportunity",
         1
       ],
-      "sourceHash": "9a8fdf0ee641082d3fcdbad2c8fc8a5de66ead01889ba6c28e6541f074e5140d"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
+      "sourceHash": "32e13ec2e64b9e970d7e67a39e8a72a5185b501d613b71e97c77f8ffbb278f0c"
     },
     {
       "path": [
@@ -5047,20 +5555,10 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "hero",
         "label"
       ],
-      "sourceHash": "e5f6d7eb8b874426aa8ec8e1fcf6d73fe90ed2abab560f583b394bc3dc2a53e2"
+      "sourceHash": "e293e0a87fb822bd2f8d5b8d6e8abdbea89df8de0c846876e6a93ed4b6163862"
     },
     {
       "path": [
@@ -5071,7 +5569,7 @@
         0,
         "label"
       ],
-      "sourceHash": "e0226ed2a9f17b94744d27ff884b1f21b700d1168b9a3128a9c4704fe68d9f6a"
+      "sourceHash": "8215cc5e9abd32f9ad52365c3aa71c721f347b2adfcfd9335789e364e9e39e7b"
     },
     {
       "path": [
@@ -5082,7 +5580,57 @@
         0,
         "help"
       ],
-      "sourceHash": "79c86b9247fd18c393a2c67ce6f288b3f873f279a3c3e83692e3691f23064f49"
+      "sourceHash": "f0836112a234243b3623874741cfcd4a439633d46733a0a00c2dea4b167772ba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "pricing",
+        "basis"
+      ],
+      "sourceHash": "6e1740b4bc5aa0bded03968d08cc3dfba099db200205b94cc6bce0cb803adace"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "pricing",
+        "label"
+      ],
+      "sourceHash": "373dd7a457ac1abd4ada24fbdbd81b885f35a16e00f647de293d92c603b46e04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "pricing",
+        "help"
+      ],
+      "sourceHash": "aeca9cc494cd3918df0144b744820a45ec0ace9fe4f88dfc2c0f339fc7d00d0d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "presentation",
+        "financial"
+      ],
+      "sourceHash": "d0a3630555bbec7fc05a98d311c23b00fd1ab4d8296ac4a4125976d80b6a6959"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "presentation",
+        "costFocus"
+      ],
+      "sourceHash": "b6c45863875e34487ca3c155ed145efe12a74581e27befec5aa661b8ee8ca6dd"
     },
     {
       "path": [
@@ -5093,7 +5641,7 @@
         0,
         "label"
       ],
-      "sourceHash": "3dda7d25603eb59ee0a506571e61a95788afe254b4a13831d6c01e8e724a9d95"
+      "sourceHash": "f9fdd0948415cbb0ab57b4a80567d3617e59f2e5a3351719439cbc337b47bbad"
     },
     {
       "path": [
@@ -5104,7 +5652,7 @@
         0,
         "intro"
       ],
-      "sourceHash": "f850fa6c57fabb466d298ffab9859a1fb26d999a8f67da63940c73085f75ee04"
+      "sourceHash": "5b9c098bf88d9ed4c4762ac69d0c1750c9adf34a1947ce07b7b3c6faaa009148"
     },
     {
       "path": [
@@ -5163,7 +5711,7 @@
         1,
         "label"
       ],
-      "sourceHash": "67908a8d41024d69be93738c7d7eea6068b329355ab9c2d374f189f2bb5da700"
+      "sourceHash": "83d6b3848ab13c7b8064fe9b65533ae6dbb74e2a0a607f09386d99d0098f361f"
     },
     {
       "path": [
@@ -5174,7 +5722,7 @@
         1,
         "intro"
       ],
-      "sourceHash": "ebee821dac8c8339f5c7b412f7c3146fca86eb736c46510051baa31718b52e8c"
+      "sourceHash": "a756a67c789c1f4ec2dca75bab47b07fecc7611a0af4fec6886ef63172c4c2b1"
     },
     {
       "path": [
@@ -5186,7 +5734,7 @@
         "fields",
         0
       ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
+      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -5198,7 +5746,7 @@
         "fields",
         1
       ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
+      "sourceHash": "df282afad8dd7b18461e1b563afb1a1c0049cbdee6ead3db585f2f08baa79e87"
     },
     {
       "path": [
@@ -5210,7 +5758,7 @@
         "fields",
         2
       ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
+      "sourceHash": "e8f900f1e1078841a0a01560a0debdf7085bd1b031cbf8eb8dae1ea10ebc5c9d"
     },
     {
       "path": [
@@ -5222,7 +5770,19 @@
         "fields",
         3
       ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
+      "sourceHash": "869b1c0e9609ffa2104041b854646e06a125d92d3ce397351f4bdee747e84c98"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "tabs",
+        1,
+        "fields",
+        4
+      ],
+      "sourceHash": "a89d8be684a7efe879e74f45e7b419e8781c143d9ca96ae624e7d32bf9d1e7c9"
     },
     {
       "path": [
@@ -5233,7 +5793,7 @@
         2,
         "label"
       ],
-      "sourceHash": "b899ce310655c2fa95cc3d3827bb524fedf800939e418c8b0fe8967902e8e33f"
+      "sourceHash": "b576120e55cd34ab83cfcc80f4168ca6576a1257605ee8b37dcf35365bf58222"
     },
     {
       "path": [
@@ -5244,7 +5804,67 @@
         2,
         "intro"
       ],
-      "sourceHash": "f056ee053f506ceba801c525787d56dba9f54bef00ec42a4bb1836b00d3a373d"
+      "sourceHash": "573853ad542e80824d714b7f97fa9468a9e85da23e171c49d3494e340f4ba74b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "tabs",
+        2,
+        "fields",
+        0
+      ],
+      "sourceHash": "6220d4a75840edae94025de5fcb88d4e1f39d030ae56e5c0681d275633d7218f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "tabs",
+        2,
+        "fields",
+        1
+      ],
+      "sourceHash": "fb0c0e8dbbdd2310d5082a182b18ab9646a628c475b03f8af147c6a06a3d4bd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "tabs",
+        2,
+        "fields",
+        2
+      ],
+      "sourceHash": "48b0c9221e981c273e297c0fcd056e719041585b00dfe4097e26313c62b7cca9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "tabs",
+        2,
+        "fields",
+        3
+      ],
+      "sourceHash": "23208db8a7dda685081aa2604e784c839bea0cb5ec9331e5c4f15e01c5d3062c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "tabs",
+        2,
+        "fields",
+        4
+      ],
+      "sourceHash": "6851e5a36f1ba4c730cc0813a2badb735520d0f98d1d1222a578b054d9845de9"
     },
     {
       "path": [
@@ -5274,5 +5894,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-02T11:39:13.961Z"
+  "generatedAt": "2026-09-10T09:38:14.113Z"
 }

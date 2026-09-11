@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "zh",
   "regionKey": null,
-  "sourceRevision": "afe18f214fa7c84949cac4db99e572f90ab8f0356e75924e9774ddf8e5d37724",
+  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
   "landingPage": {
     "headline": "您的物流堆栈在门户上停止。 埃米尔继续前进。",
     "subheadline": "您的 TMS 持有货物。 然后有人打开 Portbase、DMS、NCTS 或运营商电子预订屏幕，并再次手动输入。 另一边没有 API 等待，而且大多数人永远不会有 API。 Emil 将您的 TMS 中批准的装运数据传输到这些门户中。 它首先对您真实环境的副本进行整个运行排练，向您的声明人显示它将要进入的确切内容，并且在他们批准之前什么都不做。",
@@ -628,7 +628,7 @@
           "cash_avoided": null
         },
         "copy": {
-          "navLabel": "DMS ROI",
+          "navLabel": "定价",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",
@@ -3650,7 +3650,7 @@
         "copy",
         "navLabel"
       ],
-      "sourceHash": "7a7eaeccadeb40a8d3169e579d243015daef5905012e14ce75e5cd68a3f96199"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -5894,5 +5894,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-10T09:38:14.113Z"
+  "generatedAt": "2026-09-11T05:32:23.145Z"
 }

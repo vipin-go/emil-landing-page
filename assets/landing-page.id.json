@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "id",
   "regionKey": null,
-  "sourceRevision": "afe18f214fa7c84949cac4db99e572f90ab8f0356e75924e9774ddf8e5d37724",
+  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
   "landingPage": {
     "headline": "Tumpukan logistik Anda berhenti di portal. Emil terus berjalan.",
     "subheadline": "TMS Anda menyimpan kiriman. Kemudian seseorang membuka portbase, atau DMS, atau NCTS, atau layar eBooking operator, dan memasukkannya lagi dengan tangan. Tidak ada API yang menunggu di sisi lain, dan tidak akan pernah ada untuk sebagian besar dari mereka. Emil membawa data pengiriman yang disetujui dari TMS Anda ke portal tersebut. Ini melatih seluruh proses terlebih dahulu terhadap salinan lingkungan Anda yang sebenarnya, menunjukkan kepada pemberi pernyataan Anda dengan tepat apa yang akan dimasukkan, dan tidak melakukan apa pun sampai mereka menyetujuinya.",
@@ -628,7 +628,7 @@
           "cash_avoided": null
         },
         "copy": {
-          "navLabel": "DMS ROI",
+          "navLabel": "Kalkulasi harga",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",
@@ -3650,7 +3650,7 @@
         "copy",
         "navLabel"
       ],
-      "sourceHash": "7a7eaeccadeb40a8d3169e579d243015daef5905012e14ce75e5cd68a3f96199"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -5894,5 +5894,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-10T09:38:14.113Z"
+  "generatedAt": "2026-09-11T05:32:23.145Z"
 }

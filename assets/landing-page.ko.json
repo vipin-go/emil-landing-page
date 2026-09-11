@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "afe18f214fa7c84949cac4db99e572f90ab8f0356e75924e9774ddf8e5d37724",
+  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
   "landingPage": {
     "headline": "물류 스택이 포털에서 중지됩니다. 에밀은 계속됩니다.",
     "subheadline": "귀하의 TMS가 배송을 보유하고 있습니다. 그런 다음 누군가 Portbase, DMS, NCT 또는 Carrier eBooking 화면을 열고 다시 손으로 키를 입력합니다. 반대편에는 API가 대기하지 않으며 대부분의 API는 없을 것입니다. Emil은 TMS의 승인된 배송 데이터를 해당 포털로 전달합니다. 실제 환경의 사본에 대해 먼저 전체 실행을 리허설하고, 선언자에게 입력하려는 내용을 정확히 보여주고 승인할 때까지 아무 것도 하지 않습니다.",
@@ -628,7 +628,7 @@
           "cash_avoided": null
         },
         "copy": {
-          "navLabel": "DMS ROI",
+          "navLabel": "가격",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",
@@ -3650,7 +3650,7 @@
         "copy",
         "navLabel"
       ],
-      "sourceHash": "7a7eaeccadeb40a8d3169e579d243015daef5905012e14ce75e5cd68a3f96199"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -5894,5 +5894,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-10T09:38:14.113Z"
+  "generatedAt": "2026-09-11T05:32:23.145Z"
 }

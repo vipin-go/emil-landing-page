@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "vi",
   "regionKey": null,
-  "sourceRevision": "afe18f214fa7c84949cac4db99e572f90ab8f0356e75924e9774ddf8e5d37724",
+  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
   "landingPage": {
     "headline": "Ngăn xếp hậu cần của bạn dừng ở cổng thông tin. Emil tiếp tục đi.",
     "subheadline": "TMS của bạn giữ lô hàng. Sau đó, ai đó mở Portbase, hoặc DMS, hoặc NCTs, hoặc màn hình ebooking của nhà cung cấp dịch vụ và nhập lại bằng tay. Không có API đang chờ ở phía bên kia, và sẽ không bao giờ có cho hầu hết chúng. Emil mang dữ liệu lô hàng được phê duyệt từ TMS của bạn vào các cổng đó. Nó diễn tập toàn bộ quá trình chạy trước một bản sao của môi trường thực của bạn, cho người khai báo của bạn chính xác những gì nó sắp nhập và không làm gì cho đến khi họ chấp thuận nó.",
@@ -628,7 +628,7 @@
           "cash_avoided": null
         },
         "copy": {
-          "navLabel": "DMS ROI",
+          "navLabel": "Giá",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",
@@ -3650,7 +3650,7 @@
         "copy",
         "navLabel"
       ],
-      "sourceHash": "7a7eaeccadeb40a8d3169e579d243015daef5905012e14ce75e5cd68a3f96199"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -5894,5 +5894,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-10T09:38:14.113Z"
+  "generatedAt": "2026-09-11T05:32:23.145Z"
 }

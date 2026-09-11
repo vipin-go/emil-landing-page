@@ -627,7 +627,7 @@
           "cash_avoided": null
         },
         "copy": {
-          "navLabel": "DMS ROI",
+          "navLabel": "Pricing",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",

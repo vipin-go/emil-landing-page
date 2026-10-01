@@ -100,7 +100,7 @@
     },
     "logisticsPortal": {
       "header": {
-        "brandLabel": "埃米尔",
+        "brandLabel": "EMIL",
         "brandSuffix": "海关和承运人门户运营",
         "logoImage": "/landing-pages/emil/icon.svg",
         "navItems": [
@@ -570,7 +570,7 @@
         ]
       },
       "footer": {
-        "brandLabel": "埃米尔",
+        "brandLabel": "EMIL",
         "brandSuffix": "海关和承运人门户运营",
         "tagline": "您的物流堆栈停在门户处。 Emil 继续。",
         "copyright": "© 2026 Emil"
@@ -5737,5 +5737,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T12:38:38.691Z"
+  "generatedAt": "2026-10-01T16:11:52.624Z"
 }

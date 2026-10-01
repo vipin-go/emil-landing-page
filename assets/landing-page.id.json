@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "id",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "d544c363aadf607dae9471600e5b93352b2ae9c5a92f3f3d396b04ffa7640b6b",
   "landingPage": {
     "headline": "Tumpukan logistik Anda berhenti di portal. Emil terus berjalan.",
     "subheadline": "TMS Anda menyimpan kiriman. Kemudian seseorang membuka portbase, atau DMS, atau NCTS, atau layar eBooking operator, dan memasukkannya lagi dengan tangan. Tidak ada API yang menunggu di sisi lain, dan tidak akan pernah ada untuk sebagian besar dari mereka. Emil membawa data pengiriman yang disetujui dari TMS Anda ke portal tersebut. Ini melatih seluruh proses terlebih dahulu terhadap salinan lingkungan Anda yang sebenarnya, menunjukkan kepada pemberi pernyataan Anda dengan tepat apa yang akan dimasukkan, dan tidak melakukan apa pun sampai mereka menyetujuinya.",
@@ -147,7 +147,7 @@
           "roleLabel": "Operasi Portal Bea Cukai dan Operator",
           "statusLabel": "ONLINE",
           "openingMessage": "Hai, saya Emil. Beri saya catatan pengiriman yang disetujui dan saya akan melatih pekerjaan portal sebelum sesuatu dikirimkan.",
-          "inputPlaceholder": "Tanyakan kepada emil tentang pekerjaan portal…",
+          "inputPlaceholder": "Tanyakan Emil tentang pekerjaan portal…",
           "suggestions": [
             "melatih pengarsipan",
             "Periksa pemesanan",
@@ -469,7 +469,7 @@
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
             "alt": "Operator Memantau eksekusi portal yang disetujui",
             "title": "Menjalankan",
-            "body": "Perform only the approved browser steps, nothing outside scope."
+            "body": "Lakukan hanya langkah-langkah browser yang disetujui, tidak ada yang di luar cakupan."
           },
           {
             "number": "06",
@@ -580,24 +580,24 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "What could DMS rehearsal return to your desk?",
-      "subheading": "Model one Dutch DMS 4.0 import workflow. Emil prepares and checks a review-ready packet; your authorised declarant still reviews and submits.",
-      "disclaimer": "Customer-provided and modeled estimates, not observed results or guaranteed savings. Emil does not submit, act as a declarant or customs broker, hold EORI or eHerkenning credentials, or guarantee DMS acceptance or compliance.",
+      "heading": "Latihan DMS apa yang bisa dikembalikan ke meja Anda?",
+      "subheading": "Alur kerja impor DMS 4.0 Belanda model satu. Emil menyiapkan dan memeriksa paket yang siap ditinjau; pemberi pernyataan resmi Anda masih meninjau dan menyerahkan.",
+      "disclaimer": "Perkiraan yang disediakan dan dimodelkan oleh pelanggan, bukan hasil yang diamati atau jaminan penghematan. Emil tidak menyerahkan, bertindak sebagai pemberi pernyataan atau perantara bea cukai, memegang kredensial EORI atau eHerkenning, atau menjamin penerimaan atau kepatuhan DMS.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Konversi mata uang bukanlah penelitian biaya lokal. Masukkan asumsi biaya dan kontribusi lokal Anda sendiri. Perubahan bahasa tidak mengubah jumlah."
       },
       "costCopy": {
-        "breakdown": "How your Emil price is built",
+        "breakdown": "Bagaimana harga Emil Anda dibuat",
         "perUnit": "{amount} per declaration (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Ini adalah total anggaran Anda. Beralih ke Perincian biaya untuk memerincinya; tidak ada perpecahan yang diasumsikan.",
+        "benefitNotice": "Manfaat sesuai model, bukan biaya. Jumlah yang dicoret adalah pengeluaran yang ingin Anda hindari, bukan diskon pada tagihan AI.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic payroll savings. Add a monetary value only when it is supported by your own operating data."
+        "allocation": "Jam kerja yang dikembalikan adalah kapasitas, bukan penghematan gaji otomatis. Tambahkan nilai moneter hanya jika didukung oleh data operasional Anda sendiri."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -625,17 +625,19 @@
           "platform_cost": null,
           "cash_hours": null,
           "cash_baseline": null,
-          "cash_avoided": null
+          "cash_avoided": null,
+          "higher_value_hours": 12,
+          "contribution_rate": 250
         },
         "copy": {
           "navLabel": "Kalkulasi harga",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",
-          "workloadIntro": "Enter one customer workflow. Emil prepares a review-ready packet; the authorised declarant still reviews and submits.",
-          "costIntro": "Customer pricing is based on the workflow and review-ready declaration volume. Tokens remain an internal delivery-cost input.",
-          "valueIntro": "Add customer evidence for correction work and specialist capacity. Incomplete correction data is not treated as zero.",
-          "sampleNotice": "Customer inputs required · no benchmark assumed",
+          "workloadIntro": "Masukkan satu alur kerja pelanggan. Emil menyiapkan paket siap ditinjau; pemberi pernyataan yang berwenang masih meninjau dan menyerahkan.",
+          "costIntro": "Penetapan harga pelanggan didasarkan pada alur kerja dan volume deklarasi yang siap ditinjau. Token tetap menjadi masukan biaya pengiriman internal.",
+          "valueIntro": "Tambahkan bukti pelanggan untuk pekerjaan koreksi dan kapasitas spesialis. Data koreksi yang tidak lengkap tidak diperlakukan sebagai nol.",
+          "sampleNotice": "Masukan pelanggan diperlukan · tidak ada asumsi patokan",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -645,7 +647,7 @@
           "volume": "Declarations modeled",
           "grossHours": "Preparation hours reduced",
           "capacity": "Net preparation capacity returned",
-          "retained": "Capacity not allocated to paid-cost reduction",
+          "retained": "Kapasitas tidak dialokasikan untuk pengurangan biaya berbayar",
           "hours": "hours",
           "days": "days",
           "percent": "%",
@@ -660,251 +662,251 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Tinjauan tim yang ada menggunakan kapasitas yang dikembalikan. Tambahan tinjauan berbayar sudah termasuk dalam biaya operasional, tidak dipotong lagi dari kapasitas tim.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "Anggaran harus mencakup model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan. Jangan sertakan gaji yang tidak berubah sebagai pengeluaran baru.",
+          "itemizedNote": "Penggunaan token dihitung dari volume × token per output. Media, peralatan, dan infrastruktur tambahan tidak akan ada kecuali jika diterapkan. Tambahan ulasan berbayar dihitung dari jam ulasan dan tarifnya.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Internal delivery cost",
           "missing": "Add your assumptions",
-          "currentPreparation": "Current preparation hours",
-          "reviewHours": "Human review hours",
-          "reworkHours": "Avoided or added rework hours",
-          "capacityValue": "Modeled capacity value",
-          "acceptedUnits": "Accepted units",
-          "attendedUnits": "Attended units",
-          "costPerAttended": "Cost per attended unit",
+          "currentPreparation": "Jam persiapan saat ini",
+          "reviewHours": "Jam Tinjauan Manusia",
+          "reworkHours": "Menghindari atau menambahkan jam pengerjaan ulang",
+          "capacityValue": "Nilai kapasitas yang dimodelkan",
+          "acceptedUnits": "unit yang diterima",
+          "attendedUnits": "unit yang dihadiri",
+          "costPerAttended": "Biaya per unit yang dihadiri",
           "cashValue": "Cash spending avoided",
           "contribution": "Expected contribution",
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled customer economic benefit",
           "netBenefit": "Net customer benefit",
-          "multiple": "Benefit-cost multiple",
+          "multiple": "Manfaat-biaya kelipatan",
           "customerBenefit": "Modeled customer economic benefit",
-          "customerRoi": "Customer ROI",
-          "benefitCost": "Benefit-cost multiple",
+          "customerRoi": "ROI pelanggan",
+          "benefitCost": "Manfaat-biaya kelipatan",
           "firstYearCost": "First-year Emil price",
-          "firstYearRoi": "First-year ROI",
-          "payback": "Setup-fee payback",
-          "paybackOutsideTerm": "Not recovered within the modeled term",
+          "firstYearRoi": "ROI tahun pertama",
+          "payback": "Pembayaran biaya pengaturan",
+          "paybackOutsideTerm": "Tidak dipulihkan dalam istilah yang dimodelkan",
           "months": "months",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Asumsi bulanan yang sama, tanpa pertumbuhan atau penambahan. Tabungan sewa hanya berlaku untuk periode yang dimasukkan.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Preparation capacity equals eligible declarations × current preparation minutes × Emil’s assisted share, minus human review. Complete correction inputs add the difference between current and Emil-assisted rework. Monetary benefit uses only the supported specialist value and any distinct paid cost that actually stops.",
-          "formulaLabel": "Benefit-cost multiple equals customer benefit divided by Emil price. ROI equals benefit minus price, divided by price. First-year cost includes the setup fee once.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "The paid cost avoided is separate from the capacity value and is not counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed the paid-cost assumptions and excluded amounts already counted as capacity value.",
+          "methodBody": "Kapasitas persiapan sama dengan deklarasi yang memenuhi syarat × notulen persiapan saat ini × Emil bagian bantuan, dikurangi tinjauan manusia. Input koreksi lengkap menambahkan perbedaan antara pengerjaan ulang saat ini dan pengerjaan ulang yang dibantu Emil. Manfaat moneter hanya menggunakan nilai spesialis yang didukung dan biaya berbayar tertentu yang benar-benar berhenti.",
+          "formulaLabel": "Kelipatan manfaat-biaya sama dengan manfaat pelanggan dibagi harga Emil. ROI sama dengan manfaat dikurangi harga, dibagi harga. Biaya tahun pertama sudah termasuk biaya setup satu kali.",
+          "allocationNote": "Setiap jam dapat dialokasikan satu kali. Jam yang tidak dialokasikan tetap merupakan kapasitas, tanpa nilai uang.",
+          "overlapLabel": "Biaya yang dibayarkan untuk dihindari terpisah dari nilai kapasitas dan tidak dihitung di tempat lain.",
+          "overlapNote": "Perkiraan kesalahan dan risiko tidak termasuk penghematan tenaga kerja dan insiden yang sama tidak boleh muncul di kedua kategori. Kontribusi tidak termasuk biaya AI, yang dipotong secara terpisah.",
+          "hiringLabel": "Penyewaan ini benar-benar direncanakan dan kapasitas yang dialokasikan dapat menutupi pekerjaan tersebut.",
+          "reviewedLabel": "Saya telah meninjau asumsi biaya yang dibayarkan dan jumlah yang dikecualikan sudah dihitung sebagai nilai kapasitas.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Enter the required customer workload and specialist-value assumptions to calculate ROI.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "Pekerjaan tambahan didukung oleh kapasitas dan permintaan",
+          "assumptionsIncomplete": "Masukkan beban kerja pelanggan yang diperlukan dan asumsi nilai spesialis untuk menghitung ROI.",
+          "allocationError": "Jam yang dialokasikan melebihi kapasitas bersih yang tersedia. Kurangi alokasinya.",
+          "reviewError": "Peninjauan membutuhkan lebih banyak waktu daripada pengurangan pekerjaan. Tidak ada kapasitas positif yang tersedia pada asumsi ini.",
+          "cashError": "Pengeluaran yang dihindari tidak boleh melebihi pengeluaran saat ini atau mempunyai nilai positif tanpa alokasi jam kerja.",
+          "hiringError": "Kapasitas yang dialokasikan harus mencakup jam kerja yang direncanakan. Konfirmasikan rencana sewa dan durasinya.",
+          "riskError": "Probabilitas setelahnya tidak boleh melebihi probabilitas sebelum untuk estimasi pengurangan kerugian.",
+          "overlapError": "Pastikan manfaatnya tidak tumpang tindih sebelum memasukkannya ke dalam hasil keuangan.",
+          "boundsError": "Gunakan nilai dalam batas yang ditampilkan.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
+          "noCurrencyChange": "Bahasa mengubah format, bukan mata uang atau asumsi Anda."
         },
         "fields": {
           "volume": {
-            "label": "Eligible DMS import declarations per month",
-            "help": "Count declarations in the selected H1 import workflow that Emil could rehearse. Do not include other portals or customs processes."
+            "label": "Deklarasi impor DMS yang memenuhi syarat per bulan",
+            "help": "Hitung deklarasi dalam alur kerja impor H1 terpilih yang dapat dilatih oleh Emil. Jangan sertakan portal atau proses bea cukai lainnya."
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "Bagian model opsional dari keluaran yang disiapkan diterima oleh penerima. Ini bukan jaminan atau hasil yang dapat diamati."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Bagian model dari pertemuan yang diterima diharapkan akan terjadi. Gantikan ini dengan catatan peristiwa terverifikasi setelah uji coba."
           },
           "minutes": {
-            "label": "Current preparation minutes per declaration",
-            "help": "Use a time study for hands-on preparation before review, correction or live submission."
+            "label": "Risalah persiapan saat ini per deklarasi",
+            "help": "Gunakan studi waktu untuk persiapan langsung sebelum peninjauan, koreksi, atau penyerahan langsung."
           },
           "automation": {
-            "label": "Share of preparation minutes Emil performs",
-            "help": "Enter a customer assumption or observed pilot result. This is a share of preparation time, not a submission or acceptance rate."
+            "label": "Bagian menit persiapan Emil tampil",
+            "help": "Masukkan asumsi pelanggan atau hasil uji coba yang diamati. Ini adalah pembagian waktu persiapan, bukan tingkat penyerahan atau penerimaan."
           },
           "review": {
-            "label": "Human review minutes per rehearsed declaration",
-            "help": "Time the authorised declarant needs to inspect Emil’s packet before submitting through existing customs software."
+            "label": "Risalah peninjauan manusia per deklarasi yang dilatih",
+            "help": "Waktu yang dibutuhkan pemberi pernyataan yang berwenang untuk memeriksa paket Emil sebelum diserahkan melalui perangkat lunak bea cukai yang ada."
           },
           "correction_rate_before": {
             "label": "Current DMS correction rate",
-            "help": "Share of eligible declarations that currently require a correction or rework cycle. Leave blank until measured."
+            "help": "Bagian dari deklarasi yang memenuhi syarat yang saat ini memerlukan siklus koreksi atau pengerjaan ulang. Biarkan kosong sampai diukur."
           },
           "correction_rate_after": {
             "label": "Correction rate with Emil",
-            "help": "Observed or explicitly modeled share requiring correction after Emil. Leave blank until supported."
+            "help": "Bagian yang diamati atau dimodelkan secara eksplisit memerlukan koreksi setelah Emil. Biarkan kosong hingga didukung."
           },
           "correction_minutes_before": {
             "label": "Current minutes per correction",
-            "help": "Hands-on specialist time for one current correction cycle."
+            "help": "Waktu spesialis praktis untuk satu siklus koreksi saat ini."
           },
           "correction_minutes_after": {
-            "label": "Minutes per correction with Emil",
-            "help": "Hands-on time to resolve an Emil exception, abstention or later correction."
+            "label": "Menit per koreksi dengan Emil",
+            "help": "Waktu praktis untuk menyelesaikan pengecualian Emil, abstain, atau koreksi lebih lambat."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Siklus per unit setiap bulan",
+            "help": "Berapa banyak siklus pemesanan, peninjauan, atau pemrosesan berulang yang dijalankan setiap unit dalam satu bulan tertentu."
           },
           "tokens_per_output": {
-            "label": "Tokens to produce one unit",
-            "help": "Modeled tokens consumed to prepare one typical output, not a provider meter reading."
+            "label": "Token untuk menghasilkan satu unit",
+            "help": "Token yang dimodelkan digunakan untuk menyiapkan satu keluaran tipikal, bukan pembacaan meter penyedia."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Sertakan penggunaan token, model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan."
           },
           "model_cost": {
             "label": "Extra models and media",
-            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+            "help": "Hanya gambar, video, atau generasi lain yang dikenakan biaya terpisah dari penggunaan token. Masukkan nol jika tidak ada."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Sesi browser, konektor, dan layanan terukur lainnya. Masukkan nol jika tidak ada."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Hosting, penyimpanan, dan komputasi tambahan untuk beban kerja ini. Masukkan nol jika tidak ada."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Biaya pengiriman dan dukungan lainnya",
+            "help": "Biaya hosting, penyimpanan, pemantauan, dan dukungan yang dimodelkan, terpisah dari harga pelanggan."
           },
           "customer_price": {
             "label": "Monthly base subscription",
-            "help": "Proposed price for one desk and one DMS import workflow, excluding VAT."
+            "help": "Harga yang diusulkan untuk satu meja dan satu alur kerja impor DMS, tidak termasuk PPN."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Nilai opsional yang Anda tetapkan untuk satu jam",
+            "help": "Hanya perbandingan pribadi opsional. Ini bukan gaji, upah, atau jaminan tabungan tunai."
           },
           "capacity_value_per_hour": {
-            "label": "Fully loaded specialist value per hour",
-            "help": "Use a customer-supported operating value. It measures capacity, not automatic payroll savings."
+            "label": "Nilai spesialis terisi penuh per jam",
+            "help": "Gunakan nilai operasi yang didukung pelanggan. Ini mengukur kapasitas, bukan penghematan gaji otomatis."
           },
           "included_volume": {
             "label": "Declarations included each month",
-            "help": "Review-ready declarations included in the monthly base subscription."
+            "help": "Deklarasi siap ditinjau termasuk dalam langganan dasar bulanan."
           },
           "overage_price": {
             "label": "Price per additional declaration",
-            "help": "Applied only to eligible declarations above the included monthly volume."
+            "help": "Hanya berlaku untuk deklarasi yang memenuhi syarat di atas volume bulanan yang disertakan."
           },
           "setup_fee": {
             "label": "One-time workflow mapping",
-            "help": "Mapping and onboarding cost counted once in the first-year comparison."
+            "help": "Biaya pemetaan dan orientasi dihitung satu kali dalam perbandingan tahun pertama."
           },
           "contract_months": {
             "label": "Contract comparison period",
-            "help": "Used to show whether the one-time setup fee is recovered within the modeled term."
+            "help": "Digunakan untuk menunjukkan apakah biaya pengaturan satu kali dipulihkan dalam jangka waktu yang dimodelkan."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "Ulasan berbayar tambahan per jam",
+            "help": "Pengeluaran ekstra reviewer sebenarnya, bukan gaji karyawan yang tidak berubah."
           },
           "cash_hours": {
-            "label": "Hours tied to paid work that stops",
-            "help": "Use only hours linked to evidenced overtime, contractor or external-review spending."
+            "label": "Jam kerja terikat dengan pekerjaan berbayar yang berhenti",
+            "help": "Gunakan hanya jam kerja yang dikaitkan dengan bukti pengeluaran lembur, kontraktor, atau tinjauan eksternal."
           },
           "cash_baseline": {
             "label": "Current monthly paid cost",
-            "help": "Current overtime, contractor or external-review spend for this workflow."
+            "help": "Pembelanjaan lembur, kontraktor, atau tinjauan eksternal saat ini untuk alur kerja ini."
           },
           "cash_avoided": {
-            "label": "Monthly paid cost actually avoided",
-            "help": "Amount that would stop under the modeled workflow. Exclude capacity value already counted above."
+            "label": "Biaya yang dibayar bulanan sebenarnya bisa dihindari",
+            "help": "Jumlah yang akan berhenti berdasarkan alur kerja yang dimodelkan. Kecualikan nilai kapasitas yang sudah dihitung di atas."
           },
           "higher_value_hours": {
-            "label": "Hours used for higher-value work",
-            "help": "Hours you can realistically redirect, not the entire capacity by default."
+            "label": "Jam yang digunakan untuk pekerjaan yang bernilai lebih tinggi",
+            "help": "Jam yang dapat Anda alihkan secara realistis, bukan seluruh kapasitas secara default."
           },
           "contribution_rate": {
             "label": "Incremental contribution per hour",
-            "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+            "help": "Pendapatan dikurangi biaya pengiriman tambahan, tidak termasuk biaya AI dihitung secara terpisah. Bukan gaji atau pendapatan kotor."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "Jam digunakan untuk volume tambahan",
+            "help": "Alokasi ini juga tidak dapat digunakan untuk pekerjaan konsultasi atau pengurangan belanja."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Menit tim per unit tambahan",
+            "help": "Upaya manusia yang tersisa, termasuk peninjauan, diperlukan untuk menghasilkan satu unit lagi."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Unit tambahan dengan permintaan yang diharapkan",
+            "help": "Kapasitas saja bukanlah permintaan. Masukkan pekerjaan tambahan bulanan yang ingin Anda lakukan."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Pendapatan tambahan dikurangi biaya pengiriman; Biaya operasional AI dipotong secara terpisah."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "Jam yang mencakup sewa yang direncanakan",
+            "help": "Alokasikan kapasitas untuk pekerjaan terencana tertentu, bukan perkiraan umum yang setara dengan pekerjaan penuh waktu."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Jam bulanan yang akan dicakup oleh sewa yang direncanakan",
+            "help": "Kapasitas yang dialokasikan harus mencakup seluruh beban kerja ini."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "Biaya sewa bulanan sebenarnya ditangguhkan",
+            "help": "Gunakan biaya sewa yang benar-benar direncanakan, bukan gaji seseorang yang sudah bekerja."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Bulan-bulan perekrutan ditangguhkan",
+            "help": "Satu sampai dua belas bulan; perkiraan tahunan berhenti menghitung tabungan setelah periode ini."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Diharapkan menghindari kesalahan per bulan",
+            "help": "Gunakan baseline Anda dan pengurangan yang diharapkan. Kecualikan insiden juga dihitung sebagai pengurangan risiko."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Tidak termasuk tenaga kerja, pengembalian uang, atau kerugian lain yang sudah termasuk di tempat lain."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Perkiraan Anda, bukan penilaian risiko yang dijamin."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Gunakan peristiwa dan jangka waktu bulanan yang sama sebagai garis dasar."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Eksposur kerugian untuk kejadian tersebut",
+            "help": "Kecualikan insiden kesalahan dan pengeluaran sudah dihitung. Ini adalah nilai yang diperkirakan tidak pasti, bukan uang tunai yang dihemat."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Waktu siklus sebelumnya, dalam beberapa hari",
+            "help": "Waktu yang berlalu dari awal hingga selesai, terpisah dari upaya langsung."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Waktu siklus setelahnya, dalam beberapa hari",
+            "help": "Ditampilkan sebagai perubahan operasional saja, tanpa asumsi nilai moneter."
           }
         },
         "burden": [
-          "Preparing one recurring DMS 4.0 H1 import workflow",
-          "Correcting missing, invalid or inconsistent declaration fields"
+          "Mempersiapkan satu alur kerja impor DMS 4.0 H1 berulang",
+          "Memperbaiki kolom deklarasi yang hilang, tidak valid, atau tidak konsisten"
         ],
         "opportunity": [
-          "Capacity for difficult customs exceptions",
-          "Less repeated DMS correction work"
+          "Kapasitas untuk pengecualian bea cukai yang sulit",
+          "Pekerjaan koreksi DMS yang lebih sedikit diulang"
         ],
         "costMode": "itemized",
         "reviewMode": "team",
@@ -922,14 +924,14 @@
         "outcomes": [
           {
             "id": "cash",
-            "label": "Add evidenced paid cost avoided",
-            "help": "Optional: include overtime, contractor or external-review spending that will actually stop. Do not count the same hours again as capacity value."
+            "label": "Tambahkan bukti biaya berbayar yang dihindari",
+            "help": "Opsional: sertakan pengeluaran lembur, kontraktor, atau tinjauan eksternal yang benar-benar akan dihentikan. Jangan hitung lagi jam yang sama sebagai nilai kapasitas."
           }
         ],
         "pricing": {
           "basis": "tiered",
           "label": "Your Emil price",
-          "help": "Proposed production offer: €950 per month ex VAT for one DMS import workflow and desk, including 400 review-ready declarations, then €2 each, plus a €3,000 one-time mapping fee. Tokens set Emil’s delivery-cost floor; customers pay for the governed workflow and review-ready volume."
+          "help": "Tawaran produksi yang diusulkan: €950 per bulan belum termasuk PPN untuk satu alur kerja dan meja impor DMS, termasuk 400 deklarasi siap peninjauan, kemudian €2 masing-masing, ditambah biaya pemetaan satu kali sebesar €3,000. Token menetapkan batas bawah biaya pengiriman Emil; pelanggan membayar untuk alur kerja yang diatur dan volume siap peninjauan."
         },
         "presentation": {
           "financial": "required",
@@ -942,7 +944,7 @@
           {
             "id": "workload",
             "label": "DMS workload",
-            "intro": "Enter one typical month for a single Dutch DMS 4.0 H1 import workflow. No public productivity benchmark has been assumed.",
+            "intro": "Masukkan satu bulan biasa untuk satu alur kerja impor DMS 4.0 H1 Belanda. Tidak ada tolok ukur produktivitas publik yang diasumsikan.",
             "fields": [
               "volume",
               "minutes",
@@ -954,7 +956,7 @@
           {
             "id": "price",
             "label": "Emil price",
-            "intro": "Test the proposed production offer. Raw model tokens remain an internal delivery-cost measure rather than a customer-value metric.",
+            "intro": "Uji tawaran produksi yang diajukan. Token model mentah tetap menjadi ukuran biaya pengiriman internal dan bukan metrik nilai pelanggan.",
             "fields": [
               "customer_price",
               "included_volume",
@@ -967,7 +969,7 @@
           {
             "id": "rework",
             "label": "Rework and value",
-            "intro": "Add correction evidence and a supported hourly value. If the correction set is incomplete, rework contributes nothing to the estimate.",
+            "intro": "Tambahkan bukti koreksi dan nilai per jam yang didukung. Jika set koreksi tidak lengkap, pengerjaan ulang tidak memberikan kontribusi apa pun terhadap estimasi.",
             "fields": [
               "correction_rate_before",
               "correction_rate_after",
@@ -978,14 +980,43 @@
             "showPackage": true,
             "showOutcomes": true
           }
-        ]
+        ],
+        "usagePackages": {
+          "base": {
+            "volume": 60,
+            "tokensPerOutput": 8000,
+            "platform_cost": 990,
+            "minutes": 18,
+            "automation": 50,
+            "review": 3,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 6,
+            "contribution_rate": 250
+          },
+          "medium": {
+            "volume": 120,
+            "tokensPerOutput": 8000,
+            "platform_cost": 1500,
+            "minutes": 18,
+            "automation": 50,
+            "review": 3,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 12,
+            "contribution_rate": 250
+          }
+        },
+        "defaultPackage": "medium"
       },
       "cta": {
-        "primaryLabel": "Rehearse a filing with Emil",
+        "primaryLabel": "Latih pengarsipan dengan Emil",
         "primaryTarget": "pilot",
         "secondaryLabel": "See how it works",
         "secondaryTarget": "how-it-works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results."
+        "privacyNote": "Data Anda tetap pribadi. Jam adalah kapasitas. Jumlah finansial merupakan estimasi yang dimodelkan, bukan hasil observasi."
       }
     }
   },
@@ -5537,15 +5568,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
@@ -5588,16 +5610,6 @@
         "roiCalculator",
         "businessImpact",
         "pricing",
-        "basis"
-      ],
-      "sourceHash": "6e1740b4bc5aa0bded03968d08cc3dfba099db200205b94cc6bce0cb803adace"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
         "label"
       ],
       "sourceHash": "373dd7a457ac1abd4ada24fbdbd81b885f35a16e00f647de293d92c603b46e04"
@@ -5611,16 +5623,6 @@
         "help"
       ],
       "sourceHash": "aeca9cc494cd3918df0144b744820a45ec0ace9fe4f88dfc2c0f339fc7d00d0d"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "d0a3630555bbec7fc05a98d311c23b00fd1ab4d8296ac4a4125976d80b6a6959"
     },
     {
       "path": [
@@ -5660,54 +5662,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "6d65ed5c750019a199c61a33ea9202fb727c05e257560f38f014e6b1520e50ed"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        3
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -5723,66 +5677,6 @@
         "intro"
       ],
       "sourceHash": "a756a67c789c1f4ec2dca75bab47b07fecc7611a0af4fec6886ef63172c4c2b1"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "df282afad8dd7b18461e1b563afb1a1c0049cbdee6ead3db585f2f08baa79e87"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "e8f900f1e1078841a0a01560a0debdf7085bd1b031cbf8eb8dae1ea10ebc5c9d"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "869b1c0e9609ffa2104041b854646e06a125d92d3ce397351f4bdee747e84c98"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "a89d8be684a7efe879e74f45e7b419e8781c143d9ca96ae624e7d32bf9d1e7c9"
     },
     {
       "path": [
@@ -5811,60 +5705,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
+        "defaultPackage"
       ],
-      "sourceHash": "6220d4a75840edae94025de5fcb88d4e1f39d030ae56e5c0681d275633d7218f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "fb0c0e8dbbdd2310d5082a182b18ab9646a628c475b03f8af147c6a06a3d4bd6"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        2
-      ],
-      "sourceHash": "48b0c9221e981c273e297c0fcd056e719041585b00dfe4097e26313c62b7cca9"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        3
-      ],
-      "sourceHash": "23208db8a7dda685081aa2604e784c839bea0cb5ec9331e5c4f15e01c5d3062c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        4
-      ],
-      "sourceHash": "6851e5a36f1ba4c730cc0813a2badb735520d0f98d1d1222a578b054d9845de9"
+      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
     },
     {
       "path": [
@@ -5894,5 +5737,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T05:32:23.145Z"
+  "generatedAt": "2026-10-01T12:38:38.794Z"
 }

@@ -2,12 +2,12 @@
   "schemaVersion": 2,
   "language": "nl",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "d544c363aadf607dae9471600e5b93352b2ae9c5a92f3f3d396b04ffa7640b6b",
   "landingPage": {
     "headline": "Uw logistieke stack stopt bij de portal. Emil blijft doorgaan.",
     "subheadline": "Uw TMS houdt de zending vast. Vervolgens opent iemand Portbase, of DMS, of NCTS, of een ebooking-scherm van de provider, en toetst het opnieuw met de hand in. Er wacht geen API aan de andere kant, en dat zal er voor de meeste van hen nooit zijn. Emil draagt goedgekeurde zendingsgegevens van uw TMS in die portals. Het repeteert de hele run eerst tegen een kopie van uw echte omgeving, laat uw aangever precies zien wat hij gaat betreden en doet niets totdat ze het goedkeuren.",
     "ctaLabel": "Voer een portalsimulatie uit",
-    "description": "EMIL behandelt de activiteiten van de douane- en vervoerderportal door goedgekeurde zendingsinvoer te repeteren tegen een kopie van de echte omgeving voordat een aangever iets goedkeurt.",
+    "description": "Emil ondersteunt douaneprocessen en vervoerdersportalen door goedgekeurde zendinginvoer te oefenen in een kopie van de echte omgeving voordat een aangever iets goedkeurt.",
     "design": {
       "variant": "logistics-portal",
       "defaultThemeMode": "dark",
@@ -356,12 +356,12 @@
         ],
         "comparison": [
           {
-            "label": "voor emil",
+            "label": "Vóór Emil",
             "title": "Het portaal wordt iemands draaistoel.",
             "body": "Handmatig kopiëren, gefragmenteerde screenshots, verborgen uitzonderingen en geen consistente repetitie voor indiening."
           },
           {
-            "label": "met emil",
+            "label": "Met Emil",
             "title": "Het portaal wordt een gecontroleerd werkoppervlak.",
             "body": "Goedgekeurde gegevens, in kaart gebracht in een trouwe tweeling, uitzonderingen zichtbaar gemaakt en onomkeerbare actie voor een persoon."
           }
@@ -469,7 +469,7 @@
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
             "alt": "Operator Monitoring Een goedgekeurde portal uitvoering",
             "title": "Uitvoeren",
-            "body": "Perform only the approved browser steps, nothing outside scope."
+            "body": "Voer uitsluitend de goedgekeurde browserstappen uit, binnen de afgesproken scope."
           },
           {
             "number": "06",
@@ -573,31 +573,31 @@
         "brandLabel": "werpen",
         "brandSuffix": "Douane- en vervoerderportaloperaties",
         "tagline": "Uw logistieke stack stopt bij de portal. Emil blijft doorgaan.",
-        "copyright": "© 2026"
+        "copyright": "© 2026 Emil"
       }
     },
     "roiCalculator": {
       "methodologyVersion": 2,
       "enabled": true,
-      "kicker": "Business impact",
-      "heading": "What could DMS rehearsal return to your desk?",
-      "subheading": "Model one Dutch DMS 4.0 import workflow. Emil prepares and checks a review-ready packet; your authorised declarant still reviews and submits.",
-      "disclaimer": "Customer-provided and modeled estimates, not observed results or guaranteed savings. Emil does not submit, act as a declarant or customs broker, hold EORI or eHerkenning credentials, or guarantee DMS acceptance or compliance.",
+      "kicker": "Zakelijke impact",
+      "heading": "Hoeveel tijd kan een DMS-oefening je team teruggeven?",
+      "subheading": "Bereken één Nederlandse DMS 4.0-invoerworkflow. Emil bereidt een dossier voor en controleert het voor beoordeling; je bevoegde aangever blijft verantwoordelijk voor de beoordeling en indiening.",
+      "disclaimer": "Door de klant aangeleverde en berekende schattingen, geen waargenomen resultaten of gegarandeerde besparingen. Emil dient niets in, treedt niet op als aangever of douane-expediteur, beschikt niet over EORI- of eHerkenning-inloggegevens en garandeert geen DMS-acceptatie of naleving.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
       },
       "costCopy": {
-        "breakdown": "How your Emil price is built",
+        "breakdown": "Zo wordt je prijs voor Emil opgebouwd",
         "perUnit": "{amount} per declaration (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
-        "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic payroll savings. Add a monetary value only when it is supported by your own operating data."
+        "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
+        "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
+        "remainder": "Andere inbegrepen operationele kosten",
+        "allocation": "Teruggewonnen uren zijn capaciteit, geen automatische besparing op salariskosten. Ken alleen een geldwaarde toe als je eigen bedrijfsgegevens die onderbouwen."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -625,286 +625,288 @@
           "platform_cost": null,
           "cash_hours": null,
           "cash_baseline": null,
-          "cash_avoided": null
+          "cash_avoided": null,
+          "higher_value_hours": 12,
+          "contribution_rate": 250
         },
         "copy": {
           "navLabel": "Prijzen",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",
-          "workloadIntro": "Enter one customer workflow. Emil prepares a review-ready packet; the authorised declarant still reviews and submits.",
-          "costIntro": "Customer pricing is based on the workflow and review-ready declaration volume. Tokens remain an internal delivery-cost input.",
-          "valueIntro": "Add customer evidence for correction work and specialist capacity. Incomplete correction data is not treated as zero.",
-          "sampleNotice": "Customer inputs required · no benchmark assumed",
-          "monthly": "Monthly",
-          "yearly": "Yearly",
-          "next": "Continue",
-          "back": "Back",
-          "reset": "Reset assumptions",
+          "workloadIntro": "Voer één klantworkflow in. Emil bereidt een dossier voor dat klaar is voor beoordeling; de bevoegde aangever blijft beoordelen en indienen.",
+          "costIntro": "De klantprijs is gebaseerd op de workflow en het aantal aangiften dat klaar is voor beoordeling. Tokens blijven een interne factor voor de leveringskosten.",
+          "valueIntro": "Voeg klantgegevens over correctiewerk en specialistische capaciteit toe. Onvolledige correctiegegevens worden niet als nul behandeld.",
+          "sampleNotice": "Klantgegevens vereist · geen benchmark verondersteld",
+          "monthly": "Maandelijks",
+          "yearly": "Jaarlijks",
+          "next": "Doorgaan",
+          "back": "Terug",
+          "reset": "Aannames resetten",
           "summary": "Your DMS workflow estimate",
           "volume": "Declarations modeled",
           "grossHours": "Preparation hours reduced",
           "capacity": "Net preparation capacity returned",
-          "retained": "Capacity not allocated to paid-cost reduction",
-          "hours": "hours",
-          "days": "days",
+          "retained": "Capaciteit die niet aan een verlaging van betaalde kosten is toegewezen",
+          "hours": "uren",
+          "days": "dagen",
           "percent": "%",
-          "minutes": "minutes",
+          "minutes": "minuten",
           "tokens": "tokens",
-          "monthlyTokens": "Monthly tokens",
-          "tokenCost": "Token usage",
-          "packageLabel": "Usage package",
-          "packageBase": "Base",
+          "monthlyTokens": "Maandelijkse tokens",
+          "tokenCost": "Tokengebruik",
+          "packageLabel": "Gebruikspakket",
+          "packageBase": "Basis",
           "packageMedium": "Medium",
-          "packageCustom": "Custom",
-          "reviewMode": "Who handles the review?",
-          "teamReview": "Existing team",
-          "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
-          "totalMode": "Monthly budget",
-          "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
-          "paidReviewCost": "Additional paid review cost",
+          "packageCustom": "Aangepast",
+          "reviewMode": "Wie handelt de beoordeling af?",
+          "teamReview": "Bestaand team",
+          "paidReview": "Extra betaalde beoordelaar",
+          "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
+          "totalMode": "Maandelijks budget",
+          "itemizedMode": "Kostenoverzicht",
+          "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
+          "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
+          "paidReviewCost": "Kosten voor extra betaalde beoordeling",
           "allInCost": "Internal delivery cost",
-          "missing": "Add your assumptions",
-          "currentPreparation": "Current preparation hours",
-          "reviewHours": "Human review hours",
-          "reworkHours": "Avoided or added rework hours",
-          "capacityValue": "Modeled capacity value",
-          "acceptedUnits": "Accepted units",
-          "attendedUnits": "Attended units",
-          "costPerAttended": "Cost per attended unit",
-          "cashValue": "Cash spending avoided",
-          "contribution": "Expected contribution",
-          "expectedLoss": "Expected loss reduction",
-          "riskValue": "Uncertain risk value included",
+          "missing": "Voeg uw aannames toe",
+          "currentPreparation": "Huidige voorbereidingsuren",
+          "reviewHours": "Uren menselijke beoordeling",
+          "reworkHours": "Vermeden of toegevoegde rework-uren",
+          "capacityValue": "Gemodelleerde capaciteitswaarde",
+          "acceptedUnits": "Geaccepteerde eenheden",
+          "attendedUnits": "Bezochte eenheden",
+          "costPerAttended": "Kosten per bezochte eenheid",
+          "cashValue": "Vermeden contante uitgaven",
+          "contribution": "Verwachte bijdrage",
+          "expectedLoss": "Verwachte vermindering van verlies",
+          "riskValue": "Onzekere risicowaarde inbegrepen",
           "economicValue": "Modeled customer economic benefit",
           "netBenefit": "Net customer benefit",
-          "multiple": "Benefit-cost multiple",
+          "multiple": "Voordeel-kosten multiple",
           "customerBenefit": "Modeled customer economic benefit",
-          "customerRoi": "Customer ROI",
-          "benefitCost": "Benefit-cost multiple",
+          "customerRoi": "Klant ROI",
+          "benefitCost": "Voordeel-kosten multiple",
           "firstYearCost": "First-year Emil price",
-          "firstYearRoi": "First-year ROI",
-          "payback": "Setup-fee payback",
-          "paybackOutsideTerm": "Not recovered within the modeled term",
+          "firstYearRoi": "Eerstejaars ROI",
+          "payback": "Terugverdientijd van setup-kosten",
+          "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
           "months": "months",
-          "notApplicable": "Not applicable",
-          "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
-          "method": "How this is calculated",
-          "burdenHeading": "Repetitive work reduced",
-          "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Preparation capacity equals eligible declarations × current preparation minutes × Emil’s assisted share, minus human review. Complete correction inputs add the difference between current and Emil-assisted rework. Monetary benefit uses only the supported specialist value and any distinct paid cost that actually stops.",
-          "formulaLabel": "Benefit-cost multiple equals customer benefit divided by Emil price. ROI equals benefit minus price, divided by price. First-year cost includes the setup fee once.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "The paid cost avoided is separate from the capacity value and is not counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed the paid-cost assumptions and excluded amounts already counted as capacity value.",
-          "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Enter the required customer workload and specialist-value assumptions to calculate ROI.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
-          "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
+          "notApplicable": "Niet van toepassing",
+          "annual": "Jaarlijks overzicht",
+          "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
+          "method": "Hoe dit wordt berekend",
+          "burdenHeading": "Repetitief werk verminderd",
+          "opportunityHeading": "Capaciteit voor werk van hogere waarde",
+          "methodBody": "Voorbereidingscapaciteit is het aantal geschikte aangiften × de huidige voorbereidingsminuten × het door Emil ondersteunde aandeel, minus de menselijke beoordeling. Volledige correctiegegevens voegen het verschil tussen huidig herstelwerk en herstelwerk met Emil toe. Het financiële voordeel gebruikt uitsluitend de onderbouwde specialistische waarde en afzonderlijke betaalde kosten die daadwerkelijk wegvallen.",
+          "formulaLabel": "De baten-kostenverhouding is het klantvoordeel gedeeld door de prijs van Emil. ROI is het voordeel minus de prijs, gedeeld door de prijs. De kosten voor het eerste jaar tellen de eenmalige opstartkosten eenmaal mee.",
+          "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
+          "overlapLabel": "De vermeden betaalde kosten staan los van de capaciteitswaarde en worden nergens anders meegeteld.",
+          "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
+          "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
+          "reviewedLabel": "Ik heb de aannames over betaalde kosten beoordeeld en bedragen uitgesloten die al als capaciteitswaarde zijn meegeteld.",
+          "cycleResult": "Verbetering van cyclustijd",
+          "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
+          "assumptionsIncomplete": "Voer de vereiste aannames over klantwerklast en specialistische waarde in om de ROI te berekenen.",
+          "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
+          "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
+          "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
+          "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
+          "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
+          "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
+          "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
+          "rangeLabel": "Waarde aanpassen",
+          "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames."
         },
         "fields": {
           "volume": {
-            "label": "Eligible DMS import declarations per month",
-            "help": "Count declarations in the selected H1 import workflow that Emil could rehearse. Do not include other portals or customs processes."
+            "label": "Geschikte DMS-invoeraangiften per maand",
+            "help": "Tel aangiften in de gekozen H1-invoerworkflow die Emil zou kunnen oefenen. Neem geen andere portalen of douaneprocessen mee."
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "Optioneel berekend aandeel van voorbereide resultaten dat de ontvanger accepteert. Dit is geen garantie of waargenomen resultaat."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Gemodelleerd aandeel van geaccepteerde vergaderingen dat naar verwachting zal plaatsvinden. Vervang dit door geverifieerde evenementgegevens na een pilot."
           },
           "minutes": {
-            "label": "Current preparation minutes per declaration",
-            "help": "Use a time study for hands-on preparation before review, correction or live submission."
+            "label": "Huidige voorbereidingsminuten per aangifte",
+            "help": "Gebruik een tijdmeting voor actieve voorbereiding vóór beoordeling, correctie of daadwerkelijke indiening."
           },
           "automation": {
-            "label": "Share of preparation minutes Emil performs",
-            "help": "Enter a customer assumption or observed pilot result. This is a share of preparation time, not a submission or acceptance rate."
+            "label": "Aandeel voorbereidingsminuten dat Emil uitvoert",
+            "help": "Voer een klantaanname of een waargenomen pilotresultaat in. Dit is een aandeel van de voorbereidingstijd, geen indienings- of acceptatiepercentage."
           },
           "review": {
-            "label": "Human review minutes per rehearsed declaration",
-            "help": "Time the authorised declarant needs to inspect Emil’s packet before submitting through existing customs software."
+            "label": "Minuten menselijke beoordeling per geoefende aangifte",
+            "help": "De tijd die de bevoegde aangever nodig heeft om het dossier van Emil te controleren vóór indiening via de bestaande douanesoftware."
           },
           "correction_rate_before": {
             "label": "Current DMS correction rate",
-            "help": "Share of eligible declarations that currently require a correction or rework cycle. Leave blank until measured."
+            "help": "Aandeel geschikte aangiften waarvoor momenteel een correctie- of herstelronde nodig is. Laat dit leeg totdat het is gemeten."
           },
           "correction_rate_after": {
             "label": "Correction rate with Emil",
-            "help": "Observed or explicitly modeled share requiring correction after Emil. Leave blank until supported."
+            "help": "Waargenomen of expliciet berekend aandeel waarvoor na Emil een correctie nodig is. Laat dit leeg totdat het is onderbouwd."
           },
           "correction_minutes_before": {
             "label": "Current minutes per correction",
-            "help": "Hands-on specialist time for one current correction cycle."
+            "help": "Actieve specialistische tijd voor één huidige correctieronde."
           },
           "correction_minutes_after": {
-            "label": "Minutes per correction with Emil",
-            "help": "Hands-on time to resolve an Emil exception, abstention or later correction."
+            "label": "Minuten per correctie met Emil",
+            "help": "Actieve tijd om een uitzondering, onthouding of latere correctie van Emil op te lossen."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Cycli per eenheid per maand",
+            "help": "Hoeveel terugkerende order-, beoordelings- of verwerkingscycli elke eenheid per maand doorloopt."
           },
           "tokens_per_output": {
-            "label": "Tokens to produce one unit",
-            "help": "Modeled tokens consumed to prepare one typical output, not a provider meter reading."
+            "label": "Tokens om één eenheid te produceren",
+            "help": "Berekende tokens voor het voorbereiden van één gebruikelijk resultaat, geen meterstand van de aanbieder."
           },
           "budget": {
-            "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "label": "Geschat maandelijks operationeel budget",
+            "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
           },
           "model_cost": {
-            "label": "Extra models and media",
-            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+            "label": "Extra modellen en media",
+            "help": "Alleen afbeeldingen, video's of andere generatie die apart van tokengebruik worden gefactureerd. Voer nul in als er geen zijn."
           },
           "tools_cost": {
-            "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "label": "Tools en integraties",
+            "help": "Browsersessies, connectoren en andere gemeten services. Voer nul in als er geen zijn."
           },
           "infrastructure_cost": {
-            "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "label": "Infrastructuur",
+            "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Overige leverings- en ondersteuningskosten",
+            "help": "Gemodelleerde hosting-, opslag-, monitoring- en ondersteuningskosten, gescheiden van de klantprijs."
           },
           "customer_price": {
             "label": "Monthly base subscription",
-            "help": "Proposed price for one desk and one DMS import workflow, excluding VAT."
+            "help": "Voorgestelde prijs voor één werkplek en één DMS-invoerworkflow, exclusief btw."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Optionele waarde die u toekent aan een uur",
+            "help": "Alleen een optionele persoonlijke vergelijking. Dit is geen salaris, loon of gegarandeerde geldbesparing."
           },
           "capacity_value_per_hour": {
-            "label": "Fully loaded specialist value per hour",
-            "help": "Use a customer-supported operating value. It measures capacity, not automatic payroll savings."
+            "label": "Volledige specialistische waarde per uur",
+            "help": "Gebruik een door de klant onderbouwde bedrijfswaarde. Dit meet capaciteit, geen automatische besparing op salariskosten."
           },
           "included_volume": {
             "label": "Declarations included each month",
-            "help": "Review-ready declarations included in the monthly base subscription."
+            "help": "Aangiften die klaar zijn voor beoordeling en inbegrepen zijn in het maandelijkse basisabonnement."
           },
           "overage_price": {
             "label": "Price per additional declaration",
-            "help": "Applied only to eligible declarations above the included monthly volume."
+            "help": "Alleen toegepast op geschikte aangiften boven het inbegrepen maandvolume."
           },
           "setup_fee": {
             "label": "One-time workflow mapping",
-            "help": "Mapping and onboarding cost counted once in the first-year comparison."
+            "help": "Kosten voor inrichting en onboarding die eenmaal meetellen in de vergelijking voor het eerste jaar."
           },
           "contract_months": {
             "label": "Contract comparison period",
-            "help": "Used to show whether the one-time setup fee is recovered within the modeled term."
+            "help": "Gebruikt om te tonen of de eenmalige opstartkosten binnen de berekende periode worden terugverdiend."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "Extra betaalde beoordeling per uur",
+            "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
           },
           "cash_hours": {
-            "label": "Hours tied to paid work that stops",
-            "help": "Use only hours linked to evidenced overtime, contractor or external-review spending."
+            "label": "Uren gekoppeld aan betaald werk dat vervalt",
+            "help": "Gebruik uitsluitend uren die gekoppeld zijn aan aantoonbare uitgaven voor overwerk, externe medewerkers of externe beoordeling."
           },
           "cash_baseline": {
             "label": "Current monthly paid cost",
-            "help": "Current overtime, contractor or external-review spend for this workflow."
+            "help": "Huidige uitgaven voor overwerk, externe medewerkers of externe beoordeling voor deze workflow."
           },
           "cash_avoided": {
-            "label": "Monthly paid cost actually avoided",
-            "help": "Amount that would stop under the modeled workflow. Exclude capacity value already counted above."
+            "label": "Maandelijkse betaalde kosten die daadwerkelijk worden vermeden",
+            "help": "Bedrag dat bij de berekende workflow wegvalt. Sluit de hierboven al meegetelde capaciteitswaarde uit."
           },
           "higher_value_hours": {
-            "label": "Hours used for higher-value work",
-            "help": "Hours you can realistically redirect, not the entire capacity by default."
+            "label": "Uren voor werk met hogere waarde",
+            "help": "Uren die je realistisch kunt herbestemmen, niet automatisch de volledige capaciteit."
           },
           "contribution_rate": {
             "label": "Incremental contribution per hour",
-            "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+            "help": "Omzet minus extra leveringskosten, exclusief de afzonderlijk meegetelde AI-kosten. Geen salaris of bruto-omzet."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "Uren gebruikt voor extra volume",
+            "help": "Deze toewijzing kan niet ook worden gebruikt voor advieswerk of kostenbesparingen."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Teamminuten per extra eenheid",
+            "help": "De resterende menselijke inspanning, inclusief beoordeling, die nodig is om nog een eenheid te leveren."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Extra eenheden met verwachte vraag",
+            "help": "Capaciteit alleen is geen vraag. Voer het extra maandelijkse werk in dat u verwacht aan te nemen."
           },
           "unit_margin": {
-            "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "label": "Bijdrage per extra eenheid",
+            "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "Uren die de geplande aanwerving dekken",
+            "help": "Wijs capaciteit toe aan specifiek gepland werk, niet aan een algemene fulltime-equivalent schatting."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
+            "help": "De toegewezen capaciteit moet deze volledige workload dekken."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
+            "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Maanden dat de aanwerving wordt uitgesteld",
+            "help": "Eén tot twaalf maanden; de jaarlijkse schatting stopt met het tellen van besparingen na deze periode."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Verwachte vermeden fouten per maand",
+            "help": "Gebruik uw basislijn en verwachte reductie. Sluit incidenten uit die ook worden meegeteld als risicoreductie."
           },
           "incident_cost": {
-            "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "label": "Incrementele kosten per fout",
+            "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
           },
           "probability_before": {
-            "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "label": "Maandelijkse verlieskans voorheen",
+            "help": "Uw schatting, geen gegarandeerde risicobeoordeling."
           },
           "probability_after": {
-            "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "label": "Maandelijkse verlieskans hierna",
+            "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Verliesblootstelling voor dat evenement",
+            "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Cyclustijd voorheen, in dagen",
+            "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Cyclustijd hierna, in dagen",
+            "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
           }
         },
         "burden": [
-          "Preparing one recurring DMS 4.0 H1 import workflow",
-          "Correcting missing, invalid or inconsistent declaration fields"
+          "Eén terugkerende DMS 4.0 H1-invoerworkflow voorbereiden",
+          "Ontbrekende, ongeldige of tegenstrijdige aangiftevelden corrigeren"
         ],
         "opportunity": [
-          "Capacity for difficult customs exceptions",
-          "Less repeated DMS correction work"
+          "Capaciteit voor complexe douane-uitzonderingen",
+          "Minder herhaald DMS-correctiewerk"
         ],
         "costMode": "itemized",
         "reviewMode": "team",
@@ -922,14 +924,14 @@
         "outcomes": [
           {
             "id": "cash",
-            "label": "Add evidenced paid cost avoided",
-            "help": "Optional: include overtime, contractor or external-review spending that will actually stop. Do not count the same hours again as capacity value."
+            "label": "Voeg aantoonbare vermeden betaalde kosten toe",
+            "help": "Optioneel: neem uitgaven voor overwerk, externe medewerkers of externe beoordeling mee die daadwerkelijk wegvallen. Tel dezelfde uren niet opnieuw als capaciteitswaarde."
           }
         ],
         "pricing": {
           "basis": "tiered",
           "label": "Your Emil price",
-          "help": "Proposed production offer: €950 per month ex VAT for one DMS import workflow and desk, including 400 review-ready declarations, then €2 each, plus a €3,000 one-time mapping fee. Tokens set Emil’s delivery-cost floor; customers pay for the governed workflow and review-ready volume."
+          "help": "Voorgesteld productieaanbod: €950 per maand exclusief btw voor één DMS-invoerworkflow en werkplek, inclusief 400 aangiften die klaar zijn voor beoordeling, daarna €2 per aangifte, plus eenmalig €3.000 voor inrichting. Tokens bepalen de ondergrens van de leveringskosten van Emil; klanten betalen voor de beheerde workflow en het volume dat klaar is voor beoordeling."
         },
         "presentation": {
           "financial": "required",
@@ -942,7 +944,7 @@
           {
             "id": "workload",
             "label": "DMS workload",
-            "intro": "Enter one typical month for a single Dutch DMS 4.0 H1 import workflow. No public productivity benchmark has been assumed.",
+            "intro": "Voer één gebruikelijke maand in voor één Nederlandse DMS 4.0 H1-invoerworkflow. Er is geen openbare productiviteitsbenchmark verondersteld.",
             "fields": [
               "volume",
               "minutes",
@@ -954,7 +956,7 @@
           {
             "id": "price",
             "label": "Emil price",
-            "intro": "Test the proposed production offer. Raw model tokens remain an internal delivery-cost measure rather than a customer-value metric.",
+            "intro": "Test het voorgestelde productieaanbod. Het aantal modeltokens blijft een interne maat voor leveringskosten en is geen maat voor klantwaarde.",
             "fields": [
               "customer_price",
               "included_volume",
@@ -967,7 +969,7 @@
           {
             "id": "rework",
             "label": "Rework and value",
-            "intro": "Add correction evidence and a supported hourly value. If the correction set is incomplete, rework contributes nothing to the estimate.",
+            "intro": "Voeg correctiegegevens en een onderbouwde uurwaarde toe. Als de correctiegegevens onvolledig zijn, levert herstelwerk geen bijdrage aan de schatting.",
             "fields": [
               "correction_rate_before",
               "correction_rate_after",
@@ -978,14 +980,43 @@
             "showPackage": true,
             "showOutcomes": true
           }
-        ]
+        ],
+        "usagePackages": {
+          "base": {
+            "volume": 60,
+            "tokensPerOutput": 8000,
+            "platform_cost": 990,
+            "minutes": 18,
+            "automation": 50,
+            "review": 3,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 6,
+            "contribution_rate": 250
+          },
+          "medium": {
+            "volume": 120,
+            "tokensPerOutput": 8000,
+            "platform_cost": 1500,
+            "minutes": 18,
+            "automation": 50,
+            "review": 3,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 12,
+            "contribution_rate": 250
+          }
+        },
+        "defaultPackage": "medium"
       },
       "cta": {
-        "primaryLabel": "Rehearse a filing with Emil",
+        "primaryLabel": "Oefen een aangifte met Emil",
         "primaryTarget": "pilot",
-        "secondaryLabel": "See how it works",
+        "secondaryLabel": "Zie hoe het werkt",
         "secondaryTarget": "how-it-works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results."
+        "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten."
       }
     }
   },
@@ -5537,15 +5568,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
@@ -5588,16 +5610,6 @@
         "roiCalculator",
         "businessImpact",
         "pricing",
-        "basis"
-      ],
-      "sourceHash": "6e1740b4bc5aa0bded03968d08cc3dfba099db200205b94cc6bce0cb803adace"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
         "label"
       ],
       "sourceHash": "373dd7a457ac1abd4ada24fbdbd81b885f35a16e00f647de293d92c603b46e04"
@@ -5611,16 +5623,6 @@
         "help"
       ],
       "sourceHash": "aeca9cc494cd3918df0144b744820a45ec0ace9fe4f88dfc2c0f339fc7d00d0d"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "d0a3630555bbec7fc05a98d311c23b00fd1ab4d8296ac4a4125976d80b6a6959"
     },
     {
       "path": [
@@ -5660,54 +5662,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "6d65ed5c750019a199c61a33ea9202fb727c05e257560f38f014e6b1520e50ed"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        3
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -5723,66 +5677,6 @@
         "intro"
       ],
       "sourceHash": "a756a67c789c1f4ec2dca75bab47b07fecc7611a0af4fec6886ef63172c4c2b1"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "df282afad8dd7b18461e1b563afb1a1c0049cbdee6ead3db585f2f08baa79e87"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "e8f900f1e1078841a0a01560a0debdf7085bd1b031cbf8eb8dae1ea10ebc5c9d"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "869b1c0e9609ffa2104041b854646e06a125d92d3ce397351f4bdee747e84c98"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "a89d8be684a7efe879e74f45e7b419e8781c143d9ca96ae624e7d32bf9d1e7c9"
     },
     {
       "path": [
@@ -5811,60 +5705,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
+        "defaultPackage"
       ],
-      "sourceHash": "6220d4a75840edae94025de5fcb88d4e1f39d030ae56e5c0681d275633d7218f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "fb0c0e8dbbdd2310d5082a182b18ab9646a628c475b03f8af147c6a06a3d4bd6"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        2
-      ],
-      "sourceHash": "48b0c9221e981c273e297c0fcd056e719041585b00dfe4097e26313c62b7cca9"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        3
-      ],
-      "sourceHash": "23208db8a7dda685081aa2604e784c839bea0cb5ec9331e5c4f15e01c5d3062c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        4
-      ],
-      "sourceHash": "6851e5a36f1ba4c730cc0813a2badb735520d0f98d1d1222a578b054d9845de9"
+      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
     },
     {
       "path": [
@@ -5894,5 +5737,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T05:32:23.145Z"
+  "generatedAt": "2026-10-01T12:38:39.429Z"
 }

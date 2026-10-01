@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "vi",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "d544c363aadf607dae9471600e5b93352b2ae9c5a92f3f3d396b04ffa7640b6b",
   "landingPage": {
     "headline": "Ngăn xếp hậu cần của bạn dừng ở cổng thông tin. Emil tiếp tục đi.",
     "subheadline": "TMS của bạn giữ lô hàng. Sau đó, ai đó mở Portbase, hoặc DMS, hoặc NCTs, hoặc màn hình ebooking của nhà cung cấp dịch vụ và nhập lại bằng tay. Không có API đang chờ ở phía bên kia, và sẽ không bao giờ có cho hầu hết chúng. Emil mang dữ liệu lô hàng được phê duyệt từ TMS của bạn vào các cổng đó. Nó diễn tập toàn bộ quá trình chạy trước một bản sao của môi trường thực của bạn, cho người khai báo của bạn chính xác những gì nó sắp nhập và không làm gì cho đến khi họ chấp thuận nó.",
@@ -123,7 +123,7 @@
         "eyebrow": "Thực hiện cổng thông tin do con người kiểm soát",
         "heading": "Ngăn xếp hậu cần của bạn dừng ở cổng thông tin.",
         "accentHeading": "Emil tiếp tục đi.",
-        "body": "EMIL mang dữ liệu lô hàng được phê duyệt vào các cổng thông tin hải quan và hãng hàng không không có API. Nó diễn tập từng lần chạy, tạm dừng để được sự chấp thuận của con người và trả về một bản ghi hoàn chỉnh.",
+        "body": "Emil mang dữ liệu lô hàng đã được phê duyệt vào cổng thông tin hải quan và hãng vận chuyển không có API. Nó luyện tập mỗi lần chạy, tạm dừng để con người phê duyệt và trả về một bản ghi hoàn chỉnh.",
         "primaryCtaLabel": "Chạy mô phỏng cổng thông tin",
         "secondaryCtaLabel": "Phạm vi một thí điểm",
         "proofItems": [
@@ -469,7 +469,7 @@
             "image": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/05-execute.webp",
             "alt": "Giám sát việc thực hiện cổng thông tin được phê duyệt",
             "title": "Thi hành",
-            "body": "Perform only the approved browser steps, nothing outside scope."
+            "body": "Chỉ thực hiện các bước trình duyệt đã được phê duyệt, không có gì nằm ngoài phạm vi."
           },
           {
             "number": "06",
@@ -580,24 +580,24 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "What could DMS rehearsal return to your desk?",
-      "subheading": "Model one Dutch DMS 4.0 import workflow. Emil prepares and checks a review-ready packet; your authorised declarant still reviews and submits.",
-      "disclaimer": "Customer-provided and modeled estimates, not observed results or guaranteed savings. Emil does not submit, act as a declarant or customs broker, hold EORI or eHerkenning credentials, or guarantee DMS acceptance or compliance.",
+      "heading": "Buổi diễn tập DMS có thể quay trở lại bàn làm việc của bạn những gì?",
+      "subheading": "Quy trình nhập khẩu DMS 4.0 theo mô hình một của Hà Lan. Emil chuẩn bị và kiểm tra gói sẵn sàng xem xét; người khai được ủy quyền của bạn vẫn xem xét và nộp.",
+      "disclaimer": "Ước tính do khách hàng cung cấp và mô hình hóa, không phải kết quả được quan sát hoặc tiết kiệm được đảm bảo. Emil không gửi, đóng vai trò là người khai báo hoặc nhà môi giới hải quan, giữ thông tin xác thực EORI hoặc eHerkenning hoặc đảm bảo chấp nhận hoặc tuân thủ DMS.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Chuyển đổi tiền tệ không phải là nghiên cứu chi phí địa phương. Nhập chi phí địa phương của bạn và các giả định đóng góp. Thay đổi ngôn ngữ không thay đổi số lượng."
       },
       "costCopy": {
-        "breakdown": "How your Emil price is built",
+        "breakdown": "Giá Emil của bạn được xây dựng như thế nào",
         "perUnit": "{amount} per declaration (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Đây là tổng ngân sách của bạn. Chuyển sang Phân tích chi phí để chia thành từng khoản; không có sự phân chia nào được giả định.",
+        "benefitNotice": "Lợi ích được mô hình hóa, không phải phí. Số tiền bị gạch bỏ là khoản chi tiêu mà bạn mong muốn tránh, không phải khoản giảm giá trên hóa đơn AI.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic payroll savings. Add a monetary value only when it is supported by your own operating data."
+        "allocation": "Số giờ trả về là năng lực chứ không phải tiết kiệm lương tự động. Chỉ thêm giá trị tiền tệ khi nó được hỗ trợ bởi dữ liệu hoạt động của riêng bạn."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -625,17 +625,19 @@
           "platform_cost": null,
           "cash_hours": null,
           "cash_baseline": null,
-          "cash_avoided": null
+          "cash_avoided": null,
+          "higher_value_hours": 12,
+          "contribution_rate": 250
         },
         "copy": {
-          "navLabel": "Giá",
+          "navLabel": "Định giá",
           "workloadStep": "DMS workload",
           "costStep": "Emil price",
           "valueStep": "Rework and value",
-          "workloadIntro": "Enter one customer workflow. Emil prepares a review-ready packet; the authorised declarant still reviews and submits.",
-          "costIntro": "Customer pricing is based on the workflow and review-ready declaration volume. Tokens remain an internal delivery-cost input.",
-          "valueIntro": "Add customer evidence for correction work and specialist capacity. Incomplete correction data is not treated as zero.",
-          "sampleNotice": "Customer inputs required · no benchmark assumed",
+          "workloadIntro": "Nhập một quy trình làm việc của khách hàng. Emil chuẩn bị gói sẵn sàng cho việc đánh giá; người khai được ủy quyền vẫn xem xét, nộp hồ sơ.",
+          "costIntro": "Việc định giá của khách hàng được dựa trên quy trình làm việc và khối lượng khai báo sẵn sàng xem xét. Mã thông báo vẫn là đầu vào chi phí phân phối nội bộ.",
+          "valueIntro": "Thêm bằng chứng của khách hàng về công việc chỉnh sửa và năng lực chuyên môn. Dữ liệu hiệu chỉnh không đầy đủ không được coi là bằng 0.",
+          "sampleNotice": "Yêu cầu đầu vào của khách hàng · không giả định điểm chuẩn",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -645,7 +647,7 @@
           "volume": "Declarations modeled",
           "grossHours": "Preparation hours reduced",
           "capacity": "Net preparation capacity returned",
-          "retained": "Capacity not allocated to paid-cost reduction",
+          "retained": "Công suất không được phân bổ để giảm chi phí phải trả",
           "hours": "hours",
           "days": "days",
           "percent": "%",
@@ -660,251 +662,251 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Đánh giá của nhóm hiện tại sử dụng năng lực được trả lại. Đánh giá trả phí bổ sung được bao gồm trong chi phí vận hành, không được khấu trừ lại vào năng lực của nhóm.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "Ngân sách phải bao gồm các mô hình/phương tiện truyền thông, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung. Không bao gồm bảng lương không thay đổi như chi tiêu mới.",
+          "itemizedNote": "Việc sử dụng mã thông báo được tính từ khối lượng × mã thông báo trên mỗi đầu ra. Phương tiện, công cụ và cơ sở hạ tầng bổ sung luôn ở mức 0 trừ khi chúng được áp dụng. Đánh giá trả phí bổ sung được tính từ số giờ đánh giá và tỷ lệ của nó.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Internal delivery cost",
           "missing": "Add your assumptions",
-          "currentPreparation": "Current preparation hours",
-          "reviewHours": "Human review hours",
-          "reworkHours": "Avoided or added rework hours",
-          "capacityValue": "Modeled capacity value",
-          "acceptedUnits": "Accepted units",
-          "attendedUnits": "Attended units",
-          "costPerAttended": "Cost per attended unit",
+          "currentPreparation": "Giờ chuẩn bị hiện tại",
+          "reviewHours": "Giờ đánh giá con người",
+          "reworkHours": "Đã tránh hoặc thêm giờ làm lại",
+          "capacityValue": "Giá trị công suất mô hình",
+          "acceptedUnits": "Đơn vị được chấp nhận",
+          "attendedUnits": "Đơn vị tham dự",
+          "costPerAttended": "Chi phí cho mỗi đơn vị tham dự",
           "cashValue": "Cash spending avoided",
           "contribution": "Expected contribution",
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled customer economic benefit",
           "netBenefit": "Net customer benefit",
-          "multiple": "Benefit-cost multiple",
+          "multiple": "Hệ số lợi ích-chi phí",
           "customerBenefit": "Modeled customer economic benefit",
-          "customerRoi": "Customer ROI",
-          "benefitCost": "Benefit-cost multiple",
+          "customerRoi": "ROI của khách hàng",
+          "benefitCost": "Hệ số lợi ích-chi phí",
           "firstYearCost": "First-year Emil price",
-          "firstYearRoi": "First-year ROI",
-          "payback": "Setup-fee payback",
-          "paybackOutsideTerm": "Not recovered within the modeled term",
+          "firstYearRoi": "ROI năm đầu tiên",
+          "payback": "Hoàn trả phí thiết lập",
+          "paybackOutsideTerm": "Không được phục hồi trong thời hạn được mô hình hóa",
           "months": "months",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Các giả định hàng tháng giống nhau, không có tăng trưởng hoặc gộp. Tiền tiết kiệm thuê chỉ kéo dài trong khoảng thời gian đã nhập.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Preparation capacity equals eligible declarations × current preparation minutes × Emil’s assisted share, minus human review. Complete correction inputs add the difference between current and Emil-assisted rework. Monetary benefit uses only the supported specialist value and any distinct paid cost that actually stops.",
-          "formulaLabel": "Benefit-cost multiple equals customer benefit divided by Emil price. ROI equals benefit minus price, divided by price. First-year cost includes the setup fee once.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "The paid cost avoided is separate from the capacity value and is not counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed the paid-cost assumptions and excluded amounts already counted as capacity value.",
+          "methodBody": "Năng lực chuẩn bị tương đương với các tuyên bố đủ điều kiện × biên bản chuẩn bị hiện tại × phần hỗ trợ của Emil, trừ đi sự đánh giá của con người. Các đầu vào chỉnh sửa hoàn chỉnh sẽ bổ sung thêm sự khác biệt giữa quá trình làm lại hiện tại và quá trình làm lại được hỗ trợ Emil. Lợi ích bằng tiền chỉ sử dụng giá trị chuyên môn được hỗ trợ và mọi chi phí được thanh toán riêng biệt thực sự dừng lại.",
+          "formulaLabel": "Hệ số lợi ích-chi phí bằng lợi ích khách hàng chia cho giá Emil. ROI bằng lợi ích trừ giá, chia cho giá. Chi phí năm đầu tiên bao gồm phí thiết lập một lần.",
+          "allocationNote": "Mỗi giờ có thể được phân bổ một lần. Số giờ chưa được phân bổ vẫn là năng lực, không có giá trị tiền tệ.",
+          "overlapLabel": "Chi phí tránh được phải trả tách biệt với giá trị công suất và không được tính ở nơi khác.",
+          "overlapNote": "Ước tính sai sót và rủi ro không bao gồm tiết kiệm lao động và sự cố giống nhau không được xuất hiện ở cả hai loại. Khoản đóng góp không bao gồm chi phí AI, được khấu trừ riêng.",
+          "hiringLabel": "Việc thuê này đã được lên kế hoạch thực sự và năng lực được phân bổ có thể đáp ứng được công việc.",
+          "reviewedLabel": "Tôi đã xem xét các giả định về chi phí đã thanh toán và số tiền bị loại trừ đã được tính là giá trị công suất.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Enter the required customer workload and specialist-value assumptions to calculate ROI.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "Công việc bổ sung được hỗ trợ theo năng lực và nhu cầu",
+          "assumptionsIncomplete": "Nhập khối lượng công việc của khách hàng được yêu cầu và các giả định về giá trị chuyên gia để tính ROI.",
+          "allocationError": "Số giờ được phân bổ vượt quá công suất thực hiện có. Giảm phân bổ.",
+          "reviewError": "Việc xem xét mất nhiều thời gian hơn công việc giảm bớt. Không có khả năng tích cực có sẵn tại các giả định này.",
+          "cashError": "Chi tiêu tránh được không được vượt quá chi tiêu hiện tại hoặc có giá trị dương khi không phân bổ số giờ.",
+          "hiringError": "Công suất được phân bổ phải bao gồm số giờ thuê theo kế hoạch. Xác nhận việc thuê theo kế hoạch và thời hạn của nó.",
+          "riskError": "Xác suất sau không thể vượt quá xác suất trước để ước tính mức giảm tổn thất.",
+          "overlapError": "Xác nhận các lợi ích không trùng lặp trước khi đưa chúng vào kết quả tài chính.",
+          "boundsError": "Sử dụng các giá trị trong giới hạn được hiển thị.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
+          "noCurrencyChange": "Ngôn ngữ thay đổi định dạng, không phải đơn vị tiền tệ hoặc giả định của bạn."
         },
         "fields": {
           "volume": {
-            "label": "Eligible DMS import declarations per month",
-            "help": "Count declarations in the selected H1 import workflow that Emil could rehearse. Do not include other portals or customs processes."
+            "label": "Khai báo nhập khẩu DMS đủ điều kiện mỗi tháng",
+            "help": "Đếm các khai báo trong quy trình nhập H1 đã chọn mà Emil có thể thực hiện. Không bao gồm các cổng thông tin hoặc quy trình hải quan khác."
           },
           "accepted_rate": {
             "label": "Expected acceptance rate",
-            "help": "Optional modeled share of prepared outputs accepted by the recipient. This is not a guarantee or observed result."
+            "help": "Chia sẻ được mô hình hóa tùy chọn của các đầu ra đã chuẩn bị được người nhận chấp nhận. Đây không phải là một sự đảm bảo hoặc kết quả được quan sát."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Chia sẻ theo mô hình các cuộc họp được chấp nhận dự kiến sẽ diễn ra. Thay thế điều này bằng các bản ghi sự kiện đã được xác minh sau khi thí điểm."
           },
           "minutes": {
-            "label": "Current preparation minutes per declaration",
-            "help": "Use a time study for hands-on preparation before review, correction or live submission."
+            "label": "Biên bản chuẩn bị hiện tại cho mỗi tờ khai",
+            "help": "Dành thời gian nghiên cứu để chuẩn bị thực hành trước khi xem xét, chỉnh sửa hoặc gửi trực tiếp."
           },
           "automation": {
-            "label": "Share of preparation minutes Emil performs",
-            "help": "Enter a customer assumption or observed pilot result. This is a share of preparation time, not a submission or acceptance rate."
+            "label": "Chia sẻ phút chuẩn bị Emil thực hiện",
+            "help": "Nhập giả định của khách hàng hoặc kết quả thí điểm được quan sát. Đây là phần chia sẻ về thời gian chuẩn bị, không phải là tỷ lệ nộp hay chấp nhận."
           },
           "review": {
-            "label": "Human review minutes per rehearsed declaration",
-            "help": "Time the authorised declarant needs to inspect Emil’s packet before submitting through existing customs software."
+            "label": "Biên bản đánh giá con người cho mỗi tuyên bố được diễn tập",
+            "help": "Thời gian người khai hải quan được ủy quyền cần kiểm tra gói Emil trước khi nộp qua phần mềm hải quan hiện có."
           },
           "correction_rate_before": {
             "label": "Current DMS correction rate",
-            "help": "Share of eligible declarations that currently require a correction or rework cycle. Leave blank until measured."
+            "help": "Tỷ lệ các tờ khai đủ điều kiện hiện cần phải có chu trình chỉnh sửa hoặc làm lại. Để trống cho đến khi đo."
           },
           "correction_rate_after": {
             "label": "Correction rate with Emil",
-            "help": "Observed or explicitly modeled share requiring correction after Emil. Leave blank until supported."
+            "help": "Chia sẻ được quan sát hoặc được lập mô hình rõ ràng cần chỉnh sửa sau Emil. Để trống cho đến khi được hỗ trợ."
           },
           "correction_minutes_before": {
             "label": "Current minutes per correction",
-            "help": "Hands-on specialist time for one current correction cycle."
+            "help": "Thời gian thực hành của chuyên gia cho một chu kỳ điều chỉnh hiện tại."
           },
           "correction_minutes_after": {
-            "label": "Minutes per correction with Emil",
-            "help": "Hands-on time to resolve an Emil exception, abstention or later correction."
+            "label": "Số phút mỗi lần chỉnh sửa với Emil",
+            "help": "Có thời gian thực hiện để giải quyết ngoại lệ Emil, bỏ phiếu trắng hoặc sửa chữa sau này."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Chu kỳ trên mỗi đơn vị mỗi tháng",
+            "help": "Mỗi đơn vị thực hiện bao nhiêu chu kỳ đặt hàng, xem xét hoặc xử lý định kỳ trong một tháng thông thường."
           },
           "tokens_per_output": {
-            "label": "Tokens to produce one unit",
-            "help": "Modeled tokens consumed to prepare one typical output, not a provider meter reading."
+            "label": "Mã thông báo để sản xuất một đơn vị",
+            "help": "Mã thông báo được mô hình hóa được sử dụng để chuẩn bị một đầu ra điển hình, không phải để đọc đồng hồ của nhà cung cấp."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Bao gồm việc sử dụng mã thông báo, mô hình/phương tiện, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung."
           },
           "model_cost": {
             "label": "Extra models and media",
-            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+            "help": "Chỉ hình ảnh, video hoặc thế hệ khác được tính phí riêng biệt với việc sử dụng mã thông báo. Nhập số 0 nếu không có."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Phiên trình duyệt, trình kết nối và các dịch vụ đo lường khác. Nhập số 0 nếu không có."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Lưu trữ, lưu trữ và tính toán gia tăng cho khối lượng công việc này. Nhập số 0 nếu không có."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Chi phí vận chuyển và hỗ trợ khác",
+            "help": "Chi phí lưu trữ, lưu trữ, giám sát và hỗ trợ theo mô hình, tách biệt với giá của khách hàng."
           },
           "customer_price": {
             "label": "Monthly base subscription",
-            "help": "Proposed price for one desk and one DMS import workflow, excluding VAT."
+            "help": "Giá đề xuất cho một bàn và một quy trình nhập DMS, chưa bao gồm VAT."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Giá trị tùy chọn bạn chỉ định cho một giờ",
+            "help": "Chỉ có một so sánh cá nhân tùy chọn. Đây không phải là tiền lương, tiền công hoặc tiền tiết kiệm được đảm bảo."
           },
           "capacity_value_per_hour": {
-            "label": "Fully loaded specialist value per hour",
-            "help": "Use a customer-supported operating value. It measures capacity, not automatic payroll savings."
+            "label": "Giá trị chuyên gia được nạp đầy đủ mỗi giờ",
+            "help": "Sử dụng giá trị hoạt động được khách hàng hỗ trợ. Nó đo lường năng lực chứ không phải việc tiết kiệm tiền lương tự động."
           },
           "included_volume": {
             "label": "Declarations included each month",
-            "help": "Review-ready declarations included in the monthly base subscription."
+            "help": "Các tờ khai sẵn sàng xem xét được bao gồm trong gói đăng ký cơ sở hàng tháng."
           },
           "overage_price": {
             "label": "Price per additional declaration",
-            "help": "Applied only to eligible declarations above the included monthly volume."
+            "help": "Chỉ áp dụng cho những tờ khai đủ điều kiện trên doanh số hàng tháng bao gồm."
           },
           "setup_fee": {
             "label": "One-time workflow mapping",
-            "help": "Mapping and onboarding cost counted once in the first-year comparison."
+            "help": "Chi phí lập bản đồ và giới thiệu được tính một lần trong so sánh năm đầu tiên."
           },
           "contract_months": {
             "label": "Contract comparison period",
-            "help": "Used to show whether the one-time setup fee is recovered within the modeled term."
+            "help": "Được sử dụng để cho biết liệu phí thiết lập một lần có được thu hồi trong thời hạn được mô hình hóa hay không."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "Đánh giá trả phí bổ sung mỗi giờ",
+            "help": "Thực tế chi tiêu thêm của người đánh giá chứ không phải tiền lương của một nhân viên không thay đổi."
           },
           "cash_hours": {
-            "label": "Hours tied to paid work that stops",
-            "help": "Use only hours linked to evidenced overtime, contractor or external-review spending."
+            "label": "Số giờ gắn liền với công việc được trả lương dừng lại",
+            "help": "Chỉ sử dụng số giờ liên quan đến việc làm thêm giờ, chi tiêu của nhà thầu hoặc chi phí đánh giá bên ngoài đã được chứng minh."
           },
           "cash_baseline": {
             "label": "Current monthly paid cost",
-            "help": "Current overtime, contractor or external-review spend for this workflow."
+            "help": "Khoản chi làm thêm giờ, nhà thầu hoặc đánh giá bên ngoài hiện tại cho quy trình làm việc này."
           },
           "cash_avoided": {
-            "label": "Monthly paid cost actually avoided",
-            "help": "Amount that would stop under the modeled workflow. Exclude capacity value already counted above."
+            "label": "Chi phí thanh toán hàng tháng thực sự tránh được",
+            "help": "Số tiền sẽ dừng theo quy trình làm việc được mô hình hóa. Loại trừ giá trị công suất đã được tính ở trên."
           },
           "higher_value_hours": {
-            "label": "Hours used for higher-value work",
-            "help": "Hours you can realistically redirect, not the entire capacity by default."
+            "label": "Số giờ được sử dụng cho công việc có giá trị cao hơn",
+            "help": "Số giờ bạn có thể chuyển hướng một cách thực tế chứ không phải toàn bộ dung lượng theo mặc định."
           },
           "contribution_rate": {
             "label": "Incremental contribution per hour",
-            "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+            "help": "Doanh thu trừ đi chi phí phân phối tăng thêm, không bao gồm chi phí AI được tính riêng. Không phải tiền lương hay tổng doanh thu."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "Số giờ sử dụng cho khối lượng bổ sung",
+            "help": "Việc phân bổ này cũng không thể được sử dụng cho công việc tư vấn hoặc cắt giảm chi tiêu."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Số phút nhóm cho mỗi đơn vị bổ sung",
+            "help": "Nỗ lực còn lại của con người, bao gồm cả việc xem xét, cần thiết để cung cấp thêm một đơn vị nữa."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Các đơn vị bổ sung có nhu cầu dự kiến",
+            "help": "Chỉ riêng năng lực không phải là nhu cầu. Nhập công việc làm thêm hàng tháng mà bạn mong muốn đảm nhận."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Doanh thu tăng thêm ít chi phí giao hàng; Chi phí vận hành AI được khấu trừ riêng."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "Số giờ bao gồm việc thuê theo kế hoạch",
+            "help": "Phân bổ năng lực cho công việc đã được lên kế hoạch cụ thể, không phải ước tính chung về thời gian tương đương."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Số giờ thuê hàng tháng theo kế hoạch sẽ bao gồm",
+            "help": "Năng lực được phân bổ phải đáp ứng toàn bộ khối lượng công việc này."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "Chi phí thuê hàng tháng thực tế được hoãn lại",
+            "help": "Sử dụng chi phí thuê nhân công đã được lên kế hoạch thực sự chứ không phải tiền lương của người đã được tuyển dụng."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Số tháng thuê được hoãn lại",
+            "help": "Một đến mười hai tháng; ước tính hàng năm ngừng tính số tiền tiết kiệm sau khoảng thời gian này."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Các lỗi dự kiến tránh được mỗi tháng",
+            "help": "Sử dụng mức cơ bản và mức giảm dự kiến của bạn. Loại trừ sự cố cũng được tính là giảm rủi ro."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Loại trừ chi phí nhân công, tiền hoàn lại hoặc các tổn thất khác đã được tính ở nơi khác."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Ước tính của bạn, không phải là đánh giá rủi ro được đảm bảo."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Sử dụng cùng một sự kiện và khoảng thời gian hàng tháng làm đường cơ sở."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Khả năng mất mát cho sự kiện đó",
+            "help": "Loại trừ các sự cố lỗi và chi tiêu đã được tính. Đây là giá trị kỳ vọng không chắc chắn, không phải tiền mặt tiết kiệm được."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Thời gian chu kỳ trước, tính bằng ngày",
+            "help": "Thời gian trôi qua từ khi bắt đầu đến khi hoàn thành, tách biệt với nỗ lực thực hành."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Thời gian chu kỳ sau, tính bằng ngày",
+            "help": "Chỉ được hiển thị dưới dạng thay đổi hoạt động, không có giá trị tiền tệ giả định."
           }
         },
         "burden": [
-          "Preparing one recurring DMS 4.0 H1 import workflow",
-          "Correcting missing, invalid or inconsistent declaration fields"
+          "Đang chuẩn bị một quy trình nhập DMS 4.0 H1 định kỳ",
+          "Sửa các trường khai báo bị thiếu, không hợp lệ hoặc không nhất quán"
         ],
         "opportunity": [
-          "Capacity for difficult customs exceptions",
-          "Less repeated DMS correction work"
+          "Năng lực giải quyết các trường hợp ngoại lệ hải quan khó khăn",
+          "Công việc chỉnh sửa DMS ít lặp lại hơn"
         ],
         "costMode": "itemized",
         "reviewMode": "team",
@@ -922,14 +924,14 @@
         "outcomes": [
           {
             "id": "cash",
-            "label": "Add evidenced paid cost avoided",
-            "help": "Optional: include overtime, contractor or external-review spending that will actually stop. Do not count the same hours again as capacity value."
+            "label": "Thêm chi phí đã thanh toán đã được chứng minh là tránh được",
+            "help": "Tùy chọn: bao gồm chi tiêu làm thêm giờ, chi tiêu cho nhà thầu hoặc đánh giá bên ngoài sẽ thực sự dừng lại. Không tính lại số giờ giống như giá trị công suất."
           }
         ],
         "pricing": {
           "basis": "tiered",
           "label": "Your Emil price",
-          "help": "Proposed production offer: €950 per month ex VAT for one DMS import workflow and desk, including 400 review-ready declarations, then €2 each, plus a €3,000 one-time mapping fee. Tokens set Emil’s delivery-cost floor; customers pay for the governed workflow and review-ready volume."
+          "help": "Ưu đãi sản xuất được đề xuất: €950 mỗi tháng chưa bao gồm VAT cho một quy trình và bàn nhập DMS, bao gồm 400 tờ khai sẵn sàng xem xét, sau đó là €2 mỗi tờ khai, cộng với phí lập bản đồ một lần €3.000. Mã thông báo đặt mức chi phí phân phối Emil; khách hàng trả tiền cho quy trình làm việc được quản lý và khối lượng sẵn sàng đánh giá."
         },
         "presentation": {
           "financial": "required",
@@ -942,7 +944,7 @@
           {
             "id": "workload",
             "label": "DMS workload",
-            "intro": "Enter one typical month for a single Dutch DMS 4.0 H1 import workflow. No public productivity benchmark has been assumed.",
+            "intro": "Nhập một tháng thông thường cho một quy trình nhập DMS 4.0 H1 của Hà Lan. Không có tiêu chuẩn năng suất công nào được giả định.",
             "fields": [
               "volume",
               "minutes",
@@ -954,7 +956,7 @@
           {
             "id": "price",
             "label": "Emil price",
-            "intro": "Test the proposed production offer. Raw model tokens remain an internal delivery-cost measure rather than a customer-value metric.",
+            "intro": "Kiểm tra đề xuất sản xuất được đề xuất. Mã thông báo mô hình thô vẫn là thước đo chi phí phân phối nội bộ thay vì thước đo giá trị khách hàng.",
             "fields": [
               "customer_price",
               "included_volume",
@@ -967,7 +969,7 @@
           {
             "id": "rework",
             "label": "Rework and value",
-            "intro": "Add correction evidence and a supported hourly value. If the correction set is incomplete, rework contributes nothing to the estimate.",
+            "intro": "Thêm bằng chứng điều chỉnh và giá trị theo giờ được hỗ trợ. Nếu tập hiệu chỉnh không đầy đủ thì việc làm lại không đóng góp gì vào ước tính.",
             "fields": [
               "correction_rate_before",
               "correction_rate_after",
@@ -978,14 +980,43 @@
             "showPackage": true,
             "showOutcomes": true
           }
-        ]
+        ],
+        "usagePackages": {
+          "base": {
+            "volume": 60,
+            "tokensPerOutput": 8000,
+            "platform_cost": 990,
+            "minutes": 18,
+            "automation": 50,
+            "review": 3,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 6,
+            "contribution_rate": 250
+          },
+          "medium": {
+            "volume": 120,
+            "tokensPerOutput": 8000,
+            "platform_cost": 1500,
+            "minutes": 18,
+            "automation": 50,
+            "review": 3,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 12,
+            "contribution_rate": 250
+          }
+        },
+        "defaultPackage": "medium"
       },
       "cta": {
-        "primaryLabel": "Rehearse a filing with Emil",
+        "primaryLabel": "Luyện tập hồ sơ với Emil",
         "primaryTarget": "pilot",
         "secondaryLabel": "See how it works",
         "secondaryTarget": "how-it-works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results."
+        "privacyNote": "Dữ liệu của bạn vẫn ở chế độ riêng tư. Giờ là năng lực. Số tiền tài chính là ước tính được mô hình hóa, không phải kết quả được quan sát."
       }
     }
   },
@@ -5537,15 +5568,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
@@ -5588,16 +5610,6 @@
         "roiCalculator",
         "businessImpact",
         "pricing",
-        "basis"
-      ],
-      "sourceHash": "6e1740b4bc5aa0bded03968d08cc3dfba099db200205b94cc6bce0cb803adace"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
         "label"
       ],
       "sourceHash": "373dd7a457ac1abd4ada24fbdbd81b885f35a16e00f647de293d92c603b46e04"
@@ -5611,16 +5623,6 @@
         "help"
       ],
       "sourceHash": "aeca9cc494cd3918df0144b744820a45ec0ace9fe4f88dfc2c0f339fc7d00d0d"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "d0a3630555bbec7fc05a98d311c23b00fd1ab4d8296ac4a4125976d80b6a6959"
     },
     {
       "path": [
@@ -5660,54 +5662,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "6d65ed5c750019a199c61a33ea9202fb727c05e257560f38f014e6b1520e50ed"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        3
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -5723,66 +5677,6 @@
         "intro"
       ],
       "sourceHash": "a756a67c789c1f4ec2dca75bab47b07fecc7611a0af4fec6886ef63172c4c2b1"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "df282afad8dd7b18461e1b563afb1a1c0049cbdee6ead3db585f2f08baa79e87"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "e8f900f1e1078841a0a01560a0debdf7085bd1b031cbf8eb8dae1ea10ebc5c9d"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "869b1c0e9609ffa2104041b854646e06a125d92d3ce397351f4bdee747e84c98"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "a89d8be684a7efe879e74f45e7b419e8781c143d9ca96ae624e7d32bf9d1e7c9"
     },
     {
       "path": [
@@ -5811,60 +5705,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
+        "defaultPackage"
       ],
-      "sourceHash": "6220d4a75840edae94025de5fcb88d4e1f39d030ae56e5c0681d275633d7218f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "fb0c0e8dbbdd2310d5082a182b18ab9646a628c475b03f8af147c6a06a3d4bd6"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        2
-      ],
-      "sourceHash": "48b0c9221e981c273e297c0fcd056e719041585b00dfe4097e26313c62b7cca9"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        3
-      ],
-      "sourceHash": "23208db8a7dda685081aa2604e784c839bea0cb5ec9331e5c4f15e01c5d3062c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        4
-      ],
-      "sourceHash": "6851e5a36f1ba4c730cc0813a2badb735520d0f98d1d1222a578b054d9845de9"
+      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
     },
     {
       "path": [
@@ -5894,5 +5737,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T05:32:23.145Z"
+  "generatedAt": "2026-10-01T12:38:38.744Z"
 }

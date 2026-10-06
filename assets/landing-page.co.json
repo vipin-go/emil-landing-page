@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "co",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "U vostru stack logisticu si ferma à u portale. Emil cuntinueghja.",
     "subheadline": "U vostru TMS tene a spedizione. Poi qualchissia apre Portbase, o DMS, o NCTS, o un schermu di eBooking di u traspurtadore, è l'inserisce di novu à manu. Ùn ci hè micca un API chì aspetta da l'altra parte, è ùn ci serà mai per a maiò parte di elli. Emil porta dati di spedizione appruvati da u vostru TMS in quelli portali. Ripete prima tutta l'operazione contr'à una copia di u vostru ambiente reale, mostra à u vostru dichjarante esattamente ciò chì hè per entre, è ùn face nunda finu à ch'ellu l'appruva.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil in un uffiziu d'operazioni logistiche cù una simulazione di depositu doganale"
     },
     "contact": {

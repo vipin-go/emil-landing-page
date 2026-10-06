@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sr",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Vaš logistički stek se zaustavlja na portalu. Emil nastavlja.",
     "subheadline": "Vaš TMS čuva pošiljku. Zatim neko otvori Portbase, ili DMS, ili NCTS, ili ekran za eBooking prevoznika, i ručno ih ponovo unosi. Nema API-ja koji čeka sa druge strane, i nikada ga neće biti za većinu njih. Emil prenosi odobrene podatke o pošiljci iz vašeg TMS-a u te portale. Prvo probe celu trku protiv kopije vaše stvarne okoline, pokazuje vašem deklarantu tačno šta će uneti, i ne radi ništa dok ga ne odobre.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil u kancelariji logističkih operacija sa simulacijom carinskog podnošenja"
     },
     "contact": {

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "id",
   "regionKey": null,
-  "sourceRevision": "d544c363aadf607dae9471600e5b93352b2ae9c5a92f3f3d396b04ffa7640b6b",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Tumpukan logistik Anda berhenti di portal. Emil terus berjalan.",
     "subheadline": "TMS Anda menyimpan kiriman. Kemudian seseorang membuka portbase, atau DMS, atau NCTS, atau layar eBooking operator, dan memasukkannya lagi dengan tangan. Tidak ada API yang menunggu di sisi lain, dan tidak akan pernah ada untuk sebagian besar dari mereka. Emil membawa data pengiriman yang disetujui dari TMS Anda ke portal tersebut. Ini melatih seluruh proses terlebih dahulu terhadap salinan lingkungan Anda yang sebenarnya, menunjukkan kepada pemberi pernyataan Anda dengan tepat apa yang akan dimasukkan, dan tidak melakukan apa pun sampai mereka menyetujuinya.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil di kantor operasi logistik dengan simulasi pengarsipan bea cukai"
     },
     "contact": {

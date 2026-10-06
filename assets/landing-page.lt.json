@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "lt",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Jūsų logistikos krūva sustoja portale. Emilis tęsia.",
     "subheadline": "Jūsų TMS saugo siuntą. Tada kažkas atidaro „Portbase“, DMS, NCT arba operatoriaus el. užsakymo ekraną ir vėl įveda jį ranka. Kitoje pusėje nelaukia API, o daugumai jų niekada nebus. EMIL į tuos portalus perneša patvirtintus siuntų duomenis iš jūsų TMS. Pirmiausia jis repetuoja visą bėgimą prieš jūsų tikrosios aplinkos kopiją, tiksliai parodo jūsų deklarantui, ką jis ruošiasi įvesti, ir nieko nedaro, kol jis to nepatvirtina.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emilis logistikos operacijų biure su muitinės padavimo modeliavimu"
     },
     "contact": {

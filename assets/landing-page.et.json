@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "et",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Teie logistikaastek puhkab portaalis. Emil jätkab.",
     "subheadline": "Teie TMS hoiab saadetist. Siis keegi avab Portbase'i, DMS-i, NCTS-i või vedaja eBookingu ekraani ja sisestab kõik käsitsi uuesti. Seal ei ole API-d, mis ootab teisel pool, ja neile pole seda kunagi tulemas. Emil kannab teie TMS-st kinnitatud saadetise andmed neisse portaalidesse. Ta proovib kogu käigu kõigepealt teie tegeliku keskkonna koopial, näitab teie deklarandile täpselt, mida ta sisestada kavatseb, ja ei tee midagi enne, kuni ta selle kinnitab.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil logistikaoperatsioonide kontoris koos tollideklaratsiooni simulatsiooniga"
     },
     "contact": {

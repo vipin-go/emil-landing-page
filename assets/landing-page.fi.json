@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "fi",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Logistiikkapino pysähtyy portaaliin. Emil jatkaa.",
     "subheadline": "TMS pitää lähetyksen. Sitten joku avaa Portbasen tai DMS:n tai NCT:n tai operaattorin e-varausnäytön ja näppäilee sen uudelleen käsin. Toisella puolella ei ole odotettavissa API:ta, eikä useimmille niistä tule koskaan olemaan. EMIL kuljettaa hyväksyttyjä lähetystietoja TMS:stäsi näihin portaaleihin. Se harjoittelee koko juoksun ensin kopiota todellisesta ympäristöstäsi, näyttää ilmoittajallesi tarkalleen, mitä se on tulossa, eikä tee mitään ennen kuin he hyväksyvät sen.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil logistiikkatoimintojen toimistossa tulliarkistosimulaatiolla"
     },
     "contact": {

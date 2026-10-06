@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "da",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Din logistikstak stopper ved portalen. Emil bliver ved.",
     "subheadline": "Din TMS holder forsendelsen. Så åbner nogen PortBase, eller DMS, eller NCTS, eller en Carrier ebooking-skærm, og indtaster den igen i hånden. Der er ingen API, der venter på den anden side, og det vil der aldrig være for de fleste af dem. EMIL transporterer godkendte forsendelsesdata fra din TMS til disse portaler. Den øver hele løbet først mod en kopi af dit virkelige miljø, viser din erklærer præcis, hvad den er ved at komme ind i, og gør ingenting, før de godkender den.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil på et logistikkontor med en toldansøgningssimulering"
     },
     "contact": {

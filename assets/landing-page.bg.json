@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "bg",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Вашият логистичен стек спира на портала. Емил продължава.",
     "subheadline": "Вашият TMS държи пратката. След това някой отваря Portbase, или DMS, или NCT, или екран за електронни резервации на оператор и го въвежда отново на ръка. Няма API, който чака от другата страна и никога няма да има за повечето от тях. EMIL пренася одобрени данни за пратката от вашия TMS в тези портали. Той репетира целия цикъл първо срещу копие на вашата реална среда, показва на вашия декларатор какво точно предстои да влезе и не прави нищо, докато не го одобрят.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Емил в офис за логистични операции със симулация на митническо подаване"
     },
     "contact": {

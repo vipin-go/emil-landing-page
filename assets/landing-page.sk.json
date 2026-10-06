@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sk",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Váš stack logistiky sa zastaví na portáli. Emil pokračuje.",
     "subheadline": "Váš TMS drží zásielku. Potom niekto otvorí PortBase, DMS alebo NCT alebo obrazovku Carrier eBooking a znova ju zadá ručne. Na druhej strane nečaká žiadne API a pre väčšinu z nich nikdy nebude. Emil prenáša schválené údaje o zásielke z vašich TM do týchto portálov. Najprv nacvičí celý beh proti kópii vášho skutočného prostredia, ukáže vášmu deklarantovi presne to, čo sa chystá vstúpiť, a neurobí nič, kým to neschváli.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil v kancelárii logistickej prevádzky so simuláciou colného podania"
     },
     "contact": {

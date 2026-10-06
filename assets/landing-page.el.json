@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "el",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "Η στοίβα logistics σας σταματά στην πύλη. Ο Εμίλ συνεχίζει.",
     "subheadline": "Το TMS σας κρατά την αποστολή. Στη συνέχεια, κάποιος ανοίγει το PortBase, ή το DMS, ή το NCTS, ή μια οθόνη eBooking φορέα και το πληκτρολογεί ξανά με το χέρι. Δεν υπάρχει API που να περιμένει από την άλλη πλευρά και δεν θα υπάρξει ποτέ για τα περισσότερα από αυτά. Η Emil μεταφέρει εγκεκριμένα δεδομένα αποστολής από το TMS σας σε αυτές τις πύλες. Κάνει πρόβες ολόκληρο το τρέξιμο πρώτα ενάντια σε ένα αντίγραφο του πραγματικού σας περιβάλλοντος, δείχνει στον δηλωτή σας τι ακριβώς πρόκειται να εισέλθει και δεν κάνει τίποτα μέχρι να το εγκρίνει.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Ο Emil σε ένα γραφείο logistics operations με προσομοίωση τελωνειακής κατάθεσης"
     },
     "contact": {

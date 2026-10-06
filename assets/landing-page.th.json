@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "th",
   "regionKey": null,
-  "sourceRevision": "76cfa42de441763ffc39c76a5d98359516dc09207ceeda164f8a76b67bcbf361",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "กองโลจิสติกส์ของคุณหยุดที่พอร์ทัล เอมิลไปต่อ",
     "subheadline": "TMS ของคุณถือการจัดส่ง จากนั้นมีคนเปิด portbase หรือ DMS หรือ NCTS หรือหน้าจอ ebooking ของผู้ให้บริการ และคีย์อีกครั้งด้วยมือ ไม่มี API ที่รออยู่อีกด้านหนึ่ง และจะไม่มี API ส่วนใหญ่สำหรับพวกเขา Emil นำข้อมูลการจัดส่งที่ได้รับอนุมัติจาก TMS ของคุณไปยังพอร์ทัลเหล่านั้น มันซ้อมการวิ่งทั้งหมดก่อนกับสำเนาของสภาพแวดล้อมจริงของคุณ แสดงให้ผู้ประกาศของคุณเห็นว่ากำลังจะเข้าทำอะไร และไม่ทำอะไรเลยจนกว่าพวกเขาจะอนุมัติ",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "Emil ในสำนักงานปฏิบัติการด้านโลจิสติกส์พร้อมการจำลองการยื่นแบบศุลกากร"
     },
     "contact": {

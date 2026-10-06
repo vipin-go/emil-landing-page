@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "d544c363aadf607dae9471600e5b93352b2ae9c5a92f3f3d396b04ffa7640b6b",
+  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
   "landingPage": {
     "headline": "물류 스택이 포털에서 중지됩니다. Emil가 계속됩니다.",
     "subheadline": "귀하의 TMS가 배송을 보유하고 있습니다. 그런 다음 누군가 Portbase, DMS, NCT 또는 Carrier eBooking 화면을 열고 다시 손으로 키를 입력합니다. 반대편에는 API가 대기하지 않으며 대부분의 API는 없을 것입니다. Emil은 TMS의 승인된 배송 데이터를 해당 포털로 전달합니다. 실제 환경의 사본에 대해 먼저 전체 실행을 리허설하고, 선언자에게 입력하려는 내용을 정확히 보여주고 승인할 때까지 아무 것도 하지 않습니다.",
@@ -90,7 +90,7 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "/landing-pages/emil/emil-seo-og.png",
+      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
       "alt": "세관 신고 시뮬레이션이 있는 물류 운영 사무소의 Emil"
     },
     "contact": {

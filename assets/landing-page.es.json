@@ -5704,15 +5704,6 @@
       "path": [
         "landingPage",
         "roiCalculator",
-        "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
         "cta",
         "primaryLabel"
       ],
@@ -5737,5 +5728,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:52.192Z"
+  "generatedAt": "2026-10-08T22:06:26.630Z"
 }

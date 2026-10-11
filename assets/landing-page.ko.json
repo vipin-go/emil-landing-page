@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
+  "sourceRevision": "0c9866b185585359e188048adbca20ee7a0b8c09bf3d6a6397a44227296fe430",
   "landingPage": {
     "headline": "물류 스택이 포털에서 중지됩니다. Emil가 계속됩니다.",
     "subheadline": "귀하의 TMS가 배송을 보유하고 있습니다. 그런 다음 누군가 Portbase, DMS, NCT 또는 Carrier eBooking 화면을 열고 다시 손으로 키를 입력합니다. 반대편에는 API가 대기하지 않으며 대부분의 API는 없을 것입니다. Emil은 TMS의 승인된 배송 데이터를 해당 포털로 전달합니다. 실제 환경의 사본에 대해 먼저 전체 실행을 리허설하고, 선언자에게 입력하려는 내용을 정확히 보여주고 승인할 때까지 아무 것도 하지 않습니다.",
@@ -90,8 +90,8 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
-      "alt": "세관 신고 시뮬레이션이 있는 물류 운영 사무소의 Emil"
+      "src": "https://gabrieloperator.com/api/page-builder/media/d5d6694f-fadd-407d-a6e7-5018c7d70ce0/59d6931d-f6cb-4605-b4de-e648b8c1ae3b/content/emil-logistics-og-banner-v2-59d6931d-f6cb-4605-b4de-e648b8c1ae3b.jpg",
+      "alt": "Emil Logistics Persona: a character-free miniature cargo port with a ship, containers and warehouse."
     },
     "contact": {
       "heading": "하나의 포털. 하나의 과정. 하나의 명명된 연산자.",
@@ -1145,7 +1145,7 @@
         "seoImage",
         "alt"
       ],
-      "sourceHash": "7cf2d1552255eb789282e24ef5dd5649b4a2a59435dde65c13c5c39ef2b7b4f8"
+      "sourceHash": "744bbf6e215c511dc180eadda2b6550c176af9d6a6b381482ad8d3c070b803d6"
     },
     {
       "path": [
@@ -5704,15 +5704,6 @@
       "path": [
         "landingPage",
         "roiCalculator",
-        "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
         "cta",
         "primaryLabel"
       ],
@@ -5737,5 +5728,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:52.773Z"
+  "generatedAt": "2026-10-08T22:06:26.630Z"
 }

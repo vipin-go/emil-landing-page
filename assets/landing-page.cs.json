@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "cs",
   "regionKey": null,
-  "sourceRevision": "cae4c5cf7dca29f29d75488f936cd89d7e411083cdf3c717858f1cd66cfa38ea",
+  "sourceRevision": "0c9866b185585359e188048adbca20ee7a0b8c09bf3d6a6397a44227296fe430",
   "landingPage": {
     "headline": "Váš logistický zásobník se zastaví na portálu. Emil jde dál.",
     "subheadline": "Váš TMS drží zásilku. Pak někdo otevře Portbase, DMS, nebo NCT nebo obrazovku ebookingu operátora a znovu ji zadá ručně. Na druhé straně není žádné API a pro většinu z nich nikdy nebude. Emil přenáší schválené údaje o zásilkách z vašeho TMS do těchto portálů. Zkouší celý běh nejprve proti kopii vašeho skutečného prostředí, ukáže vašemu deklarantovi, co přesně se chystá vstoupit, a nedělá nic, dokud to neschválí.",
@@ -90,8 +90,8 @@
     ],
     "heroCharacterImage": "/landing-pages/emil/emil-fullbody-v4.png",
     "seoImage": {
-      "src": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/emil-og-compressed.jpg",
-      "alt": "Emil v logistickém operačním úřadu se simulací celního podání"
+      "src": "https://gabrieloperator.com/api/page-builder/media/d5d6694f-fadd-407d-a6e7-5018c7d70ce0/59d6931d-f6cb-4605-b4de-e648b8c1ae3b/content/emil-logistics-og-banner-v2-59d6931d-f6cb-4605-b4de-e648b8c1ae3b.jpg",
+      "alt": "Emil Logistics Persona: a character-free miniature cargo port with a ship, containers and warehouse."
     },
     "contact": {
       "heading": "jeden portál. jeden proces. jeden pojmenovaný operátor.",
@@ -1145,7 +1145,7 @@
         "seoImage",
         "alt"
       ],
-      "sourceHash": "7cf2d1552255eb789282e24ef5dd5649b4a2a59435dde65c13c5c39ef2b7b4f8"
+      "sourceHash": "744bbf6e215c511dc180eadda2b6550c176af9d6a6b381482ad8d3c070b803d6"
     },
     {
       "path": [
@@ -5704,15 +5704,6 @@
       "path": [
         "landingPage",
         "roiCalculator",
-        "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
         "cta",
         "primaryLabel"
       ],
@@ -5737,5 +5728,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:52.715Z"
+  "generatedAt": "2026-10-08T22:06:26.630Z"
 }

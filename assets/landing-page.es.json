@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "es",
   "regionKey": null,
-  "sourceRevision": "0c9866b185585359e188048adbca20ee7a0b8c09bf3d6a6397a44227296fe430",
+  "sourceRevision": "0bb1f00f5ff449b0644a7a88a0b0a960348e0b25a791b26436e0928ad9799cd4",
   "landingPage": {
     "headline": "Su pila de logística se detiene en el portal. Emil sigue adelante.",
     "subheadline": "Su TMS retiene el envío. Luego, alguien abre Portbase, DMS, NCTS o la pantalla de reserva electrónica de un operador y lo ingresa nuevamente a mano. No hay ninguna API esperando en el otro lado, y nunca la habrá para la mayoría de ellos. Emil transporta datos de envío aprobados desde su TMS a esos portales. Primero ensaya toda la ejecución con una copia de su entorno real, le muestra al declarante exactamente lo que está a punto de ingresar y no hace nada hasta que lo apruebe.",
@@ -59,7 +59,7 @@
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
       "navItems": [
         {
-          "label": "rajes",
+          "label": "Funciones",
           "target": "about"
         },
         {
@@ -74,7 +74,7 @@
       "ctaLabel": "Alcance un piloto"
     },
     "heroChat": {
-      "statusLabel": "en línea",
+      "statusLabel": "En línea",
       "inputPlaceholder": "Pregúntele a Emil sobre una ejecución de portal...",
       "suggestedPrompts": [
         "ensayar una presentación",
@@ -105,7 +105,7 @@
         "logoImage": "/landing-pages/emil/icon.svg",
         "navItems": [
           {
-            "label": "rajes",
+            "label": "Funciones",
             "target": "edge"
           },
           {
@@ -145,7 +145,7 @@
         "characterAlt": "Emil, operador de portal logístico",
         "chat": {
           "roleLabel": "Operaciones de aduanas y portales de operadores",
-          "statusLabel": "en línea",
+          "statusLabel": "En línea",
           "openingMessage": "Hola soy Emilio. Dame un registro de envío aprobado y ensayaré el trabajo del portal antes de que se envíe nada.",
           "inputPlaceholder": "Pregunta a Emil sobre el trabajo del portal...",
           "suggestions": [
@@ -580,9 +580,9 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "¿Qué podría devolverle el ensayo de DMS a su escritorio?",
-      "subheading": "Modele un flujo de trabajo de importación de DMS 4.0 holandés. Emil prepara y verifica un paquete listo para revisión; su declarante autorizado aún revisa y envía.",
-      "disclaimer": "Estimaciones modeladas y proporcionadas por el cliente, resultados no observados ni ahorros garantizados. Emil no presenta, actúa como declarante o agente de aduanas, no posee credenciales de EORI o eHerkening, ni garantiza la aceptación o el cumplimiento de DMS.",
+      "heading": "Precios y ROI",
+      "subheading": "Tus datos. Tu retorno estimado.",
+      "disclaimer": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -613,7 +613,7 @@
           "correction_minutes_before": null,
           "correction_minutes_after": null,
           "capacity_value_per_hour": null,
-          "customer_price": 950,
+          "customer_price": 129,
           "included_volume": 400,
           "overage_price": 2,
           "setup_fee": 3000,
@@ -724,8 +724,8 @@
             "help": "Cuente las declaraciones en el flujo de trabajo de importación H1 seleccionado que Emil podría ensayar. No incluya otros portales ni procesos aduaneros."
           },
           "accepted_rate": {
-            "label": "Expected acceptance rate",
-            "help": "Porcentaje modelado opcional de productos preparados aceptados por el destinatario. Esto no es una garantía ni un resultado observado."
+            "label": "Aceptación prevista (%)",
+            "help": "Proporción opcional estimada de entregas aceptadas por el destinatario. No es una garantía ni un resultado observado."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
@@ -761,7 +761,7 @@
           },
           "cycles_per_unit": {
             "label": "Ciclos por unidad cada mes",
-            "help": "Cuántos ciclos recurrentes de pedidos, revisiones o procesamiento ejecuta cada unidad en un mes típico."
+            "help": "Cuántos ciclos de pedido, revisión o procesamiento realiza cada unidad en un mes típico."
           },
           "tokens_per_output": {
             "label": "Fichas para producir una unidad.",
@@ -784,16 +784,16 @@
             "help": "Alojamiento, almacenamiento y computación incrementales para esta carga de trabajo. Ingrese cero si no hay ninguno."
           },
           "platform_cost": {
-            "label": "Otros costos de entrega y soporte",
-            "help": "Costos de alojamiento, almacenamiento, monitoreo y soporte modelados, separados del precio del cliente."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Monthly base subscription",
             "help": "Precio propuesto para un escritorio y un flujo de trabajo de importación DMS, sin IVA."
           },
           "personal_value_per_hour": {
-            "label": "Valor opcional que asignas a una hora.",
-            "help": "Sólo una comparación personal opcional. No se trata de sueldos, salarios ni ahorros en efectivo garantizados."
+            "label": "Valor opcional que asigna a una hora",
+            "help": "Solo una comparación personal opcional. No es sueldo, salario ni ahorro de dinero garantizado."
           },
           "capacity_value_per_hour": {
             "label": "Valor especializado por hora completamente cargado",
@@ -930,7 +930,7 @@
         ],
         "pricing": {
           "basis": "tiered",
-          "label": "Your Emil price",
+          "label": "precio",
           "help": "Oferta de producción propuesta: 950 € al mes sin IVA para un flujo de trabajo y escritorio de importación de DMS, incluidas 400 declaraciones listas para revisión, luego 2 € cada una, más una tarifa única de mapeo de 3000 €. Los tokens establecen el mínimo de costo de entrega de Emil; los clientes pagan por el flujo de trabajo gobernado y el volumen listo para revisión."
         },
         "presentation": {
@@ -980,36 +980,7 @@
             "showPackage": true,
             "showOutcomes": true
           }
-        ],
-        "usagePackages": {
-          "base": {
-            "volume": 60,
-            "tokensPerOutput": 8000,
-            "platform_cost": 990,
-            "minutes": 18,
-            "automation": 50,
-            "review": 3,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 6,
-            "contribution_rate": 250
-          },
-          "medium": {
-            "volume": 120,
-            "tokensPerOutput": 8000,
-            "platform_cost": 1500,
-            "minutes": 18,
-            "automation": 50,
-            "review": 3,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 12,
-            "contribution_rate": 250
-          }
-        },
-        "defaultPackage": "medium"
+        ]
       },
       "cta": {
         "primaryLabel": "Ensayar una presentación con el Emil",
@@ -1017,6 +988,97 @@
         "secondaryLabel": "See how it works",
         "secondaryTarget": "how-it-works",
         "privacyNote": "Tus datos permanecen privados. Los horarios son capacidad. Los montos financieros son estimaciones modeladas, no resultados observados."
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "desk",
+        "copy": {
+          "navLabel": "precio",
+          "heading": "Precios y ROI",
+          "intro": "Tus datos. Tu retorno estimado.",
+          "monthly": "Mes",
+          "weekly": "Semana",
+          "daily": "Día",
+          "cost": "Pagas",
+          "benefit": "Retorno estimado",
+          "net": "Lucro neto",
+          "roi": "ROI estimado",
+          "timeBenefit": "Valor horario estimado",
+          "timeRoi": "ROI del tiempo",
+          "timeBack": "Horas liberadas",
+          "missing": "Añade tus datos",
+          "noRatio": "Not applicable",
+          "method": "Cómo se calcula",
+          "reset": "Reponer",
+          "audience": "Público",
+          "includedVat": "IVA incluido",
+          "excludedVat": "Sin IVA",
+          "perMonth": "al mes",
+          "equivalents": "Cobro mensual. Las cifras diarias y semanales son medias, no cargos ni retornos garantizados de esos periodos.",
+          "timeNote": "Valorar el tiempo es opcional: no es dinero recibido ni ahorro salarial. Los minutos netos incluyen tu tiempo de revisión y aprobación.",
+          "estimateNote": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
+          "limitNote": "Para más uso o trabajos con presupuesto aparte, contáctanos. La estimación solo cubre lo incluido.",
+          "timeFormula": "Valor del tiempo = unidades × min ahorrados netos ÷ 60 × tu valor/hora",
+          "profitFormula": "Margen de contribución = sesiones aptas de recomendación × aumento de conversión ÷ 100 × beneficio por pedido adicional.",
+          "proceedsFormula": "Ingresos adicionales = lotes o recogidas × (ingresos netos posteriores − ingresos netos anteriores).",
+          "roiFormula": "Neto = beneficio − suscripción. ROI = neto ÷ suscripción × 100. Los planes gratuitos no tienen porcentaje de ROI."
+        },
+        "profiles": [
+          {
+            "id": "desk",
+            "label": "Mesa · ensayos",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Ensayos de declaración al mes",
+                "help": "Trabajo que prevés revisar en un mes, dentro del cupo incluido.",
+                "defaultValue": 100,
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Min. ahorrados",
+                "help": "Tu estimación tras revisar, aprobar y corregir. Los valores negativos indican esfuerzo adicional.",
+                "defaultValue": null,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Valor por hora",
+                "help": "Tu valoración opcional. No promete ahorro de dinero ni reducción salarial.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 129,
+              "basis": "fixed",
+              "unit": "Mesa · ensayos",
+              "vatIncluded": false,
+              "includedUnits": 100,
+              "allowance": "100 ensayos / 300 páginas",
+              "extras": "Integración DMS en producción, mapeo y envío real se presupuestan por separado."
+            },
+            "assumptions": [
+              "No se presupone ahorro neto de tiempo. Introduce tu cálculo.",
+              "Los minutos netos incluyen la revisión del cliente. Tú valoras el tiempo; no es dinero recibido."
+            ],
+            "loop": "Nuevos documentos de declaración → ensayar y crear lote de revisión → cliente revisa → registrar ensayo finalizado y trabajo de preparación/revisión.",
+            "ctaLabel": "Prueba la demo",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -3601,7 +3663,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "95d3ceeff159c28fd0279f1acee530e2531a039d35af93861be977f0dc5ed968"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -3609,7 +3671,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "a1959f51f2204c807a38f4422246304676c3b185b890285e82802f65fb866ee3"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -3617,7 +3679,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2977fda0adeb81a4c17805addaf2d7a6fe67e08dcfa9f52c49d99e35c4acbda4"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -5612,7 +5674,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "373dd7a457ac1abd4ada24fbdbd81b885f35a16e00f647de293d92c603b46e04"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -5726,7 +5788,468 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "fd7e5978c6bf58b2093b57cb095c52970feb424ea5cf7b4385fadd3ba0e35808"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "3dcab3965499fc04cee6fbc44be1b10f96fe505a62727031b917e56a2d64afa7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "fd7e5978c6bf58b2093b57cb095c52970feb424ea5cf7b4385fadd3ba0e35808"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "b803de49ba17c0505b08599b8eaacdfc84e5a52e7cd6d59ec4127dd50dcdb1a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "764ec266cf7238d077ee01331b3118d998e2a6cdf7e4b4ee80b8e71cf8980e07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "d746ea6e660c5398ad1e60580726533d55e626a04633c9dfcca3829ac5166831"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-08T22:06:26.630Z"
+  "generatedAt": "2026-10-13T14:25:08.550Z"
 }

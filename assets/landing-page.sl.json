@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sl",
   "regionKey": null,
-  "sourceRevision": "0c9866b185585359e188048adbca20ee7a0b8c09bf3d6a6397a44227296fe430",
+  "sourceRevision": "0bb1f00f5ff449b0644a7a88a0b0a960348e0b25a791b26436e0928ad9799cd4",
   "landingPage": {
     "headline": "Vaš logistični sklad se ustavi na portalu. Emil nadaljuje.",
     "subheadline": "Vaš TMS ima pošiljko. Nato nekdo odpre portbase, DMS ali NCTS ali zaslon za e-knjigo operaterja in ga ponovno ročno vnese. Na drugi strani ne čaka nobenega API-ja in za večino jih nikoli ne bo. Emil nosi odobrene podatke o pošiljki iz vašega TMS v te portale. Celoten tek najprej vadi proti kopiji vašega resničnega okolja, vašemu deklarantu natančno pokaže, kaj bo vstopil, in ne naredi ničesar, dokler ga ne odobri.",
@@ -59,7 +59,7 @@
       "logoImageUrl": "https://raw.githubusercontent.com/vipin-go/emil-landing-page/main/assets/media/icon.svg",
       "navItems": [
         {
-          "label": "Značilnosti",
+          "label": "Funkcije",
           "target": "about"
         },
         {
@@ -74,7 +74,7 @@
       "ctaLabel": "Obseg pilota"
     },
     "heroChat": {
-      "statusLabel": "na spletu",
+      "statusLabel": "Spletno",
       "inputPlaceholder": "Vprašajte Emila o teku portala ...",
       "suggestedPrompts": [
         "Vadite vložitev vloge",
@@ -105,7 +105,7 @@
         "logoImage": "/landing-pages/emil/icon.svg",
         "navItems": [
           {
-            "label": "Značilnosti",
+            "label": "Funkcije",
             "target": "edge"
           },
           {
@@ -145,7 +145,7 @@
         "characterAlt": "Emil, operater logističnega portala",
         "chat": {
           "roleLabel": "Operacije portala in portala prevoznikov",
-          "statusLabel": "na spletu",
+          "statusLabel": "Spletno",
           "openingMessage": "Živjo, jaz sem Emil. Dajte mi odobreno evidenco pošiljke in vadil bom delo na portalu, preden bo karkoli poslano.",
           "inputPlaceholder": "Vprašajte Emila o delu na portalu ...",
           "suggestions": [
@@ -580,9 +580,9 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "Kaj vam lahko prinese vaja DMS?",
-      "subheading": "Modelirajte en nizozemski uvozni postopek DMS 4.0. Emil pripravi in preveri paket za pregled; pooblaščeni deklarant ga še vedno pregleda in odda.",
-      "disclaimer": "Ocene strank in modela, ne izmerjeni rezultati ali zajamčeni prihranki. Emil ne oddaja, ni deklarant ali carinski zastopnik, nima poverilnic EORI ali eHerkenning ter ne jamči sprejema v DMS ali skladnosti.",
+      "heading": "Cene in ROI",
+      "subheading": "Vaši vnosi. Vaš ocenjeni donos.",
+      "disclaimer": "Plansko ocenjevanje je ločeno od merjenega ROI. Merjeni donos temelji le na sprejetih izidih in primerljivih zabeleženih stroških.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -613,7 +613,7 @@
           "correction_minutes_before": null,
           "correction_minutes_after": null,
           "capacity_value_per_hour": null,
-          "customer_price": 950,
+          "customer_price": 129,
           "included_volume": 400,
           "overage_price": 2,
           "setup_fee": 3000,
@@ -724,12 +724,12 @@
             "help": "Štejte deklaracije v izbranem uvoznem postopku H1, ki bi jih Emil lahko vadil. Izključite druge portale in carinske postopke."
           },
           "accepted_rate": {
-            "label": "Expected acceptance rate",
-            "help": "Izbirni modelirani delež pripravljenih rezultatov, ki jih prejemnik sprejme. To ni jamstvo ali opažen rezultat."
+            "label": "Pričakovan delež sprejetja",
+            "help": "Izbirni modelirani delež pripravljenih izhodov, sprejetih prejemnikom. To ni jamstvo ani opaženi rezultat."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modelirani delež sprejetih sestankov, ki naj bi se zgodili. Po preizkusu ga nadomestite s potrjenimi evidencami."
+            "help": "Modelirani delež sprejetih srečanj, ki naj bi se zgodila. Zamenjajte to s preverjenimi zapisi dogodkov po pilotu."
           },
           "minutes": {
             "label": "Sedanje minute priprave na deklaracijo",
@@ -760,8 +760,8 @@
             "help": "Aktivni čas za rešitev izjeme, odklonitve ali poznejšega popravka pri Emil."
           },
           "cycles_per_unit": {
-            "label": "Cikli na enoto mesečno",
-            "help": "Koliko ponavljajočih se ciklov naročanja, pregleda ali obdelave opravi enota v običajnem mesecu."
+            "label": "Cikli na enoto vsak mesec",
+            "help": "Koliko ciklov naročanja, pregledovanja ali obdelave vsaka enota opravi v običajnem mesecu."
           },
           "tokens_per_output": {
             "label": "Žetoni za izdelavo ene enote",
@@ -784,16 +784,16 @@
             "help": "Dodatno gostovanje, hramba in računski viri za to delo. Če jih ni, vnesite nič."
           },
           "platform_cost": {
-            "label": "Drugi stroški izvedbe in podpore",
-            "help": "Modelirani stroški gostovanja, hrambe, nadzora in podpore, ločeni od cene za stranko."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Monthly base subscription",
             "help": "Predlagana cena za eno mizo in en uvozni postopek DMS brez DDV."
           },
           "personal_value_per_hour": {
-            "label": "Izbirna vrednost, ki jo pripišete uri",
-            "help": "Le izbirna osebna primerjava. To ni plača, zaslužek ali zajamčen denarni prihranek."
+            "label": "Izbirna vrednost, ki jo dodelite uri",
+            "help": "Samozavojna lična primerjava. To ni plača, zarada ani jamčeno denarno shranjevanje."
           },
           "capacity_value_per_hour": {
             "label": "Vrednost ure strokovnjaka z vsemi stroški",
@@ -930,7 +930,7 @@
         ],
         "pricing": {
           "basis": "tiered",
-          "label": "Your Emil price",
+          "label": "Cene",
           "help": "Ponudba za redno rabo: €950 mesečno brez DDV za eno mizo in uvozni postopek DMS s 400 deklaracijami za pregled, nato €2 na deklaracijo, ter €3,000 enkratno za preslikavo. Žetoni določajo spodnjo mejo stroškov izvedbe Emil; stranke plačajo za upravljan postopek in obseg, pripravljen za pregled."
         },
         "presentation": {
@@ -980,36 +980,7 @@
             "showPackage": true,
             "showOutcomes": true
           }
-        ],
-        "usagePackages": {
-          "base": {
-            "volume": 60,
-            "tokensPerOutput": 8000,
-            "platform_cost": 990,
-            "minutes": 18,
-            "automation": 50,
-            "review": 3,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 6,
-            "contribution_rate": 250
-          },
-          "medium": {
-            "volume": 120,
-            "tokensPerOutput": 8000,
-            "platform_cost": 1500,
-            "minutes": 18,
-            "automation": 50,
-            "review": 3,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 12,
-            "contribution_rate": 250
-          }
-        },
-        "defaultPackage": "medium"
+        ]
       },
       "cta": {
         "primaryLabel": "Vadite oddajo z Emil",
@@ -1017,6 +988,97 @@
         "secondaryLabel": "See how it works",
         "secondaryTarget": "how-it-works",
         "privacyNote": "Podatki ostanejo zasebni. Ure so zmogljivost. Finančni zneski so modelirane ocene, ne izmerjeni rezultati."
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "desk",
+        "copy": {
+          "navLabel": "Cene",
+          "heading": "Cene in ROI",
+          "intro": "Vaši vnosi. Vaš ocenjeni donos.",
+          "monthly": "Mesec",
+          "weekly": "Teden",
+          "daily": "Dan",
+          "cost": "Plačate",
+          "benefit": "Ocenjeni donos",
+          "net": "Neto donos",
+          "roi": "Ocenjeni ROI",
+          "timeBenefit": "Ocenjena vrednost časa",
+          "timeRoi": "Časovni ROI",
+          "timeBack": "Povrnjene ure",
+          "missing": "Vnesite podatke",
+          "noRatio": "Not applicable",
+          "method": "Kako se izračuna",
+          "reset": "Povrni",
+          "audience": "Občinstvo",
+          "includedVat": "Z VAT",
+          "excludedVat": "Brez VAT",
+          "perMonth": "na mesec",
+          "equivalents": "Mesečno plačilo. Dnevni in tedenski zneski so povprečja, ne dnevna ali tedenska plačila ali zajamčeni donosi.",
+          "timeNote": "Vrednost časa je vaša neobvezna ocena, ne prejeti denar ali znižanje plač. Neto minute vključujejo vaš čas preverjanja in odobritve.",
+          "estimateNote": "Plansko ocenjevanje je ločeno od merjenega ROI. Merjeni donos temelji le na sprejetih izidih in primerljivih zabeleženih stroških.",
+          "limitNote": "Za več uporabe ali ločeno ponudbo dela nas kontaktirajte. Ocena zajema le vključeni paket.",
+          "timeFormula": "Vrednost časa = enote × neto prihranek minut ÷ 60 × vaša vrednost ure.",
+          "profitFormula": "Prispevek za kritje = ustrezne seje priporočil × dvig konverzije ÷ 100 × dobiček na dodatno naročilo.",
+          "proceedsFormula": "Dodatni izkupiček = serije ali prevzemi × (neto izkupiček potem − neto izkupiček prej).",
+          "roiFormula": "Neto = korist − naročnina na aplikacijo. ROI = neto ÷ naročnina × 100. Brezplačni paketi nimajo odstotka ROI."
+        },
+        "profiles": [
+          {
+            "id": "desk",
+            "label": "Pult · preizkusi",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Preizkusi deklaracij na mesec",
+                "help": "Delo, ki ga nameravate pregledati v mesecu, v okviru vključene količine.",
+                "defaultValue": 100,
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Prihranek minut",
+                "help": "Vaša ocena po preverjanju, odobritvi in popravkih. Negativne vrednosti pomenijo dodaten trud.",
+                "defaultValue": null,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Vrednost ure",
+                "help": "Vaša neobvezna ocena. To ni obljubljeni denarni prihranek ali znižanje plače.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 129,
+              "basis": "fixed",
+              "unit": "Pult · preizkusi",
+              "vatIncluded": false,
+              "includedUnits": 100,
+              "allowance": "100 preizkusov / 300 strani",
+              "extras": "Za produkcijsko integracijo DMS, preslikavo in dejansko oddajo izdamo ločene ponudbe."
+            },
+            "assumptions": [
+              "Neto prihranek časa ni predpostavljen. Vnesite svojo oceno.",
+              "Neto minute vključujejo pregled stranke. Denarno vrednost časa določite vi; to ni prejeti denar."
+            ],
+            "loop": "Novi dokumenti deklaracije → preizkus in priprava paketa za pregled → pregled stranke → zapis končanega preizkusa in dela za pripravo/pregled.",
+            "ctaLabel": "Preizkusi demo",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -3601,7 +3663,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "95d3ceeff159c28fd0279f1acee530e2531a039d35af93861be977f0dc5ed968"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -3609,7 +3671,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "a1959f51f2204c807a38f4422246304676c3b185b890285e82802f65fb866ee3"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -3617,7 +3679,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2977fda0adeb81a4c17805addaf2d7a6fe67e08dcfa9f52c49d99e35c4acbda4"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -5612,7 +5674,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "373dd7a457ac1abd4ada24fbdbd81b885f35a16e00f647de293d92c603b46e04"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -5726,7 +5788,468 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "fd7e5978c6bf58b2093b57cb095c52970feb424ea5cf7b4385fadd3ba0e35808"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "3dcab3965499fc04cee6fbc44be1b10f96fe505a62727031b917e56a2d64afa7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "fd7e5978c6bf58b2093b57cb095c52970feb424ea5cf7b4385fadd3ba0e35808"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "b803de49ba17c0505b08599b8eaacdfc84e5a52e7cd6d59ec4127dd50dcdb1a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "764ec266cf7238d077ee01331b3118d998e2a6cdf7e4b4ee80b8e71cf8980e07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "d746ea6e660c5398ad1e60580726533d55e626a04633c9dfcca3829ac5166831"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-08T22:06:26.630Z"
+  "generatedAt": "2026-10-13T14:25:08.550Z"
 }
